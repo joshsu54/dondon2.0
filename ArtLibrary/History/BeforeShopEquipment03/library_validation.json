@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-15",
+  "link_checks": [
+    {
+      "page": "index.html",
+      "local_links": 444,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/TownProps02/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/HerbalExpansion01/index.html",
+      "local_links": 87,
+      "missing": []
+    }
+  ],
+  "model_asset_sets": 19,
+  "consistent_turnaround_images": 190,
+  "unreal_import_verified": false
+}

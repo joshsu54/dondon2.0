@@ -1,0 +1,171 @@
+{
+  "created": "2026-10-15",
+  "new_assets": [
+    {
+      "asset": "HerbalStall",
+      "name_zh": "藥草攤",
+      "views": 10,
+      "dimensions_m": [
+        3.4134442806243896,
+        1.732757568359375,
+        2.6625592708587646
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "62a49d0e62aa984f6a37b0d0633480d067e846a9089c73662c65bfd7dd9ad109",
+        "02_right.png": "c050ae0ccbaa48c48d69ee9cb1ed68f87ec085f8070257c277ac450d9d3ac7ab",
+        "03_rear.png": "ee4452f51fa11cbb51b69b4faa1568c2209d0009e98416f98e745ee211bc9b45",
+        "04_left.png": "80ce1fc38010a4b3cb43ffd48270e4da7fff3760fa97182f9371fc3696c50391",
+        "05_front_right.png": "1f7d557fc57637b18f6c338b415d53ebab2a7ab52a4d7663ca060df008a5d89a",
+        "06_rear_right.png": "bfd6ebc3d3e0d9c16da421a4dc8c932f1e3e87dbbcebc15cd6465d9eefc51b87",
+        "07_rear_left.png": "6094d0a877453a3bbad67e465063456a7787c9c0cb74327444210c7d3240bee2",
+        "08_front_left.png": "230fef91d939e122a6f6235e30c5da99c24f0a2c896a24ccef5d6df3470e9aaa",
+        "09_top.png": "f1675bf9b235990630f3a11f8761bdfb1c4e60ba6f8caaefe5a7a46e4b1086ca",
+        "10_high_front.png": "6abf7c5ccecf677349195f5af9fa8fecc9c824d44d2ea99c7318fcdce8353aca"
+      }
+    },
+    {
+      "asset": "DryingRack",
+      "name_zh": "晾藥架",
+      "views": 10,
+      "dimensions_m": [
+        1.2799999713897705,
+        0.8399999737739563,
+        1.6820000410079956
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "24b8bf23fc887b7050725ffddb01f707051f012e6d9a1fae1f63ed4431b28c0d",
+        "02_right.png": "3ccf3242d540ef2715432a4b295f4c49c4c6355b57b5b56b0211c0df66314157",
+        "03_rear.png": "9fd819782a15d69bc7f52001e348da3e7adde03c95cdf545047d4055533e9c10",
+        "04_left.png": "6b79e5ccf401dcd834d206e7f3fa632b391d078ca9b680e1852d9c78dc131f7e",
+        "05_front_right.png": "898df599ddf60c609a3bd730194e9483963ebf71ffd8d8672ece67eb3aea652f",
+        "06_rear_right.png": "212ef151a67a5a36075b5e921771b245975c7645f6d1be3866ba21821ec54ebf",
+        "07_rear_left.png": "fbf7d7628a7bb48c00752ebdbe266f4fdab7aa94067bee4f30703b477a6fe628",
+        "08_front_left.png": "34accf7c63feec1aab213171201378529e284e206c879327b0808ba529d75754",
+        "09_top.png": "7219ab3d937d15a9077ef13e5a23082ee23dcbc9ff660a858227f9540c185a2d",
+        "10_high_front.png": "08c9bebedba182d3ffb611433d14e8fb956c59948e12b0de29d634aff30fc967"
+      }
+    },
+    {
+      "asset": "MortarPestle",
+      "name_zh": "研缽與杵",
+      "views": 10,
+      "dimensions_m": [
+        0.512185275554657,
+        0.5,
+        0.5086503028869629
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "c68a72ade07bc555f0d7345a3b22d68e571b633ea48ecdf7547e95f04c662237",
+        "02_right.png": "ecb0b30c4d3d08ca6812ec24857e629d0a9db25a823111d72d3adc356eaa461b",
+        "03_rear.png": "d28d2c39377172ae885c16041d617d51e2076f8e9248dffbc6046bf9b554b6c1",
+        "04_left.png": "ea7baaefb3d9656a25bf0a65577b4ceda4e995de74d65ea08b7761e533e9ee14",
+        "05_front_right.png": "6de96fabf41a7686debaa0ab58a249827813e1aeadeaaad88d870aa49f66f825",
+        "06_rear_right.png": "9fd865ab749c3aa9d6e3f5277534c28fd9bdc9f0ca54363ad1e7ecc19642aa0c",
+        "07_rear_left.png": "de0476deca12906b99abc6faf9bec86f36f74fe330deea52035189ee8a8faa94",
+        "08_front_left.png": "0feb04b7613f07e33180467cf6d7e4e973b48b4c7f4e8718f6de471e1cbaff91",
+        "09_top.png": "573ccfacad90deb381325f1c758c59658bdb55309ffce09b4aaeeca0ad3205e8",
+        "10_high_front.png": "161684d9e48c3a240e709fd73ffd1e304c1ba99ac15d0725942e7f7aa430d452"
+      }
+    },
+    {
+      "asset": "HerbPlanter",
+      "name_zh": "靈草盆",
+      "views": 10,
+      "dimensions_m": [
+        0.5952860116958618,
+        0.6106694936752319,
+        1.0
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "96dd65947d704bfd761a611876890c0cd2ccda4f61cfc4b293294897fb70cc45",
+        "02_right.png": "2872f331b85e05e2c45b7050b0d3273dfe12e73a36436ed8ce62807e8655f17c",
+        "03_rear.png": "869cc394d52221dda8cdb95beb6fa11af2aa1460824bfdb515d94408088e282d",
+        "04_left.png": "5a4bee6054ff6d4e3e6683dc291c0a915539e7996a4f602c5d9058ca507510c4",
+        "05_front_right.png": "d85015c576ea85032b38462ff7afc6e3136a55770b9c58ee6e93a0553146f406",
+        "06_rear_right.png": "d71e2edc53e4d816ebef52e8972dd26446888e1743aaed099b2668769540cccc",
+        "07_rear_left.png": "e21070883e21eb9a0d09c775a3b75d0f089543b5cc201072d8a0d9f4ec26d79b",
+        "08_front_left.png": "74bdf7669f17e0bf85cd57968c3c2a25a7be46cee19f9c44fe7176ebf683b6c5",
+        "09_top.png": "46d9b4965b1a5b4d61347377d180cd0f8190ab57181a612a8aba5e002e721671",
+        "10_high_front.png": "170100a0c12a5189e832ef3487078bb09587f8f98963fa11b4491fd66af024d5"
+      }
+    },
+    {
+      "asset": "AlchemyFurnace",
+      "name_zh": "丹爐",
+      "views": 10,
+      "dimensions_m": [
+        1.2979999780654907,
+        0.878000020980835,
+        1.3100000619888306
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "c46b43d6391aced99aa46867d712a7ab01818d7fb7df2e8ca908f50188c2cce7",
+        "02_right.png": "709f7eb3ca7553c92860e1e154b2abe8f51882ff4272950da30fbcc73564727c",
+        "03_rear.png": "c423bcc1136781f87393d14d61daaf4d786b2c9171267acbb00daa6385419602",
+        "04_left.png": "947ab6669fa828d5c5ca5f9be2e329f39373097423c640978ef673075fb043f9",
+        "05_front_right.png": "2c97e7ab9f05a7b10e10e880e7961b6f7f3fd28fd7b17bd0b415dd3e998859b2",
+        "06_rear_right.png": "02b5d292349c6e4fd3d25539518384dd70074a4a3f2f4af2c7c2a023bb23d332",
+        "07_rear_left.png": "1ee17c869f8bea82a2fb08e0d79f3beecd6ab70e62a7a5b77c057d2b75633fec",
+        "08_front_left.png": "9dae0e849b4c3cba635c034b63e4ae7f39d6049284406cb16ddbf4bdf68eb0d9",
+        "09_top.png": "60f696dbe5ada10ff54b4a471f4a6c16b6f3644fc7400de5f133bba2a8c16c69",
+        "10_high_front.png": "d21f67c272ddd5cf79167ed2a44e3ab4194f86e02b1267342cf27e5fcb13129e"
+      }
+    },
+    {
+      "asset": "MeditationCushion",
+      "name_zh": "打坐蒲團",
+      "views": 10,
+      "dimensions_m": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.1854849010705948
+      ],
+      "status": "verified_editable_appearance_prototype",
+      "sha256": {
+        "01_front.png": "efc3f7b1091e4672889dfb160b65f93c67be495f52fad5a49555edbc949262b9",
+        "02_right.png": "0092cc91b274438f43a4618635acf16de8f53dea838364dab97b07dd066d0a64",
+        "03_rear.png": "43dd15fdcd0bcdf1089790b8edfed321a598823776d345082c6e0d1c2f2d0926",
+        "04_left.png": "9469d27209f77573a8c0d0d67bc675a3f077af3d6547134569e49fab67dfb239",
+        "05_front_right.png": "e63cc176c71eda1d4850d6d450702611bdb91ed0956788f170cf7e72751867d8",
+        "06_rear_right.png": "3157b7f7709bcd6058df09fd9e73e88459d22f7956219db262924910c50f337c",
+        "07_rear_left.png": "642f0f1cd85d564ec1557f150e875f8da002efc61747cd74ef30ca94c7b12cbd",
+        "08_front_left.png": "694f26d12a331ff8a74d0fe369c865ee6d01af03b7781922d5b63183c96b4a14",
+        "09_top.png": "22c2b3779fedf67415439b3353124451eaef21a8b485452ff087728a0e9ebba6",
+        "10_high_front.png": "78b52bc0dbf37a19c25c1519b4d1a37db7d0f24483ff2f2149eb13060d27548b"
+      }
+    }
+  ],
+  "existing_asset_sets": [
+    {
+      "asset": "Blacksmith_v001",
+      "png_count": 10,
+      "audit": "file count only; existing images not individually reviewed"
+    },
+    {
+      "asset": "MaterialShop_v001",
+      "png_count": 10,
+      "audit": "file count only; existing images not individually reviewed"
+    },
+    {
+      "asset": "SpawnPlaza_v001",
+      "png_count": 10,
+      "audit": "file count only; existing images not individually reviewed"
+    },
+    {
+      "asset": "StarterHouse_v004",
+      "png_count": 10,
+      "audit": "file count only; existing images not individually reviewed"
+    },
+    {
+      "asset": "WelcomingPine_v002",
+      "png_count": 10,
+      "audit": "file count only; existing images not individually reviewed"
+    }
+  ],
+  "counting_rule": "Every new asset has ten separate PNGs. Contact sheets and concept art are excluded. Component props within a scene do not inherit the scene view count."
+}

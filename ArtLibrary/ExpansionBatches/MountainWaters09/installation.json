@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "new_assets": 3,
+  "new_view_images": 30,
+  "library_sets": 63,
+  "library_ten_view_images": 630,
+  "copy_sha256_verified": true,
+  "existing_mountain_scripts_unchanged": true,
+  "metadata_backup": "ArtLibrary/History/BeforeMountainWaters09",
+  "link_checks": [
+    {
+      "page": "index.html",
+      "local_links": 1407,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/HerbalExpansion01/index.html",
+      "local_links": 87,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/TownProps02/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/ShopEquipment03/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectCore04/index.html",
+      "local_links": 151,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectFacilities05/index.html",
+      "local_links": 202,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectModules06/index.html",
+      "local_links": 199,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/MountainWind07/index.html",
+      "local_links": 156,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/MountainRoute08/index.html",
+      "local_links": 127,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/MountainWaters09/index.html",
+      "local_links": 72,
+      "missing": []
+    }
+  ]
+}

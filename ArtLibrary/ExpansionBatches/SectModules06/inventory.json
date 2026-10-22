@@ -1,0 +1,194 @@
+{
+  "batch": "SectModules06",
+  "created": "2026-10-16",
+  "new_assets": [
+    {
+      "asset": "SectWallStraight",
+      "name_zh": "宗門直牆模組",
+      "views": 10,
+      "dimensions_m": [
+        4.0,
+        0.7428402900695801,
+        2.4111335277557373
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "4c500f0f3b162fdd3851114cbf468284d4ca7bd21c20da622541ff33f9d1bdbd",
+        "02_right.png": "df839eaa8214f00e05866b31f08f3791ad5d3decab755846a3929ac93242e3a9",
+        "03_rear.png": "4e1648ada54aee0de5416c6bfa6a179353cb6f569d65aeb99834434a951fe110",
+        "04_left.png": "a0f95eefe6c0fb0389dc17684599a9691e16ff38e1c189a60fa2393604c639f1",
+        "05_front_right.png": "44c8870cf727e86fdc60390644b7fa6af07f69126991d3689a6aac97dc15a72b",
+        "06_rear_right.png": "c974e430801569f29a91917db3819725a0cfc00e0586f0d6cb35225f85cc8831",
+        "07_rear_left.png": "586dc1a23bbdf1ba05cb03779265ed9c060f9a7993673b447d973ec954b848bd",
+        "08_front_left.png": "3ba9a49a2597c8537fd9b7c2dfc865f53f4a30748be43eac093b6ae2beb82a8c",
+        "09_top.png": "dfa950a3e525a242f5e7d6a0a34206f0a41ac8ca1cd9b6c5807cb696408170e6",
+        "10_high_front.png": "8f2ea076cb67aed600de1a9f1adb7d873aa4731431f52eca803a9417e5abaea4"
+      }
+    },
+    {
+      "asset": "SectWallCorner",
+      "name_zh": "宗門轉角柱",
+      "views": 10,
+      "dimensions_m": [
+        0.9641591310501099,
+        0.9641591310501099,
+        2.755000114440918
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "545e93802384ecd23907f5eacb13dd5b500caf1566e2449235bff4b41c392806",
+        "02_right.png": "6b851c334c2bab14fabc6a071687754f373437cbb8cfb222f6817f6eae6f49d1",
+        "03_rear.png": "e235bb51a826d47ee321bb88c37f9cfe2921570d6ec2e1aab3def2e6c34516a3",
+        "04_left.png": "590b8748d644e4ab7c1e389d195c0a4ceba94f937f458b33e359b62896002e3f",
+        "05_front_right.png": "da14e670bad350084d6a4b5e2f8bb8ef475257097b24e6dfac5e23e9ed150137",
+        "06_rear_right.png": "f9ffc3c63c6f002300941870e03c520428f7bf64b99109974871eb3400a1be92",
+        "07_rear_left.png": "71da9617097bfe867ca5c6246d9cbd2c3facd67cab85681d9d17b521aa95fcce",
+        "08_front_left.png": "0ba14c02ae80e2d1af2dbcb48e34a4ced5a8493ae8fafadd47678350ea68ac80",
+        "09_top.png": "1eeb32f9eb99c196c605da9e6acb95977ee9b897af34424b140c41ffb55e93ee",
+        "10_high_front.png": "c1c724afdf225c00eddeb680c89dd33690ef9e83812011a78ab85580c0a1da39"
+      }
+    },
+    {
+      "asset": "CourtyardGate",
+      "name_zh": "宗門院門",
+      "views": 10,
+      "dimensions_m": [
+        3.7818641662597656,
+        1.75,
+        4.091650485992432
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "1c1a116c935dc05b06b1af7ac39d8e58a93ef3d53b28eb7798a4673e1e6fbcf3",
+        "02_right.png": "9acb306cfb27a777b6e1e6467a4c6f7b9bdb5ef5297f63454fed76d1f829736c",
+        "03_rear.png": "93488782bec1ca998f7a45677afbe4445cef887c32ac582bfc9242df1eceb1e0",
+        "04_left.png": "09fa18dff2c3bcc07d41be9fc0cca360d530811222712c522880964669ecd8c9",
+        "05_front_right.png": "07c6de4703d528d9ba5cdca901180e1d5407e619d91d1549db6033e60faaba43",
+        "06_rear_right.png": "55eef28e8636a3269dac40bb30eb1b12562f92776588dfacd6ee12cb9129ac35",
+        "07_rear_left.png": "e6bf0d958a495903b8e7788bf23dc510be6bb2d7a9ed077a2b50f1000ce8eacc",
+        "08_front_left.png": "1a20850d0c97f5acc4da0104801b63f65ebf96de62166cb6e80cbe36d8bd1e71",
+        "09_top.png": "3c909dbaa44625ab10c7a77b3ca2c79dbf057e686d8a80fcace40b80ec4c7c13",
+        "10_high_front.png": "dff7e0e7a9bd0faa321bd5f4d59f0e2ad040f4be82acaff33447889216085255"
+      }
+    },
+    {
+      "asset": "TimberStairFlight",
+      "name_zh": "木構樓梯",
+      "views": 10,
+      "dimensions_m": [
+        1.5,
+        5.852499961853027,
+        3.905597686767578
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "b0e5b41f7416836120a46d945b081f92a824149c7447e4dd64c961e9e07449c5",
+        "02_right.png": "707a0a731cbd9d84032a6fd91798916b09acddbe9f4b396933369a073bce0098",
+        "03_rear.png": "51a49c706f42a22ae9b9be61a5222fb93b1e28abd231ed210ec755ff1277aac9",
+        "04_left.png": "da863bb5cd7cade4444718d3224a49df5d5e78485e175fcf8d1890d58f79f6a6",
+        "05_front_right.png": "6f8036dcdde7f8e92090bc0c3a8caaacb6a8945ef7631ab8632a1069351b8176",
+        "06_rear_right.png": "d558f933c3155c7619d8e9094516a1e9cee3da5bad1cda05ca795258233203c8",
+        "07_rear_left.png": "823479ddc82205db54dcd4c1997d9a8d34b5f4976621415c01e5e3810ab7ab53",
+        "08_front_left.png": "bcf2ccab404020aeb8a6d20195b1507ffd69e381fdc8908a504a802be1389c0f",
+        "09_top.png": "271a5dd569b4975e51129ee878f65c01b5b367c438767b8749abd30cea79a065",
+        "10_high_front.png": "bfa72213b5099dd14190ec9df95ee83f5fd608f6fbdbb7dba3643a0ecbd26e4c"
+      }
+    },
+    {
+      "asset": "TrainingDummy",
+      "name_zh": "演武木樁",
+      "views": 10,
+      "dimensions_m": [
+        1.059999942779541,
+        0.7588473558425903,
+        1.9449999332427979
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "7c34c11c511614090c85386bf6f09ced7434a6340aafd8ff1012753f73811e12",
+        "02_right.png": "082a2440e503ec96922d9f452cd7f008fc06e32cd46e3a0a28a3b61debefbd9d",
+        "03_rear.png": "4bb55633c3cbb33b236537463c49c68a113578992c00991e4cda99df33fbb65e",
+        "04_left.png": "6da44655952a9330a3a049e6a60ab905ee2d6b77d736c53045568eaa6295d512",
+        "05_front_right.png": "c4efc8564de8f79e2dd66a84e572d66357a0673a54212c1fc1a96af02e1320e3",
+        "06_rear_right.png": "5845dbb6a8bae4a7dda3f955c1bf0e40d231f51dc0f9a82bf781f8f295069de5",
+        "07_rear_left.png": "394a42dada1b9df2108d07e7f5aede07e5d92048af3b07aa2d22bedcd936393b",
+        "08_front_left.png": "bedc5dea3efdae29a99ee22f165b056ac35f062db977df974139c167daac2cf2",
+        "09_top.png": "3b3a9ad13dcd4f57cbf08b4003f0d8e53f8231ce1355c833d421c9574a3694cf",
+        "10_high_front.png": "f46bb47e69fff2332054ab366abad9c60ef72974f1bea60b152287be84464fe6"
+      }
+    },
+    {
+      "asset": "SpiritHerbSeedling",
+      "name_zh": "靈草幼苗",
+      "views": 10,
+      "dimensions_m": [
+        0.13517168164253235,
+        0.0968889445066452,
+        0.1603325754404068
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "3b79ec3661ce4abd0e2bdcf76d8a658966a9d3c5238b6346e97715ca35552923",
+        "02_right.png": "0ef0f85d2abc7c9bcec8eee2a09b12dacf36b720687db9b753a1363063316c92",
+        "03_rear.png": "41677aefd8aa4b6aec3edb163bfa4d1ce8789fa35789e0ddffc4f96904f77aac",
+        "04_left.png": "64616760efa7d04592ff696b916b8b026bcae18bdbb574f49224615a7d0760f3",
+        "05_front_right.png": "df9f4ca847e75d5751b1d67bdfa15d143b64e488bc3706834b9586b3ce4334cf",
+        "06_rear_right.png": "1d3bdc5b8f4c47cbcb815c9142d5b2567c89969e59a30b1f0a4122fd373849cf",
+        "07_rear_left.png": "6ac3d6a898968af38b54a0ef0ebffe1ba938d5fd42b80ff9abc069abf006f0bc",
+        "08_front_left.png": "34938d3b4b2fe453c0e2eb2cf1f6feaaa86ed46f9970266ed102749128755ec2",
+        "09_top.png": "e3a3429faa7c248c830544b1e8dc92270a4d74d757e202460aa177a126cb430d",
+        "10_high_front.png": "a92569b69c907f937ab51af7b3d2afebcc515e8b0aa0d6562fb30ba154c5be33"
+      }
+    },
+    {
+      "asset": "SpiritHerbYoung",
+      "name_zh": "靈草成長株",
+      "views": 10,
+      "dimensions_m": [
+        0.26314038038253784,
+        0.30384835600852966,
+        0.2897479832172394
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "f278d87f510b771a0d711f79ba79cbca44f4ebac60b0cb379a06fc25230db011",
+        "02_right.png": "e746ea5c3fdcb803046c41385ceb43f4dfafb169da9aea333cd43affff72e4cc",
+        "03_rear.png": "dce9e2bfc9a5bcd9640402820d8717992897acd1c369e3408543821feb2b5406",
+        "04_left.png": "efd695603f153df120bc31f4c561ad7f3f5d43b413810a289c68d06cb0f046b9",
+        "05_front_right.png": "3cdc935a95f9088332a473ead7caceaac418cf11a0dfa67b26c9369bdc5064e8",
+        "06_rear_right.png": "e7d26e4e623a10a59e92b1f1c122243549df41ec05a9985b753e0b1f56f083fe",
+        "07_rear_left.png": "d7101eb7ba2416483c318f575014c1ff1ba8bb7b3e5593010bc621a9bfce2133",
+        "08_front_left.png": "26187543ae51ae4d919df6b6c6e53a3d338107901da414a96975e5c793fb881c",
+        "09_top.png": "2d3207c4501057a6ed3563a67b6ff206a44f1623426c98129d0d9d2f808e73f5",
+        "10_high_front.png": "123bd2648c37d32c13d7ac1d58aa7de5e91b60c359966be44bf5a151f0f1a3e4"
+      }
+    },
+    {
+      "asset": "SpiritHerbMature",
+      "name_zh": "靈草成熟株",
+      "views": 10,
+      "dimensions_m": [
+        0.4083343744277954,
+        0.4293481707572937,
+        0.43799999356269836
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "53c2d678ba55a4114e5f581d9436fedec02226327fc54e53551f455de9d35a8e",
+        "02_right.png": "5414113211fa3b1eca5963ec905e76af691966ced1569b52a1cd9bd49f4948fd",
+        "03_rear.png": "1ad6b1119b2babb5cf041712b797ae4d84a3c4e449acad57f083eafbe8fbe28b",
+        "04_left.png": "101d30a41dc8bcc952dd12566d369228868ab00073480f6094d187cf693388a3",
+        "05_front_right.png": "60dba8803e669b9e852d2fc50f6b5e3bdf2a36df85c50b76d53bb1b34c079a16",
+        "06_rear_right.png": "1a8cffea697ed11f5e97b2bf7fa2f93f6c5c22123da7956b3548f50c18e4bbfa",
+        "07_rear_left.png": "bce4d44c61a55ee230a603779901094c23292c362677d624eeb4acfa51c534af",
+        "08_front_left.png": "a031335140c1641f981d7b8372d2c0d1ba3d190305631948230f03313071d3eb",
+        "09_top.png": "20425b9aca97a8bd799ad60bf5feec435f4030595b0aba5d796dfa3116597aee",
+        "10_high_front.png": "7453efebfdd0ffecdfe8817be03a4ebdae4d6f8ba45c376daf934253462f4403"
+      }
+    }
+  ],
+  "new_asset_sets": 8,
+  "new_views": 80,
+  "assembled_scene": "SectLayout",
+  "scene_previews": 3
+}

@@ -1,0 +1,157 @@
+{
+  "asset": "StoneRailing",
+  "source": "Models/StoneRailing/v002/StoneRailing_v002.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        -5.814571857452393,
+        1.5221858024597168
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        5.814571857452393,
+        0.0,
+        1.5221858024597168
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        5.814571857452393,
+        1.5221858024597168
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        -5.814571857452393,
+        0.0,
+        1.5221858024597168
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        3.777613639831543,
+        -3.777613639831543,
+        3.1054487228393555
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        3.777613639831543,
+        3.777613639831543,
+        3.1054487228393555
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        -3.777613639831543,
+        3.777613639831543,
+        3.1054487228393555
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        -3.777613639831543,
+        -3.777613639831543,
+        3.1054487228393555
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        6.5296220779418945
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1.5
+      ],
+      "camera_location": [
+        0.0,
+        -3.261427402496338,
+        5.542141437530518
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "method": "read-only source and existing turnaround file audit; no new models generated",
+  "assets": {
+    "MountainRestPavilion": {
+      "view_count": 10,
+      "blend": "Models/MountainRestPavilion/v001/MountainRestPavilion_v001.blend",
+      "blend_sha256": "c7fcf39ce36f68b7621f074207efe04aa95f484c944bae4eea2f406fd89317a2",
+      "fbx_sha256": "f994cde67e25c182f551e6b095d40b26245e3e45b703e3f05bf2945d31830c4c",
+      "views": [
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/01_front.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/02_right.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/04_left.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/09_top.png",
+        "ArtLibrary/Turnarounds/MountainRestPavilion_v001/10_high_front.png"
+      ]
+    },
+    "TrailStoneRailing": {
+      "view_count": 10,
+      "blend": "Models/TrailStoneRailing/v001/TrailStoneRailing_v001.blend",
+      "blend_sha256": "7ed9674ba27ee7d03a53e763d416e0ece8967eb56966add9ef5a4ecd93edec9e",
+      "fbx_sha256": "2e537adbbf13407ab8dd14d582ef159dcd52891f453298f07419859d6420fbda",
+      "views": [
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/01_front.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/02_right.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/04_left.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/09_top.png",
+        "ArtLibrary/Turnarounds/TrailStoneRailing_v001/10_high_front.png"
+      ]
+    },
+    "WindPine": {
+      "view_count": 10,
+      "blend": "Models/WindPine/v001/WindPine_v001.blend",
+      "blend_sha256": "6cba85f5e85bb269a54e62fd6e344f72e3f2fa5369a96b643f4cac64844832fb",
+      "fbx_sha256": "ccdd0f106cbce916419463faefb4f0f5c2158a0913d424384a2a8feff7931f26",
+      "views": [
+        "ArtLibrary/Turnarounds/WindPine_v001/01_front.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/02_right.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/04_left.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/09_top.png",
+        "ArtLibrary/Turnarounds/WindPine_v001/10_high_front.png"
+      ]
+    },
+    "WindGrass": {
+      "view_count": 10,
+      "blend": "Models/WindGrass/v001/WindGrass_v001.blend",
+      "blend_sha256": "c51fb5ebe0a36d94777cdb245a76c876cd8188f3aa6135ca62d3b02c60a54d12",
+      "fbx_sha256": "df58522d2fa7ba4dd59c546355a5878497bdfdc8186f7cc4fb122dca54b1f89a",
+      "views": [
+        "ArtLibrary/Turnarounds/WindGrass_v001/01_front.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/02_right.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/04_left.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/09_top.png",
+        "ArtLibrary/Turnarounds/WindGrass_v001/10_high_front.png"
+      ]
+    },
+    "StoneLantern": {
+      "view_count": 10,
+      "blend": "Models/StoneLantern/v001/StoneLantern_v001.blend",
+      "blend_sha256": "060a2bffec1cb8a32c10e6005896653d1c3a0c1378a723954d9fa407e661a8c1",
+      "fbx_sha256": "c6ee6dd9c7d25c6d1a0082da919608b0b5aee0ffaa1b19fd8f34b37d90e2a2e9",
+      "views": [
+        "ArtLibrary/Turnarounds/StoneLantern_v001/01_front.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/02_right.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/04_left.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/09_top.png",
+        "ArtLibrary/Turnarounds/StoneLantern_v001/10_high_front.png"
+      ]
+    },
+    "TownWaymarker": {
+      "view_count": 10,
+      "blend": "Models/TownWaymarker/v001/TownWaymarker_v001.blend",
+      "blend_sha256": "7c63349c81acd61e264a5fc99c13ba429a1a6e6b6cd4390163480b1cfa340053",
+      "fbx_sha256": "21d398fc4e697dc23eac756baf49b00b977698e1477991148450645951927f06",
+      "views": [
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/01_front.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/02_right.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/03_rear.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/04_left.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/05_front_right.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/06_rear_right.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/07_rear_left.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/08_front_left.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/09_top.png",
+        "ArtLibrary/Turnarounds/TownWaymarker_v001/10_high_front.png"
+      ]
+    },
+    "NoticeBoard": {
+      "view_count": 10,
+      "blend": "Models/NoticeBoard/v002/NoticeBoard_v002.blend",
+      "blend_sha256": "a8eff359ff1de51030a4360af66bf2727aa266b7eaf80eaf6a55aa873e51d59d",
+      "fbx_sha256": "49d67941eec36066c550a6eaeacaad4a6a870f427372f3b1117defd36e966d88",
+      "views": [
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/01_front.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/02_right.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/03_rear.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/04_left.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/05_front_right.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/06_rear_right.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/07_rear_left.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/08_front_left.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/09_top.png",
+        "ArtLibrary/Turnarounds/NoticeBoard_v002/10_high_front.png"
+      ]
+    }
+  }
+}

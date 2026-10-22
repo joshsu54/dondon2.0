@@ -1,0 +1,60 @@
+{
+  "map": "/Game/Maps/TownLayout_03.TownLayout_03",
+  "status": "saved_reloaded_routes_passed_visually_reviewed",
+  "source_map": "/Game/Maps/TownLayout_02",
+  "scope": "UE actor transforms only; no source geometry or asset mutation",
+  "changes": [
+    {
+      "actor": "TownLayout_v004_Inn_Room_Partition",
+      "scale_x": 0.6025,
+      "offset_cm": [
+        -623.6774999999999,
+        0,
+        0
+      ],
+      "purpose": "Open 159 cm at the stair-side end of the partition"
+    },
+    {
+      "actor": "TownLayout_v004_Inn_Bed_Frame",
+      "offset_cm": [
+        0,
+        -125,
+        0
+      ],
+      "purpose": "Clear the upper landing; keep bed within first room"
+    },
+    {
+      "actor": "TownLayout_v004_Inn_Bed_Quilt",
+      "offset_cm": [
+        0,
+        -125,
+        0
+      ],
+      "purpose": "Clear the upper landing; keep bed within first room"
+    },
+    {
+      "actor": "TownLayout_v004_Inn_Bed_Pillow",
+      "offset_cm": [
+        0,
+        -125,
+        0
+      ],
+      "purpose": "Clear the upper landing; keep bed within first room"
+    }
+  ],
+  "review_date": "2026-10-20",
+  "route_report": "town_routes_TownLayout_03.json",
+  "screenshots": [
+    "Validation/town03_landing_from_stairs.png",
+    "Validation/town03_landing_above.png",
+    "Validation/town03_landing_turn.png",
+    "Validation/town03_overview.png"
+  ],
+  "visual_review": "Stair-side partition opening, clear landing turn and moved bed visually inspected in actual UE renders. Exterior retains teal roof, wood and pale stone palette. Interior remains dark; floor seams and third-person camera still need further work.",
+  "limitations": [
+    "Eight independent PIE paths via CharacterMovement API; not continuous whole-town or keyboard acceptance",
+    "Interior lighting, third-person camera clipping and floor seam cleanup remain pending",
+    "No new Blender geometry or model ten-view deliverables in this UE placement correction"
+  ],
+  "saved_map_sha256": "ae0a637b0bbf84a10c1b4745ebf8d5c5eb66112815a3e42defe923afb11985d2"
+}

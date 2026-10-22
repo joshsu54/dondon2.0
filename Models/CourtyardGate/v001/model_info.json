@@ -1,0 +1,20 @@
+{
+  "asset": "CourtyardGate",
+  "name_zh": "宗門院門",
+  "stage": "editable_architecture_prototype",
+  "description": "Separate closed door leaves and hinge barrels; no rig, door animation or navigation.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.7818641662597656,
+    1.75,
+    4.091650485992432
+  ],
+  "mesh_objects": 95,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

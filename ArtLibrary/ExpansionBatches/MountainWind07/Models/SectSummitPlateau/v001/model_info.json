@@ -1,0 +1,21 @@
+{
+  "asset": "SectSummitPlateau",
+  "name_zh": "宗門山頂平台",
+  "stage": "editable_landscape_prototype",
+  "description": "Flat summit at 48 m, central 44 x 62 m reserved for the sect; terrain perimeter is irregular. No navigable ascent yet.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    107.41024780273438,
+    136.43777465820312,
+    48.0
+  ],
+  "mesh_objects": 3,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "editable geometry; all ten views rendered at frame 1 from the same model",
+  "animation": "static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

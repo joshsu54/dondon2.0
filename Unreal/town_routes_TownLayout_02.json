@@ -1,0 +1,182 @@
+{
+  "map": "/Game/Maps/TownLayout_02.TownLayout_02",
+  "status": "issues_found",
+  "method": "Real PIE CharacterMovement inputs, independent teleported starts; not keyboard or continuous whole-town navigation",
+  "cases": [
+    {
+      "id": "market_main_road",
+      "start_settled_cm": [
+        0.0,
+        -1250.0,
+        224.15003967285156
+      ],
+      "end_cm": [
+        0.0,
+        -2437.36596327938,
+        224.3120255470276
+      ],
+      "target_distance_cm": 12.63403672061986,
+      "height_range": [
+        224.0473780632019,
+        226.0135087966919
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "destination_reached": true
+      },
+      "passed": true
+    },
+    {
+      "id": "inn_open_entrance",
+      "start_settled_cm": [
+        -850.0,
+        -2220.0,
+        236.14997482299805
+      ],
+      "end_cm": [
+        -1230.2918057449674,
+        -2220.0,
+        329.95363877391753
+      ],
+      "target_distance_cm": 19.708194255032595,
+      "height_range": [
+        224.15001106262207,
+        329.95363877391753
+      ],
+      "checks": {
+        "standing_at_expected_height": false,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "destination_reached": true
+      },
+      "passed": false
+    },
+    {
+      "id": "inn_internal_stairs",
+      "start_settled_cm": [
+        -1874.0,
+        -1700.0,
+        322.962149143219
+      ],
+      "end_cm": [
+        -1874.0,
+        -2049.806381589011,
+        589.1499832123873
+      ],
+      "target_distance_cm": 40.193618410989075,
+      "height_range": [
+        322.962149143219,
+        589.1499966514389
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "destination_reached": false
+      },
+      "passed": false
+    },
+    {
+      "id": "smithy_open_front",
+      "start_settled_cm": [
+        800.0,
+        -800.0,
+        116.14986431242184
+      ],
+      "end_cm": [
+        1055.4483061333046,
+        -823.8125065764173,
+        134.01028253366988
+      ],
+      "target_distance_cm": 50.516224085373366,
+      "height_range": [
+        116.14986431242184,
+        134.01028511395495
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "destination_reached": false
+      },
+      "passed": false
+    },
+    {
+      "id": "garden_open_gateway",
+      "start_settled_cm": [
+        800.0,
+        -2900.0,
+        224.1464500427246
+      ],
+      "end_cm": [
+        1112.2918138832658,
+        -2900.0,
+        217.83046582631476
+      ],
+      "target_distance_cm": 17.70818611673417,
+      "height_range": [
+        204.76797446865368,
+        224.1464500427246
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "destination_reached": true
+      },
+      "passed": true
+    },
+    {
+      "id": "inn_back_wall_blocks",
+      "start_settled_cm": [
+        -1799.9999999999998,
+        -2350.0,
+        253.14998626708984
+      ],
+      "end_cm": [
+        -1906.9505522015886,
+        -2367.063339844027,
+        253.1499711225594
+      ],
+      "target_distance_cm": 243.64767932764198,
+      "height_range": [
+        253.14996996565867,
+        253.14999096465175
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "barrier_blocks": true
+      },
+      "passed": true
+    },
+    {
+      "id": "garden_fence_blocks",
+      "start_settled_cm": [
+        1200.0000000000002,
+        -2350.0,
+        204.15004313232734
+      ],
+      "end_cm": [
+        1200.0000000000002,
+        -2452.3595784833565,
+        204.15004313232734
+      ],
+      "target_distance_cm": 247.64042151664353,
+      "height_range": [
+        204.15004313232734,
+        204.15004313232734
+      ],
+      "checks": {
+        "standing_at_expected_height": true,
+        "walking_mode": true,
+        "no_fall_through": true,
+        "barrier_blocks": true
+      },
+      "passed": true
+    }
+  ]
+}

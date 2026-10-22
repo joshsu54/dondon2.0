@@ -1,0 +1,51 @@
+{
+  "asset": "MaterialSack01",
+  "name_zh": "材料袋",
+  "stage": "refined_appearance_prototype",
+  "source_blend": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+  "source_sha256": "17fba32fbaeb7435b8fb2224acdcf0f2bf28a6dab902938198e6591a1d352bc9",
+  "source_objects": [
+    "Material_Sack_0",
+    "Sack_Tie"
+  ],
+  "geometry_changes": "rebuilt folded cloth, gathered neck and hemp ties",
+  "rotation_matrix_from_source": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.39957115054130554,
+    0.3341483771800995,
+    0.4612339735031128
+  ],
+  "mesh_objects": 7,
+  "uv_baked": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false,
+  "bounds_method": "evaluated mesh vertices after modifiers"
+}

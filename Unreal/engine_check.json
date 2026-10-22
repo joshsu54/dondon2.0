@@ -1,0 +1,41 @@
+{
+  "/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode": true,
+  "/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter": true,
+  "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple": true,
+  "/Game/Input/IMC_Default": true,
+  "editor_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "prototype_map_loaded": true,
+  "prototype_actor_count": 489,
+  "player_start_count": 1,
+  "static_mesh_actor_count": 485,
+  "default_game_mode": "<Object '/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C' (0x82cfda45000) Class 'BlueprintGeneratedClass'>",
+  "gameplay_verified": false,
+  "map_api": [
+    "get_dirty_map_packages",
+    "load_map",
+    "load_map_with_dialog",
+    "new_blank_map",
+    "new_map_from_template",
+    "save_current_level",
+    "save_dirty_packages",
+    "save_dirty_packages_with_dialog",
+    "save_map",
+    "save_packages",
+    "save_packages_with_dialog"
+  ],
+  "mesh_api": [
+    "add_simple_collisions",
+    "add_simple_collisions_with_notification",
+    "bulk_set_convex_decomposition_collisions",
+    "bulk_set_convex_decomposition_collisions_with_notification",
+    "enable_section_collision",
+    "get_collision_complexity",
+    "get_convex_collision_count",
+    "get_simple_collision_count",
+    "is_section_collision_enabled",
+    "remove_collisions",
+    "remove_collisions_with_notification",
+    "set_convex_decomposition_collisions",
+    "set_convex_decomposition_collisions_with_notification"
+  ]
+}

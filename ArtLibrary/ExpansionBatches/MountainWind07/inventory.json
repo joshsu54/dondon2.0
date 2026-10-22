@@ -1,0 +1,78 @@
+{
+  "batch": "MountainWind07",
+  "created": "2026-10-16",
+  "new_assets": [
+    {
+      "asset": "CloudpiercerPeak",
+      "name_zh": "凌雲孤峰",
+      "views": 10,
+      "dimensions_m": [
+        48.54347229003906,
+        38.683380126953125,
+        68.0
+      ],
+      "animation": "static"
+    },
+    {
+      "asset": "MountainRidge",
+      "name_zh": "連綿山脊",
+      "views": 10,
+      "dimensions_m": [
+        87.29951477050781,
+        33.30812072753906,
+        49.0
+      ],
+      "animation": "static"
+    },
+    {
+      "asset": "LayeredCliff",
+      "name_zh": "層岩峭壁",
+      "views": 10,
+      "dimensions_m": [
+        36.12451171875,
+        16.2508544921875,
+        25.0
+      ],
+      "animation": "static"
+    },
+    {
+      "asset": "SectSummitPlateau",
+      "name_zh": "宗門山頂平台",
+      "views": 10,
+      "dimensions_m": [
+        107.41024780273438,
+        136.43777465820312,
+        48.0
+      ],
+      "animation": "static"
+    },
+    {
+      "asset": "WindPine",
+      "name_zh": "迎風松",
+      "views": 10,
+      "dimensions_m": [
+        12.54219913482666,
+        3.7251152992248535,
+        7.121906757354736
+      ],
+      "animation": "Blender shape keys, 96-frame wind loop; FBX is static"
+    },
+    {
+      "asset": "WindGrass",
+      "name_zh": "風動草叢",
+      "views": 10,
+      "dimensions_m": [
+        1.0205729007720947,
+        0.9605635404586792,
+        0.8923866748809814
+      ],
+      "animation": "Blender shape keys, 96-frame wind loop; FBX is static"
+    }
+  ],
+  "new_asset_sets": 6,
+  "new_views": 60,
+  "assembled_scene": "MountainSanctuary",
+  "scene_previews": 3,
+  "effect": "WindFog",
+  "effect_seconds": 4
+}

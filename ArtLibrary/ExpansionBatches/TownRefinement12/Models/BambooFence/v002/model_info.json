@@ -1,0 +1,34 @@
+{
+  "asset": "BambooFence",
+  "name_zh": "竹籬笆段",
+  "category": "庭院與圍欄",
+  "stage": "editable_town_prototype",
+  "description": "2 m repeatable fence segment: two round timber posts, two bamboo rails with rope ties and seventeen bamboo pickets.",
+  "size_note": "2.1 x 0.2 x 1.3 m; posts at x = +/-1.0 m for tiling.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    2.1474177837371826,
+    0.19367101788520813,
+    1.2999999523162842
+  ],
+  "mesh_objects": 44,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/BambooFence_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude source geometry retained; semantic materials and studio matched to SectCore04. Prior ten concept images packed; ten new renders of this revision.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "bamboo",
+    "rope",
+    "straw",
+    "timber"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": false
+}

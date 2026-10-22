@@ -1,0 +1,143 @@
+{
+  "status": "saved_reloaded_pending_visual",
+  "map": "/Game/Maps/TownLayout_05",
+  "changes": [
+    {
+      "actor": "DriftingClouds_00",
+      "before": {
+        "location": "<Struct 'Vector' (0x7114ee6bd0) {x: -5399.543335, y: -8833.000269, z: -286.405628}>",
+        "scale": "<Struct 'Vector' (0x7114ee6bd0) {x: 0.650000, y: 0.650000, z: 0.650000}>"
+      },
+      "center_cm": [
+        -6200,
+        -11000,
+        3400
+      ],
+      "scale": 0.16,
+      "cast_shadow": false
+    },
+    {
+      "actor": "DriftingClouds_01",
+      "before": {
+        "location": "<Struct 'Vector' (0x7116a742e0) {x: 7415.806152, y: -10507.384863, z: 374.087112}>",
+        "scale": "<Struct 'Vector' (0x7116a742e0) {x: 0.600000, y: 0.600000, z: 0.600000}>"
+      },
+      "center_cm": [
+        6200,
+        -13500,
+        4200
+      ],
+      "scale": 0.17,
+      "cast_shadow": false
+    },
+    {
+      "actor": "DriftingClouds_02",
+      "before": {
+        "location": "<Struct 'Vector' (0x7114ee6b30) {x: 1354.408203, y: -15509.846484, z: 632.116150}>",
+        "scale": "<Struct 'Vector' (0x7114ee6b30) {x: 0.800000, y: 0.800000, z: 0.800000}>"
+      },
+      "center_cm": [
+        0,
+        -18500,
+        6000
+      ],
+      "scale": 0.2,
+      "cast_shadow": false
+    }
+  ],
+  "preserved": "TownLayout_04",
+  "geometry_changes": "Only three scenic cloud actor transforms/shadows; trail and quest targets unchanged",
+  "rotation_corrections": [
+    {
+      "actor": "ValleyRidge_00",
+      "before": {
+        "pitch": 19.999999999999996,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": 20,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "ValleyRidge_01",
+      "before": {
+        "pitch": -29.999999996754973,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": -30,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "ValleyRidge_02",
+      "before": {
+        "pitch": 49.99999999330168,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": 50,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "ValleyRidge_03",
+      "before": {
+        "pitch": -49.99999999330169,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": -50,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "DistantPeak_00",
+      "before": {
+        "pitch": 0.0,
+        "yaw": 0.0,
+        "roll": 0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "DistantPeak_01",
+      "before": {
+        "pitch": 42.99999999475875,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": 43,
+        "roll": 0
+      }
+    },
+    {
+      "actor": "DistantPeak_02",
+      "before": {
+        "pitch": 86.00000000000006,
+        "yaw": 0.0,
+        "roll": -0.0
+      },
+      "after": {
+        "pitch": 0,
+        "yaw": 86,
+        "roll": 0
+      }
+    }
+  ]
+}

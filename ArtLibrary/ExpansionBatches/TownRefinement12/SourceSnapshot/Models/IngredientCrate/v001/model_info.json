@@ -1,0 +1,24 @@
+{
+  "asset": "IngredientCrate",
+  "name_zh": "食材木箱",
+  "category": "食材",
+  "stage": "editable_town_prototype",
+  "description": "Shallow slatted produce crate holding two cabbages, three white radishes with leaves, four carrots and a whole raw fish laid on a leaf across the top.",
+  "size_note": "0.9 x 0.6 x 0.28 m crate; approx. 0.35 m tall with produce.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.9200000166893005,
+    0.6200000047683716,
+    0.3571576774120331
+  ],
+  "mesh_objects": 40,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/IngredientCrate_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,24 @@
+{
+  "asset": "CloudpiercerPeak",
+  "version": "v002",
+  "replaces": "v001 lathed sine-wave massif",
+  "name_zh": "凌雲孤峰",
+  "stage": "editable_landscape_prototype",
+  "description": "Karst stone-pillar peak: 68 m main pillar with four fused satellite pillars and a mossy talus foot; strata ledges and vertical fissures. Scenery mesh, no trail.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    47.21770477294922,
+    37.64188003540039,
+    68.30309295654297
+  ],
+  "mesh_objects": 6,
+  "triangles": 113748,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural karst pillars: strata ledges, fissures, cell-noise faces, rounded caps; moss/strata from shader (normal + object Z)",
+  "animation": "static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

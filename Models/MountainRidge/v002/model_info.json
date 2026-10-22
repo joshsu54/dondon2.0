@@ -1,0 +1,24 @@
+{
+  "asset": "MountainRidge",
+  "version": "v002",
+  "replaces": "v001 lathed sine-wave massif",
+  "name_zh": "連綿山脊",
+  "stage": "editable_landscape_prototype",
+  "description": "Ridge of nine karst pillars (20-49 m) rising from a 22 m spine on a shared talus foot; strata ledges and vertical fissures. Overlapping editable meshes.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    93.58699798583984,
+    35.63405990600586,
+    49.44758605957031
+  ],
+  "mesh_objects": 11,
+  "triangles": 195338,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural karst pillars: strata ledges, fissures, cell-noise faces, rounded caps; moss/strata from shader (normal + object Z)",
+  "animation": "static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

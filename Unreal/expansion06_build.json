@@ -1,0 +1,120 @@
+{
+  "status": "saved_reloaded_pending_runtime_visual",
+  "map": "/Game/Maps/TownLayout_06",
+  "sources": {
+    "MountainRestPavilion": {
+      "fbx": "Models/MountainRestPavilion/v001/MountainRestPavilion_v001.fbx",
+      "sha256": "f994cde67e25c182f551e6b095d40b26245e3e45b703e3f05bf2945d31830c4c",
+      "asset": "/Game/Art/Expansion06/Meshes/MountainRestPavilion",
+      "dimensions_cm": [
+        752.9904174804688,
+        655.8587951660156,
+        618.000047266305
+      ]
+    },
+    "TrailStoneRailing": {
+      "fbx": "Models/TrailStoneRailing/v001/TrailStoneRailing_v001.fbx",
+      "sha256": "2e537adbbf13407ab8dd14d582ef159dcd52891f453298f07419859d6420fbda",
+      "asset": "/Game/Art/Expansion06/Meshes/TrailStoneRailing",
+      "dimensions_cm": [
+        340.0,
+        48.00000190734863,
+        138.0000036657152
+      ]
+    },
+    "WindPine": {
+      "fbx": "Models/WindPine/v001/WindPine_v001.fbx",
+      "sha256": "ccdd0f106cbce916419463faefb4f0f5c2158a0913d424384a2a8feff7931f26",
+      "asset": "/Game/Art/Expansion06/Meshes/WindPine",
+      "dimensions_cm": [
+        1254.219970703125,
+        372.51153564453125,
+        712.1906651895761
+      ]
+    },
+    "WindGrass": {
+      "fbx": "Models/WindGrass/v001/WindGrass_v001.fbx",
+      "sha256": "df58522d2fa7ba4dd59c546355a5878497bdfdc8186f7cc4fb122dca54b1f89a",
+      "asset": "/Game/Art/Expansion06/Meshes/WindGrass",
+      "dimensions_cm": [
+        102.05728149414062,
+        96.05635833740234,
+        89.23867308510626
+      ]
+    },
+    "StoneLantern": {
+      "fbx": "Models/StoneLantern/v001/StoneLantern_v001.fbx",
+      "sha256": "c6ee6dd9c7d25c6d1a0082da919608b0b5aee0ffaa1b19fd8f34b37d90e2a2e9",
+      "asset": "/Game/Art/Expansion06/Meshes/StoneLantern",
+      "dimensions_cm": [
+        105.99999237060547,
+        98.00000762939453,
+        226.3077155133501
+      ]
+    },
+    "TownWaymarker": {
+      "fbx": "Models/TownWaymarker/v001/TownWaymarker_v001.fbx",
+      "sha256": "21d398fc4e697dc23eac756baf49b00b977698e1477991148450645951927f06",
+      "asset": "/Game/Art/Expansion06/Meshes/TownWaymarker",
+      "dimensions_cm": [
+        73.38292694091797,
+        51.71541786193848,
+        161.00000227026953
+      ]
+    },
+    "NoticeBoard": {
+      "fbx": "Models/NoticeBoard/v002/NoticeBoard_v002.fbx",
+      "sha256": "49d67941eec36066c550a6eaeacaad4a6a870f427372f3b1117defd36e966d88",
+      "asset": "/Game/Art/Expansion06/Meshes/NoticeBoard",
+      "dimensions_cm": [
+        321.46502685546875,
+        101.60000610351562,
+        299.6158778182876
+      ]
+    }
+  },
+  "added_actors": [
+    "RestStopFoundation06",
+    "RestStopPaving06",
+    "RestPavilion06",
+    "RestRailing06_00",
+    "RestRailing06_01",
+    "RestRailing06_02",
+    "TrailLantern06_00",
+    "TrailLantern06_01",
+    "TrailLantern06_02",
+    "TrailLantern06_03",
+    "TrailLantern06_04",
+    "TrailLantern06_05",
+    "TrailLantern06_06",
+    "TrailLantern06_07",
+    "TrailWaymarker06_00",
+    "TrailWaymarker06_01",
+    "WaysidePine06_00",
+    "WaysidePine06_01",
+    "WaysidePine06_02",
+    "WaysidePine06_03",
+    "WaysidePine06_04",
+    "WaysidePine06_05",
+    "WaysideGrass06_00",
+    "WaysideGrass06_01",
+    "WaysideGrass06_02",
+    "WaysideGrass06_03",
+    "WaysideGrass06_04",
+    "WaysideGrass06_05",
+    "WaysideGrass06_06",
+    "WaysideGrass06_07",
+    "WaysideGrass06_08",
+    "WaysideGrass06_09",
+    "WaysideGrass06_10",
+    "WaysideGrass06_11",
+    "SectQuestBoard06"
+  ],
+  "current": "NoticeBoard",
+  "actor_count": 3945,
+  "limits": [
+    "Existing source models and ten-view images reused unchanged",
+    "Foliage FBX is static; wind shader not ported",
+    "Complex static collision prototype; no LOD or packaged performance acceptance"
+  ]
+}

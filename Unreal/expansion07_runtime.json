@@ -1,0 +1,145 @@
+{
+  "status": "interrupted_editor_closed",
+  "map": "/Game/Maps/TownLayout_07.TownLayout_07",
+  "method": "Real PIE, continuous CharacterMovement route after isolated precondition setup; reflected interaction function, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": true,
+    "early_reward_denied": true,
+    "herb1_route": true,
+    "herb1_collect": true,
+    "herb1_duplicate_denied": true,
+    "pavilion_approach_route": true,
+    "pavilion_inside_route": true,
+    "pavilion_return_route": true,
+    "herb2_route": true,
+    "herb2_collect": true,
+    "herb2_duplicate_denied": true,
+    "herb3_route": true,
+    "herb3_collect": true,
+    "herb3_duplicate_denied": true,
+    "ready_to_deliver": true,
+    "gate_route": true
+  },
+  "route": [
+    {
+      "id": "herb1",
+      "position_cm": [
+        1.414037619883862,
+        -4432.32452975145,
+        224.03707784165726
+      ],
+      "distance_cm": 17.73194154337894,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_approach",
+      "position_cm": [
+        -682.5319811136801,
+        -4449.559809995857,
+        224.14999997237464
+      ],
+      "distance_cm": 17.473564348826372,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_inside",
+      "position_cm": [
+        -1182.952933587385,
+        -4449.985498720765,
+        278.0855814607253
+      ],
+      "distance_cm": 17.047072580452316,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_return",
+      "position_cm": [
+        -16.35074597834923,
+        -4449.999799563682,
+        224.13847836384093
+      ],
+      "distance_cm": 16.35074597957776,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb2",
+      "position_cm": [
+        -0.26021823349027384,
+        -5562.016315561959,
+        464.1499560664097
+      ],
+      "distance_cm": 17.985566977331196,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb3",
+      "position_cm": [
+        -0.0038497685855648483,
+        -6732.424512659357,
+        704.1268682727866
+      ],
+      "distance_cm": 17.57548776227348,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "gate",
+      "position_cm": [
+        -0.00024623287631441354,
+        -6982.885755230545,
+        704.1268682727866
+      ],
+      "distance_cm": 17.114244771226023,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    }
+  ],
+  "limitations": [
+    "Physical keyboard and HUD visual checks separate",
+    "Quest progress resets on new play session"
+  ],
+  "interruption": {
+    "observed_log": "QUIT_EDITOR and normal editor shutdown at 2026-10-22 01:08:15 UTC",
+    "completed_route_legs": 7,
+    "required_route_legs": 11,
+    "resume": "Run Tools/review_expansion07.py in TownLayout_07 when Mac is unlocked; do not rerun build_expansion07.py",
+    "checked_at_utc": "2026-10-22T06:06:25Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "asset": "MountainRestPavilion",
+  "name_zh": "六角休憩亭",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    7.529903888702393,
+    6.558588027954102,
+    6.179999828338623
+  ],
+  "mesh_objects": 277,
+  "same_geometry_ten_views": true,
+  "stage": "editable architecture prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "connectors": {
+    "front_floor_entry": [
+      0.0,
+      -2.53745436668396,
+      0.5400000214576721
+    ],
+    "rear_floor_exit": [
+      0.0,
+      2.53745436668396,
+      0.5400000214576721
+    ]
+  },
+  "pillars": 6,
+  "entry_width_between_pillars_m": 2.11,
+  "entry_clear_width_at_bases_m": 1.84,
+  "floor_height_m": 0.54,
+  "step_risers_m": [
+    0.18,
+    0.18,
+    0.18
+  ],
+  "roof_removable": true
+}

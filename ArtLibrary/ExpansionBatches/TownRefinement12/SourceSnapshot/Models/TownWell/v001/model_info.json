@@ -1,0 +1,24 @@
+{
+  "asset": "TownWell",
+  "name_zh": "小鎮水井",
+  "category": "小鎮生活道具",
+  "stage": "editable_town_prototype",
+  "description": "Round stone well with timber posts, small tiled roof, windlass drum, rope and a hanging wooden bucket; spare bucket on the ground.",
+  "size_note": "Approx. 2.5 x 2.1 x 3.2 m; stone ring 1.8 m across, rim 0.9 m high.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.2952933311462402,
+    2.6064343452453613,
+    3.3692855834960938
+  ],
+  "mesh_objects": 68,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/TownWell_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

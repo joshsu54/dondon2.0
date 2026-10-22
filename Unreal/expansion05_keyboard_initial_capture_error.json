@@ -1,0 +1,19 @@
+{
+  "status": "error",
+  "map": "/Game/Maps/TownLayout_05.TownLayout_05",
+  "method": "Physical E via UI; engine setup teleports, no reflected interaction call",
+  "events": [
+    {
+      "target": 0,
+      "quest_state": [
+        1,
+        0,
+        0
+      ],
+      "objective": "沿青石路前往山門，採集靈草 0 / 3。"
+    }
+  ],
+  "target": 0,
+  "objective": "前往小鎮北端的委託牌，接取採藥任務。",
+  "error": "Traceback (most recent call last):\n  File \"<string>\", line 43, in tick\nAttributeError: 'PlayerController' object has no attribute 'console_command'\n"
+}

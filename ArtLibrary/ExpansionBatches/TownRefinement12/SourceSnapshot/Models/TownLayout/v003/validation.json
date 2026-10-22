@@ -1,0 +1,48 @@
+{
+  "blend_reopened": true,
+  "v002_mesh_objects_all_present": 1629,
+  "placed_instances": 57,
+  "mesh_objects": 3896,
+  "fbx_reimported_mesh_objects": 3896,
+  "concept_refs_in_blend": 10,
+  "north_street_surface_samples": [
+    {
+      "y": 12.4,
+      "surface_z": 1.32
+    },
+    {
+      "y": 14.7,
+      "surface_z": 1.32
+    },
+    {
+      "y": 17.9,
+      "surface_z": 1.327
+    },
+    {
+      "y": 20.9,
+      "surface_z": 1.34
+    },
+    {
+      "y": 23.9,
+      "surface_z": 1.32
+    },
+    {
+      "y": 26.2,
+      "surface_z": 1.32
+    },
+    {
+      "y": 29.2,
+      "surface_z": 1.32
+    },
+    {
+      "y": 32.9,
+      "surface_z": 1.326
+    }
+  ],
+  "previews": [
+    "01_town_north_block_overview.png",
+    "02_town_top_plan_v003.png",
+    "03_north_street_archway.png"
+  ],
+  "scope": "geometry/layout check only; no character, collision, navigation or Unreal test"
+}

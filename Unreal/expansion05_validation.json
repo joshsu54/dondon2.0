@@ -1,0 +1,47 @@
+{
+  "status": "prototype_runtime_keyboard_and_visual_review_passed",
+  "map": "/Game/Maps/TownLayout_05",
+  "saved_checks": {
+    "actor_count": true,
+    "three_herbs": true,
+    "ValleyRidge_00_upright": true,
+    "ValleyRidge_01_upright": true,
+    "ValleyRidge_02_upright": true,
+    "ValleyRidge_03_upright": true,
+    "DistantPeak_00_upright": true,
+    "DistantPeak_01_upright": true,
+    "DistantPeak_02_upright": true,
+    "DriftingClouds_00_above_route": true,
+    "DriftingClouds_00_no_shadows": true,
+    "DriftingClouds_01_above_route": true,
+    "DriftingClouds_01_no_shadows": true,
+    "DriftingClouds_02_above_route": true,
+    "DriftingClouds_02_no_shadows": true
+  },
+  "screenshots": [
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion05_overview.png",
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion05_gate.png"
+  ],
+  "map_sha256": "5f8f99cdde6d80a730dba1ba7aba35b43be431b4d70d5d30bffde527ca686bd1",
+  "reviewed_images": [
+    "Validation/expansion05_key_0.png",
+    "Validation/expansion05_key_2.png",
+    "Validation/expansion05_key_4.png",
+    "Validation/expansion05_overview.png",
+    "Validation/expansion05_gate.png"
+  ],
+  "visual_review": {
+    "chinese_hud_readable": true,
+    "collection_progress_and_reward_visible": true,
+    "mountains_upright": true,
+    "clouds_clear_of_trail": true,
+    "gate_palette_matches": true,
+    "prototype_limits": [
+      "Large flat terrain, block supports and blank quest board need art refinement",
+      "Distant meshes are scenery without collision",
+      "Quest has no save-game persistence",
+      "No packaged build, performance or full-world navigation acceptance"
+    ]
+  },
+  "source_fbx_hashes_unchanged": true
+}

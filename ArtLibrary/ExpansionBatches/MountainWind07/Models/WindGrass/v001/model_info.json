@@ -1,0 +1,21 @@
+{
+  "asset": "WindGrass",
+  "name_zh": "風動草叢",
+  "stage": "editable_landscape_prototype",
+  "description": "Independent 42-blade grass tuft with height-weighted looping shape-key sway; Blender preview only.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.0205729007720947,
+    0.9605635404586792,
+    0.8923866748809814
+  ],
+  "mesh_objects": 1,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "editable geometry; all ten views rendered at frame 1 from the same model",
+  "animation": "Blender shape keys, 96-frame wind loop; FBX is static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

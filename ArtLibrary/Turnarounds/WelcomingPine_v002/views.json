@@ -1,0 +1,34 @@
+{
+  "asset": "WelcomingPine",
+  "source": "Models/WelcomingPine/v002/WelcomingPine_v002.blend",
+  "views": [
+    "01_front.png",
+    "02_right.png",
+    "03_rear.png",
+    "04_left.png",
+    "05_front_right.png",
+    "06_rear_right.png",
+    "07_rear_left.png",
+    "08_front_left.png",
+    "09_top.png",
+    "10_high_front.png"
+  ],
+  "projection": "orthographic",
+  "bounds_m": [
+    [
+      -6.064180374145508,
+      -1.7522999048233032,
+      -0.11838091909885406
+    ],
+    [
+      6.3113932609558105,
+      1.8814268112182617,
+      7.191860198974609
+    ]
+  ],
+  "ortho_width_m": 14.574757503714373,
+  "front": "Blender -Y",
+  "source_modified": false,
+  "generated_from_same_geometry": true,
+  "cardinal_background": "Studio floor hidden for unobstructed elevations"
+}

@@ -1,0 +1,20 @@
+{
+  "asset": "DiscipleResidence",
+  "name_zh": "弟子居所",
+  "stage": "editable_architecture_prototype",
+  "description": "Two-room prototype with independent closed doors and wall openings; no hinges, animation or furnishings yet.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    9.581863403320312,
+    7.470000267028809,
+    5.541562080383301
+  ],
+  "mesh_objects": 216,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

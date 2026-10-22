@@ -1,0 +1,33 @@
+{
+  "asset": "TimberSpanBridge",
+  "name_zh": "山谷木橋",
+  "stage": "editable_path_prototype",
+  "description": "12 x 3 m timber footbridge with dual guard rails, trusses and cross beams. No structural engineering certification.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.3299999237060547,
+    12.229999542236328,
+    1.75
+  ],
+  "mesh_objects": 118,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "connectors": {
+    "entry": [
+      0.0,
+      -6.0,
+      0.6000000238418579
+    ],
+    "exit": [
+      0.0,
+      6.0,
+      0.6000000238418579
+    ]
+  },
+  "clear_walk_width_m": 2.6
+}

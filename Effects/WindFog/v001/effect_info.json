@@ -1,0 +1,21 @@
+{
+  "effect": "WindFog",
+  "blender_fps": 24,
+  "frame_range": [
+    1,
+    96
+  ],
+  "loop_seconds": 4,
+  "preview_fps": 12,
+  "preview_frames": 48,
+  "wind_method": "height-weighted shape keys; roots fixed",
+  "cloud_method": "bounded procedural volumes, circular texture-coordinate drift",
+  "rigid_body_or_fluid_simulation": false,
+  "engine_effect_exported": false,
+  "editable_parameters": [
+    "Wind_Main and Wind_Gust shape-key amplitudes",
+    "Cloud_Drift keyframes",
+    "Volume density remap",
+    "Fog object dimensions"
+  ]
+}

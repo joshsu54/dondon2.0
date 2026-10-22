@@ -1,0 +1,11 @@
+{
+  "blend_reopened": true,
+  "house_location_verified": true,
+  "door_hierarchy_preserved": true,
+  "source_mesh_objects": 1061,
+  "fbx_mesh_objects": 1061,
+  "fbx_bounds_error_m": 9.5367431640625e-07,
+  "studio_excluded": true,
+  "passage_ray_samples": 18,
+  "unity_verified": false
+}

@@ -1,0 +1,34 @@
+{
+  "asset": "SpawnPlaza",
+  "source": "Models/SpawnTown/v001/SpawnTown_v001.blend",
+  "views": [
+    "01_front.png",
+    "02_right.png",
+    "03_rear.png",
+    "04_left.png",
+    "05_front_right.png",
+    "06_rear_right.png",
+    "07_rear_left.png",
+    "08_front_left.png",
+    "09_top.png",
+    "10_high_front.png"
+  ],
+  "projection": "orthographic",
+  "bounds_m": [
+    [
+      -8.608777046203613,
+      -10.399999618530273,
+      -0.7599999904632568
+    ],
+    [
+      8.0,
+      8.600000381469727,
+      6.08811092376709
+    ]
+  ],
+  "ortho_width_m": 28.516584787440177,
+  "front": "Blender -Y",
+  "source_modified": false,
+  "generated_from_same_geometry": true,
+  "cardinal_background": "Studio floor hidden for unobstructed elevations"
+}

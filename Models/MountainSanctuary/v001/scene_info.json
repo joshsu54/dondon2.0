@@ -1,0 +1,20 @@
+{
+  "scene": "MountainSanctuary",
+  "sect_source": "SectLayout/v003",
+  "assets": [
+    "SectSummitPlateau",
+    "CloudpiercerPeak",
+    "MountainRidge",
+    "LayeredCliff",
+    "WindPine"
+  ],
+  "summit_z_m": 48,
+  "previews": 3,
+  "fog_volumes": 3,
+  "fbx": "static geometry only; no fog or wind animation",
+  "limitations": [
+    "No playable ascent route",
+    "No terrain collision, LOD, UV baking or engine verification",
+    "Overlapping terrain masses are editable scenery prototypes"
+  ]
+}

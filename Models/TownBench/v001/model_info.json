@@ -1,0 +1,50 @@
+{
+  "asset": "TownBench",
+  "name_zh": "長凳",
+  "stage": "extracted_appearance_prototype",
+  "source_blend": "Models/SpawnTown/v001/SpawnTown_v001.blend",
+  "source_sha256": "7161799e56a11bda3f3b2558c4f82e9beac46b39660ddf87e8da1aaf65b2ebef",
+  "source_objects": [
+    "Bench_Seat_-3.65",
+    "Bench_Support_-3.65_-3.72",
+    "Bench_Support_-3.65_-2.48"
+  ],
+  "rotation_matrix_from_source": [
+    [
+      7.549790126404332e-08,
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      7.549790126404332e-08,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.8000000715255737,
+    0.6200003623962402,
+    0.60999995470047
+  ],
+  "mesh_objects": 3,
+  "uv_baked": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false
+}

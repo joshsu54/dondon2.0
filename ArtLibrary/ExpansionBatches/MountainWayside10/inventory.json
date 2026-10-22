@@ -1,0 +1,39 @@
+{
+  "batch": "MountainWayside10",
+  "created": "2026-10-16",
+  "new_asset_sets": 3,
+  "new_views": 30,
+  "new_assets": [
+    {
+      "asset": "MountainRestPavilion",
+      "name_zh": "六角休憩亭",
+      "views": 10,
+      "dimensions_m": [
+        7.529903888702393,
+        6.558588027954102,
+        6.179999828338623
+      ]
+    },
+    {
+      "asset": "StoneArchBridge",
+      "name_zh": "拱形石橋",
+      "views": 10,
+      "dimensions_m": [
+        3.940000057220459,
+        9.75,
+        3.2799999713897705
+      ]
+    },
+    {
+      "asset": "TrailStoneRailing",
+      "name_zh": "獨立石欄杆",
+      "views": 10,
+      "dimensions_m": [
+        3.4000000953674316,
+        0.47999998927116394,
+        1.3799999952316284
+      ]
+    }
+  ],
+  "asset_type": "wayside architecture"
+}

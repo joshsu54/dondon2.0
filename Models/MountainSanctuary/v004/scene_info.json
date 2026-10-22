@@ -1,0 +1,60 @@
+{
+  "scene": "MountainSanctuary",
+  "version": "v004",
+  "source_scene": "MountainSanctuary/v003",
+  "solid_clouds": [
+    "Cloud_West_Peak_Collar",
+    "Cloud_East_Peak_Collar",
+    "Cloud_Ridge_Band",
+    "Cloud_North_Saddle",
+    "Cloud_West_Valley",
+    "Cloud_East_Flank",
+    "Cloud_East_Front_Low",
+    "Cloud_Southwest_Low",
+    "Cloud_Far_Front_Sea"
+  ],
+  "cloud_method": "metaball-derived solid meshes; 96-frame looping object drift in .blend",
+  "fbx": "static geometry including solid clouds; SolidClouds_v004.fbx holds clouds alone",
+  "clouds_clear_of": [
+    "60_Mountain_Ascent (4 m margin, bounding boxes)",
+    "sect area above 47 m"
+  ],
+  "previews": 4,
+  "limitations": [
+    "Mist/haze should come from the engine (e.g. Unreal Exponential Height Fog)",
+    "Cloud drift animation is not exported to FBX",
+    "No collision, LOD or UV baking"
+  ],
+  "swapped_assets": [
+    {
+      "collection": "CloudpiercerPeak_Placed",
+      "asset": "CloudpiercerPeak",
+      "version": "v002",
+      "location": [
+        -68.0,
+        56.0,
+        0.0
+      ]
+    },
+    {
+      "collection": "CloudpiercerPeak_Placed.001",
+      "asset": "CloudpiercerPeak",
+      "version": "v002",
+      "location": [
+        62.0,
+        66.0,
+        0.0
+      ]
+    },
+    {
+      "collection": "MountainRidge_Placed",
+      "asset": "MountainRidge",
+      "version": "v002",
+      "location": [
+        0.0,
+        114.0,
+        0.0
+      ]
+    }
+  ]
+}

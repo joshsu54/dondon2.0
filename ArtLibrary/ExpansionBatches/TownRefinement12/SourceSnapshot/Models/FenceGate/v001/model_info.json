@@ -1,0 +1,24 @@
+{
+  "asset": "FenceGate",
+  "name_zh": "籬笆院門",
+  "category": "庭院與圍欄",
+  "stage": "editable_town_prototype",
+  "description": "Courtyard gate: two posts on stone bases, lintel with small tiled roof and two bamboo gate leaves with braces, hinges and latch.",
+  "size_note": "Approx. 2.9 x 0.9 x 2.8 m; clear opening 1.9 m wide, 2.1 m high.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.2146503925323486,
+    0.9660000205039978,
+    2.796158790588379
+  ],
+  "mesh_objects": 66,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/FenceGate_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

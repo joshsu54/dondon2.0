@@ -1,0 +1,24 @@
+{
+  "asset": "BambooBasket",
+  "name_zh": "竹簍",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "Tapered woven bamboo back basket with staves, weave bands, wooden rim, two rope straps and herb bundles inside.",
+  "size_note": "Approx. 0.6 x 0.6 x 0.67 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.5699999928474426,
+    0.6018167734146118,
+    0.6700000166893005
+  ],
+  "mesh_objects": 47,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/BambooBasket_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

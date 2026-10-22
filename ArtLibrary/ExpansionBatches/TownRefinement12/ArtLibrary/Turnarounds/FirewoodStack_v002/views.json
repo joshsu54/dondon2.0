@@ -1,0 +1,157 @@
+{
+  "asset": "FirewoodStack",
+  "source": "Models/FirewoodStack/v002/FirewoodStack_v002.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        -5.223364353179932,
+        1.3335046768188477
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        5.223364353179932,
+        -1.4901161193847656e-08,
+        1.3335046768188477
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        5.223364353179932,
+        1.3335046768188477
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        -5.223364353179932,
+        -1.4901161193847656e-08,
+        1.3335046768188477
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        3.39351749420166,
+        -3.39351749420166,
+        2.755786418914795
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        3.39351749420166,
+        3.39351749420166,
+        2.755786418914795
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        -3.39351749420166,
+        3.39351749420166,
+        2.755786418914795
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        -3.39351749420166,
+        -3.39351749420166,
+        2.755786418914795
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -1.4901161193847656e-08,
+        5.83180046081543
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1.5
+      ],
+      "camera_location": [
+        0.0,
+        -2.9298155307769775,
+        4.944723606109619
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

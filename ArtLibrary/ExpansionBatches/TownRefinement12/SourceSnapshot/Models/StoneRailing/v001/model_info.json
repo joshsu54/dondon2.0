@@ -1,0 +1,24 @@
+{
+  "asset": "StoneRailing",
+  "name_zh": "石欄杆段",
+  "category": "橋樑與欄杆",
+  "stage": "editable_town_prototype",
+  "description": "2 m carved stone balustrade segment: lotus-capped posts, plinth, panel with recessed insets and jade medallion, and a rounded handrail.",
+  "size_note": "2.2 x 0.3 x 1.3 m; posts at x = +/-1.0 m for tiling.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    2.313878297805786,
+    0.31387844681739807,
+    1.2999999523162842
+  ],
+  "mesh_objects": 10,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/StoneRailing_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,199 @@
+{
+  "batch": "TownProps02",
+  "created": "2026-10-15",
+  "new_assets": [
+    {
+      "asset": "StoneLantern",
+      "name_zh": "石燈",
+      "views": 10,
+      "dimensions_m": [
+        1.059999942779541,
+        0.9800000190734863,
+        2.2630770206451416
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/SpawnTown/v001/SpawnTown_v001.blend",
+      "sha256": {
+        "01_front.png": "d4cc3ff7a1e5c4b39cd2d5f1569442ba99217f7ec70bc366edf08e1ab963c75b",
+        "02_right.png": "f58caca9391ee1f4841f87754c547989f0e8df0f4db02c4f5e91854827ee03bf",
+        "03_rear.png": "73c0bef921587ad45a7e49ce2678bca973e77e95daf9abe543531f32879f4ed8",
+        "04_left.png": "cf695ad58e4e56ea0dab95e9a2a4895fbde769538e56c13bc7bb19af4cab0a37",
+        "05_front_right.png": "919be70b5a9d4475bb3f5fe5dd407b9b78679765cf5134628756aaab2d0b3c64",
+        "06_rear_right.png": "446cbfa3d862a14c7958adc37f335fc4865180ecb21b95c174b0bd83c7df31da",
+        "07_rear_left.png": "addffa7e7cca89d0dbb1d1e8f59c745de78047adbabc25e6440d2b5ec148af39",
+        "08_front_left.png": "68c1b993048c8659e7cf4ea663db663cff93b25f3bd1dea24a5a083c590932b7",
+        "09_top.png": "bb000aaa230776f8c25373f084c112c59072deda034514aaa971cd73a74fdcf3",
+        "10_high_front.png": "0e0d9f84947ac04b8b3cf33637836acbf64da312216f86f05afe55930f13bc6c"
+      }
+    },
+    {
+      "asset": "TownWaymarker",
+      "name_zh": "指路碑",
+      "views": 10,
+      "dimensions_m": [
+        0.7338292598724365,
+        0.5171540379524231,
+        1.6100000143051147
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/SpawnTown/v001/SpawnTown_v001.blend",
+      "sha256": {
+        "01_front.png": "167904128931960de0923975842fcded9bfbca1b0decd49877ff941114ccf3ac",
+        "02_right.png": "71bf1977e57d42d399365215aac7022b9dd99d04297959bfacf44505d1f44050",
+        "03_rear.png": "c508f196b87278a3ac14b1ba11f42f3536089f63ced35a14a02dfc1fb1287fdc",
+        "04_left.png": "fb54c825a818c8cd47fe7945a7976db61d939684e9ecb25fd1a00db30721d73f",
+        "05_front_right.png": "3e91d7160f1dd773aff3ccde4918adced4cae4587e39762283c64bceef3aa567",
+        "06_rear_right.png": "ea0679e5847b10e9415c55eb7a8dac86527c33b3ebd976132d0a05e8d8498469",
+        "07_rear_left.png": "a9a53eea859e8829fa3692431c506de6f206591085e580eba1b02da0eb53308f",
+        "08_front_left.png": "bd01b04de70de0f4c7c98d0cdb9915917c868446d7dd8bb69d129e2e9b6ef836",
+        "09_top.png": "ae6f264daaf16c2202cc8513e727be824306838ed8ea8a283ef65be17545e3dc",
+        "10_high_front.png": "0b295c78f2fb3b0d6ebecfa9cb9133aad97e3ebf4a48558c33226da1920bfc66"
+      }
+    },
+    {
+      "asset": "TownBench",
+      "name_zh": "長凳",
+      "views": 10,
+      "dimensions_m": [
+        1.8000000715255737,
+        0.6200003623962402,
+        0.60999995470047
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/SpawnTown/v001/SpawnTown_v001.blend",
+      "sha256": {
+        "01_front.png": "9b3f2aa8c3f278e5c1561db3f6f3ba170afba9d018848f11e46f3a4cc8b2fe20",
+        "02_right.png": "cc3af0676a4c76c16263bf6bb4a86327ab13917c6c7192f00ab49c5b0e527323",
+        "03_rear.png": "5df231dd77e306c31440619d35b367f99f67fc4557f583104c7262685c50b9b2",
+        "04_left.png": "1ef45c5ea4012e4c29704ea4c47f58f7b2aa2d80645eb289555c8b46d62b9e63",
+        "05_front_right.png": "f81fce3e3100d3f12b36c2359b739538b6b6451696733fa959cf6f0fc7c4fa98",
+        "06_rear_right.png": "cc27fa74f61614957d9cb2857fb9bf345fd0eb8389d5a6678bc3ed348b2d40f9",
+        "07_rear_left.png": "2cfc6747c72462982addfada6393f5b6721eedaf1aefc0b1312dd5d4cf9c0d08",
+        "08_front_left.png": "4cc8527e363132b7a8b9ef87562ea34a664d670c936df3230dd081c302de3fa8",
+        "09_top.png": "caf840fa6f19e1d481d203673747de3db90377dd9cf7db0d071624a66536fb7d",
+        "10_high_front.png": "17b3fbf08051aff37de0b9d54e65db0c1b068233d5d4a71e5489ac5f0ab69128"
+      }
+    },
+    {
+      "asset": "SmithAnvil",
+      "name_zh": "鐵砧與底座",
+      "views": 10,
+      "dimensions_m": [
+        1.5600001811981201,
+        0.8940000534057617,
+        0.9977437853813171
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "1f4e8cd12ee58f6078f3a83de9314cbea7327f04f1690091eee1e91d89c2432e",
+        "02_right.png": "0fc333671427701207c5ffbc3c3f3d5be7bf1b9e45fe3f957dc465fb71d679ad",
+        "03_rear.png": "35ec2cec91d805c0541a552ffbaafd27d58b4d4611152b4276aa09da1da50a2e",
+        "04_left.png": "ec63ed719ffb300cbc61fca01c9b59814948c79865f2217c6d0300765246de8e",
+        "05_front_right.png": "151f88059c343fd1bddbd3ff4551400fd426273d646312c4273b8077bcd4cdbf",
+        "06_rear_right.png": "5eb870d5275fc490d6271225f3400d0e8d669bbf913ce3ff7cc2e1a69b53e593",
+        "07_rear_left.png": "e10da1cfb16e2d002d79ee8d2c087a833ff2bc5b1315771f7ac5411518da4d7a",
+        "08_front_left.png": "f75171ad17320493fb12b3bb66728ab6d7cade5d573ca4991818042bd74bb957",
+        "09_top.png": "1caae4a1a8f721c2fb9121e54f3dbab96462a7bc342c8aa35e4a2537cad98be1",
+        "10_high_front.png": "3356c1c17f20ff9835116eac8ea41c2458d70f2eb132ca1e8bb2c7923bb953ea"
+      }
+    },
+    {
+      "asset": "SmithWorkbench",
+      "name_zh": "工作台",
+      "views": 10,
+      "dimensions_m": [
+        2.049999952316284,
+        0.8299999237060547,
+        0.9700000286102295
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "cf5261e5c87dcd8a7be01f433938e15da6eb6ed886f2f967c88220c35346418c",
+        "02_right.png": "e0c62634618d59d9ba5cbeef9a231c8207259503c8967dcd70947e516ec8c13d",
+        "03_rear.png": "aeefdc173a5b7e2379f17d7183f73e07f1466d4921bda9ee5eec9addef8a205a",
+        "04_left.png": "b19c0962c3f310e1cea10fb34661a8eec5d1e06cced210e454bcb1861f39d09c",
+        "05_front_right.png": "0406e3acbacf9f6a0f762e48a6e67bee817d73e37f1e2ca2a0e0e65b071715ed",
+        "06_rear_right.png": "b1ee190c872a2b80a1da43fae7d2c8639d7d22d49768cf8a82b4df9b4b35655e",
+        "07_rear_left.png": "7771dd78ed40932d084011c37857f1961719d812fc81e206d5193cb0c70430ab",
+        "08_front_left.png": "ee0dcd19f5592ff7141c9c32a6d02e4e96ffc7bc1f953bec2709014503de3626",
+        "09_top.png": "279c1709cef2fb57d14201e7e9c749f963afd0dda5c583d841d68d766aa72603",
+        "10_high_front.png": "85c66e80ca114fe8bb773f872ea4692057bf45c972c6b20662afc19996677d84"
+      }
+    },
+    {
+      "asset": "QuenchBarrel",
+      "name_zh": "淬火桶",
+      "views": 10,
+      "dimensions_m": [
+        0.8100000023841858,
+        0.8100000023841858,
+        0.7400000095367432
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "5e56514769f890511d8608a89a7b0364ff23ebac701373fc7949331d1a4e5135",
+        "02_right.png": "13eab0cdc9003ce5b0a88cc6ea05910f4903a80e6cfad1e99c1b4b2847ff5317",
+        "03_rear.png": "02c72df3b97e09e2163f56abb7bc0663e5b3204198c663652449143da0cb11df",
+        "04_left.png": "fe4cb8227c0d2b662212c101bbe650f457ce3d8574d9780115cd2aae17847dbc",
+        "05_front_right.png": "096c4f21b2ff4c3830ae6880db5ebeda0e810c643bc7d372010f278f6e232cab",
+        "06_rear_right.png": "4f84a036d7de9274cf3f1cef59ca5be0227b7b9845b78ea0a80e4ec58957d5c2",
+        "07_rear_left.png": "fe926e506dbf5ad7c156961aaba4cb0b4b1b78bbcfcd73f35a8fdec6549b07e2",
+        "08_front_left.png": "4b64455b43d07407f5666f41d68903065a2b95bc499b0e4c97029acabb589433",
+        "09_top.png": "95edba2db6fb18de416b2f99efc4a121c6c92b30369192ea6a3b1fa32dbe914c",
+        "10_high_front.png": "f4aed432aef4ee2dfd348fb4bac0731a33941ede88175edc15d129f7b5b71c8f"
+      }
+    },
+    {
+      "asset": "WeaponDisplayRack",
+      "name_zh": "武器架",
+      "views": 10,
+      "dimensions_m": [
+        1.6200001239776611,
+        0.7799999713897705,
+        1.6899999380111694
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "bfae7ab0cf15bacf45153f962e9966be77c1c059375d6f8aed7818040cb74e98",
+        "02_right.png": "2646eb032fce71e748de867757dbec6fc5ccc77cc7d48b0302eed41b071fe3d3",
+        "03_rear.png": "fdb6bfc4b0402ad1cdbad000bd6182d4efff4c3861b452a8480d3e7cc23576ad",
+        "04_left.png": "d8322f009d098a637ad5ad8b58bfe41f8d616100dc04d6189dcb0a35bb4c8855",
+        "05_front_right.png": "7c6af05ca14f86962c4a859e08cde4d3c7fd9d42e1435f7a058ca83c4b0b390e",
+        "06_rear_right.png": "ae93c3c7083a09b55b093e75b7d97df669e381d4d0e0f7bd72bc7e88f8eb040a",
+        "07_rear_left.png": "170f793b2e4754bc571e7051d9ebf35a3b33cf118dc9d9f32dcf7370f0003549",
+        "08_front_left.png": "3a6bdaa170bafc3b021bb9a6455ebe39e76357d83c32fcebf8716a64e915436f",
+        "09_top.png": "0ffa713cb067783c09665f7d110c216b93e3246a49622dd1529e065210d06beb",
+        "10_high_front.png": "db65bf5322f341de73a9d380e044d2ef5f06b93090577192d61cd2ecafa2dffe"
+      }
+    },
+    {
+      "asset": "SmithHammer",
+      "name_zh": "鐵鎚",
+      "views": 10,
+      "dimensions_m": [
+        0.17000000178813934,
+        0.39846566319465637,
+        0.8935038447380066
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "90a037101f9ab675a515e9bc8f4b8cc89b320751c4fd576d827c064ff924c1b5",
+        "02_right.png": "74fdc6a0af162534c44eca8691332474262c5459e300bedbb160531fc89af635",
+        "03_rear.png": "e2d0985f0acad831ca8e725a980d50792b4eb2d5430fe2109daaf50d1e6cbed2",
+        "04_left.png": "1c8191dcfeae6273e2f545705be47978adf34351b69ec3e0b4a841d3cee8030d",
+        "05_front_right.png": "10a0336a1a1a1373c12cc30b7463c7fe41a6b1e6f641a95ff6cfb788e41ec9e5",
+        "06_rear_right.png": "46a61e7d6ba8b353cff829f9e7cb4f3f2c5cf0a91d18b480596b918881144327",
+        "07_rear_left.png": "b541b37d98f3301c96d57435b7454e2edce0088aea33cdb2ff44e172ffd8f67d",
+        "08_front_left.png": "07cccb63c45b60de58baa3d8a73348323cce1cf69caa372a81871f2707cdf53c",
+        "09_top.png": "50166d0b3b3cefed78ece67a755d789b048e27efd8c586828a8056d276dfe43e",
+        "10_high_front.png": "47d66497ed40ace32a64f363f53e7a70fbca85e9e3b82b5b3b807a9d11ddcf7c"
+      }
+    }
+  ],
+  "counting_rule": "Ten separate PNGs per extracted asset; contact sheets are excluded."
+}

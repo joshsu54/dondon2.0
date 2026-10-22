@@ -1,0 +1,39 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+.DS_Store
+.vs/
+*.csproj
+*.sln
+*.slnx
+
+# Local runtimes, caches, diagnostics and upload authentication
+.venv/
+venv/
+__pycache__/
+*.pyc
+work/
+.codex/
+.agents/
+.env
+.env.*
+!.env.example
+*.blend1
+*.blend2
+*.log
+
+# Local editor state
+.idea/
+.vscode/
+
+# Unreal generated data; keep Config, Content, Source and .uproject
+Unreal/**/Binaries/
+Unreal/**/Intermediate/
+Unreal/**/Saved/
+Unreal/**/DerivedDataCache/
+Unreal/**/*.xcworkspace/
+Unreal/**/*.xcodeproj/

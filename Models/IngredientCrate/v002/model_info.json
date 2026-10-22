@@ -1,0 +1,34 @@
+{
+  "asset": "IngredientCrate",
+  "name_zh": "食材木箱",
+  "category": "食材",
+  "stage": "editable_town_prototype",
+  "description": "Shallow slatted produce crate holding two cabbages, three white radishes with leaves, four carrots and a whole raw fish laid on a leaf across the top.",
+  "size_note": "0.9 x 0.6 x 0.28 m crate; approx. 0.35 m tall with produce.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.9200000166893005,
+    0.6200000047683716,
+    0.3571576774120331
+  ],
+  "mesh_objects": 40,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/IngredientCrate_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude source geometry retained; semantic materials and studio matched to SectCore04. Prior ten concept images packed; ten new renders of this revision.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "board",
+    "cabbage",
+    "greens",
+    "timber"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": false
+}

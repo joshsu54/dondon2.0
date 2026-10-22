@@ -1,0 +1,2 @@
+#!/bin/sh
+exec '/Applications/Blender 2.app/Contents/MacOS/Blender' "$@"

@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "AlchemyHall",
+    "blend_reopened": true,
+    "meshes": 318,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 4.76837158203125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "DiscipleBed",
+    "blend_reopened": true,
+    "meshes": 12,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MedicineCabinet",
+    "blend_reopened": true,
+    "meshes": 89,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.384185791015625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "ReadingDesk",
+    "blend_reopened": true,
+    "meshes": 22,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 5.960464477539063e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "ScriptureLibrary",
+    "blend_reopened": true,
+    "meshes": 612,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 9.5367431640625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "ScrollShelf",
+    "blend_reopened": true,
+    "meshes": 66,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.980232238769531e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SectStorehouse",
+    "blend_reopened": true,
+    "meshes": 312,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 9.5367431640625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "StorageChest",
+    "blend_reopened": true,
+    "meshes": 20,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  }
+]

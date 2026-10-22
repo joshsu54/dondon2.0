@@ -1,0 +1,775 @@
+{
+  "stage": "v002 town plus north block (inn, crossroads, archway, well square, fenced lotus garden, waypoint altar)",
+  "source_scene_unchanged": "Models/TownLayout/v002/TownLayout_v002.blend",
+  "concept_references": "ArtReferences/TownLayout_v003_10Views",
+  "terrace_top_m": 1.12,
+  "street_surface_m": 1.32,
+  "placements": [
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_01",
+      "location_m": [
+        0,
+        14.7,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "north street continues from v002 (1.32 m)",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "TownRoadCrossroad",
+      "instance": "TownRoadCrossroad_01",
+      "location_m": [
+        0,
+        20.7,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "market crossroads",
+      "mesh_objects": 14
+    },
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_02",
+      "location_m": [
+        0,
+        26.7,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "street under the archway",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "TownRoadTJunction",
+      "instance": "TownRoadTJunction_01",
+      "location_m": [
+        0,
+        32.7,
+        1.12
+      ],
+      "rotation_z_degrees": 180,
+      "note": "north T: branch points back south",
+      "mesh_objects": 9
+    },
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_03",
+      "location_m": [
+        -6,
+        32.7,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "west lane stub",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_04",
+      "location_m": [
+        6,
+        32.7,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "east lane stub",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_05",
+      "location_m": [
+        -6,
+        20.7,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "lane to the inn",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "MountainStonePath",
+      "instance": "MountainStonePath_06",
+      "location_m": [
+        6,
+        20.7,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "lane to the well square",
+      "mesh_objects": 49
+    },
+    {
+      "asset": "TownPaifang",
+      "instance": "TownPaifang_01",
+      "location_m": [
+        0,
+        26.7,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "archway over the street",
+      "mesh_objects": 146
+    },
+    {
+      "asset": "TownInn",
+      "instance": "TownInn_01",
+      "location_m": [
+        -16.2,
+        22.2,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "inn faces east onto the west lane",
+      "mesh_objects": 386
+    },
+    {
+      "asset": "IngredientCrate",
+      "instance": "IngredientCrate_01",
+      "location_m": [
+        -8.3,
+        17.2,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "delivery at the inn door",
+      "mesh_objects": 40
+    },
+    {
+      "asset": "GrainSacks",
+      "instance": "GrainSacks_01",
+      "location_m": [
+        -10.6,
+        13.4,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "inn yard",
+      "mesh_objects": 9
+    },
+    {
+      "asset": "FirewoodStack",
+      "instance": "FirewoodStack_01",
+      "location_m": [
+        -13.6,
+        13.0,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "inn yard",
+      "mesh_objects": 111
+    },
+    {
+      "asset": "WoodenCrate",
+      "instance": "WoodenCrate_01",
+      "location_m": [
+        -8.6,
+        13.0,
+        1.12
+      ],
+      "rotation_z_degrees": 15,
+      "note": "inn yard",
+      "mesh_objects": 33
+    },
+    {
+      "asset": "ClayJar",
+      "instance": "ClayJar_01",
+      "location_m": [
+        -7.7,
+        13.1,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "inn yard",
+      "mesh_objects": 6
+    },
+    {
+      "asset": "BambooBasket",
+      "instance": "BambooBasket_01",
+      "location_m": [
+        -7.6,
+        14.0,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "inn yard",
+      "mesh_objects": 47
+    },
+    {
+      "asset": "TownWell",
+      "instance": "TownWell_01",
+      "location_m": [
+        12.0,
+        20.7,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "well square",
+      "mesh_objects": 68
+    },
+    {
+      "asset": "NoticeBoard",
+      "instance": "NoticeBoard_01",
+      "location_m": [
+        4.6,
+        24.4,
+        1.12
+      ],
+      "rotation_z_degrees": -45,
+      "note": "notice board at the crossroads",
+      "mesh_objects": 62
+    },
+    {
+      "asset": "SpawnAltar",
+      "instance": "SpawnAltar_01",
+      "location_m": [
+        -6.5,
+        27.5,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "waypoint altar beside the archway",
+      "mesh_objects": 29
+    },
+    {
+      "asset": "PondEdge",
+      "instance": "PondEdge_01",
+      "location_m": [
+        11.0,
+        29.0,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "fenced lotus garden",
+      "mesh_objects": 46
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_01",
+      "location_m": [
+        9,
+        25,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_02",
+      "location_m": [
+        9,
+        33,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_03",
+      "location_m": [
+        11,
+        25,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_04",
+      "location_m": [
+        11,
+        33,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_05",
+      "location_m": [
+        13,
+        25,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_06",
+      "location_m": [
+        13,
+        33,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_07",
+      "location_m": [
+        15,
+        27,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_08",
+      "location_m": [
+        15,
+        29,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_09",
+      "location_m": [
+        15,
+        31,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_10",
+      "location_m": [
+        7,
+        27,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "BambooFence",
+      "instance": "BambooFence_11",
+      "location_m": [
+        7,
+        31,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden fence",
+      "mesh_objects": 44
+    },
+    {
+      "asset": "FenceGate",
+      "instance": "FenceGate_01",
+      "location_m": [
+        7,
+        29,
+        1.12
+      ],
+      "rotation_z_degrees": -90,
+      "note": "garden gate faces the street",
+      "mesh_objects": 66
+    },
+    {
+      "asset": "BambooFenceCorner",
+      "instance": "BambooFenceCorner_01",
+      "location_m": [
+        15,
+        25,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "garden corner",
+      "mesh_objects": 51
+    },
+    {
+      "asset": "BambooFenceCorner",
+      "instance": "BambooFenceCorner_02",
+      "location_m": [
+        7,
+        25,
+        1.12
+      ],
+      "rotation_z_degrees": -90,
+      "note": "garden corner",
+      "mesh_objects": 51
+    },
+    {
+      "asset": "BambooFenceCorner",
+      "instance": "BambooFenceCorner_03",
+      "location_m": [
+        7,
+        33,
+        1.12
+      ],
+      "rotation_z_degrees": 180,
+      "note": "garden corner",
+      "mesh_objects": 51
+    },
+    {
+      "asset": "BambooFenceCorner",
+      "instance": "BambooFenceCorner_04",
+      "location_m": [
+        15,
+        33,
+        1.12
+      ],
+      "rotation_z_degrees": 90,
+      "note": "garden corner",
+      "mesh_objects": 51
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_01",
+      "location_m": [
+        -23,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_02",
+      "location_m": [
+        -21,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_03",
+      "location_m": [
+        -19,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_04",
+      "location_m": [
+        -17,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_05",
+      "location_m": [
+        -15,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_06",
+      "location_m": [
+        -13,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_07",
+      "location_m": [
+        -11,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_08",
+      "location_m": [
+        -9,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_09",
+      "location_m": [
+        -7,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_10",
+      "location_m": [
+        -5,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_11",
+      "location_m": [
+        -3,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_12",
+      "location_m": [
+        3,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_13",
+      "location_m": [
+        5,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_14",
+      "location_m": [
+        7,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_15",
+      "location_m": [
+        9,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_16",
+      "location_m": [
+        11,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_17",
+      "location_m": [
+        13,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_18",
+      "location_m": [
+        15,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_19",
+      "location_m": [
+        17,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_20",
+      "location_m": [
+        19,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    },
+    {
+      "asset": "StoneRailing",
+      "instance": "StoneRailing_21",
+      "location_m": [
+        21,
+        11.75,
+        1.12
+      ],
+      "rotation_z_degrees": 0,
+      "note": "terrace balustrade",
+      "mesh_objects": 10
+    }
+  ],
+  "mesh_objects": 3896,
+  "street_surface_samples": [
+    {
+      "x": 0,
+      "y": 11.2,
+      "surface_z": 1.32,
+      "object": "North_Street_Slab_2_5"
+    },
+    {
+      "x": 0,
+      "y": 12.2,
+      "surface_z": 1.24,
+      "object": "Path_Subbase"
+    },
+    {
+      "x": 0,
+      "y": 17.7,
+      "surface_z": 1.3,
+      "object": "Road_Bed_NS"
+    },
+    {
+      "x": 0,
+      "y": 20.7,
+      "surface_z": 1.34,
+      "object": "Crossroad_Centre_Stone"
+    },
+    {
+      "x": 0,
+      "y": 23.7,
+      "surface_z": 1.235,
+      "object": "Path_Subbase.001"
+    },
+    {
+      "x": 0,
+      "y": 29.7,
+      "surface_z": 1.12,
+      "object": "North_Terrace_Ground"
+    },
+    {
+      "x": 0,
+      "y": 32.7,
+      "surface_z": 1.3,
+      "object": "Road_Bed_Main"
+    },
+    {
+      "x": -4,
+      "y": 20.7,
+      "surface_z": 1.24,
+      "object": "Path_Subbase.004"
+    },
+    {
+      "x": -8.8,
+      "y": 20.7,
+      "surface_z": 1.32,
+      "object": "Walk_Paver.178"
+    },
+    {
+      "x": 4,
+      "y": 20.7,
+      "surface_z": 1.24,
+      "object": "Path_Subbase.005"
+    },
+    {
+      "x": 8.8,
+      "y": 20.7,
+      "surface_z": 1.32,
+      "object": "Walk_Paver.181"
+    },
+    {
+      "x": -4,
+      "y": 32.7,
+      "surface_z": 1.24,
+      "object": "Path_Subbase.002"
+    },
+    {
+      "x": 4,
+      "y": 32.7,
+      "surface_z": 1.24,
+      "object": "Path_Subbase.003"
+    }
+  ],
+  "note": "Visual layout prototype; not a navigation, collision or Unreal-import test."
+}

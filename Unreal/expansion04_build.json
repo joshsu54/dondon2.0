@@ -1,0 +1,114 @@
+{
+  "status": "saved_reloaded_pending_runtime_visual",
+  "map": "/Game/Maps/TownLayout_04",
+  "sources": {
+    "CloudpiercerPeak": {
+      "fbx": "Models/CloudpiercerPeak/v002/CloudpiercerPeak_v002.fbx",
+      "sha256": "c73b8e2ba41593cdab3dd36789fecffcb5992bcf51f4764e721d9ffd26df9368",
+      "asset": "/Game/Art/Expansion04/Meshes/CloudpiercerPeak",
+      "dimensions_cm": [
+        4721.7705078125,
+        3764.18798828125,
+        6830.3098769445205
+      ]
+    },
+    "MountainRidge": {
+      "fbx": "Models/MountainRidge/v002/MountainRidge_v002.fbx",
+      "sha256": "ae50c58f1f79d37b533d90dcaeca5c47de7b4bb93e02127d0452e92e5ea40f0c",
+      "asset": "/Game/Art/Expansion04/Meshes/MountainRidge",
+      "dimensions_cm": [
+        9358.7001953125,
+        3563.406005859375,
+        4944.75907933875
+      ]
+    },
+    "SectGate": {
+      "fbx": "Models/SectGate/v001/SectGate_v001.fbx",
+      "sha256": "d2409501e43318bb786c4680ff1613fd8038064aed866709ab4c443d36460999",
+      "asset": "/Game/Art/Expansion04/Meshes/SectGate",
+      "dimensions_cm": [
+        914.0000610351562,
+        454.0,
+        571.7062115413755
+      ]
+    },
+    "MountainStoneStairs": {
+      "fbx": "Models/MountainStoneStairs/v001/MountainStoneStairs_v001.fbx",
+      "sha256": "52889ad2b788eb08a9acf705d578c1e8fb89674c206a58567d59efa5d16abf0e",
+      "asset": "/Game/Art/Expansion04/Meshes/MountainStoneStairs",
+      "dimensions_cm": [
+        319.0,
+        503.0000457763672,
+        355.00000848563286
+      ]
+    },
+    "MountainStonePath": {
+      "fbx": "Models/MountainStonePath/v001/MountainStonePath_v001.fbx",
+      "sha256": "1a9e0376108af27772e9d3386e4491f7635a32d030a3f9aab713ca1e55c3fe9c",
+      "asset": "/Game/Art/Expansion04/Meshes/MountainStonePath",
+      "dimensions_cm": [
+        325.0,
+        600.0,
+        32.00009838580445
+      ]
+    },
+    "SpiritHerbMature": {
+      "fbx": "Models/SpiritHerbMature/v001/SpiritHerbMature_v001.fbx",
+      "sha256": "c5f2f48592c996fb91c58861ed5a0a564598ddc77e149d226d48c17f003e4f56",
+      "asset": "/Game/Art/Expansion04/Meshes/SpiritHerbMature",
+      "dimensions_cm": [
+        40.833438873291016,
+        42.93481636047363,
+        43.80000349164365
+      ]
+    },
+    "SolidClouds": {
+      "fbx": "Models/MountainSanctuary/v004/SolidClouds_v004.fbx",
+      "sha256": "58dea56bce42ad7935c39d1dd5c188a785fcd7f793148d91effb9009de3a895a",
+      "asset": "/Game/Art/Expansion04/Meshes/SolidClouds",
+      "dimensions_cm": [
+        23269.8271484375,
+        34046.0556640625,
+        5880.290374755859
+      ]
+    }
+  },
+  "added_actors": [
+    "ValleyGround",
+    "NorthTrailBase",
+    "SectRoad_00",
+    "SectRoad_01",
+    "SectRoad_02",
+    "SectRoad_03",
+    "SectStairs_00",
+    "SectStairs_01",
+    "MiddleTrailRock",
+    "UpperTrailRock",
+    "SectGateTerrace",
+    "SectGateTerraceTop",
+    "SectGate04",
+    "ValleyRidge_00",
+    "ValleyRidge_01",
+    "ValleyRidge_02",
+    "ValleyRidge_03",
+    "DistantPeak_00",
+    "DistantPeak_01",
+    "DistantPeak_02",
+    "DriftingClouds_00",
+    "DriftingClouds_01",
+    "DriftingClouds_02",
+    "SectQuestBoard",
+    "QuestBoardPost_205",
+    "QuestBoardPost_315",
+    "QuestSpiritHerb_0",
+    "QuestSpiritHerb_1",
+    "QuestSpiritHerb_2"
+  ],
+  "current": "SolidClouds",
+  "actor_count": 3913,
+  "limits": [
+    "Existing FBX assets reused; no new Blender geometry",
+    "No quest persistence across sessions yet",
+    "Scenic distant meshes have no collision; trail uses complex static collision"
+  ]
+}

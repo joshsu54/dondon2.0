@@ -1,0 +1,34 @@
+{
+  "asset": "WoodenCrate",
+  "name_zh": "木箱",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "0.7 m plank crate with dark timber corner posts, frame, diagonal braces, flat lid and rope handle.",
+  "size_note": "Approx. 0.72 x 0.76 x 0.74 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.7300000190734863,
+    0.7529903650283813,
+    0.7400000095367432
+  ],
+  "mesh_objects": 33,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/WoodenCrate_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude geometry corrected locally to remove coplanar artifacts; SectCore04 materials and ten new renders with original ten references packed.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "board",
+    "rope",
+    "timber"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": true,
+  "geometry_revision": "Remove coplanar overlap: stagger paper layers, separate herb bundles, or inset crate frames by 2 mm per face."
+}

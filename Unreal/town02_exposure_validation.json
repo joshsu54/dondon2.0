@@ -1,0 +1,17 @@
+{
+  "map": "/Game/Maps/TownLayout_02.TownLayout_02",
+  "status": "saved_reloaded_and_visually_reviewed",
+  "exposure_ev100_min_max": 0,
+  "exposure_compensation": 1,
+  "bloom": 0.1,
+  "actor_count": 3882,
+  "saved_reloaded_settings_verified": true,
+  "visual_review": {
+    "overview": "Roof, walls and roads retain color/detail without prior white clipping",
+    "street": "Gate, inn and stairs reviewed; expected strong shaded areas remain"
+  },
+  "screenshots": [
+    "Validation/town02_overview_final.png",
+    "Validation/town02_street_final.png"
+  ]
+}

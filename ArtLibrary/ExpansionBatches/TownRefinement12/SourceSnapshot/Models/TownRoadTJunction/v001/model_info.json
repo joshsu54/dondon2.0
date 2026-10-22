@@ -1,0 +1,41 @@
+{
+  "asset": "TownRoadTJunction",
+  "name_zh": "青石路 T 字路口",
+  "category": "小鎮道路",
+  "stage": "editable_town_prototype",
+  "description": "6 x 6 m stone-paved T junction: 3 m road running east-west with a branch to the north, kerb stones on every edge and earthen verges in the corners.",
+  "size_note": "6 x 6 x 0.2 m; open edges at west, east and north.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    6.0,
+    5.989999771118164,
+    0.23000000417232513
+  ],
+  "mesh_objects": 9,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/TownRoadTJunction_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "connectors": {
+    "west": [
+      -3.0,
+      -0.005,
+      0.2
+    ],
+    "east": [
+      3.0,
+      -0.005,
+      0.2
+    ],
+    "north": [
+      0.0,
+      2.995,
+      0.2
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "asset": "CloudpiercerPeak",
+    "blend_reopened": true,
+    "meshes": 4,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "LayeredCliff",
+    "blend_reopened": true,
+    "meshes": 3,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 3.814697265625e-06,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MountainRidge",
+    "blend_reopened": true,
+    "meshes": 4,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 3.814697265625e-06,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SectSummitPlateau",
+    "blend_reopened": true,
+    "meshes": 3,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.9073486328125e-05,
+    "ten_view_files_present": true,
+    "flat_44x62m_summit_checked": true
+  },
+  {
+    "asset": "WindGrass",
+    "blend_reopened": true,
+    "meshes": 1,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 5.960464477539063e-08,
+    "ten_view_files_present": true,
+    "maximum_wind_displacement_m": 0.16417746227150956,
+    "loop_seam_error_m": 0.0,
+    "root_motion_m": 0.0
+  },
+  {
+    "asset": "WindPine",
+    "blend_reopened": true,
+    "meshes": 134,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true,
+    "maximum_wind_displacement_m": 0.3283548713618472,
+    "loop_seam_error_m": 0.0,
+    "root_motion_m": 0.0
+  }
+]

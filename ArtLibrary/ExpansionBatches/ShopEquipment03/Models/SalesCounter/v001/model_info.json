@@ -1,0 +1,59 @@
+{
+  "asset": "SalesCounter",
+  "name_zh": "售貨櫃台",
+  "stage": "extracted_appearance_prototype",
+  "source_blend": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+  "source_sha256": "17fba32fbaeb7435b8fb2224acdcf0f2bf28a6dab902938198e6591a1d352bc9",
+  "source_objects": [
+    "Counter_Cabinet",
+    "Counter_Top",
+    "Counter_Front_Plank",
+    "Counter_Front_Plank.001",
+    "Counter_Front_Plank.002",
+    "Counter_Front_Plank.003",
+    "Counter_Front_Plank.004",
+    "Counter_Front_Plank.005",
+    "Counter_Front_Plank.006",
+    "Counter_Front_Plank.007"
+  ],
+  "geometry_changes": "none; isolated and recentered",
+  "rotation_matrix_from_source": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.940000057220459,
+    0.8199999928474426,
+    0.7799999713897705
+  ],
+  "mesh_objects": 10,
+  "uv_baked": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false,
+  "bounds_method": "evaluated mesh vertices after modifiers"
+}

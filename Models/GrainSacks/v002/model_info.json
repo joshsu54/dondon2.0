@@ -1,0 +1,34 @@
+{
+  "asset": "GrainSacks",
+  "name_zh": "米糧麻袋",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label.",
+  "size_note": "Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.3840398788452148,
+    0.8847548961639404,
+    0.7087870836257935
+  ],
+  "mesh_objects": 9,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/GrainSacks_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude source geometry retained; semantic materials and studio matched to SectCore04. Prior ten concept images packed; ten new renders of this revision.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "board",
+    "burlap",
+    "paper",
+    "rope"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": false
+}

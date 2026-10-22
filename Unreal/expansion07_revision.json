@@ -1,0 +1,18 @@
+{
+  "status": "saved_reloaded_runtime_interrupted_visual_pending",
+  "map": "/Game/Maps/TownLayout_07",
+  "scope": "UE placement and light polish only; source Blender/FBX unchanged",
+  "source06_sha256": "016a6695184e8f24b2a1ce5fc45f46f30e99d230865245da906ac635a058b14b",
+  "checks": {
+    "actor_count": true,
+    "board_unchanged": true,
+    "base_collision": true,
+    "source06_unchanged": true,
+    "plinth_top_flush": true,
+    "clear_interaction_approach": true,
+    "BoardWarmFill07_saved": true,
+    "PavilionWarmFill07_saved": true
+  },
+  "map_sha256": "72fb9d1ef0ad029e36babe7169db4177935e83d44240df7df85d5abc79c4ef32",
+  "next_action": "Mac is locked. Resume review_expansion07.py after unlock; default map remains TownLayout_06."
+}

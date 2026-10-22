@@ -1,0 +1,12 @@
+{
+  "blend_reopened": true,
+  "volume_fog_removed": true,
+  "solid_clouds": 9,
+  "cloud_drift_loops": true,
+  "mesh_count": 8321,
+  "fbx_reimported": true,
+  "fbx_bounds_error_m": 2.115964889526367e-06,
+  "clouds_fbx_bounds_error_m": 1.52587890625e-05,
+  "previews": 4,
+  "unreal_import_verified": false
+}

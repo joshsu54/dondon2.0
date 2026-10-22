@@ -1,0 +1,24 @@
+{
+  "asset": "PondEdge",
+  "name_zh": "荷花池",
+  "category": "庭院",
+  "stage": "editable_town_prototype",
+  "description": "Small oval garden pond ringed by 26 rounded edge stones, with water surface, lotus pads, two pink lotus flowers and a clump of reeds.",
+  "size_note": "Approx. 5.2 x 3.8 m; water surface 0.22 m above the bed.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    5.237724304199219,
+    3.981072425842285,
+    1.2401599884033203
+  ],
+  "mesh_objects": 46,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/PondEdge_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

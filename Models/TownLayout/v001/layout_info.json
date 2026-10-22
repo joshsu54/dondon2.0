@@ -1,0 +1,138 @@
+{
+  "stage": "Spawn plaza plus one house and connecting first street",
+  "sources": [
+    "Models/SpawnTown/v001/SpawnTown_v001.blend",
+    "Models/StarterHouse/v004/StarterHouse_v004.blend"
+  ],
+  "house_location_blender_m": [
+    12,
+    -2,
+    0.24
+  ],
+  "house_rotation_z_degrees": -90,
+  "side_lane_width_m": 2.6,
+  "house_step_height_m": 0.18,
+  "mesh_objects": 1061,
+  "removed_curb_sections": [
+    "Plaza_Edge_1_3",
+    "Plaza_Edge_1_4",
+    "Plaza_Edge_1_5",
+    "Plaza_Edge_1_6"
+  ],
+  "east_passage_samples": [
+    {
+      "x": 2.5,
+      "y": -2.6,
+      "surface_z": 0.2455,
+      "surface": "Lower_Plaza_Slab_08_04"
+    },
+    {
+      "x": 2.5,
+      "y": -2,
+      "surface_z": 0.2455,
+      "surface": "Lower_Plaza_Slab_08_04"
+    },
+    {
+      "x": 2.5,
+      "y": -1.4,
+      "surface_z": 0.2385,
+      "surface": "Lower_Plaza_Slab_08_05"
+    },
+    {
+      "x": 3.5,
+      "y": -2.6,
+      "surface_z": 0.237,
+      "surface": "Lower_Plaza_Slab_09_04"
+    },
+    {
+      "x": 3.5,
+      "y": -2,
+      "surface_z": 0.244,
+      "surface": "Lower_Plaza_Slab_09_05"
+    },
+    {
+      "x": 3.5,
+      "y": -1.4,
+      "surface_z": 0.244,
+      "surface": "Lower_Plaza_Slab_09_05"
+    },
+    {
+      "x": 4.65,
+      "y": -2.6,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_0"
+    },
+    {
+      "x": 4.65,
+      "y": -2,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_1"
+    },
+    {
+      "x": 4.65,
+      "y": -1.4,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_2"
+    },
+    {
+      "x": 5.4,
+      "y": -2.6,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_0"
+    },
+    {
+      "x": 5.4,
+      "y": -2,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_1"
+    },
+    {
+      "x": 5.4,
+      "y": -1.4,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_0_2"
+    },
+    {
+      "x": 6.5,
+      "y": -2.6,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_1_0"
+    },
+    {
+      "x": 6.5,
+      "y": -2,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_1_1"
+    },
+    {
+      "x": 6.5,
+      "y": -1.4,
+      "surface_z": 0.24,
+      "surface": "East_Lane_Slab_1_2"
+    },
+    {
+      "x": 7.1,
+      "y": -2.6,
+      "surface_z": 0.24,
+      "surface": "House_Apron_Slab_0_3"
+    },
+    {
+      "x": 7.1,
+      "y": -2,
+      "surface_z": 0.24,
+      "surface": "House_Apron_Slab_0_4"
+    },
+    {
+      "x": 7.1,
+      "y": -1.4,
+      "surface_z": 0.24,
+      "surface": "House_Apron_Slab_0_5"
+    }
+  ],
+  "unity_verified": false,
+  "limitations": [
+    "Exterior layout only; no collision meshes, navmesh or gameplay",
+    "North elevated street end is a placeholder boundary, not a finished exit",
+    "FBX procedural materials need baking/rebuilding; no LOD optimisation"
+  ]
+}

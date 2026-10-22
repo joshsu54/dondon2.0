@@ -1,0 +1,194 @@
+{
+  "batch": "SectFacilities05",
+  "created": "2026-10-16",
+  "new_assets": [
+    {
+      "asset": "AlchemyHall",
+      "name_zh": "煉丹房",
+      "views": 10,
+      "dimensions_m": [
+        8.781864166259766,
+        7.519999980926514,
+        5.860000133514404
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "5b909319cea3359f99d0256ca077869aa63bb1a7caa0fcc92c1ab0ef8776c88e",
+        "02_right.png": "176a20b5902d19a9ce072640184d65d3d5d746524e1a760eef34f20cc01907e2",
+        "03_rear.png": "28e0b8e1f91fdf89fe49c8eed88371e220774c92514dc98aced68eadd2c5c2a2",
+        "04_left.png": "b98e11f337017985a8eef21e0abde4e986a7cf32d67f361433322a926d76dd78",
+        "05_front_right.png": "4394ce148b535db12ff10a4c31beef677a663a548678970e92d0325086b417a6",
+        "06_rear_right.png": "8c08739a50ada66e9e6b0acb80e9e6c18ddbd640c18523c3940b6345803ff7fa",
+        "07_rear_left.png": "094d7df91c74569a8de67244031f3e1790bbc32fba4c219794106a12657f7e9f",
+        "08_front_left.png": "520d8bee643b2f0672220a3e5d763c953fa8285ee7cf82f51fea5a2214d5602f",
+        "09_top.png": "ca039ddd94691ce52a788f21817159a1a33552b40e39a2b8dca17557e0179e5f",
+        "10_high_front.png": "8873f4ed427cca74fe820f64a6a4cd0502e478bd366461e206c8a42da844e08f"
+      }
+    },
+    {
+      "asset": "ScriptureLibrary",
+      "name_zh": "藏經閣",
+      "views": 10,
+      "dimensions_m": [
+        9.980001449584961,
+        8.059999465942383,
+        7.703195095062256
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "96d24cf5b92f43913f40a3207eac111d57b11aff58d159fc4d6911453873a96b",
+        "02_right.png": "11f1153f0881890bfb29c8ed8156e51c9163b23dd5924877f721ff74f1225e09",
+        "03_rear.png": "d3be25053d9680df2d23acd6857c9b9c77862a8d8af5c8764b2fb42bf207e68e",
+        "04_left.png": "660d50d067724d67e36a851920fefb2a91465c2e996468e9042533772692dc3c",
+        "05_front_right.png": "dd824665cb217607ccf59bd54503c7c92209d9a2318fd436238c5be1ce48cff9",
+        "06_rear_right.png": "5f60331e73ce2057b7cad42ce12c78d117b191f6c5d571643055e7c2ddb303d3",
+        "07_rear_left.png": "ff6f525417c63c3a6fc9f5a31376815b8a517260928c0e4ce42f0457da4c8d74",
+        "08_front_left.png": "a3bf35de907c199640fe48134272cfba60dea04e1ba158ea12f3106948cfe88c",
+        "09_top.png": "456adef713c9675fb5997a6fcd6573c71f41639127c0ebd9d4fa8f31236a98cb",
+        "10_high_front.png": "76ae81a86890f3a3b2f7efee96b1dbb464d9036e6415e6aed845802a3482f49f"
+      }
+    },
+    {
+      "asset": "SectStorehouse",
+      "name_zh": "宗門倉庫",
+      "views": 10,
+      "dimensions_m": [
+        9.581863403320312,
+        8.119999885559082,
+        5.311562538146973
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "e30e6b1e2bc8559ed62707aa064cf7ba8518c40423e75a8e631b6d46c0a1006c",
+        "02_right.png": "c8aa8979f9837c620346b44cea5a52b071fa814ba23affd835bd1bdee63a6e84",
+        "03_rear.png": "ad0caa6f33ff8f27fbd52f994e915ce97b19c090ba1ca7a77aea45babfc76d68",
+        "04_left.png": "a9c939e0035c996de9dd1e3e3e9b2e102fc8837e53990d00fcab4c3f2f7ec1d9",
+        "05_front_right.png": "a59f120bcff31e33c5343cc987d05a2e4bfeca710f67a02fd852b0db1dde289b",
+        "06_rear_right.png": "66c0df00e179bceaf8b0e532f1831ea959b8085f9790c296362079d33cfc1be8",
+        "07_rear_left.png": "ea5eebba4407d2b96521752241b840fc847cc1f13af6063d1260e2eb8d4afc1e",
+        "08_front_left.png": "b42c33c9c991bf536b3292c15c3f135791e12b310bea2761575aeeecae772dbd",
+        "09_top.png": "5d0ba42c99a524d31ea1fbb5b72d60cb6d2c93aeea213b098ac895dcfb5a9f52",
+        "10_high_front.png": "6ed7c3af1670d6b102556a60912e587f0b44b37c753bb2b19c04af8d07983642"
+      }
+    },
+    {
+      "asset": "MedicineCabinet",
+      "name_zh": "百子藥櫃",
+      "views": 10,
+      "dimensions_m": [
+        2.0,
+        0.6990000009536743,
+        2.109999895095825
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "20332fe803ee3162613bfb5bf1574262b7324adb38dd36ecc19c1665c4cb00f5",
+        "02_right.png": "365f8af84cbe77c9ac17caab5a4247e4bfb506e0c73742cc15b8b87cea17a3d3",
+        "03_rear.png": "0f47d8a7123026b2384eedcd8b72688c1a44e98761a3d1ab36f4fd8ad3c6a41d",
+        "04_left.png": "85d772a2d7a0f7663b8cc0c605d5646d4a358ad067daf04f5e2d3ba0af440f91",
+        "05_front_right.png": "e9a8896bd022ff12a123070ae0e92f6f82810b834e92539146f69cf7e6677f07",
+        "06_rear_right.png": "acdb78a6d0f36999ab9af17b1c85c8ad3b7681d21f538c53d76be8ca8a409da8",
+        "07_rear_left.png": "25b9140fd3ea5fce3b9a38e74dafa7ed6cb574460ea5ceb84c894bfe8e4b4eea",
+        "08_front_left.png": "1f06adf86c5e7a050c9bc4de4b142c35559ff3e96f2e6eace9ba363f951d52d0",
+        "09_top.png": "3478cb253021ce46f2a47c8d5c0363842f6b8f55c779aec18fc0d88c66dfa43d",
+        "10_high_front.png": "dfc7cf6fa111a011d0ce97f3e7abfc46092c714eb638d73420a3393dda552e3f"
+      }
+    },
+    {
+      "asset": "ScrollShelf",
+      "name_zh": "經卷玉簡架",
+      "views": 10,
+      "dimensions_m": [
+        2.0,
+        0.550000011920929,
+        2.0899999141693115
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "7d4b9efe2127fb08f7808faec3dc291d9cd684acd84f6886798414042c2febf7",
+        "02_right.png": "630b7ff8c31acc3815c379c8cbe14ddf50b7abd6c2a778457f1700151f2bb3cb",
+        "03_rear.png": "e3948cdb19c5afad2f650ea7ebdc73219ca4b5fa377b5848b581f179a39ef21b",
+        "04_left.png": "d3dc764e284770f8ccaa130bfd65e96be9ec21a2d61a083164d565299a85848e",
+        "05_front_right.png": "2aad179cd915586ffd663cac9916e8d33c8f983d336212d23e23cc44d86d281e",
+        "06_rear_right.png": "850cf29e572780edac8e2f0783c1c2e4bf3f7fa38d7af56e8f4ff4d2cd9f4324",
+        "07_rear_left.png": "5941da7e7319846add26583f7d4fb0661031e7541c15639c7ce339a8fa8e2d5a",
+        "08_front_left.png": "19bb0453b322e26afad3c31bf5834d029904bc5f5972dd8cbe71b03a7cbf5d58",
+        "09_top.png": "5c09e0be4b3fb730d8c882535d2638f107bf470a1d5629c4483dee909306a8ef",
+        "10_high_front.png": "e149b31808dd61cb97aae59f4fe68c9deebccf9022191a511911964538e5b712"
+      }
+    },
+    {
+      "asset": "ReadingDesk",
+      "name_zh": "閱讀書案",
+      "views": 10,
+      "dimensions_m": [
+        1.7000000476837158,
+        0.8500000238418579,
+        0.9050000309944153
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "1cde674269c89ebdbfda2775897e53dc9d920820a27da6296a069ef07a35b6b9",
+        "02_right.png": "a4819589e5c75bf8eb2aaa4d12560b34284d507cc9c5d7e79de895e3619a3086",
+        "03_rear.png": "0104caf37ae406ecee929756ff349506c3830c3f66676cc058b94d88b240d601",
+        "04_left.png": "0612501894fea1f0c0c7d5b40618dcf1ca47a8b5123a5fd29e1d668adb06636d",
+        "05_front_right.png": "ed379244e23cc41facf9018093a6aa5049b8285f133739749234607a2bc1b97f",
+        "06_rear_right.png": "0d155325d58711b8f1a42ab45b8b272f6723300b8a4797e46421091098f43a61",
+        "07_rear_left.png": "6dfdc992d2a72f5ec0796098a83154e871eaa7719d28aefc4e34460e22cbbe2e",
+        "08_front_left.png": "0c5efc43b8626a6d3fe2b705cf13ce111a9f5d529a3cba9a83ed04b6eaebf950",
+        "09_top.png": "76c3d44efe08b47bf8256c15aeca2f7712ed66b618ac24e00110f30c4914de05",
+        "10_high_front.png": "a1df7715758f2b44d626f8e206c081cb02437f5f8404336087928e68be4bd2b9"
+      }
+    },
+    {
+      "asset": "StorageChest",
+      "name_zh": "宗門儲物箱",
+      "views": 10,
+      "dimensions_m": [
+        1.4500000476837158,
+        0.906000018119812,
+        0.7944999933242798
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "338bcbbc1ec30978e01ff2513d2cd3361c12bfabbeb35ccc302e392431ca32b1",
+        "02_right.png": "df7f54f1c558fbcbc590399b8f793f3cbe6eae5b946a91f70fdbf40cd36c8355",
+        "03_rear.png": "3118ed707cb27f22a40563cd1c824c1d1f8b9fbbad355260745fb2269dc4610b",
+        "04_left.png": "ba431a10f619593255fc03833333fd796cc64d8fbec0297e71e1e358a7815c8f",
+        "05_front_right.png": "23bd8116fc79bdbc2d5d5370889c2fa6d0731ca7cd1ebd1d8e54b4e6f1a48eb9",
+        "06_rear_right.png": "682e5b1a68fdd8745b5d4c2e61b458fc1919c34e8e8c86347e4c5061bdae7624",
+        "07_rear_left.png": "010a399c4d3e647eb6797750b0e7c434267bf0b84e2bcc08dcc671dea9914f9d",
+        "08_front_left.png": "8f5bcdfc6f40ddabe356f854600b6ad0d4e0d0d72980327122623dec2297df8a",
+        "09_top.png": "94777a7f71677f9863649e49761c43b4e6c7bd0c1cec7b910f52f214c7854534",
+        "10_high_front.png": "c2ae4678a43d74e553b9786e9f02fdc7661e6dd161947f2a5f719b24d2dc1602"
+      }
+    },
+    {
+      "asset": "DiscipleBed",
+      "name_zh": "弟子床鋪",
+      "views": 10,
+      "dimensions_m": [
+        1.2000000476837158,
+        2.119999885559082,
+        0.9750000238418579
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "119f0255ada7b01d18ffd593138fcd81d147b0103dec47d25988dc077eaf3a71",
+        "02_right.png": "015504f7b9cadcca054cdff9f5d79efe162b3d4a009e137f5bbb9cddb6d5a515",
+        "03_rear.png": "0d469ff2f5c0c7ffb491db55069d8b8af720f47fe10cf7f64285624c7109dfbb",
+        "04_left.png": "d3a0f280a5e4da929c9d5d32df6467e407e4853296bb3ac43cca7942a24b3991",
+        "05_front_right.png": "b9ceb66d0a7bc73f33f7f8fd099f83e037df25be81d2d8dd83d3183120af5705",
+        "06_rear_right.png": "463e1bc34033a7ddc2086256968122646d4799cbb49f132e8a6137b873fadb29",
+        "07_rear_left.png": "ca5c06d316ae58268adc168d6aa77bcc3cbdead278f5daa3607c487ce3144cdd",
+        "08_front_left.png": "6a9af97515bd9d90d5a71ffe2d85d05baaab44dd26eacc07a8793614d1e4bca0",
+        "09_top.png": "d4f179b93d3430f16e5e0fafb607be22816ab34ccde7d069bdf68d6fccbef72f",
+        "10_high_front.png": "72baa96b6fd8cac6ec8723060995fa994a0ecff4c1e675e75a20bf46c5ba96c0"
+      }
+    }
+  ],
+  "new_asset_sets": 8,
+  "new_views": 80,
+  "assembled_scene": "SectLayout",
+  "scene_previews": 3
+}

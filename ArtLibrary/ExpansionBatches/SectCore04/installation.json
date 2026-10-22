@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "new_asset_sets": 6,
+  "new_view_images": 60,
+  "new_layout_scenes": 1,
+  "scene_preview_images": 3,
+  "library_asset_sets": 33,
+  "library_ten_view_images": 330,
+  "library_scenes": 2,
+  "copy_sha256_verified": true,
+  "existing_models_modified": false,
+  "metadata_backup": "/Users/joshmac/強悍修仙2.0/ArtLibrary/History/BeforeSectCore04",
+  "link_checks": [
+    {
+      "page": "index.html",
+      "local_links": 772,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/HerbalExpansion01/index.html",
+      "local_links": 87,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/TownProps02/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/ShopEquipment03/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectCore04/index.html",
+      "local_links": 151,
+      "missing": []
+    }
+  ]
+}

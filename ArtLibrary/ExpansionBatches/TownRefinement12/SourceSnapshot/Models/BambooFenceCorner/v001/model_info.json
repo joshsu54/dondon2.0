@@ -1,0 +1,24 @@
+{
+  "asset": "BambooFenceCorner",
+  "name_zh": "竹籬笆轉角段",
+  "category": "庭院與圍欄",
+  "stage": "editable_town_prototype",
+  "description": "L-shaped bamboo fence corner: thicker corner post, two 1 m arms with rails, rope ties and bamboo pickets, matching the BambooFence segment.",
+  "size_note": "1.1 x 1.1 x 1.35 m; arm ends at (-1, 0) and (0, +1) m for tiling with BambooFence.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.2074177265167236,
+    1.1936709880828857,
+    1.350000023841858
+  ],
+  "mesh_objects": 51,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/BambooFenceCorner_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,42 @@
+{
+  "source_map": "/Game/Maps/TownPrototype_01",
+  "map": "/Game/Maps/TownPrototype_02",
+  "assigned_mesh_actors": 483,
+  "unmatched": [],
+  "material_method": "Blender procedural color-ramp mean; no texture baking",
+  "materials": [
+    "/Game/Art/Materials/SectPalette01/M_Clay_Jar.M_Clay_Jar",
+    "/Game/Art/Materials/SectPalette01/M_Material.M_Material",
+    "/Game/Art/Materials/SectPalette01/M_Aged_Chestnut_Timber.M_Aged_Chestnut_Timber",
+    "/Game/Art/Materials/SectPalette01/M_Dark_Brass.M_Dark_Brass",
+    "/Game/Art/Materials/SectPalette01/M_Worn_Porch_Boards.M_Worn_Porch_Boards",
+    "/Game/Art/Materials/SectPalette01/M_Warm_Window_Paper.M_Warm_Window_Paper",
+    "/Game/Art/Materials/SectPalette01/M_Blue_Stone_0.M_Blue_Stone_0",
+    "/Game/Art/Materials/SectPalette01/M_Blue_Stone_1.M_Blue_Stone_1",
+    "/Game/Art/Materials/SectPalette01/M_Blue_Stone_2.M_Blue_Stone_2",
+    "/Game/Art/Materials/SectPalette01/M_Blue_Stone_3.M_Blue_Stone_3",
+    "/Game/Art/Materials/SectPalette01/M_Dark_Joint.M_Dark_Joint",
+    "/Game/Art/Materials/SectPalette01/M_Warm_Lime_Plaster.M_Warm_Lime_Plaster",
+    "/Game/Art/Materials/SectPalette01/M_Celadon_Grey_Tile_2.M_Celadon_Grey_Tile_2",
+    "/Game/Art/Materials/SectPalette01/M_Celadon_Grey_Tile_3.M_Celadon_Grey_Tile_3",
+    "/Game/Art/Materials/SectPalette01/M_Celadon_Grey_Tile_4.M_Celadon_Grey_Tile_4",
+    "/Game/Art/Materials/SectPalette01/M_Celadon_Grey_Tile_1.M_Celadon_Grey_Tile_1",
+    "/Game/Art/Materials/SectPalette01/M_Celadon_Grey_Tile_0.M_Celadon_Grey_Tile_0",
+    "/Game/Art/Materials/SectPalette01/M_Studio_Warm_Grey.M_Studio_Warm_Grey",
+    "/Game/Art/Materials/SectPalette01/M_Aged_Red_Brown_Timber.M_Aged_Red_Brown_Timber",
+    "/Game/Art/Materials/SectPalette01/M_Bluestone_0.M_Bluestone_0"
+  ],
+  "status": "saved_and_reloaded_material_overrides_verified",
+  "reloaded_map": "/Game/Maps/TownPrototype_02.TownPrototype_02",
+  "mesh_actors_with_palette": 485,
+  "missing_materials": [],
+  "visual_review": {
+    "date": "2026-10-19 Asia/Taipei",
+    "result": "base palette and geometry reviewed in UE screenshots",
+    "evidence": "Validation/prototype02_stairs_pie.png",
+    "limitations": [
+      "Procedural surface detail is not baked",
+      "Prototype lighting is not final"
+    ]
+  }
+}

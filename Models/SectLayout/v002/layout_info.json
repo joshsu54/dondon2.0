@@ -1,0 +1,275 @@
+{
+  "asset": "SectLayout",
+  "name_zh": "宗門擴建配置",
+  "units": "meters",
+  "placements": [
+    {
+      "asset": "SectGate",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/SectGate/v001/SectGate_v001.blend",
+      "position_m": [
+        0,
+        -15,
+        0
+      ]
+    },
+    {
+      "asset": "SectGrandHall",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/SectGrandHall/v001/SectGrandHall_v001.blend",
+      "position_m": [
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "asset": "DiscipleResidence",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/DiscipleResidence/v001/DiscipleResidence_v001.blend",
+      "position_m": [
+        -11,
+        0,
+        0
+      ]
+    },
+    {
+      "asset": "TrainingGround",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/TrainingGround/v001/TrainingGround_v001.blend",
+      "position_m": [
+        11,
+        -3,
+        0
+      ]
+    },
+    {
+      "asset": "SpiritHerbGarden",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/SpiritHerbGarden/v001/SpiritHerbGarden_v001.blend",
+      "position_m": [
+        -11,
+        12,
+        0
+      ]
+    },
+    {
+      "asset": "CultivationPlatform",
+      "source": "/Users/joshmac/強悍修仙2.0/Models/CultivationPlatform/v001/CultivationPlatform_v001.blend",
+      "position_m": [
+        10,
+        12,
+        0
+      ]
+    },
+    {
+      "asset": "AlchemyHall",
+      "source": "/Users/joshmac/Documents/Codex/2026-10-15/new-chat/outputs/SectFacilities05/Models/AlchemyHall/v001/AlchemyHall_v001.blend",
+      "position_m": [
+        -13,
+        26,
+        0
+      ]
+    },
+    {
+      "asset": "ScriptureLibrary",
+      "source": "/Users/joshmac/Documents/Codex/2026-10-15/new-chat/outputs/SectFacilities05/Models/ScriptureLibrary/v001/ScriptureLibrary_v001.blend",
+      "position_m": [
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "asset": "SectStorehouse",
+      "source": "/Users/joshmac/Documents/Codex/2026-10-15/new-chat/outputs/SectFacilities05/Models/SectStorehouse/v001/SectStorehouse_v001.blend",
+      "position_m": [
+        13,
+        26,
+        0
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "from": [
+        0,
+        -12,
+        0
+      ],
+      "to": [
+        0,
+        7,
+        0
+      ],
+      "width_m": 3.2
+    },
+    {
+      "from": [
+        0,
+        -6,
+        0
+      ],
+      "to": [
+        -11,
+        -6,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        -11,
+        -6,
+        0
+      ],
+      "to": [
+        -11,
+        -4,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        0,
+        -9,
+        0
+      ],
+      "to": [
+        11,
+        -9,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        11,
+        -9,
+        0
+      ],
+      "to": [
+        11,
+        -7,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        0,
+        6,
+        0
+      ],
+      "to": [
+        -11,
+        6,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        -11,
+        6,
+        0
+      ],
+      "to": [
+        -11,
+        9.6,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        0,
+        6,
+        0
+      ],
+      "to": [
+        10,
+        6,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        10,
+        6,
+        0
+      ],
+      "to": [
+        10,
+        9,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        8,
+        6,
+        0
+      ],
+      "to": [
+        8,
+        20,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        -13,
+        20,
+        0
+      ],
+      "to": [
+        13,
+        20,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        -13,
+        20,
+        0
+      ],
+      "to": [
+        -13,
+        22,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        0,
+        20,
+        0
+      ],
+      "to": [
+        0,
+        23.6,
+        0
+      ],
+      "width_m": 2.4
+    },
+    {
+      "from": [
+        13,
+        20,
+        0
+      ],
+      "to": [
+        13,
+        21.5,
+        0
+      ],
+      "width_m": 2.4
+    }
+  ],
+  "stage": "Static editable campus layout; paths are visual guides, not validated navigation or collision.",
+  "unreal_import_verified": false,
+  "preview_count": 3
+}

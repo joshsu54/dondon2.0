@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "BasicSword01",
+    "blend_reopened": true,
+    "meshes": 4,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 7.450580596923828e-09,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "GoodsShelf",
+    "blend_reopened": true,
+    "meshes": 8,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.980232238769531e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "IronIngot01",
+    "blend_reopened": true,
+    "meshes": 1,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 4.470348358154297e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "JadeOre01",
+    "blend_reopened": true,
+    "meshes": 1,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.9802322387695312e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MaterialSack01",
+    "blend_reopened": true,
+    "meshes": 7,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MedicineJar01",
+    "blend_reopened": true,
+    "meshes": 2,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.9802322387695312e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SalesCounter",
+    "blend_reopened": true,
+    "meshes": 10,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SmithTongs",
+    "blend_reopened": true,
+    "meshes": 11,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true
+  }
+]

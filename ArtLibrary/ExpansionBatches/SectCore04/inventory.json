@@ -1,0 +1,148 @@
+{
+  "batch": "SectCore04",
+  "created": "2026-10-15",
+  "new_assets": [
+    {
+      "asset": "SectGate",
+      "name_zh": "宗門山門",
+      "views": 10,
+      "dimensions_m": [
+        9.140000343322754,
+        4.539999961853027,
+        5.717061519622803
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "a99ffe8470854663fb98f72bcb37195e732c8a7c8deb901decd6b803d649895b",
+        "02_right.png": "edfd251a9a8d73c69ce7f2089e1e70eca70b05a39a77a00042ae1ca6b4af34ee",
+        "03_rear.png": "c577a66bf04b161a57f8d5f41bdbfdc984b5e66d4d60958615ad8f3a9abfd1fa",
+        "04_left.png": "ce7d6bc4976494d580de0b5521f9a68f24f6da7dc2acd5bd183c0aad2515afe6",
+        "05_front_right.png": "0ebc6e9a65f9c893d9380bfb228386203c8f4c011c1698a8ce850698414b1ca4",
+        "06_rear_right.png": "01dca879b167551b3c30cf9d77814c1db78b40b42d4c8fd326db8623f3687ef7",
+        "07_rear_left.png": "2bbde1087174b3f5ade409629c3a408bcd86485e30c497fe8bc04966c6a9ed09",
+        "08_front_left.png": "e871112ca639d4bad41d47d6d54d18e4661eb4b893a6c831f30e61db351f71e8",
+        "09_top.png": "37f4766de788b8139a40637f8f2412f63346a1191d32dfe7afffde1de1fa9b84",
+        "10_high_front.png": "700ea785dd9fda97729cf799110d42563c73356fb0644277a9f0be7ef4d16fa9"
+      }
+    },
+    {
+      "asset": "SectGrandHall",
+      "name_zh": "宗門大殿",
+      "views": 10,
+      "dimensions_m": [
+        12.640000343322754,
+        10.399999618530273,
+        7.169807434082031
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "0fdd3032645e4ddb1922ec6791d81a351e939b0bc0b8bc396be63f013443d395",
+        "02_right.png": "9b697733e96c73fca92527255dd7b32f5a3c8190d56ddec48d4dc086010aa467",
+        "03_rear.png": "211bbd5de36479c478400d35054e3f257840aa0b9e52404c85cb83d1ca9c94e1",
+        "04_left.png": "dc3aee998b1aa1cff0eeae5693e05f3b985803e2d93f654166119bcc607a167a",
+        "05_front_right.png": "2aa1ee90d19d151b81b57e40a38ee0fd147b02b5a4c46c0540f55015c01f81c8",
+        "06_rear_right.png": "88e4abf6decc28a4daec8ffa16f87e2d0a08e5d9f14a7adeb825ceb7cfbb6f14",
+        "07_rear_left.png": "cc7673d7acd3447dd70a3473489dda4c8fb24d4b8fdf087bb58881d327f66c0b",
+        "08_front_left.png": "dc74d510b558122af197bb61b1f3d4fafef0391dedf1d3fdae674be1976d2cbd",
+        "09_top.png": "eccbe8bc2b9b89ba71a81f873a66fdab35779f091ce71af80da432334fe4cff9",
+        "10_high_front.png": "459bf9f4b9b080cb073cf8438d1f36f38c5462172681d8db28add387123e7067"
+      }
+    },
+    {
+      "asset": "DiscipleResidence",
+      "name_zh": "弟子居所",
+      "views": 10,
+      "dimensions_m": [
+        9.581863403320312,
+        7.470000267028809,
+        5.541562080383301
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "dc78f517ca8e62f61623929234fcc27dbcb9c4675bc3fc0889adcbceb0b8172c",
+        "02_right.png": "4f1b0df134c680b600d6c928cf0eaee2ea4ae88eab6932dc054f0b45094cba09",
+        "03_rear.png": "6e11096ee4c1a9d36b81b4b915380e77340f3115c9e058c791a70aba609d4d20",
+        "04_left.png": "672f2fa595e3656501f60586d10965116b2b6543719032c25721cffb344413a2",
+        "05_front_right.png": "4dad7a028d38b6cfad66fa3da03037fa82e80b4a36db320a9f845f667f95d0fb",
+        "06_rear_right.png": "33396c787a9a640f430bd0759a195a068d0c40db12d7b550e134c03a42bc9fba",
+        "07_rear_left.png": "6a07bc8fdf2586f06c2d77be40c42ff270b404669bc6cc4e1a55a19b94a85671",
+        "08_front_left.png": "ee50919662f6b418c1e5fd292fbe914b26eed9e5d1c6618a2bb186b447d388d7",
+        "09_top.png": "1e13447755e535f6161bd2259d8594500f891b58f524c63c9db1aa5bab637fac",
+        "10_high_front.png": "2ffb0c0582122ad5adec2f7eb12135b5d8adc4b289748c093ed3baa807085163"
+      }
+    },
+    {
+      "asset": "TrainingGround",
+      "name_zh": "演武場",
+      "views": 10,
+      "dimensions_m": [
+        8.140000343322754,
+        7.720000267028809,
+        2.2950000762939453
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "62d78437a9943927a3698b16b4f38d7ad59df90173e061fabdbf2cc7df0727b6",
+        "02_right.png": "b207b5bceb76f1625edb2d4674ba68b037dd8d22ccec85e02f47b4cfe4b1108f",
+        "03_rear.png": "f7c841ba6f90e58335233956d26928bf77685f690f6ca9e9bf720e28065ce07b",
+        "04_left.png": "4ad2674d58b94e0a28b62a20a17e782c6257b520ec9550ae370eee40cdef247e",
+        "05_front_right.png": "b06077b87e6ca87e3236b4e32cc4205468aa5a4b39bffd7aed7fb9ee6d94144b",
+        "06_rear_right.png": "cc5cac1a3f5e9207d8cbb515b110ae5c40522225ab2a2092bab3456f3f75919c",
+        "07_rear_left.png": "6acb4d68afb72f2e3aead1d1e1811b0e8f1985a22cc95f69c378dc01a1929887",
+        "08_front_left.png": "78d7fad1b869190add4c191938b907e6100011efed0a42981f64b92bb9be53fc",
+        "09_top.png": "687bb76040723a9f19895e2e8250b8d9825c43e1c561ec8981fec41e02c23696",
+        "10_high_front.png": "fd86eb3fbd0681c329bda78da068f93ad9554e30a77b5ef0ee90694b528bcdf0"
+      }
+    },
+    {
+      "asset": "SpiritHerbGarden",
+      "name_zh": "靈藥圃",
+      "views": 10,
+      "dimensions_m": [
+        6.300000190734863,
+        4.900000095367432,
+        0.921999990940094
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "bfcd216b6164ee9eeab8886d99d9d2ab575c7e085e8e4cff813ac1f4f460b067",
+        "02_right.png": "74a441e9be85c4bd1b61f5681c55eb8be0c5582bdfbcaa655843ada91d086158",
+        "03_rear.png": "7fe4f242d282517577f0f833e575adc53a5f3e3f170b25202bbafa11ec6ca0dc",
+        "04_left.png": "b4be75a433cf30e155bdf7609a834de3a1d0480777827ff40d326d8488a3e1da",
+        "05_front_right.png": "df54e17fa179558b91df07cff0216f906f4c7338192da4c1eeedf7e806bd719f",
+        "06_rear_right.png": "160340afa6bc6e6434248b2876fe943c621f82561eb26b2858ee684530798388",
+        "07_rear_left.png": "9d8a4dec6ea52358f89bdd660fc318c8b817ba60aaa542a7d6f8d3c3c631168b",
+        "08_front_left.png": "baa1a008a0c26ce093b51158ab957e9ab82b869a29ce81b7180f8db86d3489d1",
+        "09_top.png": "8e473ac8300e9a171fb2f158edbdd5489ac2163ae082f92ee00b3234226440c6",
+        "10_high_front.png": "414ce5d7b455bcf4d319547933b50630fbae26df190c45d2a07d266a12524766"
+      }
+    },
+    {
+      "asset": "CultivationPlatform",
+      "name_zh": "修煉台／聚靈陣",
+      "views": 10,
+      "dimensions_m": [
+        5.584714889526367,
+        5.843533992767334,
+        1.5499999523162842
+      ],
+      "status": "editable_architecture_prototype",
+      "sha256": {
+        "01_front.png": "5c02bd3d6673eae41adc23bd6e160144195d5e496d183440924a9fb3649619b9",
+        "02_right.png": "1eabc1bb5e64c934d57e506f04cbe9aa2af95214699afd7ea1d5f2abfc53f28f",
+        "03_rear.png": "3159da98c9388620d87230218910be2f1eb4975084d64948a6e2f6b160a65fb5",
+        "04_left.png": "e0a2a6600f6cb760eed49e889e09ed27a39e85db4f3c94f70e683febf1bde5d7",
+        "05_front_right.png": "046ce668fc34096ee6097f9d7762a3f1e16d34c6d218637c0c3ed12e2661c96c",
+        "06_rear_right.png": "194a2bee224cfb27f32aead1d7caa4f8e34d0c3c358a6278936c4b4e649945cd",
+        "07_rear_left.png": "e23e0cc54318d36a26e11dd149d7778a76be2a4a910f9427542ffec5a7e8ecca",
+        "08_front_left.png": "7254da16d28602bf23ebab6297a9eb083efee2a7a6d83ffff55bdc7d5f8217ba",
+        "09_top.png": "fcb26ec0a2f2bafcf31893952f87d08ec53d755c7340f79069202fed34a81331",
+        "10_high_front.png": "60117c2467031b96b0414e3c0a88a47990a62e860db3ae7e447ea3f915dd9bcd"
+      }
+    }
+  ],
+  "new_asset_sets": 6,
+  "new_views": 60,
+  "assembled_scene": "SectLayout",
+  "scene_previews": 3
+}

@@ -1,0 +1,29 @@
+{
+  "effect": "WindFog",
+  "version": "v002",
+  "replaces": "v001 volumetric fog (per-frame volume noise flicker)",
+  "blender_fps": 24,
+  "frame_range": [
+    1,
+    96
+  ],
+  "loop_seconds": 4,
+  "preview_fps": 12,
+  "preview_frames": 48,
+  "wind_method": "height-weighted shape keys; roots fixed",
+  "cloud_method": "solid metaball-derived meshes, looping object-location drift",
+  "solid_clouds": [
+    "Cloud_Low_Left",
+    "Cloud_Low_Right",
+    "Cloud_Rear_Ribbon",
+    "Cloud_Peak_Collar"
+  ],
+  "rigid_body_or_fluid_simulation": false,
+  "engine_effect_exported": false,
+  "editable_parameters": [
+    "Wind_Main and Wind_Gust shape-key amplitudes",
+    "Cloud object location keyframes",
+    "Solid_Cloud material",
+    "Cloud mesh vertices (editable)"
+  ]
+}

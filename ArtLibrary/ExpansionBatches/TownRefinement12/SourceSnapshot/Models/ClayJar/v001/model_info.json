@@ -1,0 +1,24 @@
+{
+  "asset": "ClayJar",
+  "name_zh": "陶罐",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "Round-bellied terracotta storage jar with a dark green glaze band, cloth lid tied with rope and two small lugs.",
+  "size_note": "Approx. 0.6 x 0.6 x 0.74 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.5839999914169312,
+    0.5839999914169312,
+    0.7400000095367432
+  ],
+  "mesh_objects": 6,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/ClayJar_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

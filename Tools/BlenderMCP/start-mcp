@@ -1,0 +1,6 @@
+#!/bin/sh
+TOOL_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+export DISABLE_TELEMETRY=true
+export BLENDER_HOST=127.0.0.1
+export BLENDER_PORT=9876
+exec "$TOOL_DIR/.venv/bin/mcp-for-blender" "$@"

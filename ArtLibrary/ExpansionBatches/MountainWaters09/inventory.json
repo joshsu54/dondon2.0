@@ -1,0 +1,39 @@
+{
+  "batch": "MountainWaters09",
+  "created": "2026-10-16",
+  "new_asset_sets": 3,
+  "new_views": 30,
+  "new_assets": [
+    {
+      "asset": "WaterfallCliff",
+      "name_zh": "山崖瀑布",
+      "views": 10,
+      "dimensions_m": [
+        13.178197860717773,
+        11.293456077575684,
+        10.850000381469727
+      ]
+    },
+    {
+      "asset": "MountainStreamBend",
+      "name_zh": "彎曲山溪",
+      "views": 10,
+      "dimensions_m": [
+        6.804531097412109,
+        10.311314582824707,
+        1.4480977058410645
+      ]
+    },
+    {
+      "asset": "SpiritSpringPool",
+      "name_zh": "靈泉水潭",
+      "views": 10,
+      "dimensions_m": [
+        7.846358776092529,
+        6.887700080871582,
+        3.4000000953674316
+      ]
+    }
+  ],
+  "water_type": "static geometry"
+}

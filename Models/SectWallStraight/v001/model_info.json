@@ -1,0 +1,20 @@
+{
+  "asset": "SectWallStraight",
+  "name_zh": "宗門直牆模組",
+  "stage": "editable_architecture_prototype",
+  "description": "4 m long wall module; connectors at local X +/-2 m. Static plaster, stone, timber and tile geometry.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    4.0,
+    0.7428402900695801,
+    2.4111335277557373
+  ],
+  "mesh_objects": 60,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,36 @@
+{
+  "asset": "BambooBasket",
+  "name_zh": "竹簍",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "Tapered woven bamboo back basket with staves, weave bands, wooden rim, two rope straps and herb bundles inside.",
+  "size_note": "Approx. 0.6 x 0.6 x 0.67 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.5699999928474426,
+    0.6018167734146118,
+    0.6700000166893005
+  ],
+  "mesh_objects": 47,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/BambooBasket_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude geometry corrected locally to remove coplanar artifacts; SectCore04 materials and ten new renders with original ten references packed.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "bamboo",
+    "board",
+    "cloth",
+    "rope",
+    "straw"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": true,
+  "geometry_revision": "Remove coplanar overlap: stagger paper layers, separate herb bundles, or inset crate frames by 2 mm per face."
+}

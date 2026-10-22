@@ -1,0 +1,23 @@
+{
+  "asset": "WindPine",
+  "name_zh": "迎風松",
+  "stage": "editable_landscape_prototype",
+  "description": "Variant of existing WelcomingPine. Height-weighted looping shape-key sway with a fixed rocky base; Blender preview only.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    12.54219913482666,
+    3.7251152992248535,
+    7.121906757354736
+  ],
+  "mesh_objects": 134,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "editable geometry; all ten views rendered at frame 1 from the same model",
+  "animation": "Blender shape keys, 96-frame wind loop; FBX is static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "source_asset": "Models/WelcomingPine/v001/WelcomingPine_v001.blend",
+  "source_preserved": true
+}

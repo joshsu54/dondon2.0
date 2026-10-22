@@ -1,0 +1,18 @@
+{
+  "asset": "SpiritSpringPool",
+  "name_zh": "靈泉水潭",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    7.846358776092529,
+    6.887700080871582,
+    3.4000000953674316
+  ],
+  "mesh_objects": 82,
+  "same_geometry_ten_views": true,
+  "water": "static mesh",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

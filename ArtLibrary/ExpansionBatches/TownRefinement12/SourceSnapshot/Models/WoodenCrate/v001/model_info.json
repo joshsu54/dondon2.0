@@ -1,0 +1,24 @@
+{
+  "asset": "WoodenCrate",
+  "name_zh": "木箱",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "0.7 m plank crate with dark timber corner posts, frame, diagonal braces, flat lid and rope handle.",
+  "size_note": "Approx. 0.72 x 0.76 x 0.74 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    0.7300000190734863,
+    0.7529903650283813,
+    0.7400000095367432
+  ],
+  "mesh_objects": 33,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/WoodenCrate_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,33 @@
+{
+  "scene": "MountainSanctuary",
+  "version": "v003",
+  "source_scene": "MountainSanctuary/v002",
+  "removed_volume_fog": [
+    "Cloud_Valley_West",
+    "Cloud_Valley_East",
+    "Cloud_Distant_Saddle"
+  ],
+  "solid_clouds": [
+    "Cloud_West_Peak_Collar",
+    "Cloud_East_Peak_Collar",
+    "Cloud_Ridge_Band",
+    "Cloud_North_Saddle",
+    "Cloud_West_Valley",
+    "Cloud_East_Flank",
+    "Cloud_East_Front_Low",
+    "Cloud_Southwest_Low",
+    "Cloud_Far_Front_Sea"
+  ],
+  "cloud_method": "metaball-derived solid meshes; 96-frame looping object drift in .blend",
+  "fbx": "static geometry including solid clouds; SolidClouds_v003.fbx holds clouds alone",
+  "clouds_clear_of": [
+    "60_Mountain_Ascent (4 m margin, bounding boxes)",
+    "sect area above 47 m"
+  ],
+  "previews": 4,
+  "limitations": [
+    "Mist/haze should come from the engine (e.g. Unreal Exponential Height Fog)",
+    "Cloud drift animation is not exported to FBX",
+    "No collision, LOD or UV baking"
+  ]
+}

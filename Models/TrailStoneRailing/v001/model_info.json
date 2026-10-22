@@ -1,0 +1,37 @@
+{
+  "asset": "TrailStoneRailing",
+  "name_zh": "獨立石欄杆",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.4000000953674316,
+    0.47999998927116394,
+    1.3799999952316284
+  ],
+  "mesh_objects": 35,
+  "same_geometry_ten_views": true,
+  "stage": "editable architecture prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "connectors": {
+    "left_end": [
+      -1.7000000476837158,
+      0.0,
+      0.0
+    ],
+    "right_end": [
+      1.7000000476837158,
+      0.0,
+      0.0
+    ]
+  },
+  "foundation_length_m": 3.4,
+  "post_centres_m": [
+    -1.5,
+    0,
+    1.5
+  ],
+  "use": "Standalone visual module; adjust end posts when joining repeats."
+}

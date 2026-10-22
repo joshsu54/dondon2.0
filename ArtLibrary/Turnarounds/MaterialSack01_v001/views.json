@@ -1,0 +1,158 @@
+{
+  "asset": "MaterialSack01",
+  "source": "Models/MaterialSack01/v001/MaterialSack01_v001.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "camera_location": [
+        -0.0002576559782028198,
+        -2.0341522693634033,
+        0.23134300112724304
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "camera_location": [
+        2.0337202548980713,
+        -0.0001742541790008545,
+        0.23134300112724304
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "camera_location": [
+        -0.0002576559782028198,
+        2.033803701400757,
+        0.23134300112724304
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "camera_location": [
+        -2.034235715866089,
+        -0.0001742541790008545,
+        0.23134300112724304
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        1.3702715635299683,
+        -1.3707034587860107,
+        0.848081111907959
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        1.3702715635299683,
+        1.3703548908233643,
+        0.848081111907959
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -1.3707867860794067,
+        1.3703548908233643,
+        0.848081111907959
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -1.3707867860794067,
+        -1.3707034587860107,
+        0.848081111907959
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        -0.0002576559782028198,
+        -0.0001742541790008545,
+        2.2653207778930664
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        -0.0002576559782028198,
+        -1.4384139776229858,
+        1.669582724571228
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ],
+  "normalization_note": "Geometry, lights and cameras translated equally; rendered appearance and framing preserved."
+}

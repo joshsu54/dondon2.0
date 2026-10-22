@@ -1,0 +1,44 @@
+{
+  "updated": "2026-10-16",
+  "model_asset_sets": 49,
+  "consistent_turnaround_images": 490,
+  "assembled_scenes": 2,
+  "link_checks": [
+    {
+      "page": "index.html",
+      "local_links": 1145,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/HerbalExpansion01/index.html",
+      "local_links": 87,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/TownProps02/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/ShopEquipment03/index.html",
+      "local_links": 114,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectCore04/index.html",
+      "local_links": 151,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectFacilities05/index.html",
+      "local_links": 202,
+      "missing": []
+    },
+    {
+      "page": "ExpansionBatches/SectModules06/index.html",
+      "local_links": 199,
+      "missing": []
+    }
+  ],
+  "unreal_import_verified": false
+}

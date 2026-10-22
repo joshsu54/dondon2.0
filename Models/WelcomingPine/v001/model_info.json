@@ -1,0 +1,15 @@
+{
+  "blender": "5.3.0 Beta",
+  "stage": "first-pass",
+  "mesh_objects": 134,
+  "vertices": 83822,
+  "triangles": 74064,
+  "needle_pads": 14,
+  "seed": 1712,
+  "limitations": [
+    "Branch junctions overlap; not a single watertight sculpt.",
+    "Procedural bark/rock shaders are not baked to image textures.",
+    "No UV unwrap, LOD, wind rig or Unity import verification yet."
+  ],
+  "fbx_export": "success; base colors only, no shader baking"
+}

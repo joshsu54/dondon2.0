@@ -1,0 +1,108 @@
+{
+  "asset": "TownLayout_v003",
+  "stage": "pre-assembly layout concept",
+  "master": "05_front_right.png",
+  "method": "v002 scene plus colour-coded footprint blockout of every planned placement, Codex-style studio render (BlenderSource/TownLife09/build_town_layout_v003.py --concept-only); no AI image model in the cloud session.",
+  "images": [
+    {
+      "name": "01_front.png",
+      "title": "正面",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: straight front elevation, camera level, facing the -Y front. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "02_right.png",
+      "title": "右側",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: straight right side elevation, camera level. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "03_rear.png",
+      "title": "背面",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: straight rear elevation, camera level. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "04_left.png",
+      "title": "左側",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: straight left side elevation, camera level. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "05_front_right.png",
+      "title": "右前斜角",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: front-right three-quarter view, slightly elevated. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "06_rear_right.png",
+      "title": "右後斜角",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: rear-right three-quarter view, slightly elevated. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "07_rear_left.png",
+      "title": "左後斜角",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: rear-left three-quarter view, slightly elevated. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "08_front_left.png",
+      "title": "左前斜角",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: front-left three-quarter view, slightly elevated. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "09_top.png",
+      "title": "垂直俯視",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: top-down plan view. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    },
+    {
+      "name": "10_high_front.png",
+      "title": "正面高角度",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "prompt": "Layout concept for the dondon xianxia town north block: v002 town unchanged in the south; raised grass terrace with stone retaining wall and balustrade; north street of 6 m stone road tiles with crossroads, archway and T junction; inn to the west, well square to the east, fenced lotus garden north-east, waypoint altar by the archway. View: high front bird's-eye view at 45 degrees. Colour-coded blockout: grey roads, red buildings, brown props, ochre fences, blue water."
+    }
+  ]
+}

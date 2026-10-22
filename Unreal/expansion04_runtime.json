@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_04.TownLayout_04",
+  "method": "Real PIE, continuous CharacterMovement route after isolated precondition setup; reflected interaction function, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": true,
+    "early_reward_denied": true,
+    "herb1_route": true,
+    "herb1_collect": true,
+    "herb1_duplicate_denied": true,
+    "herb2_route": true,
+    "herb2_collect": true,
+    "herb2_duplicate_denied": true,
+    "herb3_route": true,
+    "herb3_collect": true,
+    "herb3_duplicate_denied": true,
+    "ready_to_deliver": true,
+    "gate_route": true,
+    "return_upper_route": true,
+    "return_middle_route": true,
+    "return_lower_route": true,
+    "board_route": true,
+    "reward_once": true,
+    "duplicate_reward_denied": true,
+    "clouds_move": true
+  },
+  "route": [
+    {
+      "id": "herb1",
+      "position_cm": [
+        1.3706243444147304,
+        -4433.798911208405,
+        224.0613777672022
+      ],
+      "distance_cm": 16.25896334723231,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb2",
+      "position_cm": [
+        -2.7390081981482437,
+        -5559.676927430287,
+        464.14996234357204
+      ],
+      "distance_cm": 20.506814588895743,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb3",
+      "position_cm": [
+        -0.044242924845694344,
+        -6732.869706477392,
+        704.1499768902229
+      ],
+      "distance_cm": 17.130350656279408,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "gate",
+      "position_cm": [
+        -0.003816586774856899,
+        -6985.380351394333,
+        704.1499768902229
+      ],
+      "distance_cm": 14.619649103843576,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_upper",
+      "position_cm": [
+        -0.0002771697962611024,
+        -6767.093892498299,
+        704.1499768902229
+      ],
+      "distance_cm": 17.093892500546374,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_middle",
+      "position_cm": [
+        -4.045877020263014e-06,
+        -5597.328135912862,
+        464.14995114101634
+      ],
+      "distance_cm": 17.32813591286278,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_lower",
+      "position_cm": [
+        -6.176954798065803e-08,
+        -4467.516582927729,
+        224.14994875683055
+      ],
+      "distance_cm": 17.51658292772936,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "board",
+      "position_cm": [
+        78.59984131911156,
+        -3467.8085584429264,
+        227.68925873531566
+      ],
+      "distance_cm": 17.863515839464284,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    }
+  ],
+  "limitations": [
+    "Physical keyboard and HUD visual checks separate",
+    "Quest progress resets on new play session"
+  ],
+  "objective": "委託完成！獲得 10 靈石。持有靈石：10",
+  "herbs": 3,
+  "spirit_stones": 10
+}

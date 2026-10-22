@@ -1,0 +1,440 @@
+{
+  "date_local": "2026-10-15",
+  "scope": "File presence, PNG header, duplicate image hashes and recorded view directions only; no new Blender or engine validation. Null directions mean legacy metadata records view names only.",
+  "asset_sets": 27,
+  "view_images": 270,
+  "assets": [
+    {
+      "id": "WelcomingPine",
+      "name": "迎客松",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": null,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SpawnPlaza",
+      "name": "出生廣場模組組合",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": null,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "StarterHouse",
+      "name": "新手民宅",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": null,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "Blacksmith",
+      "name": "鐵匠鋪與工作道具",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": null,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "MaterialShop",
+      "name": "雜貨／材料鋪",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": null,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "HerbalStall",
+      "name": "藥草攤",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "DryingRack",
+      "name": "晾藥架",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "MortarPestle",
+      "name": "研缽與杵",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "HerbPlanter",
+      "name": "靈草盆",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "AlchemyFurnace",
+      "name": "丹爐",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "MeditationCushion",
+      "name": "打坐蒲團",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "StoneLantern",
+      "name": "石燈",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "TownWaymarker",
+      "name": "指路碑",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "TownBench",
+      "name": "長凳",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SmithAnvil",
+      "name": "鐵砧與底座",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SmithWorkbench",
+      "name": "工作台",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "QuenchBarrel",
+      "name": "淬火桶",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "WeaponDisplayRack",
+      "name": "武器架",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SmithHammer",
+      "name": "鐵鎚",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "BasicSword01",
+      "name": "基礎法劍",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SmithTongs",
+      "name": "火鉗",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "MedicineJar01",
+      "name": "藥罐",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "MaterialSack01",
+      "name": "材料袋",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "GoodsShelf",
+      "name": "貨架",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "SalesCounter",
+      "name": "售貨櫃台",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "JadeOre01",
+      "name": "靈礦原石",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    },
+    {
+      "id": "IronIngot01",
+      "name": "鐵錠",
+      "view_count": 10,
+      "unique_image_hashes": 10,
+      "resolutions": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "metadata_views": 10,
+      "unique_direction_vectors": 10,
+      "blend_exists": true,
+      "fbx_exists": true
+    }
+  ]
+}

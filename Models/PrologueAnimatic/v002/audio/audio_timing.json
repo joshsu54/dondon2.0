@@ -1,0 +1,308 @@
+[
+  {
+    "shot": "1-1",
+    "line": "旁白：「凌雲孤峰，高可摘星。」",
+    "speaker": "旁白",
+    "voice": "Meijia",
+    "start_s": 2.0,
+    "subtitle_s": [
+      2.0,
+      7.5
+    ],
+    "shot_length_s": 8,
+    "voice_s": 2.31,
+    "ends_at_shot_s": 4.31,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "1-2",
+    "line": "旁白：「三百年前，凌雲宗於此鎮守秘境，萬人來朝。」",
+    "speaker": "旁白",
+    "voice": "Meijia",
+    "start_s": 9.0,
+    "subtitle_s": [
+      1.0,
+      9.0
+    ],
+    "shot_length_s": 10,
+    "voice_s": 4.81,
+    "ends_at_shot_s": 5.81,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "1-3",
+    "line": "旁白：「後來……」",
+    "speaker": "旁白",
+    "voice": "Meijia",
+    "start_s": 19.5,
+    "subtitle_s": [
+      1.5,
+      5.0
+    ],
+    "shot_length_s": 12,
+    "voice_s": 0.56,
+    "ends_at_shot_s": 2.06,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "1-3",
+    "line": "旁白：「……就沒人來了。」",
+    "speaker": "旁白",
+    "voice": "Meijia",
+    "start_s": 24.0,
+    "subtitle_s": [
+      6.0,
+      10.0
+    ],
+    "shot_length_s": 12,
+    "voice_s": 1.01,
+    "ends_at_shot_s": 7.01,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "2-4",
+    "line": "鐵匠（畫外音）：「又在這睡！太陽都曬屁股了！」",
+    "speaker": "鐵匠",
+    "voice": "Eddy (中文（台灣）)",
+    "start_s": 48.0,
+    "subtitle_s": [
+      2.0,
+      7.5
+    ],
+    "shot_length_s": 8,
+    "voice_s": 2.62,
+    "ends_at_shot_s": 4.62,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-2",
+    "line": "掌門：「咳——此乃，仙緣！」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 74.29,
+    "subtitle_s": [
+      3.3,
+      5.8
+    ],
+    "shot_length_s": 6,
+    "voice_s": 2.25,
+    "ends_at_shot_s": 5.55,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-3",
+    "line": "掌門：「靈根……有！」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 77.42,
+    "subtitle_s": [
+      0.4,
+      2.6
+    ],
+    "shot_length_s": 8,
+    "voice_s": 1.49,
+    "ends_at_shot_s": 1.89,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-3",
+    "line": "掌門：「骨骼……還行！」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 79.79,
+    "subtitle_s": [
+      2.8,
+      5.2
+    ],
+    "shot_length_s": 8,
+    "voice_s": 1.54,
+    "ends_at_shot_s": 4.34,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-3",
+    "line": "掌門：「牙口……不錯！」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 82.42,
+    "subtitle_s": [
+      5.4,
+      7.8
+    ],
+    "shot_length_s": 8,
+    "voice_s": 1.6,
+    "ends_at_shot_s": 7.0,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-4",
+    "line": "鐵匠：「老雲，那把劍不是上個月拿來當的嗎？」",
+    "speaker": "鐵匠",
+    "voice": "Eddy (中文（台灣）)",
+    "start_s": 85.42,
+    "subtitle_s": [
+      0.4,
+      3.6
+    ],
+    "shot_length_s": 7,
+    "voice_s": 3.04,
+    "ends_at_shot_s": 3.44,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-4",
+    "line": "掌門：「……贖回來了。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 89.42,
+    "subtitle_s": [
+      4.4,
+      6.8
+    ],
+    "shot_length_s": 7,
+    "voice_s": 1.17,
+    "ends_at_shot_s": 5.57,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "3-5",
+    "line": "掌門：「拿著。從今天起，你就是凌雲宗的弟子了。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 92.79,
+    "subtitle_s": [
+      0.8,
+      7.2
+    ],
+    "shot_length_s": 8,
+    "voice_s": 4.17,
+    "ends_at_shot_s": 4.97,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "4-1",
+    "line": "掌門：「想當年……我一口氣……上下……三趟……」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 100.42,
+    "subtitle_s": [
+      0.4,
+      7.6
+    ],
+    "shot_length_s": 8,
+    "voice_s": 3.47,
+    "ends_at_shot_s": 3.87,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "4-4",
+    "line": "掌門：「這是……藥圃。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 118.42,
+    "subtitle_s": [
+      0.4,
+      3.8
+    ],
+    "shot_length_s": 12,
+    "voice_s": 1.5,
+    "ends_at_shot_s": 1.9,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "4-4",
+    "line": "掌門：「這是演武場。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 122.0,
+    "subtitle_s": [
+      4.0,
+      7.4
+    ],
+    "shot_length_s": 12,
+    "voice_s": 1.34,
+    "ends_at_shot_s": 5.34,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "4-4",
+    "line": "掌門：「這是……咳，總之以後都歸你管。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 125.58,
+    "subtitle_s": [
+      7.6,
+      11.8
+    ],
+    "shot_length_s": 12,
+    "voice_s": 3.1,
+    "ends_at_shot_s": 10.7,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "4-5",
+    "line": "掌門：「掃把在倉庫。」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 132.42,
+    "subtitle_s": [
+      2.4,
+      4.8
+    ],
+    "shot_length_s": 5,
+    "voice_s": 1.49,
+    "ends_at_shot_s": 3.89,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  },
+  {
+    "shot": "5-2",
+    "line": "掌門（輕聲）：「三百年了……」",
+    "speaker": "掌門",
+    "voice": "Grandpa (中文（台灣）)",
+    "start_s": 142.5,
+    "subtitle_s": [
+      1.5,
+      6.0
+    ],
+    "shot_length_s": 8,
+    "voice_s": 1.15,
+    "ends_at_shot_s": 2.65,
+    "over_subtitle_s": 0,
+    "over_shot_s": 0,
+    "overlaps_next_line": false
+  }
+]

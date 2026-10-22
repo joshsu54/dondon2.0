@@ -1,0 +1,18 @@
+{
+  "status": "error",
+  "map": "/Game/Maps/TownLayout_06.TownLayout_06",
+  "method": "Real PIE, continuous CharacterMovement route after isolated precondition setup; reflected interaction function, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": false
+  },
+  "route": [],
+  "limitations": [
+    "Physical keyboard and HUD visual checks separate",
+    "Quest progress resets on new play session"
+  ],
+  "error": "Traceback (most recent call last):\n  File \"/Users/joshmac/強悍修仙2.0/Unreal/Tools/test_expansion06.py\", line 73, in tick\n    check('accept_quest',q.try_interact() and q.quest_stage==1)\n  File \"/Users/joshmac/強悍修仙2.0/Unreal/Tools/test_expansion06.py\", line 39, in check\n    if not result: raise AssertionError(name)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: accept_quest\n"
+}

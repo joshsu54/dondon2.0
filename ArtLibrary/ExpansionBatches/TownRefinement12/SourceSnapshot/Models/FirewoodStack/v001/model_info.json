@@ -1,0 +1,24 @@
+{
+  "asset": "FirewoodStack",
+  "name_zh": "柴堆",
+  "category": "通用道具",
+  "stage": "editable_town_prototype",
+  "description": "Six rows of split logs on two sleepers held by four stakes, with a chopping block and axe beside it.",
+  "size_note": "Approx. 2.0 x 0.8 x 1.1 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.9049999713897705,
+    0.961719274520874,
+    1.100000023841858
+  ],
+  "mesh_objects": 111,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/FirewoodStack_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

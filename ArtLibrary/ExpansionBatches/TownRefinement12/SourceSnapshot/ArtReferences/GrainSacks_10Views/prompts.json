@@ -1,0 +1,112 @@
+{
+  "asset": "GrainSacks",
+  "name_zh": "米糧麻袋",
+  "stage": "pre-modelling concept reference",
+  "method": "Claude-written prompt -> design spec (BlenderSource/TownLife09/town10_shapes.py) -> Codex-style soft studio concept render of a throwaway blockout by BlenderSource/TownLife09/concept_render09.py. No AI image model was available in the cloud session; the prompts can be re-run with an image model.",
+  "style_reference": "ArtReferences/HerbalStall/concept.png and ArtReferences/Blacksmith_10Views (Codex image_gen)",
+  "master": "05_front_right.png",
+  "front": "Blender -Y",
+  "projection": "perspective 50 mm",
+  "images": [
+    {
+      "name": "01_front.png",
+      "title": "正面",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: straight front elevation, camera level, facing the -Y front, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "02_right.png",
+      "title": "右側",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: straight right side elevation, camera level, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "03_rear.png",
+      "title": "背面",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: straight rear elevation, camera level, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "04_left.png",
+      "title": "左側",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: straight left side elevation, camera level, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "05_front_right.png",
+      "title": "右前斜角",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: front-right three-quarter view, slightly elevated, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "06_rear_right.png",
+      "title": "右後斜角",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: rear-right three-quarter view, slightly elevated, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "07_rear_left.png",
+      "title": "左後斜角",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: rear-left three-quarter view, slightly elevated, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "08_front_left.png",
+      "title": "左前斜角",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: front-left three-quarter view, slightly elevated, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "09_top.png",
+      "title": "垂直俯視",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: top-down plan view, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    },
+    {
+      "name": "10_high_front.png",
+      "title": "正面高角度",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: Blender modeling reference for a xianxia (Chinese immortal-cultivation) open-world town kitchen, single game asset: 米糧麻袋 (GrainSacks). Design: Burlap sack pile: one open sack full of rice with a wooden scoop, two tied sacks lying beside it, and a blank paper label. Scale: Approx. 1.0 x 0.9 x 0.65 m; each sack 0.8 m long. Style: softly beveled stylized 3D game art matching the existing dondon town (warm cedar timber, blue-grey stone, celadon porcelain, red lacquer, restrained jade and ochre accents). View: high front bird's-eye view at 45 degrees, entire object visible on a light grey seamless studio background with soft contact shadow. No characters, no scenery, no text or lettering, no watermark."
+    }
+  ]
+}

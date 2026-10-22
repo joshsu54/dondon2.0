@@ -1,0 +1,21 @@
+{
+  "engine": {
+    "MajorVersion": 5,
+    "MinorVersion": 8,
+    "PatchVersion": 3,
+    "Changelist": 58210709,
+    "CompatibleChangelist": 55116800,
+    "IsLicenseeVersion": 0,
+    "IsPromotedBuild": 1,
+    "BranchName": "++UE5+Release-5.8"
+  },
+  "template": "TP_ThirdPersonBP",
+  "shared_content": [
+    "Characters",
+    "Input",
+    "LevelPrototyping"
+  ],
+  "status": "editor_opened_and_prototype_map_saved",
+  "gameplay_verified": false,
+  "project": "Unreal/XiuXianTown/XiuXianTown.uproject"
+}

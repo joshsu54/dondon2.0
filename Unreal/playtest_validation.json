@@ -1,0 +1,725 @@
+{
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "map": "/Game/Maps/TownPrototype_02.TownPrototype_02",
+  "status": "passed_basic_runtime_checks",
+  "method": "real PIE; CharacterMovement input via engine Python API, not keyboard input",
+  "checks": {
+    "spawn_above_ground": true,
+    "movement": true,
+    "jump": true,
+    "landed": true,
+    "cube_blocks_character": true,
+    "stairs_climbed": true,
+    "closed_door_blocks": true
+  },
+  "samples": [
+    {
+      "name": "settled_spawn",
+      "position_cm": [
+        700.0,
+        1700.0,
+        92.14999580383301
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "after_walk",
+      "position_cm": [
+        -194.52882460396506,
+        1700.0,
+        92.14999580383301
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "after_jump_landing",
+      "position_cm": [
+        -470.4035280020881,
+        1700.0,
+        92.14999904167385
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "cube_test_start",
+      "position_cm": [
+        99.99999999999994,
+        0.0,
+        92.14999628067017
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "cube_blocked",
+      "position_cm": [
+        214.68502522127739,
+        0.0,
+        92.14999443250144
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "stairs_start",
+      "position_cm": [
+        1000.0,
+        1500.0,
+        92.14999628067017
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "stairs_and_closed_door",
+      "position_cm": [
+        999.9996892511665,
+        1116.391394090266,
+        146.13429397211428
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ],
+  "limitations": [
+    "Keyboard and mouse controls not yet tested",
+    "House doors remain closed static geometry",
+    "Full town not imported"
+  ],
+  "representative_bounds": [
+    {
+      "actor": "UnitCube_1m_UnitCube_1m",
+      "center": [
+        300.0,
+        0.0,
+        49.99999974168077
+      ],
+      "extent": [
+        50.0,
+        50.00000762939453,
+        50.000007887713764
+      ]
+    },
+    {
+      "actor": "TownBench_v001_TownBench_v001_Bench_Seat_-3_65",
+      "center": [
+        300.0,
+        299.99999046325684,
+        52.999996185302734
+      ],
+      "extent": [
+        90.00000762939453,
+        31.000028610229492,
+        8.000003814697266
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_1_0",
+      "center": [
+        922.0,
+        1255.0000305175781,
+        9.00007490246935
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        9.000003298824595
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_1_1",
+      "center": [
+        1000.0,
+        1255.0000305175781,
+        9.00007490246935
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        9.000003298824595
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_1_2",
+      "center": [
+        1078.0,
+        1255.0000305175781,
+        9.00007490246935
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        9.000003298824595
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_2_0",
+      "center": [
+        922.0,
+        1221.0,
+        18.00006927179129
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        18.000003207456757
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_2_1",
+      "center": [
+        1000.0,
+        1221.0,
+        18.00006927179129
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        18.000003207456757
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_2_2",
+      "center": [
+        1078.0,
+        1221.0,
+        18.00006927179129
+      ],
+      "extent": [
+        38.5,
+        17.0,
+        18.000003207456757
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_3_0",
+      "center": [
+        922.0,
+        1186.999984741211,
+        27.000064594791183
+      ],
+      "extent": [
+        38.5,
+        17.000015258789062,
+        27.000004069759598
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_3_1",
+      "center": [
+        1000.0,
+        1186.999984741211,
+        27.000064594791183
+      ],
+      "extent": [
+        38.5,
+        17.000015258789062,
+        27.000004069759598
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Entry_Step_3_2",
+      "center": [
+        1078.0,
+        1186.999984741211,
+        27.000064594791183
+      ],
+      "extent": [
+        38.5,
+        17.000015258789062,
+        27.000004069759598
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_0",
+      "center": [
+        658.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_1",
+      "center": [
+        733.9999923706055,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.24999237060547,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_2",
+      "center": [
+        810.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_3",
+      "center": [
+        886.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_4",
+      "center": [
+        962.0000003576279,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25000035762787,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_5",
+      "center": [
+        1037.9999996423721,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25000035762787,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_6",
+      "center": [
+        1114.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_7",
+      "center": [
+        1190.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_8",
+      "center": [
+        1266.0000076293945,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.24999237060547,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_-3_65_9",
+      "center": [
+        1342.0,
+        1165.0,
+        24.00005903840065
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.5000019967556
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_0",
+      "center": [
+        658.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_1",
+      "center": [
+        733.9999923706055,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.24999237060547,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_2",
+      "center": [
+        810.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_3",
+      "center": [
+        886.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_4",
+      "center": [
+        962.0000003576279,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25000035762787,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_5",
+      "center": [
+        1037.9999996423721,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25000035762787,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_6",
+      "center": [
+        1114.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_7",
+      "center": [
+        1190.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_8",
+      "center": [
+        1266.0000076293945,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.24999237060547,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Block_2_75_9",
+      "center": [
+        1342.0,
+        525.0,
+        23.999955400824547
+      ],
+      "extent": [
+        37.25,
+        15.0,
+        23.50000263750553
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Foundation_Mortar",
+      "center": [
+        1000.0,
+        845.0,
+        24.00000592352626
+      ],
+      "extent": [
+        377.5,
+        325.0,
+        24.000051296932725
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Porch_Bench_Seat",
+      "center": [
+        1250.0,
+        1115.0,
+        103.00004959106445
+      ],
+      "extent": [
+        67.5,
+        21.5,
+        6.000003814697266
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_0",
+      "center": [
+        635.0,
+        1125.0,
+        24.000051975250244
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000524520874
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_1",
+      "center": [
+        635.0,
+        1047.0,
+        24.000039905309677
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000587105751
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_2",
+      "center": [
+        635.0,
+        969.0,
+        24.00002783536911
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000649690628
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_3",
+      "center": [
+        635.0,
+        890.9999980926514,
+        24.000013828277588
+      ],
+      "extent": [
+        15.0,
+        38.25000190734863,
+        23.50000524520874
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_4",
+      "center": [
+        635.0,
+        812.9999961853027,
+        24.00000175833702
+      ],
+      "extent": [
+        15.0,
+        38.250003814697266,
+        23.50000587105751
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_5",
+      "center": [
+        635.0,
+        734.999997138977,
+        23.999989688396454
+      ],
+      "extent": [
+        15.0,
+        38.25000476837158,
+        23.50000649690628
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_6",
+      "center": [
+        635.0,
+        657.0000038146973,
+        23.999975711107254
+      ],
+      "extent": [
+        15.0,
+        38.250003814697266,
+        23.500005215406418
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_-3_65_7",
+      "center": [
+        635.0,
+        579.0,
+        23.999963626265526
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000585615635
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_0",
+      "center": [
+        1365.0,
+        1125.0,
+        24.000051975250244
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000524520874
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_1",
+      "center": [
+        1365.0,
+        1047.0,
+        24.000039905309677
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000587105751
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_2",
+      "center": [
+        1365.0,
+        969.0,
+        24.00002783536911
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000649690628
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_3",
+      "center": [
+        1365.0,
+        890.9999980926514,
+        24.000013828277588
+      ],
+      "extent": [
+        15.0,
+        38.25000190734863,
+        23.50000524520874
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_4",
+      "center": [
+        1365.0,
+        812.9999961853027,
+        24.00000175833702
+      ],
+      "extent": [
+        15.0,
+        38.250003814697266,
+        23.50000587105751
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_5",
+      "center": [
+        1365.0,
+        734.999997138977,
+        23.999989688396454
+      ],
+      "extent": [
+        15.0,
+        38.25000476837158,
+        23.50000649690628
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_6",
+      "center": [
+        1365.0,
+        657.0000038146973,
+        23.999975711107254
+      ],
+      "extent": [
+        15.0,
+        38.250003814697266,
+        23.500005215406418
+      ]
+    },
+    {
+      "actor": "StarterHouse_v004_StarterHouse_v004_Side_Foundation_3_65_7",
+      "center": [
+        1365.0,
+        579.0,
+        23.999963626265526
+      ],
+      "extent": [
+        15.0,
+        38.25,
+        23.50000585615635
+      ]
+    }
+  ],
+  "jump_height_cm": 115.54730606372217
+}

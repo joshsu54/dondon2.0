@@ -1,0 +1,157 @@
+{
+  "asset": "FenceGate",
+  "source": "Models/FenceGate/v002/FenceGate_v002.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        -9.504829406738281,
+        2.8238039016723633
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        9.504829406738281,
+        0.0,
+        2.8238039016723633
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.15
+      ],
+      "camera_location": [
+        0.0,
+        9.504829406738281,
+        2.8238039016723633
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        -9.504829406738281,
+        0.0,
+        2.8238039016723633
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        6.1751017570495605,
+        -6.1751017570495605,
+        5.411895275115967
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        6.1751017570495605,
+        6.1751017570495605,
+        5.411895275115967
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        -6.1751017570495605,
+        6.1751017570495605,
+        5.411895275115967
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        -6.1751017570495605,
+        -6.1751017570495605,
+        5.411895275115967
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        11.00924301147461
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1.5
+      ],
+      "camera_location": [
+        0.0,
+        -5.331314563751221,
+        9.395051956176758
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

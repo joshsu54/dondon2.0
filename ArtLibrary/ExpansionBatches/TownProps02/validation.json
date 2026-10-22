@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "QuenchBarrel",
+    "blend_reopened": true,
+    "meshes": 4,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SmithAnvil",
+    "blend_reopened": true,
+    "meshes": 7,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 5.960464477539063e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SmithHammer",
+    "blend_reopened": true,
+    "meshes": 2,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.9802322387695312e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "SmithWorkbench",
+    "blend_reopened": true,
+    "meshes": 9,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "StoneLantern",
+    "blend_reopened": true,
+    "meshes": 17,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "TownBench",
+    "blend_reopened": true,
+    "meshes": 3,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.384185791015625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "TownWaymarker",
+    "blend_reopened": true,
+    "meshes": 5,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.7881393432617188e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "WeaponDisplayRack",
+    "blend_reopened": true,
+    "meshes": 6,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  }
+]

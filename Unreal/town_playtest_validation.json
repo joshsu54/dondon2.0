@@ -1,0 +1,49 @@
+{
+  "map": "/Game/Maps/TownLayout_02.TownLayout_02",
+  "status": "passed_smoke_checks",
+  "method": "PIE CharacterMovement API input; not physical keyboard testing",
+  "checks": {
+    "source_scale_and_orientation": true,
+    "all_materials_reloaded": true,
+    "entrance_ground_collision": true,
+    "walked_into_town": true,
+    "central_stairs_climbed": true,
+    "jump": true,
+    "landing": true
+  },
+  "samples": [
+    {
+      "name": "settled_entrance",
+      "position_cm": [
+        0.0,
+        850.0,
+        116.30075073242188
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "central_stair_route",
+      "position_cm": [
+        0.0,
+        -467.8677845258751,
+        223.66777439693473
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    },
+    {
+      "name": "jump_landing",
+      "position_cm": [
+        0.0,
+        -467.8677845258751,
+        223.58934012297027
+      ],
+      "movement_mode": "<MovementMode.MOVE_WALKING: 1>"
+    }
+  ],
+  "limits": [
+    "Full navigation coverage, interiors and interactions pending",
+    "No baked procedural textures or animated water"
+  ],
+  "source_bounds_max_error_cm": 1.33978271484375,
+  "material_slot_errors": []
+}

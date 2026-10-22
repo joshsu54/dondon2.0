@@ -1,0 +1,68 @@
+[
+  {
+    "asset": "AlchemyFurnace",
+    "blend_reopened": true,
+    "meshes": 29,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 5.960464477539063e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "DryingRack",
+    "blend_reopened": true,
+    "meshes": 134,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "HerbPlanter",
+    "blend_reopened": true,
+    "meshes": 59,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "HerbalStall",
+    "blend_reopened": true,
+    "meshes": 106,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 1.1920928955078125e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MeditationCushion",
+    "blend_reopened": true,
+    "meshes": 59,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 7.450580596923828e-08,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MortarPestle",
+    "blend_reopened": true,
+    "meshes": 9,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 5.960464477539063e-08,
+    "ten_view_files_present": true
+  }
+]

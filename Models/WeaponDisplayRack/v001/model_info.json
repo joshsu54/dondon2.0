@@ -1,0 +1,53 @@
+{
+  "asset": "WeaponDisplayRack",
+  "name_zh": "武器架",
+  "stage": "extracted_appearance_prototype",
+  "source_blend": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+  "source_sha256": "21f13bdb8c3e9027916366fb0b72c843e8f54e660bef582b0db805e58faa7bd1",
+  "source_objects": [
+    "Rack_Foot",
+    "Rack_Upright",
+    "Rack_Foot.001",
+    "Rack_Upright.001",
+    "Rack_Crossbar",
+    "Rack_Crossbar.001"
+  ],
+  "rotation_matrix_from_source": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    1.6200001239776611,
+    0.7799999713897705,
+    1.6899999380111694
+  ],
+  "mesh_objects": 6,
+  "uv_baked": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false
+}

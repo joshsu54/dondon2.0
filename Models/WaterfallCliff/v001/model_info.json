@@ -1,0 +1,18 @@
+{
+  "asset": "WaterfallCliff",
+  "name_zh": "山崖瀑布",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    13.178197860717773,
+    11.293456077575684,
+    10.850000381469727
+  ],
+  "mesh_objects": 105,
+  "same_geometry_ten_views": true,
+  "water": "static mesh",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

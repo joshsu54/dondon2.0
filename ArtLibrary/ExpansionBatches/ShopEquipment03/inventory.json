@@ -1,0 +1,199 @@
+{
+  "batch": "ShopEquipment03",
+  "created": "2026-10-15",
+  "new_assets": [
+    {
+      "asset": "BasicSword01",
+      "name_zh": "基礎法劍",
+      "views": 10,
+      "dimensions_m": [
+        0.28999999165534973,
+        0.10000000149011612,
+        1.21999990940094
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "99b686dfbaaae89d95f02127ba317f430ca86f8bf2b4375b9dbfd4d932cf8942",
+        "02_right.png": "61ea2de0bdb9560a2c736b328267b900a45d114eb45b37f3241c13f9abc9ff8e",
+        "03_rear.png": "5705b38c672fbcc5c3932452acb31c47de4f9a0c1fe161cf0b5610368fb19236",
+        "04_left.png": "4036e92dd9eeea0da0aaf06ad91733266f6081505e23312b250778f566412c19",
+        "05_front_right.png": "d8eb5c7a035a74c3d7489a366378200a80e3fd000a665bbabfd1c210850d76dd",
+        "06_rear_right.png": "5d96bf18ea1f30c2b3acf180b6df36c055dd870a209334084db2794263f7b8dc",
+        "07_rear_left.png": "285c38816b9eec9b9884f8489a88f9df34a435858b6333b71bf8c4a5ddf3860d",
+        "08_front_left.png": "ceb539c93ef741b655ab361d8439f245318335a9c32a2f9ff21c8b212776c0b2",
+        "09_top.png": "f84fe07908c3397de12d406f1f7d8f2f60f22f9f71df8db78501abb6c04955f3",
+        "10_high_front.png": "be86465a70cc7f6e9c18ccb0c87908be098e1cf1e44a6941ff9a47c91d32400d"
+      }
+    },
+    {
+      "asset": "SmithTongs",
+      "name_zh": "火鉗",
+      "views": 10,
+      "dimensions_m": [
+        0.23242315649986267,
+        0.11259999126195908,
+        0.5703376531600952
+      ],
+      "status": "refined_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "c9428ea122ed5c3aa71b1b2ea88da0ef44e880ff1574c48cb13ec61e252f21cd",
+        "02_right.png": "fa8fffa19fff37780f78ce33e5a378a428b25e276b6d54003558328c9c4bbfe8",
+        "03_rear.png": "8c48e6fd8a525fde2b027ae973ae5fbffac4a43a3a6c231aa456d6fc883008b2",
+        "04_left.png": "29b5dc70418d27140c6affbfd3453f733d4819d7ee8b05243911033b225754f8",
+        "05_front_right.png": "c6aba08157440140194b2aec01c3052bcbc9522b328d8d625ddba23514686071",
+        "06_rear_right.png": "3d7d273f0007c62f162cc2af3984c77d1d10edbcd5299e15a3d68a5b516115fb",
+        "07_rear_left.png": "c198cd5bcf8d71dbc17ba4c8af9a074e1e8d820c563643dae88b00b710e177d7",
+        "08_front_left.png": "4c377a763eb81e6cf844f0972aef6f739b50987c6068c05f5010eb4ddbfdee52",
+        "09_top.png": "c653daa121db5ac6f9e5ad5e7c6b3d68683077ec3baae2d9d51a26fedfc90cd8",
+        "10_high_front.png": "87a2cfdfc375c7532ebf346c3c1a16e8d03c745c956bf0ed97f6a828b3fd5ff2"
+      }
+    },
+    {
+      "asset": "MedicineJar01",
+      "name_zh": "藥罐",
+      "views": 10,
+      "dimensions_m": [
+        0.25500011444091797,
+        0.25500011444091797,
+        0.3310000002384186
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+      "sha256": {
+        "01_front.png": "f7f5a2bb7555f027961fd254717ce0734d97ee39add3a79e7b6fa7cbce5ea6ad",
+        "02_right.png": "f91595dfc0d4eba07a02d9a4c15e03f525b549563f56a51b5fccbf8c6b08198b",
+        "03_rear.png": "be5ce41456f7f1bdd71049ce28a1bfbc6316b22a3cc97687b32e7bd296f89d94",
+        "04_left.png": "b861aa9a03a7a08a3e859248d6f17a1ce1cafe90cc9e8a1e38ffa58051ea1469",
+        "05_front_right.png": "4df5e9a62b53acd6e16bd12b8f6b745f6283f887e9419c20da187d0c75a25e31",
+        "06_rear_right.png": "b6b116462c22598285ab9b748e9502da651131ad23ba34fec27ceb06d7a8aa1f",
+        "07_rear_left.png": "74c15f61e58ff588f9b180645b815b7175e70606451d4380cc5e652905cc3e72",
+        "08_front_left.png": "247d550c1b56102dd926274c71a5b1b4954bfd3083cff50f6ca67c7556c75938",
+        "09_top.png": "2f548d628cf3d6b085b4f9217bf770aa7b2d94405af2dcaa112875dcdd3f75c9",
+        "10_high_front.png": "e6d2e173568cf6dd3158991ffb190c0bd366db0b505ab795ba633df6f687107c"
+      }
+    },
+    {
+      "asset": "MaterialSack01",
+      "name_zh": "材料袋",
+      "views": 10,
+      "dimensions_m": [
+        0.39957115054130554,
+        0.3341483771800995,
+        0.4612339735031128
+      ],
+      "status": "refined_appearance_prototype",
+      "source": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+      "sha256": {
+        "01_front.png": "0d2f9d911d5eaa138b54dcbfcca5ac8a4f750331935da4686e19643803aff8a4",
+        "02_right.png": "90e6e4313d3ebf31b43ce96bef32a0d6bc346956bcbad38ed0d847b7ebcf6cea",
+        "03_rear.png": "c2e030cd8b322a072cab4bf5d205052b4bea1138f24920abfbd6469c2e63d370",
+        "04_left.png": "2d6c1986027dca403252f091bd5fe98e433fdd560fc159e119f6e5c2a098eba0",
+        "05_front_right.png": "882d7224bc23d3d1bda88bcadd1f9e4ca445cb8087a15b5b54df4f52e7812636",
+        "06_rear_right.png": "a66a449c3eaaf4c3da907b0e647770a1317fbcfe93d8b8cfdff41e61b05445b7",
+        "07_rear_left.png": "58dc1260787a7e00e554b867e954334347ff2920fd18539a90993ef337d1bb13",
+        "08_front_left.png": "a7e3c874595791e4e430cf8339623c9c4df760d32f126f3be8c6b0255217a89c",
+        "09_top.png": "db1673bb4954ba93b7aa5f18cd6a738b06741b934bebd2b7bcfdaa34095042b2",
+        "10_high_front.png": "34ccf5110112f65af6663abeffdeee352e7028ab26b164d9c518874e7b8df396"
+      }
+    },
+    {
+      "asset": "GoodsShelf",
+      "name_zh": "貨架",
+      "views": 10,
+      "dimensions_m": [
+        1.4800000190734863,
+        0.550000011920929,
+        1.7974998950958252
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+      "sha256": {
+        "01_front.png": "853b0d33cf5be2d9d3edcb21fcccebf6739604d39da7c62d89b1d34722d364f7",
+        "02_right.png": "1ca4057f6143050f14de3b91729464002932c8ef4e900693221f55afe0cb0422",
+        "03_rear.png": "13c198c8c6223d0cdc84cbec46ea0964a1aaed90e28d05ad71a78f891742cc30",
+        "04_left.png": "8a5fb3b276e5cb535e24e9adb107362e76831f7438bb9d57f2bad5856df8ebd6",
+        "05_front_right.png": "0d513578e89c6683b60f4e568a09458a181489d0d548f2daecb7ad2df86abc4f",
+        "06_rear_right.png": "a4c300bf8e39c545d42a75c36f03a2ddc36f4d89e3bc4d2479e850d944169e46",
+        "07_rear_left.png": "289767e106e6d7289498fe0df8f5ab218317177aa5a66b8ae36c4ab0d6b236e0",
+        "08_front_left.png": "aed733680c1ccb9b63a7f91a84092c1a6631654ca937650bca1c9439d6983515",
+        "09_top.png": "3176d3aaad83ac40c0e761ffb85e34d2c98f48908b9b12358a31016a83998514",
+        "10_high_front.png": "5c9ce3a2d95b3de209e0fe1ee5d01464cef28c66d44344c9c147e98ae90330d1"
+      }
+    },
+    {
+      "asset": "SalesCounter",
+      "name_zh": "售貨櫃台",
+      "views": 10,
+      "dimensions_m": [
+        1.940000057220459,
+        0.8199999928474426,
+        0.7799999713897705
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+      "sha256": {
+        "01_front.png": "f0f1498aaeac813c4f52722a6d2902bd3751fb37bf6d2bf02c22eb3fd25d3634",
+        "02_right.png": "87ceb43247900f00bedaa966eac992bedc83035bc7577697b894c9c08282f8c5",
+        "03_rear.png": "804c1e828dc1a5898b071a68dc24d83755906493773852898267f37010fb1ead",
+        "04_left.png": "44d5a65ba9fdaa1b0e54e35f349992a6d8e525c68662ee32fc5505885bedfa5b",
+        "05_front_right.png": "6d2d4b0dbcffd155cadc1b8caba3559afcf64ea30f7db08ec5fa0a47452ebac6",
+        "06_rear_right.png": "0ab6a51c37d027215bce513d6b80299d17bd022b434aeee9f10b2bc1f1eeea03",
+        "07_rear_left.png": "f32be50b3ef74538ff489c18e2b3cf0d6bc92132899680b38d60c200e9bcd366",
+        "08_front_left.png": "c6656dd2d05fc464adcee3995a973787294e99176ff084c0400717121e804c6f",
+        "09_top.png": "52e910b20223659afdf71c9d33dadd3d0f538a90d27ae2e36f85ebccd6086c3a",
+        "10_high_front.png": "c8a51938f26d5b047ec6ee079ec3b9e72fb33c6ffc41a9ac603d2ae47a4fdc1a"
+      }
+    },
+    {
+      "asset": "JadeOre01",
+      "name_zh": "靈礦原石",
+      "views": 10,
+      "dimensions_m": [
+        0.18604038655757904,
+        0.15481647849082947,
+        0.30665791034698486
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+      "sha256": {
+        "01_front.png": "374e3fb2598b979352e8950d8bdd9deb5d14f92bf26b2224ab560e045a479d05",
+        "02_right.png": "87510d6533a4f82bbaa8835dd134ee361f5693555ccd8967e6c850796d68b543",
+        "03_rear.png": "8e63b69e0f8cef018221e1185ffcd84d1e9a7ce17baeddc7609b1af44d92b0ab",
+        "04_left.png": "1adf1d62ad517830a595eb083b5da817988eb8b1f09a2206f7fe4674df73ac99",
+        "05_front_right.png": "7341caf533b8eaae0d3537cf528c04d63551fbbd8f04b11b764bb3abdf2bd0f2",
+        "06_rear_right.png": "c90824d6b9a38254ed37adc6844309356e0a65703d486a195eeac97b90c25492",
+        "07_rear_left.png": "89c2da3463a0dfce3fbf7c7bd09963b612bf4826b5288da7dc4098d3fa02c0a1",
+        "08_front_left.png": "629947616860d36b8ab5bb349bea124aa2790bd447d2055e91121cb70e319fed",
+        "09_top.png": "95f6ec93bbc0d2e3ac75c2c5c3ea7588aacc4102a1467ea759d330368103aab2",
+        "10_high_front.png": "e335b48765c467c20dbe7a7c636723d722a6e568da37e493e78cbfae75881f56"
+      }
+    },
+    {
+      "asset": "IronIngot01",
+      "name_zh": "鐵錠",
+      "views": 10,
+      "dimensions_m": [
+        0.25,
+        0.36000001430511475,
+        0.12000000476837158
+      ],
+      "status": "extracted_appearance_prototype",
+      "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+      "sha256": {
+        "01_front.png": "521e472bc8bc32717e231465b4087d346a4e695b756f8bf68beb0c2841f880f8",
+        "02_right.png": "d19129730b47f0652f22b70bd25d9e0e10cf9c04e4b7c1d3d7ef980105ce3cb0",
+        "03_rear.png": "139569594e63409d4e34672b7ad7095138e604f811997e1dfc9ac9c428e7369d",
+        "04_left.png": "b738baaf3e9ddddb154ba8dc4babe8ae5254df1e163b4002321b76f1c0c511bb",
+        "05_front_right.png": "202c7d28d56c647d82235741ad6a3646b5b9277956f6092874ccd5b2c35f7e49",
+        "06_rear_right.png": "d08904ac31207fc2d867aa295ed2c1a04349cb77dbb2fed3262a08d91c0b0f33",
+        "07_rear_left.png": "baf70e3bcd9e2e83758e46c265580c4c746a622b536f3e35080ae79e4f7180c8",
+        "08_front_left.png": "909867229c3886e33aeb357df03aeed8dc85809ac4a20c726268396d05ca3318",
+        "09_top.png": "89b91d08c137d20ca576ea719f88f59610debc04359f896d77134a976913fde0",
+        "10_high_front.png": "a01537cf840cea15bbbc26defd9f41e28c814caafec872578d962c718ff07a63"
+      }
+    }
+  ],
+  "counting_rule": "Ten separate PNGs per extracted asset; contact sheets are excluded."
+}

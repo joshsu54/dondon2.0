@@ -1,0 +1,24 @@
+{
+  "asset": "TownInn",
+  "name_zh": "食肆客棧",
+  "category": "小鎮建築",
+  "stage": "editable_town_prototype",
+  "description": "Two-storey 12 x 9 m inn: red lacquered columns, open lattice front, dining hall with five tables, counter and wine shelf, straight stair, three upstairs guest rooms with beds, front balcony, blank signboard, two red lanterns, tiled gable roof and a rear kitchen annex with stove, woks and chimney.",
+  "size_note": "Approx. 13.8 x 13 x 9.6 m; floor-to-floor 3.4 m; stair 17 risers of 0.2 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    14.789078712463379,
+    14.380000114440918,
+    10.407427787780762
+  ],
+  "mesh_objects": 386,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/TownInn_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

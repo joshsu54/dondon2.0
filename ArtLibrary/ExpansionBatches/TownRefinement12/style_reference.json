@@ -1,0 +1,19 @@
+{
+  "primary_style": "SectCore04",
+  "palette": "青綠瓦、暖木、淺灰石、淡玉、舊銅",
+  "lighting": "Single assets use SectCore04 studio setup; assembled town reduces area light energy to 0.35 and exposure to -0.25 EV after visual inspection.",
+  "references": [
+    {
+      "path": "ArtLibrary/ExpansionBatches/SectCore04/BlenderSource/build_sect_core04.py",
+      "sha256": "324ea4545284944ab0439193434b8661646d5c1b45cbb6785b7127189a1476c2"
+    },
+    {
+      "path": "ArtLibrary/ExpansionBatches/SectCore04/overview.jpg",
+      "sha256": "5727812905d418fb36657d2a107277f95c3a91fdfde5dd37a7d0e6eb0dc33dbf"
+    },
+    {
+      "path": "ArtLibrary/ExpansionBatches/MountainWayside10/overview.jpg",
+      "sha256": "d47d9cdf8347ddd2dfb45a9c4564c5608d81587fa281fe837a3524d996449e56"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "blend_reopened": true,
+  "route_placements": 33,
+  "rise_m": 48,
+  "walk_surface_samples": 1560,
+  "sampled_clear_width_m": 2.2,
+  "sampled_headroom_m": 2.0,
+  "max_walk_height_error_m": 0.0020008087158203125,
+  "connector_gaps_checked": true,
+  "existing_gate_step_height_checked": true,
+  "fbx_reimported": true,
+  "mesh_count": 8301,
+  "fbx_bounds_error_m": 2.115964889526367e-06,
+  "unreal_collision_or_navigation_verified": false,
+  "structural_engineering_verified": false
+}

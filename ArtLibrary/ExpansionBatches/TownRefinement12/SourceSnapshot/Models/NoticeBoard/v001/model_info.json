@@ -1,0 +1,24 @@
+{
+  "asset": "NoticeBoard",
+  "name_zh": "小鎮公告板",
+  "category": "小鎮生活道具",
+  "stage": "editable_town_prototype",
+  "description": "Two-post timber notice board with braced feet, plank panel, tiny tiled roof and six blank pinned paper notices (no lettering).",
+  "size_note": "Approx. 2.9 x 1.0 x 2.9 m; board face 2.2 x 1.2 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    3.2146503925323486,
+    1.0160000324249268,
+    2.9961585998535156
+  ],
+  "mesh_objects": 62,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/NoticeBoard_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

@@ -1,0 +1,9 @@
+{
+  "blend_reopened": true,
+  "animated_meshes": 113,
+  "animated_volume_materials": 2,
+  "cloud_drift_changes": true,
+  "cloud_loop_endpoint_matches": true,
+  "distinct_rendered_frames": 48,
+  "engine_effect_verified": false
+}

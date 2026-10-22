@@ -1,0 +1,47 @@
+[
+  {
+    "asset": "WaterfallCliff",
+    "blend_reopened": true,
+    "mesh_objects": 105,
+    "finite_vertices": true,
+    "bottom_center_pivot": true,
+    "editable_water_mesh": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 9.5367431640625e-07,
+    "distinct_1024_views": 10,
+    "framing_checked": true,
+    "blend_sha256": "d5a99bd5d5e8303920da77c7f4055d1b4da53cb6afbae970a302c8b5ad731943",
+    "fbx_sha256": "6f2c66ad0ab61761f05e485867f852c16321be9fe4090d7b30bc51ff7d6fb362"
+  },
+  {
+    "asset": "MountainStreamBend",
+    "blend_reopened": true,
+    "mesh_objects": 136,
+    "finite_vertices": true,
+    "bottom_center_pivot": true,
+    "editable_water_mesh": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 8.344650268554688e-07,
+    "distinct_1024_views": 10,
+    "framing_checked": true,
+    "blend_sha256": "0b001c4120e7970c6bed316e0ed1521a90b1b23ce0bc64bde6f603428768ff8b",
+    "fbx_sha256": "95898b94fcb91ab32d6ff01c85899d718ab09d94aec17c6b46065e1d38b6405c"
+  },
+  {
+    "asset": "SpiritSpringPool",
+    "blend_reopened": true,
+    "mesh_objects": 82,
+    "finite_vertices": true,
+    "bottom_center_pivot": true,
+    "editable_water_mesh": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 0.0,
+    "distinct_1024_views": 10,
+    "framing_checked": true,
+    "blend_sha256": "d34ed82e4a35a2d4eb887d2635069485cada28eb6898fbc2adb18f71b919d569",
+    "fbx_sha256": "7a3aee3701396eb949b0868af021b3deae9c580319701650578448ac71fba0ad"
+  }
+]

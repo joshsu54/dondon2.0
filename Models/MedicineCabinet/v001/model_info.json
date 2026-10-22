@@ -1,0 +1,20 @@
+{
+  "asset": "MedicineCabinet",
+  "name_zh": "百子藥櫃",
+  "stage": "editable_architecture_prototype",
+  "description": "Twenty individually editable drawer assemblies; no animation or functional drawer cavities.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    2.0,
+    0.6990000009536743,
+    2.109999895095825
+  ],
+  "mesh_objects": 89,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

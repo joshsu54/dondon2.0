@@ -1,0 +1,49 @@
+{
+  "status": "import_saved_reloaded_and_close_view_reviewed",
+  "map": "/Game/Maps/TownLayout_01",
+  "gameplay_verified": false,
+  "source_sha256": "97f0348cf17ade09c66c9d06eeb57f37fa72aed6c5dada0e48e24039cbc48f85",
+  "mesh_count": 3877,
+  "unique_material_count": 87,
+  "placed_meshes": 3877,
+  "actor_count": 3881,
+  "bounds_cm": {
+    "min": [
+      -2610.0,
+      -4070.0,
+      -75.99999237060547
+    ],
+    "max": [
+      2215.69384765625,
+      1299.9998779296875,
+      1152.7427978515625
+    ]
+  },
+  "missing_materials": [],
+  "limits": [
+    "Procedural colors approximated; no baked textures",
+    "Complex-as-simple collision for stationary prototype",
+    "No navigation or interaction acceptance yet",
+    "Overview exposure needs adjustment",
+    "FBX smoothing/tangent warnings remain; normal mapped material validation pending",
+    "Full town automated collision test is prepared but not executed"
+  ],
+  "source_total_bounds_max_error_cm": 7.62939453125e-05,
+  "expected_bounds_cm": {
+    "min": [
+      -2610.0000381469727,
+      -4070.0000762939453,
+      -75.99999904632568
+    ],
+    "max": [
+      2215.6938552856445,
+      1299.9999046325684,
+      1152.7427673339844
+    ]
+  },
+  "visual_review": {
+    "close_view": "PIE screenshot shows inn, gate, well, roads and stairs in intended palette",
+    "overview": "Auto exposure over-bright against dark background; adjustment pending"
+  },
+  "runtime_validation": "User entered PIE and was observed on central route; automated town test not executed to avoid interrupting live play"
+}

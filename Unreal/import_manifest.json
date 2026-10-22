@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-18",
+  "source_units": "meters",
+  "target_units": "centimeters",
+  "engine_version": "5.8.3",
+  "unreal_import_verified": true,
+  "assets": [
+    {
+      "id": "UnitCube_1m",
+      "source": "ArtLibrary/Calibration/UnitCube_1m.fbx",
+      "destination": "/Game/Art/Calibration",
+      "size_bytes": 12332,
+      "sha256": "965d6c40b01fe689ad78ac5c2f74486992647dd2e11b24ff4ab9d14aae3eb41a",
+      "status": "imported_bounds_verified",
+      "expected_total_bounds_cm": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "id": "TownBench_v001",
+      "source": "Models/TownBench/v001/TownBench_v001.fbx",
+      "destination": "/Game/Art/Props/TownBench",
+      "size_bytes": 27564,
+      "sha256": "05e196688ff1820d7eacb76389a206dd711f4b354d615e013b1bcb09361eb488",
+      "status": "imported_bounds_verified",
+      "expected_total_bounds_cm": [
+        180,
+        62,
+        61
+      ]
+    },
+    {
+      "id": "StarterHouse_v004",
+      "source": "Models/StarterHouse/v004/StarterHouse_v004.fbx",
+      "destination": "/Game/Art/Buildings/StarterHouse",
+      "size_bytes": 3089388,
+      "sha256": "7a339a82107ab4cde9d64d91398c2592811fc8b42f923b1658974ddeece719b6",
+      "status": "imported_bounds_verified"
+    },
+    {
+      "id": "TownLayout_v004",
+      "source": "Models/TownLayout/v004/TownLayout_v004.fbx",
+      "destination": "/Game/Art/Town/TownLayout_v004",
+      "size_bytes": 26409452,
+      "sha256": "97f0348cf17ade09c66c9d06eeb57f37fa72aed6c5dada0e48e24039cbc48f85",
+      "status": "imported_bounds_verified",
+      "validation_report": "town_import_validation.json",
+      "map": "/Game/Maps/TownLayout_01"
+    }
+  ],
+  "rules": [
+    "先匯入校正方塊確認為 100 cm，不預先假設匯入縮放值。",
+    "首輪為測試關卡；保留建築與場景分件，不將全鎮合併成單一凸碰撞。",
+    "逐項確認材質、朝向、角色碰撞與接縫後才標記完成。"
+  ],
+  "verification_scope": "Asset import, source bounds and map reload; not full gameplay acceptance"
+}

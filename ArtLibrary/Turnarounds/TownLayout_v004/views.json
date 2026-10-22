@@ -1,0 +1,157 @@
+{
+  "asset": "TownLayout",
+  "source": "Models/TownLayout/v004/TownLayout_v004.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.15
+      ],
+      "camera_location": [
+        -1.9715309143066406,
+        -139.26278686523438,
+        28.575634002685547
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        152.64126586914062,
+        15.350000381469727,
+        28.575634002685547
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.15
+      ],
+      "camera_location": [
+        -1.9715309143066406,
+        169.96279907226562,
+        28.575634002685547
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.15
+      ],
+      "camera_location": [
+        -156.58432006835938,
+        15.350000381469727,
+        28.575634002685547
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        98.47737121582031,
+        -85.09890747070312,
+        70.67549896240234
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        98.47737121582031,
+        115.79890441894531,
+        70.67549896240234
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.65
+      ],
+      "camera_location": [
+        -102.42044067382812,
+        115.79890441894531,
+        70.67549896240234
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.65
+      ],
+      "camera_location": [
+        -102.42044067382812,
+        -85.09890747070312,
+        70.67549896240234
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        -1.9715309143066406,
+        15.350000381469727,
+        161.72622680664062
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1.5
+      ],
+      "camera_location": [
+        -1.9715309143066406,
+        -71.37322235107422,
+        135.4685516357422
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

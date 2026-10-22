@@ -1,0 +1,39 @@
+{
+  "asset": "PondEdge",
+  "name_zh": "荷花池",
+  "category": "庭院",
+  "stage": "editable_town_prototype",
+  "description": "Small oval garden pond ringed by 26 rounded edge stones, with water surface, lotus pads, two pink lotus flowers and a clump of reeds.",
+  "size_note": "Approx. 5.2 x 3.8 m; water surface 0.22 m above the bed.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    5.237724304199219,
+    3.981072425842285,
+    1.2401599884033203
+  ],
+  "mesh_objects": 46,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/PondEdge_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Claude pond retained with separated lotus pads and SectCore04 materials; ten references packed and ten revised renders.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "style_reference": "SectCore04",
+  "style_materials": [
+    "gold",
+    "greens",
+    "kerb",
+    "lotus",
+    "pad",
+    "soil",
+    "stone",
+    "water"
+  ],
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "geometry_changed": true,
+  "geometry_revision": "Separate five coplanar lotus pads to eliminate surface overlap and black render artifacts."
+}

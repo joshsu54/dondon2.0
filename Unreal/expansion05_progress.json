@@ -1,0 +1,31 @@
+{
+  "status": "prototype_runtime_keyboard_and_visual_review_passed",
+  "map": "/Game/Maps/TownLayout_05",
+  "runtime_baseline_map": "/Game/Maps/TownLayout_04",
+  "runtime_baseline_status": "passed",
+  "runtime_checks_passed": 24,
+  "continuous_route_segments_passed": 8,
+  "observed_ui": [
+    "Chinese quest HUD readable after NativeOnInitialized fix",
+    "E key accepted quest in TownLayout_05",
+    "Clouds no longer blanket trail after scale/height correction",
+    "Seven scenic mountain rotations corrected from pitch to yaw and reloaded"
+  ],
+  "keyboard_status": "Five actual E interactions passed in 05; setup teleports between targets.",
+  "blocker": null,
+  "default_map": "TownLayout_05",
+  "limits": [
+    "Quest progress is per play session only",
+    "Scenic mountains have no collision",
+    "Primitive supports and flat color materials remain prototype quality",
+    "No new Blender geometry or standalone ten-view delivery in this iteration",
+    "No GitHub push or packaged game"
+  ],
+  "files": {
+    "XiuXianTown/Content/Maps/TownLayout_05.umap": "5f8f99cdde6d80a730dba1ba7aba35b43be431b4d70d5d30bffde527ca686bd1",
+    "XiuXianTown/Source/XiuXianTown/SectQuest.cpp": "e9e504d95dba6b409a222a3eceecfd8dc12b7ed6630b1ee7f4831d00ae1f887c",
+    "XiuXianTown/Source/XiuXianTown/SectQuest.h": "d4eacc7dc9c237c4a4dfbc253f62acc1e619e66fc8d1ce998d4347022ed40787",
+    "Tools/check_expansion04_keyboard.py": "7dc6ca1700679e8acbe4559062199c18caf9c05fc56dc29e298121d0a32da6f2"
+  },
+  "runtime_map": "TownLayout_05"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "CliffBoardwalk",
+    "blend_reopened": true,
+    "meshes": 50,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 9.5367431640625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MountainStonePath",
+    "blend_reopened": true,
+    "meshes": 49,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 9.5367431640625e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "MountainStoneStairs",
+    "blend_reopened": true,
+    "meshes": 36,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 4.76837158203125e-07,
+    "ten_view_files_present": true,
+    "twelve_200mm_risers_checked": true
+  },
+  {
+    "asset": "MountainTurnLanding",
+    "blend_reopened": true,
+    "meshes": 24,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 8.344650268554688e-07,
+    "ten_view_files_present": true
+  },
+  {
+    "asset": "TimberSpanBridge",
+    "blend_reopened": true,
+    "meshes": 118,
+    "vertices_finite": true,
+    "bottom_center_pivot_checked": true,
+    "fbx_reimported": true,
+    "fbx_no_studio_objects": true,
+    "fbx_dimension_error_m": 2.0265579223632812e-06,
+    "ten_view_files_present": true
+  }
+]

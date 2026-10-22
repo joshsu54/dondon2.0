@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_06.TownLayout_06",
+  "method": "Physical E via UI; engine setup teleports, no reflected interaction call",
+  "events": [
+    {
+      "target": 0,
+      "quest_state": [
+        1,
+        0,
+        0
+      ],
+      "objective": "沿青石路前往山門，採集靈草 0 / 3。"
+    },
+    {
+      "target": 1,
+      "quest_state": [
+        1,
+        1,
+        0
+      ],
+      "objective": "沿青石路前往山門，採集靈草 1 / 3。"
+    },
+    {
+      "target": 2,
+      "quest_state": [
+        1,
+        2,
+        0
+      ],
+      "objective": "沿青石路前往山門，採集靈草 2 / 3。"
+    },
+    {
+      "target": 3,
+      "quest_state": [
+        2,
+        3,
+        0
+      ],
+      "objective": "靈草已齊！返回小鎮委託牌領取獎勵。"
+    },
+    {
+      "target": 4,
+      "quest_state": [
+        3,
+        3,
+        10
+      ],
+      "objective": "委託完成！獲得 10 靈石。持有靈石：10"
+    }
+  ],
+  "target": 4,
+  "objective": "委託完成！獲得 10 靈石。持有靈石：10"
+}

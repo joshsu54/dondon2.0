@@ -1,0 +1,157 @@
+{
+  "asset": "SmithAnvil",
+  "source": "Models/SmithAnvil/v001/SmithAnvil_v001.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "camera_location": [
+        -2.9802322387695312e-08,
+        -5.9632415771484375,
+        0.49887189269065857
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "camera_location": [
+        5.9632415771484375,
+        0.0,
+        0.49887189269065857
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "camera_location": [
+        -2.9802322387695312e-08,
+        5.9632415771484375,
+        0.49887189269065857
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "camera_location": [
+        -5.9632415771484375,
+        0.0,
+        0.49887189269065857
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        4.018134117126465,
+        -4.018134117126465,
+        2.3070321083068848
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        4.018134117126465,
+        4.018134117126465,
+        2.3070321083068848
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -4.018134117126465,
+        4.018134117126465,
+        2.3070321083068848
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -4.018134117126465,
+        -4.018134117126465,
+        2.3070321083068848
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        -2.9802322387695312e-08,
+        0.0,
+        6.462113380432129
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        -2.9802322387695312e-08,
+        -4.216648101806641,
+        4.715519905090332
+      ],
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "asset": "PrologueAnimatic",
+  "name_zh": "序章動態分鏡〈凌雲重開〉",
+  "version": "v002",
+  "source_doc": "Story/序章劇情動畫_凌雲重開.md",
+  "fps": 24,
+  "frame_start": 0,
+  "frame_end": 3959,
+  "duration_s": 165.0,
+  "resolution": [
+    960,
+    540
+  ],
+  "scenes": [
+    "Animatic3D",
+    "AnimaticEdit"
+  ],
+  "frames_dir": "work/PrologueAnimatic/v001_frames",
+  "linked_sources": [
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/CloudpiercerPeak/v001/CloudpiercerPeak_v001.blend",
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/LayeredCliff/v001/LayeredCliff_v001.blend",
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/MountainRidge/v001/MountainRidge_v001.blend",
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/SectSummitPlateau/v001/SectSummitPlateau_v001.blend",
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "Models/BasicSword01/v001/BasicSword01_v001.blend",
+    "Models/DryingRack/v001/DryingRack_v001.blend",
+    "Models/HerbalStall/v001/HerbalStall_v001.blend",
+    "Models/MaterialShop/v001/MaterialShop_v001.blend",
+    "Models/MeditationCushion/v001/MeditationCushion_v001.blend",
+    "Models/SalesCounter/v001/SalesCounter_v001.blend",
+    "Models/SectLayout/v003/SectLayout_v003.blend",
+    "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "Models/TownLayout/v002/TownLayout_v002.blend"
+  ],
+  "instances": {
+    "SET_TownLayout_v002": "Models/TownLayout/v002/TownLayout_v002.blend",
+    "SET_MaterialShop": "Models/MaterialShop/v001/MaterialShop_v001.blend",
+    "SET_HerbalStall": "Models/HerbalStall/v001/HerbalStall_v001.blend",
+    "SET_DryingRack_A": "Models/DryingRack/v001/DryingRack_v001.blend",
+    "SET_DryingRack_B": "Models/DryingRack/v001/DryingRack_v001.blend",
+    "SET_SalesCounter": "Models/SalesCounter/v001/SalesCounter_v001.blend",
+    "SET_SectSummitPlateau": "ArtLibrary/ExpansionBatches/MountainWind07/Models/SectSummitPlateau/v001/SectSummitPlateau_v001.blend",
+    "SET_CloudpiercerPeak": "ArtLibrary/ExpansionBatches/MountainWind07/Models/CloudpiercerPeak/v001/CloudpiercerPeak_v001.blend",
+    "SET_MountainRidge_West": "ArtLibrary/ExpansionBatches/MountainWind07/Models/MountainRidge/v001/MountainRidge_v001.blend",
+    "SET_MountainRidge_East": "ArtLibrary/ExpansionBatches/MountainWind07/Models/MountainRidge/v001/MountainRidge_v001.blend",
+    "SET_MountainRidge_North": "ArtLibrary/ExpansionBatches/MountainWind07/Models/MountainRidge/v001/MountainRidge_v001.blend",
+    "SET_LayeredCliff_West": "ArtLibrary/ExpansionBatches/MountainWind07/Models/LayeredCliff/v001/LayeredCliff_v001.blend",
+    "SET_LayeredCliff_East": "ArtLibrary/ExpansionBatches/MountainWind07/Models/LayeredCliff/v001/LayeredCliff_v001.blend",
+    "SET_SectLayout_v003": "Models/SectLayout/v003/SectLayout_v003.blend",
+    "SET_MeditationCushion": "Models/MeditationCushion/v001/MeditationCushion_v001.blend",
+    "SET_WindPine_0": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_1": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_2": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_3": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_4": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_5": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindPine_6": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindPine/v001/WindPine_v001.blend",
+    "SET_WindGrass_000": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_001": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_002": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_003": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_004": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_005": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_006": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_007": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_008": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_009": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_010": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_011": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_012": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_013": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_014": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_015": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_016": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_017": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_018": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_019": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_020": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_021": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_022": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_023": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_024": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_025": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_026": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_027": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_028": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_029": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_030": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_031": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_032": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_033": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_034": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_035": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_036": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_037": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_038": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_039": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_040": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_041": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_042": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_043": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_044": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_045": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_046": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_047": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_048": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_049": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_050": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_051": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_052": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_053": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_054": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_055": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_056": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_057": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_058": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_059": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_060": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_061": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_062": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_063": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_064": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_065": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_066": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_067": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_068": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_069": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_070": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_071": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_072": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_073": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_074": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_075": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_076": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_077": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_078": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_079": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_080": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_081": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_082": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_083": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_084": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_085": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_086": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_087": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_088": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_089": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_090": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_091": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_092": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_093": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_094": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_095": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_096": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_097": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_098": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_099": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_100": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_101": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_102": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_103": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_104": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_105": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_106": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_107": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_108": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_109": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_110": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_111": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_112": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_113": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_114": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_115": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_116": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_117": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_118": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_119": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_120": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_121": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_122": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_123": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_124": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_125": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_126": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_127": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_128": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_129": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_130": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_131": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_132": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_133": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_134": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_135": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_136": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_137": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_138": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_139": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_140": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_141": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_142": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_143": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_144": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_145": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_146": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_147": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_148": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_149": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_150": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_151": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_152": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_153": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_154": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_155": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_156": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_157": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_158": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_WindGrass_159": "ArtLibrary/ExpansionBatches/MountainWind07/Models/WindGrass/v001/WindGrass_v001.blend",
+    "SET_SpiritHerbSeedling_0": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_SpiritHerbSeedling_1": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_SpiritHerbSeedling_2": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_SpiritHerbSeedling_3": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_SpiritHerbSeedling_4": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_SpiritHerbSeedling_5": "Models/SpiritHerbSeedling/v001/SpiritHerbSeedling_v001.blend",
+    "SET_BasicSword01_Elder": "Models/BasicSword01/v001/BasicSword01_v001.blend",
+    "SET_BasicSword01_Hero": "Models/BasicSword01/v001/BasicSword01_v001.blend"
+  },
+  "shots": [
+    {
+      "shot": "1-1",
+      "seconds": 8,
+      "frame_start": 0,
+      "frame_end": 191,
+      "timecode_start": "0:00",
+      "label": "雲海淡入，前推見孤峰剪影",
+      "cameras": [
+        "CAM_1-1"
+      ],
+      "lines": [
+        "旁白：「凌雲孤峰，高可摘星。」"
+      ]
+    },
+    {
+      "shot": "1-2",
+      "seconds": 10,
+      "frame_start": 192,
+      "frame_end": 431,
+      "timecode_start": "0:08",
+      "label": "低角度沿層岩峭壁上搖，迎風松",
+      "cameras": [
+        "CAM_1-2"
+      ],
+      "lines": [
+        "旁白：「三百年前，凌雲宗於此鎮守秘境，萬人來朝。」"
+      ]
+    },
+    {
+      "shot": "1-3",
+      "seconds": 12,
+      "frame_start": 432,
+      "frame_end": 719,
+      "timecode_start": "0:18",
+      "label": "空拍掠過山頂宗門，急降轉場山腳",
+      "cameras": [
+        "CAM_1-3"
+      ],
+      "lines": [
+        "旁白：「後來……」",
+        "旁白：「……就沒人來了。」"
+      ]
+    },
+    {
+      "shot": "2-1",
+      "seconds": 6,
+      "frame_start": 720,
+      "frame_end": 863,
+      "timecode_start": "0:30",
+      "label": "迎客松後推出，晨光出生廣場",
+      "cameras": [
+        "CAM_2-1"
+      ],
+      "lines": [
+        "〔鳥叫、遠處的打鐵聲〕"
+      ]
+    },
+    {
+      "shot": "2-2",
+      "seconds": 5,
+      "frame_start": 864,
+      "frame_end": 983,
+      "timecode_start": "0:36",
+      "label": "鐵匠鋪：鎚落火星，淬火白煙",
+      "cameras": [
+        "CAM_2-2"
+      ],
+      "lines": [
+        "〔叮、叮、嗤——〕"
+      ]
+    },
+    {
+      "shot": "2-3",
+      "seconds": 5,
+      "frame_start": 984,
+      "frame_end": 1103,
+      "timecode_start": "0:41",
+      "label": "藥草攤、晾藥架，橫移過材料鋪",
+      "cameras": [
+        "CAM_2-3"
+      ],
+      "lines": [
+        "〔市集環境聲〕"
+      ]
+    },
+    {
+      "shot": "2-4",
+      "seconds": 8,
+      "frame_start": 1104,
+      "frame_end": 1295,
+      "timecode_start": "0:46",
+      "label": "主角長凳打瞌睡，指路碑",
+      "cameras": [
+        "CAM_2-4"
+      ],
+      "lines": [
+        "鐵匠（畫外音）：「又在這睡！太陽都曬屁股了！」"
+      ]
+    },
+    {
+      "shot": "2-5",
+      "seconds": 11,
+      "frame_start": 1296,
+      "frame_end": 1559,
+      "timecode_start": "0:54",
+      "label": "天暗，光柱落在出生石台，衝擊波",
+      "cameras": [
+        "CAM_2-5"
+      ],
+      "lines": [
+        "〔低頻轟鳴〕",
+        "〔突然靜音〕"
+      ]
+    },
+    {
+      "shot": "3-1",
+      "seconds": 6,
+      "frame_start": 1560,
+      "frame_end": 1703,
+      "timecode_start": "1:05",
+      "label": "光散，主角低頭看掌心光紋",
+      "cameras": [
+        "CAM_3-1"
+      ],
+      "lines": [
+        "〔心跳聲〕"
+      ]
+    },
+    {
+      "shot": "3-2",
+      "seconds": 6,
+      "frame_start": 1704,
+      "frame_end": 1847,
+      "timecode_start": "1:11",
+      "label": "掌門從牌樓屋頂跳下，差點滑倒",
+      "cameras": [
+        "CAM_3-2"
+      ],
+      "lines": [
+        "掌門：「咳——此乃，仙緣！」"
+      ]
+    },
+    {
+      "shot": "3-3",
+      "seconds": 8,
+      "frame_start": 1848,
+      "frame_end": 2039,
+      "timecode_start": "1:17",
+      "label": "正反打：掌門繞主角打量",
+      "cameras": [
+        "CAM_3-3a",
+        "CAM_3-3b",
+        "CAM_3-3c"
+      ],
+      "lines": [
+        "掌門：「靈根……有！」",
+        "掌門：「骨骼……還行！」",
+        "掌門：「牙口……不錯！」"
+      ]
+    },
+    {
+      "shot": "3-4",
+      "seconds": 7,
+      "frame_start": 2040,
+      "frame_end": 2207,
+      "timecode_start": "1:25",
+      "label": "鐵匠探頭，掌門抽出舊法劍",
+      "cameras": [
+        "CAM_3-4"
+      ],
+      "lines": [
+        "鐵匠：「老雲，那把劍不是上個月拿來當的嗎？」",
+        "掌門：「……贖回來了。」"
+      ]
+    },
+    {
+      "shot": "3-5",
+      "seconds": 8,
+      "frame_start": 2208,
+      "frame_end": 2399,
+      "timecode_start": "1:32",
+      "label": "遞劍，劍柄特寫，主角握緊",
+      "cameras": [
+        "CAM_3-5"
+      ],
+      "lines": [
+        "掌門：「拿著。從今天起，你就是凌雲宗的弟子了。」"
+      ]
+    },
+    {
+      "shot": "4-1",
+      "seconds": 8,
+      "frame_start": 2400,
+      "frame_end": 2591,
+      "timecode_start": "1:40",
+      "label": "上山長階蒙太奇：遠景／側面／背影",
+      "cameras": [
+        "CAM_4-1a",
+        "CAM_4-1b",
+        "CAM_4-1c"
+      ],
+      "lines": [
+        "掌門：「想當年……我一口氣……上下……三趟……」"
+      ]
+    },
+    {
+      "shot": "4-2",
+      "seconds": 6,
+      "frame_start": 2592,
+      "frame_end": 2735,
+      "timecode_start": "1:48",
+      "label": "抵達山頂，仰拍山門與歪斜牌匾",
+      "cameras": [
+        "CAM_4-2"
+      ],
+      "lines": [
+        "〔風聲，牌匾吱呀作響〕"
+      ]
+    },
+    {
+      "shot": "4-3",
+      "seconds": 4,
+      "frame_start": 2736,
+      "frame_end": 2831,
+      "timecode_start": "1:54",
+      "label": "推門卡住，一腳踹開",
+      "cameras": [
+        "CAM_4-3"
+      ],
+      "lines": [
+        "〔砰！〕"
+      ]
+    },
+    {
+      "shot": "4-4",
+      "seconds": 12,
+      "frame_start": 2832,
+      "frame_end": 3119,
+      "timecode_start": "1:58",
+      "label": "長鏡頭：藥圃→演武場→大殿→煉丹房",
+      "cameras": [
+        "CAM_4-4"
+      ],
+      "lines": [
+        "掌門：「這是……藥圃。」",
+        "掌門：「這是演武場。」",
+        "掌門：「這是……咳，總之以後都歸你管。」"
+      ]
+    },
+    {
+      "shot": "4-5",
+      "seconds": 5,
+      "frame_start": 3120,
+      "frame_end": 3239,
+      "timecode_start": "2:10",
+      "label": "主角回頭看掌門，掌門別開視線",
+      "cameras": [
+        "CAM_4-5"
+      ],
+      "lines": [
+        "主角：「……」",
+        "掌門：「掃把在倉庫。」"
+      ]
+    },
+    {
+      "shot": "5-1",
+      "seconds": 6,
+      "frame_start": 3240,
+      "frame_end": 3383,
+      "timecode_start": "2:15",
+      "label": "主角走上修煉台，坐上蒲團",
+      "cameras": [
+        "CAM_5-1"
+      ],
+      "lines": [
+        "〔音樂開始堆疊〕"
+      ]
+    },
+    {
+      "shot": "5-2",
+      "seconds": 8,
+      "frame_start": 3384,
+      "frame_end": 3575,
+      "timecode_start": "2:21",
+      "label": "陣紋亮起，靈氣聚集，幼苗抬頭",
+      "cameras": [
+        "CAM_5-2a",
+        "CAM_5-2b"
+      ],
+      "lines": [
+        "掌門（輕聲）：「三百年了……」"
+      ]
+    },
+    {
+      "shot": "5-3",
+      "seconds": 8,
+      "frame_start": 3576,
+      "frame_end": 3767,
+      "timecode_start": "2:29",
+      "label": "急速拉遠：宗門→山頂→孤峰，山後紅光",
+      "cameras": [
+        "CAM_5-3"
+      ],
+      "lines": [
+        "〔音樂推到最高點〕"
+      ]
+    },
+    {
+      "shot": "5-4",
+      "seconds": 8,
+      "frame_start": 3768,
+      "frame_end": 3959,
+      "timecode_start": "2:37",
+      "label": "雲海標題，淡出後切回 5-1 機位",
+      "cameras": [
+        "CAM_5-4a",
+        "CAM_5-4b"
+      ],
+      "lines": [
+        "提示：「按住〔打坐鍵〕開始修煉」"
+      ]
+    }
+  ],
+  "blender": "5.3.0 Beta",
+  "world_layout_m": {
+    "town_origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stair": {
+      "y0": 26.0,
+      "y1": 104.0,
+      "z0": 1.32,
+      "z1": 48.0,
+      "steps": 156,
+      "width": 3.6
+    },
+    "plateau_origin": [
+      0.0,
+      160.0,
+      0.0
+    ],
+    "sect_origin": [
+      0.0,
+      150.5,
+      48.0
+    ],
+    "peak_origin": [
+      0.0,
+      262.0,
+      0.0
+    ],
+    "peak_scale": 2.4
+  },
+  "audio": {
+    "note": "placeholder: macOS say voices + numpy-synthesised stems",
+    "stems": [
+      "audio/Amb_temp_stem.wav",
+      "audio/SFX_temp_stem.wav",
+      "audio/Music_temp_stem.wav"
+    ],
+    "timing": "audio/audio_timing.json",
+    "voices": {
+      "旁白": "Meijia",
+      "掌門": "Grandpa (中文（台灣）)",
+      "鐵匠": "Eddy (中文（台灣）)"
+    }
+  }
+}

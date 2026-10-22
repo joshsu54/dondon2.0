@@ -1,0 +1,24 @@
+{
+  "asset": "TownPaifang",
+  "name_zh": "小鎮牌樓",
+  "category": "小鎮建築",
+  "stage": "editable_town_prototype",
+  "description": "Three-bay timber town archway (paifang): four red columns on carved drum bases with braces, tall centre bay with blank gold-framed plaque and bracket set, lower side bays with jade panels, curved tile roofs with upturned eaves.",
+  "size_note": "Approx. 8.2 x 1.8 x 5.9 m; centre opening 2.3 m wide.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    7.7015790939331055,
+    2.140000104904175,
+    6.0637030601501465
+  ],
+  "mesh_objects": 146,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtReferences/TownPaifang_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "ten concept sketches drawn first, loaded as reference images, then modelled from the shared design spec; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

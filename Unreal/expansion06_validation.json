@@ -1,0 +1,80 @@
+{
+  "status": "prototype_saved_runtime_visual_and_E_key_checks_passed",
+  "map": "/Game/Maps/TownLayout_06",
+  "saved_checks": {
+    "actor_count": true,
+    "three_herbs": true,
+    "ValleyRidge_00_upright": true,
+    "ValleyRidge_01_upright": true,
+    "ValleyRidge_02_upright": true,
+    "ValleyRidge_03_upright": true,
+    "DistantPeak_00_upright": true,
+    "DistantPeak_01_upright": true,
+    "DistantPeak_02_upright": true,
+    "DriftingClouds_00_above_route": true,
+    "DriftingClouds_00_no_shadows": true,
+    "DriftingClouds_01_above_route": true,
+    "DriftingClouds_01_no_shadows": true,
+    "DriftingClouds_02_above_route": true,
+    "DriftingClouds_02_no_shadows": true,
+    "one_board": true,
+    "board_position": true,
+    "new_asset_instances": true,
+    "MountainRestPavilion_loaded": true,
+    "MountainRestPavilion_materials": true,
+    "MountainRestPavilion_scale": true,
+    "TrailStoneRailing_loaded": true,
+    "TrailStoneRailing_materials": true,
+    "TrailStoneRailing_scale": true,
+    "WindPine_loaded": true,
+    "WindPine_materials": true,
+    "WindPine_scale": true,
+    "WindGrass_loaded": true,
+    "WindGrass_materials": true,
+    "WindGrass_scale": true,
+    "StoneLantern_loaded": true,
+    "StoneLantern_materials": true,
+    "StoneLantern_scale": true,
+    "TownWaymarker_loaded": true,
+    "TownWaymarker_materials": true,
+    "TownWaymarker_scale": true,
+    "NoticeBoard_loaded": true,
+    "NoticeBoard_materials": true,
+    "NoticeBoard_scale": true
+  },
+  "screenshots": [
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion06_reststop.png",
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion06_trail.png",
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion06_board.png",
+    "/Users/joshmac/強悍修仙2.0/Unreal/Validation/expansion06_pavilion_inside.png"
+  ],
+  "map_sha256": "016a6695184e8f24b2a1ce5fc45f46f30e99d230865245da906ac635a058b14b",
+  "visual_review": {
+    "reviewed": [
+      "Validation/expansion06_reststop.png",
+      "Validation/expansion06_board.png",
+      "Validation/expansion06_pavilion_inside.png"
+    ],
+    "notes": [
+      "Teal roof, warm timber, pale stone and jade palette retained",
+      "Pavilion entrance and benches inspected; roof interior remains dark",
+      "Trail capture repeats the reststop viewpoint and is not counted as an independent angle",
+      "Noticeboard footing across existing paving heights needs further polish"
+    ],
+    "physical_keyboard": "Five actual E key presses through UI passed: accept, three herbs, 10-stone reward. Setup teleported between targets; not an end-to-end manual walking test.",
+    "default_map": "TownLayout_06"
+  },
+  "keyboard_report": "expansion06_keyboard.json",
+  "keyboard_screenshots_reviewed": [
+    "Validation/expansion06_key_0.png",
+    "Validation/expansion06_key_1.png",
+    "Validation/expansion06_key_2.png",
+    "Validation/expansion06_key_3.png",
+    "Validation/expansion06_key_4.png"
+  ],
+  "keyboard_review_notes": [
+    "Chinese HUD shows 0/3, 1/3, 2/3, ready to return, and reward 10 in five captures.",
+    "Editor diagnostics includes iOS idevice_id architecture warnings; iOS support is not validated.",
+    "This is a playable prototype verification, not performance, packaging or full-world acceptance."
+  ]
+}

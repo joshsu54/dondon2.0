@@ -1,0 +1,208 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_06.TownLayout_06",
+  "method": "Real PIE, continuous CharacterMovement route after isolated precondition setup; reflected interaction function, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": true,
+    "early_reward_denied": true,
+    "herb1_route": true,
+    "herb1_collect": true,
+    "herb1_duplicate_denied": true,
+    "pavilion_approach_route": true,
+    "pavilion_inside_route": true,
+    "pavilion_return_route": true,
+    "herb2_route": true,
+    "herb2_collect": true,
+    "herb2_duplicate_denied": true,
+    "herb3_route": true,
+    "herb3_collect": true,
+    "herb3_duplicate_denied": true,
+    "ready_to_deliver": true,
+    "gate_route": true,
+    "return_upper_route": true,
+    "return_middle_route": true,
+    "return_lower_route": true,
+    "board_route": true,
+    "reward_once": true,
+    "duplicate_reward_denied": true,
+    "clouds_move": true
+  },
+  "route": [
+    {
+      "id": "herb1",
+      "position_cm": [
+        1.2955818515313362,
+        -4433.805226855861,
+        224.15003408368239
+      ],
+      "distance_cm": 16.246513765240028,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_approach",
+      "position_cm": [
+        -682.0229407602662,
+        -4449.584862069971,
+        224.1500004405293
+      ],
+      "distance_cm": 17.981851918249298,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_inside",
+      "position_cm": [
+        -1184.223696687198,
+        -4449.987355922846,
+        278.1210512042619
+      ],
+      "distance_cm": 15.776308379662593,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_return",
+      "position_cm": [
+        -16.958235233371596,
+        -4449.99981893519,
+        224.1384710768832
+      ],
+      "distance_cm": 16.95823523433822,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb2",
+      "position_cm": [
+        -0.22942623812080576,
+        -5564.7123425846,
+        464.1499789918478
+      ],
+      "distance_cm": 15.289378850998649,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb3",
+      "position_cm": [
+        -0.0034707982792139638,
+        -6732.068771229361,
+        704.1185631697281
+      ],
+      "distance_cm": 17.931229106545604,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "gate",
+      "position_cm": [
+        -0.00022902886403248026,
+        -6982.319921808285,
+        704.1185631697281
+      ],
+      "distance_cm": 17.680078193198867,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_upper",
+      "position_cm": [
+        -1.5829246478377226e-05,
+        -6766.056706737275,
+        704.1185631697281
+      ],
+      "distance_cm": 16.05670673728271,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_middle",
+      "position_cm": [
+        -1.9644990231638986e-07,
+        -5594.71963460159,
+        464.149948591481
+      ],
+      "distance_cm": 14.719634601589862,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_lower",
+      "position_cm": [
+        -2.5598316433447707e-09,
+        -4464.9162178695915,
+        224.14994811464385
+      ],
+      "distance_cm": 14.916217869591492,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "board",
+      "position_cm": [
+        78.65160753660602,
+        -3467.1063172388504,
+        228.26515885685876
+      ],
+      "distance_cm": 17.15937795234799,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    }
+  ],
+  "limitations": [
+    "Physical keyboard and HUD visual checks separate",
+    "Quest progress resets on new play session"
+  ],
+  "objective": "委託完成！獲得 10 靈石。持有靈石：10",
+  "herbs": 3,
+  "spirit_stones": 10
+}

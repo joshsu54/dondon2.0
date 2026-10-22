@@ -1,0 +1,31 @@
+{
+  "asset": "TownPaifang",
+  "name_zh": "小鎮牌樓",
+  "category": "小鎮建築",
+  "stage": "editable_town_prototype",
+  "description": "Expanded centre opening with unchanged column diameters and translated side bays; centre roof and lintels extended to match.",
+  "size_note": "Central support spacing 4.4 m; clear drum-base opening 3.6 m.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    9.501579284667969,
+    2.140000104904175,
+    6.064502239227295
+  ],
+  "mesh_objects": 146,
+  "bounds_method": "evaluated mesh vertices",
+  "concept_references": "ArtLibrary/ExpansionBatches/TownRefinement12/SourceSnapshot/ArtReferences/TownPaifang_10Views",
+  "concept_reference_images": 10,
+  "modeling_method": "Revision of Claude v001 using its ten prior concept references; all ten packed in blend. Ten new renders use the revised geometry.",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "version": "v002",
+  "source_commit": "70d3fa4d261bd9bbd7cc0cd7180ca08c6a7ba7cc",
+  "source_model": "SourceSnapshot/Models/TownPaifang/v001/TownPaifang_v001.blend",
+  "clear_width_at_bases_m": 3.6,
+  "centre_column_spacing_m": 4.4,
+  "style_reference": "SectCore04",
+  "geometry_changed": true
+}

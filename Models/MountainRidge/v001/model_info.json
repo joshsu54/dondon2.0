@@ -1,0 +1,21 @@
+{
+  "asset": "MountainRidge",
+  "name_zh": "連綿山脊",
+  "stage": "editable_landscape_prototype",
+  "description": "Three connected-looking peak masses with a shared broad rocky base; overlapping editable meshes.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    87.29951477050781,
+    33.30812072753906,
+    49.0
+  ],
+  "mesh_objects": 4,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "editable geometry; all ten views rendered at frame 1 from the same model",
+  "animation": "static",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

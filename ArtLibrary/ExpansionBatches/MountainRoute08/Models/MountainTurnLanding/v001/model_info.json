@@ -1,0 +1,33 @@
+{
+  "asset": "MountainTurnLanding",
+  "name_zh": "山路轉折平台",
+  "stage": "editable_path_prototype",
+  "description": "4 x 4 m landing. South and east entrances; north and west rails are removable mesh parts.",
+  "units": "meters",
+  "front": "-Y",
+  "dimensions_m": [
+    4.029999732971191,
+    4.029999732971191,
+    1.4499999284744263
+  ],
+  "mesh_objects": 24,
+  "bounds_method": "evaluated mesh vertices",
+  "modeling_method": "procedural mesh construction; ten views rendered from the same model",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "connectors": {
+    "entry": [
+      0.0,
+      -2.0,
+      0.30000001192092896
+    ],
+    "exit": [
+      2.0,
+      0.0,
+      0.30000001192092896
+    ]
+  },
+  "clear_walk_width_m": 2.6
+}

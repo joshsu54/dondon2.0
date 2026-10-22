@@ -1,0 +1,34 @@
+{
+  "asset": "Blacksmith",
+  "source": "Models/Blacksmith/v001/Blacksmith_v001.blend",
+  "views": [
+    "01_front.png",
+    "02_right.png",
+    "03_rear.png",
+    "04_left.png",
+    "05_front_right.png",
+    "06_rear_right.png",
+    "07_rear_left.png",
+    "08_front_left.png",
+    "09_top.png",
+    "10_high_front.png"
+  ],
+  "projection": "orthographic",
+  "bounds_m": [
+    [
+      -3.7150001525878906,
+      -3.0231778621673584,
+      0.0
+    ],
+    [
+      3.7150001525878906,
+      2.700000047683716,
+      5.360000133514404
+    ]
+  ],
+  "ortho_width_m": 10.597910290445023,
+  "front": "Blender -Y",
+  "source_modified": false,
+  "generated_from_same_geometry": true,
+  "cardinal_background": "Studio floor hidden for unobstructed elevations"
+}
