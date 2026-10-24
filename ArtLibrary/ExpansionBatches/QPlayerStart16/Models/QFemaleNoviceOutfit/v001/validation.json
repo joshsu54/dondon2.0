@@ -1,0 +1,20 @@
+{
+  "asset": "QFemaleNoviceOutfit",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 32,
+  "dimensions_m": [
+    0.553366482257843,
+    0.24400001764297485,
+    0.8044252395629883
+  ],
+  "fbx_dimension_error_m": 4.470348358154297e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "51f6bf106f258bdbc35d513df6177acff9445fc2ad80cdb38a47fbf0543900ae",
+  "fbx_sha256": "808633f0384a49115fcb2b485629dca26c2820165c100ac876934c2701b61019",
+  "unreal_verified": false
+}

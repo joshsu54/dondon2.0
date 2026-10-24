@@ -1,0 +1,97 @@
+{
+  "blend_reopened": true,
+  "units": "metres",
+  "front": "-Y",
+  "north": "+Y",
+  "terrain_geometry": {
+    "vertices": 67390,
+    "faces": 67924,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 4,
+    "finite_coordinates": true
+  },
+  "png_sizes": {
+    "01_front.png": [
+      1024,
+      1024
+    ],
+    "02_right.png": [
+      1024,
+      1024
+    ],
+    "03_rear.png": [
+      1024,
+      1024
+    ],
+    "04_left.png": [
+      1024,
+      1024
+    ],
+    "05_front_right.png": [
+      1024,
+      1024
+    ],
+    "06_rear_right.png": [
+      1024,
+      1024
+    ],
+    "07_rear_left.png": [
+      1024,
+      1024
+    ],
+    "08_front_left.png": [
+      1024,
+      1024
+    ],
+    "09_top.png": [
+      1024,
+      1024
+    ],
+    "10_high_front.png": [
+      1024,
+      1024
+    ]
+  },
+  "unique_cameras": 10,
+  "export_mesh_count": 1583,
+  "export_bounds_m": [
+    [
+      -70.0,
+      -85.0,
+      -8.0
+    ],
+    [
+      70.0,
+      118.82452392578125,
+      56.44464874267578
+    ]
+  ],
+  "visual_review": "Ten renders inspected; terrain study, not finished gameplay terrain. Peaks and ground need further art refinement.",
+  "unreal_import_verified": false,
+  "collision_ready": false,
+  "uv_baked": false,
+  "lod_ready": false,
+  "fbx_reimport_mesh_count": 1583,
+  "fbx_reimport_bounds_m": [
+    [
+      -70.00000762939453,
+      -85.00000762939453,
+      -8.0
+    ],
+    [
+      70.00000762939453,
+      118.82452392578125,
+      56.44464874267578
+    ]
+  ],
+  "fbx_max_bounds_error_m": 7.62939453125e-06,
+  "checks": {
+    "ten_1024_views": true,
+    "ten_unique_camera_positions": true,
+    "fbx_mesh_count_matches": true,
+    "fbx_bounds_match": true,
+    "terrain_closed_edges": true,
+    "finite_geometry": true
+  },
+  "status": "passed"
+}

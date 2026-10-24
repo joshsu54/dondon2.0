@@ -1,0 +1,226 @@
+[
+  {
+    "asset": "StarterHouse",
+    "name_zh": "新手民宅",
+    "source": "ArtLibrary\\Current\\StarterHouse\\StarterHouse_v004.blend",
+    "source_sha256": "70d3f8d8cf8427f0c175c46eb91c4d1f18eb709fd04d2ef1d124ead71579307a",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 480,
+    "measured_dimensions_m": [
+      9.047788619995117,
+      8.189064979553223,
+      5.612877368927002
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "MaterialShop",
+    "name_zh": "雜貨／材料鋪",
+    "source": "ArtLibrary\\Current\\MaterialShop\\MaterialShop_v001.blend",
+    "source_sha256": "17fba32fbaeb7435b8fb2224acdcf0f2bf28a6dab902938198e6591a1d352bc9",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 551,
+    "measured_dimensions_m": [
+      9.047788619995117,
+      8.189064979553223,
+      5.612877368927002
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "AlchemyFurnace",
+    "name_zh": "丹爐",
+    "source": "Models\\AlchemyFurnace\\v001\\AlchemyFurnace_v001.blend",
+    "source_sha256": "260396959f64356c3ce36ab04572f5dc56bcdfd1897234fe690515c524ec0e48",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 29,
+    "measured_dimensions_m": [
+      1.2979999780654907,
+      0.878000020980835,
+      1.3100000619888306
+    ],
+    "proposed_instance_scale": 0.8,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "MeditationCushion",
+    "name_zh": "打坐蒲團",
+    "source": "Models\\MeditationCushion\\v001\\MeditationCushion_v001.blend",
+    "source_sha256": "b07da7f551f1f292a9fdfe9581d0176f2665cdb2f4b7e600c45943c8a71ff7cc",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 59,
+    "measured_dimensions_m": [
+      0.9300000071525574,
+      0.9300000071525574,
+      0.1854849010705948
+    ],
+    "proposed_instance_scale": 0.72,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SmithWorkbench",
+    "name_zh": "工作台",
+    "source": "Models\\SmithWorkbench\\v001\\SmithWorkbench_v001.blend",
+    "source_sha256": "748d3b10dfa0f8a3f0095a79a56b97793b6cb71b028093dcb12371e8a4cdb788",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 9,
+    "measured_dimensions_m": [
+      2.049999952316284,
+      0.8299999237060547,
+      0.9700000286102295
+    ],
+    "proposed_instance_scale": 0.7,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "BasicSword01",
+    "name_zh": "基礎法劍",
+    "source": "Models\\BasicSword01\\v001\\BasicSword01_v001.blend",
+    "source_sha256": "e53409a56b318d143761d431c8d5404a27d8329ef204fb157e1f0fbdd922a411",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 4,
+    "measured_dimensions_m": [
+      0.28999999165534973,
+      0.10000000149011612,
+      1.21999990940094
+    ],
+    "proposed_instance_scale": 0.62,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SpiritHerbGarden",
+    "name_zh": "靈藥圃",
+    "source": "Models\\SpiritHerbGarden\\v001\\SpiritHerbGarden_v001.blend",
+    "source_sha256": "4d96af4eeea40e09bcb70c8b2dcd43436cd31fc93f7d681ac205f16627f6e711",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 662,
+    "measured_dimensions_m": [
+      6.300000190734863,
+      4.900000095367432,
+      0.921999990940094
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "StorageChest",
+    "name_zh": "宗門儲物箱",
+    "source": "Models\\StorageChest\\v001\\StorageChest_v001.blend",
+    "source_sha256": "0fb5f5bb034814e4c215dc5377c486aafa7b322254b51a58e32e714271f23f6f",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 20,
+    "measured_dimensions_m": [
+      1.4500000476837158,
+      0.906000018119812,
+      0.7944999933242798
+    ],
+    "proposed_instance_scale": 0.75,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "DiscipleBed",
+    "name_zh": "弟子床鋪",
+    "source": "Models\\DiscipleBed\\v001\\DiscipleBed_v001.blend",
+    "source_sha256": "d481b95d850bca38349d091e60cd4b53d85f279fe969e20239bbf0aa65139bac",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 12,
+    "measured_dimensions_m": [
+      1.2000000476837158,
+      2.119999885559082,
+      0.9750000238418579
+    ],
+    "proposed_instance_scale": 0.65,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SpiritHerbSeedling",
+    "name_zh": "靈草幼苗",
+    "source": "Models\\SpiritHerbSeedling\\v001\\SpiritHerbSeedling_v001.blend",
+    "source_sha256": "28a13b708bfc86741727919d485800441f4b57b0d4472a647ab426e8286dab8f",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 11,
+    "measured_dimensions_m": [
+      0.13517168164253235,
+      0.0968889445066452,
+      0.1603325754404068
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SpiritHerbYoung",
+    "name_zh": "靈草成長株",
+    "source": "Models\\SpiritHerbYoung\\v001\\SpiritHerbYoung_v001.blend",
+    "source_sha256": "27d8c8ef7e615ac0666512fee70092695f0518842a447c956883b894a0930e84",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 22,
+    "measured_dimensions_m": [
+      0.26314038038253784,
+      0.30384835600852966,
+      0.2897479832172394
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SpiritHerbMature",
+    "name_zh": "靈草成熟株",
+    "source": "Models\\SpiritHerbMature\\v001\\SpiritHerbMature_v001.blend",
+    "source_sha256": "1d1626efeed9e13f1e0bd29797b520dd979c677d6ec7362e5ee59469da8fb275",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 66,
+    "measured_dimensions_m": [
+      0.4083343744277954,
+      0.4293481707572937,
+      0.43799999356269836
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "NoticeBoard",
+    "name_zh": "小鎮公告板",
+    "source": "Models\\NoticeBoard\\v002\\NoticeBoard_v002.blend",
+    "source_sha256": "a8eff359ff1de51030a4360af66bf2727aa266b7eaf80eaf6a55aa873e51d59d",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 62,
+    "measured_dimensions_m": [
+      3.2146503925323486,
+      1.0160000324249268,
+      2.9961585998535156
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  },
+  {
+    "asset": "SpawnAltar",
+    "name_zh": "出生石台",
+    "source": "Models\\SpawnAltar\\v002\\SpawnAltar_v002.blend",
+    "source_sha256": "10dffd7872445ab234da0ae835264ebd2c539775a09ceee935665c7b23da1749",
+    "source_unchanged": true,
+    "blend_reopened": true,
+    "mesh_objects": 29,
+    "measured_dimensions_m": [
+      3.2335784435272217,
+      3.766789436340332,
+      1.919602632522583
+    ],
+    "proposed_instance_scale": 1.0,
+    "status": "read_only_size_audit; scale proposal not applied to original; no UE interaction acceptance"
+  }
+]

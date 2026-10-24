@@ -1,0 +1,167 @@
+{
+  "asset": "CampHerbGarden",
+  "source": "Models/CampHerbGarden/v001/CampHerbGarden_v001.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.7
+      ],
+      "camera_location": [
+        0.0,
+        -491.5391540527344,
+        344.80743408203125
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.45
+      ],
+      "camera_location": [
+        547.1528930664062,
+        0.0,
+        246.94879150390625
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.7
+      ],
+      "camera_location": [
+        0.0,
+        491.5391540527344,
+        344.80743408203125
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.45
+      ],
+      "camera_location": [
+        -547.1528930664062,
+        0.0,
+        246.94879150390625
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.8
+      ],
+      "camera_location": [
+        369.2744445800781,
+        -369.2744445800781,
+        296.1495666503906
+      ],
+      "ortho_scale": 11.833150164731968,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.8
+      ],
+      "camera_location": [
+        369.2744445800781,
+        369.2744445800781,
+        296.1495666503906
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.8
+      ],
+      "camera_location": [
+        -369.2744445800781,
+        369.2744445800781,
+        296.1495666503906
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.8
+      ],
+      "camera_location": [
+        -369.2744445800781,
+        -369.2744445800781,
+        296.1495666503906
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        600.72998046875
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -0.45,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -246.2187957763672,
+        547.8828735351562
+      ],
+      "ortho_scale": 1.0,
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

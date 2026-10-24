@@ -1,0 +1,10 @@
+{
+  "status": "saved",
+  "map": "/Game/Maps/TownLayout_12",
+  "parts": {
+    "SectShiDi": 5,
+    "SectApplicantLin": 5,
+    "SectApplicantYue": 5
+  },
+  "base_11_unchanged": true
+}

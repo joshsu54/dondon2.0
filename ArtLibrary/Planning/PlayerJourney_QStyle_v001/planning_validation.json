@@ -1,0 +1,27 @@
+{
+  "catalog_entries": 93,
+  "catalog_assets_with_views": 90,
+  "catalog_view_paths": 900,
+  "selected_reuse_files_exist_and_not_lfs": true,
+  "extra_three_model_files_exist_and_not_lfs": true,
+  "unique_new_ids": true,
+  "summary": {
+    "new_model_sets": 104,
+    "selected_reuse_sets": 66,
+    "planned_model_sets": 170,
+    "first_batch_new": 16,
+    "first_batch_reuse": 14,
+    "concept_sheets": 154,
+    "new_model_render_views": 1040,
+    "icons": 80,
+    "interface_design_sheets": 10,
+    "effect_design_sheets": 12,
+    "image_deliverables_total": 1296,
+    "concept_sheets_created": 2,
+    "new_models_created": 0,
+    "first_batch_concept_sheets": 30,
+    "human_animation_clips": 24,
+    "creature_animation_clips": 64
+  },
+  "note": "File inventory and plan arithmetic only; no new 3D models, UE or Blender acceptance claimed."
+}

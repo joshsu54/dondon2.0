@@ -1,0 +1,135 @@
+{
+  "status": "error",
+  "map": "/Game/Maps/TownLayout_13",
+  "checks": {
+    "pawn_is_q_player_male": true,
+    "mesh_is_v005_male": true,
+    "seventeen_bones": true,
+    "capsule_73cm": true,
+    "male_stands_on_ground": true,
+    "anim_driver_present": true,
+    "idle_state": true,
+    "idle_animates": false,
+    "male_clear_walk_direction": true,
+    "male_walk_moves": true,
+    "male_walk_state": true,
+    "male_play_rate_matches_speed": true,
+    "male_feet_step": false,
+    "male_speed_capped": true,
+    "male_back_to_idle": true,
+    "female_class_loads": true
+  },
+  "measures": {
+    "imported_anim_rotation_deg": {
+      "QPlayerMale_Idle_thigh_l_deg": 0.0,
+      "QPlayerMale_Idle_upperarm_l_deg": 1.9318479143840408,
+      "QPlayerMale_Idle_spine_deg": 1.1999957561483594,
+      "QPlayerMale_Walk_thigh_l_deg": 21.99998474121092,
+      "QPlayerMale_Walk_upperarm_l_deg": 25.999999149656013,
+      "QPlayerMale_Walk_spine_deg": 7.000000953674323,
+      "QPlayerFemale_Idle_thigh_l_deg": 0.0,
+      "QPlayerFemale_Idle_upperarm_l_deg": 1.9318479143840408,
+      "QPlayerFemale_Idle_spine_deg": 1.1999957561483594,
+      "QPlayerFemale_Walk_thigh_l_deg": 21.99998474121092,
+      "QPlayerFemale_Walk_upperarm_l_deg": 25.999999149656013,
+      "QPlayerFemale_Walk_spine_deg": 7.000000953674323
+    },
+    "bones": 17,
+    "bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck1",
+      "head2",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r"
+    ],
+    "male_foot_floor_gap_cm": 2.1500027049252424,
+    "male_mesh_playing": [
+      true,
+      "ANIMATION_SINGLE_NODE",
+      "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>",
+      true,
+      false
+    ],
+    "idle_hand_component_space": [
+      [
+        0.25,
+        0.04,
+        0.47
+      ],
+      [
+        0.25,
+        0.04,
+        0.47
+      ],
+      [
+        0.24,
+        0.04,
+        0.47
+      ],
+      [
+        0.24,
+        0.04,
+        0.47
+      ],
+      [
+        0.24,
+        0.04,
+        0.47
+      ],
+      [
+        0.24,
+        0.04,
+        0.47
+      ]
+    ],
+    "idle_bone_motion_cm": {
+      "spine": 0.0,
+      "head": 0.0,
+      "hand_l": 0.014142135623734575,
+      "hand_r": 0.014142135623734575
+    },
+    "idle_play_position_s": [
+      1.927,
+      0.037,
+      0.148,
+      0.262,
+      0.368,
+      0.48,
+      0.588,
+      0.695,
+      0.809,
+      0.914,
+      1.028,
+      1.133
+    ],
+    "male_walk": {
+      "yaw": 0,
+      "moved_cm": 600.59,
+      "max_speed_cm_s": 204.00000000000037,
+      "max_play_rate": 3.4000000953674316,
+      "foot_travel_cm": 0.2904082327263495,
+      "states": [
+        "Walk"
+      ]
+    }
+  },
+  "screenshots": [
+    "Validation\\qplayer13_male_idle_front.png",
+    "Validation\\qplayer13_male_walking.png",
+    "Validation\\qplayer13_male_after_walk_front.png"
+  ],
+  "method": "Real PIE; movement through AddMovementInput each frame (not teleports)",
+  "error": "Traceback (most recent call last):\n  File \"D:/dondon2.0-main/Unreal/Tools/test_qplayer13.py\", line 129, in tick\n    state['ready']=now+next(runner)\n                       ^^^^^^^^^^^^\n  File \"D:/dondon2.0-main/Unreal/Tools/test_qplayer13.py\", line 108, in scenario\n    f=u.GameplayStatics.begin_deferred_actor_spawn_from_class(world,cls,tr,u.SpawnActorCollisionHandlingMethod.ADJUST_IF_POSSIBLE_BUT_ALWAYS_SPAWN)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: type object 'GameplayStatics' has no attribute 'begin_deferred_actor_spawn_from_class'\n"
+}

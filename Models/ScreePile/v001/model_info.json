@@ -1,0 +1,27 @@
+{
+  "asset": "ScreePile",
+  "name_zh": "碎石堆",
+  "category": "山石",
+  "description": "Loose heap of angular stones for path edges and slope feet.",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    2.2023515701293945,
+    1.7989614009857178,
+    0.4962415099143982
+  ],
+  "mesh_objects": 77,
+  "triangles": 1738,
+  "modeling_method": "procedural Python (build_wild13.py), seeded and reproducible; editable meshes, no generative AI",
+  "same_geometry_ten_views": true,
+  "stage": "editable vegetation/rock prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false,
+  "stones": 76,
+  "gravel_core": true,
+  "heap_radius_m": 0.85,
+  "loose_pieces": "each stone is a separate mesh for scatter reuse"
+}

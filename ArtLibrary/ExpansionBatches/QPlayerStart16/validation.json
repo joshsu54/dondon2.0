@@ -1,0 +1,336 @@
+{
+  "batch": "QPlayerStart16",
+  "stage": "editable_blockouts",
+  "new_asset_count": 16,
+  "same_model_images": 160,
+  "new_asset_checks_passed": true,
+  "reuse_sources_read_only_checked": 14,
+  "assets": [
+    {
+      "asset": "QAptitudeCrystal",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 8,
+      "dimensions_m": [
+        0.5699999928474426,
+        0.5699999928474426,
+        1.0199999809265137
+      ],
+      "fbx_dimension_error_m": 0.0,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "40a78929e7b1dc48e2ad46af20569163ba69894b360663ebe62cce7d6398e5f4",
+      "fbx_sha256": "d5ba3bf0d4350a6b71dff97a726299d081605443ac0913a3fc0f9f70f4418c1c",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QCaveDoor",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 22,
+      "dimensions_m": [
+        1.9240000247955322,
+        0.16699999570846558,
+        2.0999999046325684
+      ],
+      "fbx_dimension_error_m": 1.9371509552001953e-07,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "c4b471a295bdddaa44c7c3858d5845666f1d9ea239d0ecc052be0f7f5b0cea3e",
+      "fbx_sha256": "16bdc2d819b67687c097f27e856a95985d456c2ce414c059cef37a227200f92e",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QCaveEntrance",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 24,
+      "dimensions_m": [
+        2.809999942779541,
+        0.8100000023841858,
+        3.2699999809265137
+      ],
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "de71a7f5bbd71a022811097d91ca491c3c3997020503bbd2cd1e7c6336603064",
+      "fbx_sha256": "8548869e4f1e8af57343700deb6ef9ae42fc1520b5f939ca9d732ad0ab9496bf",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QCaveFloor",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 16,
+      "dimensions_m": [
+        3.945000171661377,
+        3.945000171661377,
+        0.20000000298023224
+      ],
+      "fbx_dimension_error_m": 6.258487701416016e-07,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "53567337a28b97988e25fb589561605f9216f494f3e3c955385c9c47fd531004",
+      "fbx_sha256": "b969c5a1edda21ec8dc4edf4fe5328024f5cbe604f8d63145f62b8a03135b700",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QCaveWall",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 27,
+      "dimensions_m": [
+        4.050000190734863,
+        0.5099999904632568,
+        3.0299999713897705
+      ],
+      "fbx_dimension_error_m": 4.76837158203125e-07,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "8a90c950dde2905813eb1547bcb813beeef598d1d7a88527f7d18a3114190821",
+      "fbx_sha256": "54a95865c7c2a4219bbd00a8e56183f0e2440fb8fc90250d869297d90aae37cf",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QDoubleBunHair",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 16,
+      "dimensions_m": [
+        0.5419999361038208,
+        0.3495877981185913,
+        0.3469327688217163
+      ],
+      "fbx_dimension_error_m": 0.0,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "c7c0c87da7e6e1287fe9b6b239610ea9937579d0ca6437b36d76fe7ae18ed4a1",
+      "fbx_sha256": "c6f3d76eec51837d8052f5c9e813f2ab4ddfd6c540e6ac858d94c2aa9a81d5c7",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QFemaleBase",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 39,
+      "dimensions_m": [
+        0.6282369494438171,
+        0.3449997901916504,
+        1.1800000667572021
+      ],
+      "fbx_dimension_error_m": 0.0,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "705b22283cd604811941176f65cd84e459c8bb6a0ce2a5a109591bb91e6e2954",
+      "fbx_sha256": "ae5ef5ed0902b2a509670f0a4cd0b00b0a84affad46470064331f3f879c040ee",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QFemaleNoviceOutfit",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 32,
+      "dimensions_m": [
+        0.553366482257843,
+        0.24400001764297485,
+        0.8044252395629883
+      ],
+      "fbx_dimension_error_m": 4.470348358154297e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "51f6bf106f258bdbc35d513df6177acff9445fc2ad80cdb38a47fbf0543900ae",
+      "fbx_sha256": "808633f0384a49115fcb2b485629dca26c2820165c100ac876934c2701b61019",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QMaleBase",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 39,
+      "dimensions_m": [
+        0.6504991054534912,
+        0.3449997901916504,
+        1.1800000667572021
+      ],
+      "fbx_dimension_error_m": 0.0,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "11f85ca782f036dd97a35797b17906fdac4dfb9b8b487a68821ee9a7d63dcc2d",
+      "fbx_sha256": "25c6bed88b34736df66c57cc90fddf3053cb7631523df487c748d2253f37aef9",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QMaleNoviceOutfit",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 32,
+      "dimensions_m": [
+        0.5727517604827881,
+        0.24400001764297485,
+        0.8044252395629883
+      ],
+      "fbx_dimension_error_m": 4.470348358154297e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "7cc62cc04d28ce1c29342a5883a10d510596c3a0a533de0d8d47b3243a5ca059",
+      "fbx_sha256": "8d8822d4584921dcdf765711995dcb7fb57dba50593e6615b6095070e4a7f7b8",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QMountainBoar",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 36,
+      "dimensions_m": [
+        0.568529486656189,
+        1.1238504648208618,
+        0.6406601071357727
+      ],
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "18d6692a3b6efbb1be49f65076975702986e776fb75694cd5188f46a94c0fa3a",
+      "fbx_sha256": "0ef67cd670421957912b91ef01b472aa2ef2289849690c8af37ccbeb5b9fafc4",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QMountainRabbit",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 19,
+      "dimensions_m": [
+        0.46999987959861755,
+        0.6889998912811279,
+        0.7575731873512268
+      ],
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "669facc2b81eb2dd30de0ad53c65dc37633db2d01637f58f8f6d44fdbf66fad4",
+      "fbx_sha256": "6301489a22744085f8a661f99f181bc561c3fdb1a9b284244dbfdf41a9acc74a",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QPillBottle",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 6,
+      "dimensions_m": [
+        0.12399999797344208,
+        0.13199999928474426,
+        0.20200000703334808
+      ],
+      "fbx_dimension_error_m": 1.4901161193847656e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "08d73d97af5f9642483fef47ef332cd11c2dd01180a413d7ec53157a2529443b",
+      "fbx_sha256": "b86f55ec38fcddadc16d43bc1cf6e3764d98c96c84e62d289dccf12054ffe339",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QQiManual",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 12,
+      "dimensions_m": [
+        0.20264822244644165,
+        0.26499998569488525,
+        0.05278944596648216
+      ],
+      "fbx_dimension_error_m": 2.2351741790771484e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "32ad8781c03b45977b5c9ea26238c29500b1fae6a1e8c3e7e24a84765ebc723f",
+      "fbx_sha256": "62c006fd7bf211e3e198f9ae7636c10d27a5a9eb524860a6065cc7e4ee83d66d",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QSpiritStone",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 2,
+      "dimensions_m": [
+        0.12999999523162842,
+        0.11529075354337692,
+        0.1899999976158142
+      ],
+      "fbx_dimension_error_m": 7.450580596923828e-09,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "eacbb20c9fb8d24e8b119b0a9dcabb61774321a83680f35caabed85af6bb5e1d",
+      "fbx_sha256": "25d0fa8fed267fef6564ce1abcf73c5c456771b16686a466b910f3531d0ffc5e",
+      "unreal_verified": false
+    },
+    {
+      "asset": "QTopknotHair",
+      "blend_reopened": true,
+      "finite_vertices": true,
+      "bottom_center_root": true,
+      "mesh_count": 15,
+      "dimensions_m": [
+        0.4100264012813568,
+        0.3495877981185913,
+        0.41880860924720764
+      ],
+      "fbx_dimension_error_m": 2.9802322387695312e-08,
+      "ten_camera_angles": true,
+      "ten_png_1024": true,
+      "framing_checked": true,
+      "unique_png_hashes": 10,
+      "blend_sha256": "87e68a02645dfe39816ea1b67a85dc12db0d61a39c4abfc31bd534125c353a79",
+      "fbx_sha256": "a1b0a4fc348b4a4c73cb9bcebe62cb04e2031b8900d15ed4e0deec60cdfb5926",
+      "unreal_verified": false
+    }
+  ],
+  "limits": [
+    "No retopology or unified deformation mesh",
+    "No UV bake, rig, animation, collision or LOD",
+    "No UE import test",
+    "Reuse source audit is not gameplay readiness"
+  ]
+}

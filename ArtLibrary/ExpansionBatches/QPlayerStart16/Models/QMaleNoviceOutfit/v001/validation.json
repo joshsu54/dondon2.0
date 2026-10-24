@@ -1,0 +1,20 @@
+{
+  "asset": "QMaleNoviceOutfit",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 32,
+  "dimensions_m": [
+    0.5727517604827881,
+    0.24400001764297485,
+    0.8044252395629883
+  ],
+  "fbx_dimension_error_m": 4.470348358154297e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "7cc62cc04d28ce1c29342a5883a10d510596c3a0a533de0d8d47b3243a5ca059",
+  "fbx_sha256": "8d8822d4584921dcdf765711995dcb7fb57dba50593e6615b6095070e4a7f7b8",
+  "unreal_verified": false
+}

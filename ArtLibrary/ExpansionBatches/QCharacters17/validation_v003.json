@@ -1,0 +1,259 @@
+{
+  "batch": "QCharacters17",
+  "version": "v003",
+  "blender": "5.2.2 LTS",
+  "assets": [
+    {
+      "asset": "QPlayerMale",
+      "name_zh": "玩家（男）",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.447022557258606,
+      "mesh_objects": 88,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3524478508679611
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "d749e43442828f5b00d78779afd355762f9f537ea28b927d8f8e45145fd4d277",
+      "fbx_sha256": "af21dc69d58bd009f79054fe3ffc219bc81cc72d11542c896158e97bf529083a"
+    },
+    {
+      "asset": "QPlayerFemale",
+      "name_zh": "玩家（女）",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 93,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.35306995880290665
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "563aded966d39a36a138e933816c8a2a1c43df20dba93333b8d84c3a5a3af578",
+      "fbx_sha256": "b2bc44fdbb048d82d270a0d7dec6c90592f1d5d38f9545d0141fba815add0515"
+    },
+    {
+      "asset": "QDiscipleSword",
+      "name_zh": "劍修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 93,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.35306995880290665
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "158a934c0a839852086b30d3df6b84581c353ca37c03930064921444e4dbfc2b",
+      "fbx_sha256": "63e65f78b37d1928f3efe6b0e8072e47c5731a4aae196e4bb5db0ed96b2d4455"
+    },
+    {
+      "asset": "QDiscipleAlchemy",
+      "name_zh": "丹修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521088361740112,
+      "mesh_objects": 103,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.37718856412947943
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "692903f2e5b8663acb66bd6879616f75695765d447be9f25398c6c3f988eef2f",
+      "fbx_sha256": "0064ef88cf422a4e944e196111016263ca4a416ad2f57877507378fd9ef8e90f"
+    },
+    {
+      "asset": "QDiscipleFarmer",
+      "name_zh": "體修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 84,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.35306995880290665
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "b4cc0163a8e001572cd473a4cb36b8e9b9d65d794ace6e4a1530f613e1c72236",
+      "fbx_sha256": "d111308644539b772c856282958a28f75f314cfdbef9641040114702200260c1"
+    },
+    {
+      "asset": "QSectElder",
+      "name_zh": "宗門長老",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4992460012435913,
+      "mesh_objects": 69,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3537777777070997
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "distinct_1024_views": 10,
+      "blend_sha256": "a1aa5b7fdfdad08439fb43b400a93557c486d105bd6b6489a8fe17763ead607d",
+      "fbx_sha256": "4fe47a9359e167d5f8106693cede4c4689d179729983a637afa44f1fa72ac621"
+    },
+    {
+      "asset": "QBlacksmith",
+      "name_zh": "鐵匠",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4036140441894531,
+      "mesh_objects": 97,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3633477397682831
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "cfbd0891ad7be1cef851586470167688eae3d7b6d1b4b972c46a500e0c5545d2",
+      "fbx_sha256": "0fbafe6f1d9f58f5ed7422feaa8abf5f1e3b0a6f58769ca2fbe2a87ce3aa87ed"
+    },
+    {
+      "asset": "QShopkeeper",
+      "name_zh": "雜貨店主",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3544998168945312,
+      "mesh_objects": 80,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3765227459628134
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "b470ee3277301860a9331bcfea52286b23e10e5d74e2d309294a1d09542a647c",
+      "fbx_sha256": "769eca3d4319f2b020f733be7592a2c0dec6e8f7c6e919eb530e176571b66f00"
+    },
+    {
+      "asset": "QInnkeeper",
+      "name_zh": "客棧老闆娘",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521637916564941,
+      "mesh_objects": 91,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3771732341970728
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "distinct_1024_views": 10,
+      "blend_sha256": "8d21c097ac8527e520447224340766ff5309fe1ef99e8975b02d5a5f7492a327",
+      "fbx_sha256": "d7c9334484c82762793e5e63d5b7c667243786b2cd1ded038fb9b6a41704c8e2"
+    },
+    {
+      "asset": "QHerbalist",
+      "name_zh": "藥師",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521184921264648,
+      "mesh_objects": 99,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.37718587049363134
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 5.960464477539063e-08,
+      "distinct_1024_views": 10,
+      "blend_sha256": "b5aaad4b9a5e00ab11c340742baa40aba4e88c8db334f164ba7a126ea24ce458",
+      "fbx_sha256": "3d8d3c228e4baa6d7cd03b189c1d3c40bce46452078cefcfeac942b6c3f9efe1"
+    },
+    {
+      "asset": "QGranny",
+      "name_zh": "村中婆婆",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.2526298761367798,
+      "mesh_objects": 52,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.3745719022050338
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "3feba5deb8354155fb698165716d548cc62903469e4ad17b766f5553e289fe7e",
+      "fbx_sha256": "73a786a5b8fe3ae9328230ffb8b4e76c53a1bb08a9dcaefa1065b891eab5f26b"
+    },
+    {
+      "asset": "QWoodcutter",
+      "name_zh": "樵夫",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4173998832702637,
+      "mesh_objects": 91,
+      "checks": {
+        "two_eyes": true,
+        "two_hands": true,
+        "two_shoes": true,
+        "face_in_front_of_head": true,
+        "head_height_ratio": 0.35981376637803225
+      },
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "1a29a358558a135642afb973fc668257bcdd26428f3ca3c7b8ca76f97274cc9f",
+      "fbx_sha256": "6595e28ded92d70806736091ee85462bd87938b0d684b25aab82ac19c8912149"
+    }
+  ],
+  "design_sheets": [
+    "lineup_back.png",
+    "lineup_front.png",
+    "lineup_three_quarter.png"
+  ],
+  "not_verified": [
+    "rigging / skinning / animation",
+    "UV and texture bake",
+    "LOD",
+    "Unreal import",
+    "in-game scale against doors and furniture"
+  ]
+}

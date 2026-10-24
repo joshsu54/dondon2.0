@@ -1,0 +1,203 @@
+{
+  "status": "saved_reloaded_pending_pie_and_visual",
+  "map": "/Game/Maps/TownLayout_10",
+  "base": "/Game/Maps/TownLayout_09",
+  "base09_sha256": "bdd01dd2b65d356cfc623964ed3aa6ad009ce7c2936377360698dcb2d15428b1",
+  "base_actor_count": 3980,
+  "wild08_actors_removed_with_sublevel": 24,
+  "meshes": {
+    "LY10_Terrain": {
+      "bounds_cm": [
+        [
+          -4667.71435546875,
+          -9304.5048828125,
+          -71.12042236328125
+        ],
+        [
+          4677.14990234375,
+          7614.09912109375,
+          1223.736083984375
+        ]
+      ],
+      "bounds_error_cm": 0.00144195556640625
+    },
+    "LY10_CliffRim": {
+      "bounds_cm": [
+        [
+          -4720.009765625,
+          -9338.75,
+          -1100.00146484375
+        ],
+        [
+          4726.1181640625,
+          7630.68017578125,
+          1373.05615234375
+        ]
+      ],
+      "bounds_error_cm": 0.001499176025390625
+    },
+    "LY10_Camp_Dormitory": {
+      "bounds_cm": [
+        [
+          -1698.0,
+          4115.0,
+          -24.952932357788086
+        ],
+        [
+          -902.0000610351562,
+          5285.0,
+          552.0472412109375
+        ]
+      ],
+      "bounds_error_cm": 0.00084686279296875
+    },
+    "LY10_Camp_HerbGarden": {
+      "bounds_cm": [
+        [
+          672.5,
+          4305.0,
+          -15.000214576721191
+        ],
+        [
+          1420.0,
+          5195.0,
+          130.99986267089844
+        ]
+      ],
+      "bounds_error_cm": 0.000774383544921875
+    },
+    "LY10_Camp_HexPavilion": {
+      "bounds_cm": [
+        [
+          -310.1961364746094,
+          6389.86181640625,
+          -14.999870300292969
+        ],
+        [
+          310.1961364746094,
+          6930.1376953125,
+          481.00018310546875
+        ]
+      ],
+      "bounds_error_cm": 0.001094818115234375
+    },
+    "LY10_Camp_Paths": {
+      "bounds_cm": [
+        [
+          -857.0000610351562,
+          1353.0,
+          -20.77407455444336
+        ],
+        [
+          697.0,
+          6246.99951171875,
+          133.84193420410156
+        ]
+      ],
+      "bounds_error_cm": 0.00033909082412719727
+    },
+    "LY10_Peak_NorthEast": {
+      "bounds_cm": [
+        [
+          978.456298828125,
+          -8934.015625,
+          864.406005859375
+        ],
+        [
+          4210.28125,
+          -6822.9716796875,
+          5808.75732421875
+        ]
+      ],
+      "bounds_error_cm": 0.0013427734375
+    },
+    "LY10_Peak_NorthWest": {
+      "bounds_cm": [
+        [
+          -3907.156005859375,
+          -8357.6845703125,
+          890.166015625
+        ],
+        [
+          -1589.0653076171875,
+          -6227.07275390625,
+          5046.36767578125
+        ]
+      ],
+      "bounds_error_cm": 0.001220703125
+    },
+    "LY10_Peak_EastMid": {
+      "bounds_cm": [
+        [
+          2976.945556640625,
+          -4255.92724609375,
+          225.57614135742188
+        ],
+        [
+          4844.0576171875,
+          -2707.114990234375,
+          3477.7236328125
+        ]
+      ],
+      "bounds_error_cm": 0.000640869140625
+    },
+    "LY10_Peak_WestMid": {
+      "bounds_cm": [
+        [
+          -4593.9833984375,
+          -2792.418212890625,
+          127.2152328491211
+        ],
+        [
+          -2888.995849609375,
+          -1161.677490234375,
+          3026.761962890625
+        ]
+      ],
+      "bounds_error_cm": 0.00042724609375
+    },
+    "LY10_Peak_WestSouth": {
+      "bounds_cm": [
+        [
+          -4313.10205078125,
+          757.6332397460938,
+          59.66814422607422
+        ],
+        [
+          -3038.251953125,
+          1831.1202392578125,
+          2172.12060546875
+        ]
+      ],
+      "bounds_error_cm": 0.00017547607421875
+    }
+  },
+  "checks": {
+    "terrain_parts": true,
+    "plates_removed": true,
+    "vegetation": true,
+    "wild08_sublevel_gone": true,
+    "quest_herbs": true,
+    "quest_board": true,
+    "actor_count": true,
+    "base09_unchanged": true
+  },
+  "removed_plates": [
+    "TownLayout_v004_North_Terrace_Ground",
+    "TownLayout_v004_Terrain_Display_Island"
+  ],
+  "lowered_cm": 50.0,
+  "lowered_actors": [
+    "ValleyGround",
+    "ValleyRidge_00",
+    "ValleyRidge_01",
+    "ValleyRidge_02",
+    "ValleyRidge_03",
+    "DistantPeak_00",
+    "DistantPeak_01",
+    "DistantPeak_02"
+  ],
+  "vegetation": 383,
+  "actor_count": 4348,
+  "map_sha256": "b01b48bf0b8c01c8d3bd5237410596b58de84a8e34a470f41330c24a3ead846c"
+}

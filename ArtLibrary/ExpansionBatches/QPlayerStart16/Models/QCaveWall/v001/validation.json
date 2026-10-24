@@ -1,0 +1,20 @@
+{
+  "asset": "QCaveWall",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 27,
+  "dimensions_m": [
+    4.050000190734863,
+    0.5099999904632568,
+    3.0299999713897705
+  ],
+  "fbx_dimension_error_m": 4.76837158203125e-07,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "8a90c950dde2905813eb1547bcb813beeef598d1d7a88527f7d18a3114190821",
+  "fbx_sha256": "54a95865c7c2a4219bbd00a8e56183f0e2440fb8fc90250d869297d90aae37cf",
+  "unreal_verified": false
+}

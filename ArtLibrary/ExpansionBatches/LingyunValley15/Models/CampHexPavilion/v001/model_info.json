@@ -1,0 +1,24 @@
+{
+  "asset": "CampHexPavilion",
+  "name_zh": "營地六角亭",
+  "units": "meters",
+  "front": "+X faces the path in the valley scene; turnaround 01_front looks from -Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    6.203922748565674,
+    5.402754783630371,
+    4.960000038146973
+  ],
+  "mesh_objects": 190,
+  "triangles": 12384,
+  "removable_roof_parts": 123,
+  "scene_placement_m": [
+    0.0,
+    -66.6
+  ],
+  "stage": "editable procedural prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

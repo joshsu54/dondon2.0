@@ -1,0 +1,160 @@
+{
+  "status": "saved_reloaded_pending_pie_and_visual",
+  "map": "/Game/Maps/TownLayout_11",
+  "base": "/Game/Maps/TownLayout_10",
+  "outline": {
+    "A_m": 46.0,
+    "B_m": 83.5,
+    "YC_m": 8.5,
+    "N": 6.0,
+    "grow": 1.03,
+    "margin_cm": 300.0
+  },
+  "actors": {
+    "ValleyRidge_00": {
+      "vertices_sampled": 4071,
+      "vertices_inside_before": 1023,
+      "location_before": [
+        -6500.0,
+        -7600.0,
+        -50.0
+      ],
+      "moved_cm": 5000.0,
+      "direction": [
+        -0.6936416870658706,
+        -0.720320213491481
+      ],
+      "location_after": [
+        -9968.208435329354,
+        -11201.601067457404,
+        -50.0
+      ]
+    },
+    "ValleyRidge_01": {
+      "vertices_sampled": 4071,
+      "vertices_inside_before": 1054,
+      "location_before": [
+        7200.0,
+        -8100.0,
+        -50.0
+      ],
+      "moved_cm": 4300.0,
+      "direction": [
+        0.7046558264970495,
+        -0.7095492697366124
+      ],
+      "location_after": [
+        10230.020053937313,
+        -11151.061859867434,
+        -50.0
+      ]
+    },
+    "ValleyRidge_02": {
+      "vertices_sampled": 4071,
+      "vertices_inside_before": 6,
+      "location_before": [
+        -8000.0,
+        1000.0,
+        -150.0
+      ],
+      "moved_cm": 200.0,
+      "direction": [
+        -0.9742884655050024,
+        0.2253042076480318
+      ],
+      "location_after": [
+        -8194.857693101001,
+        1045.0608415296063,
+        -150.0
+      ]
+    },
+    "ValleyRidge_03": {
+      "vertices_sampled": 4071,
+      "vertices_inside_before": 0,
+      "location_before": [
+        9000.0,
+        1500.0,
+        -150.0
+      ],
+      "location_after": [
+        9000.0,
+        1500.0,
+        -150.0
+      ]
+    },
+    "DistantPeak_00": {
+      "vertices_sampled": 4064,
+      "vertices_inside_before": 394,
+      "location_before": [
+        -4000.0,
+        -10800.0,
+        -170.0
+      ],
+      "moved_cm": 1500.0,
+      "direction": [
+        -0.3729978689934967,
+        -0.9278321991213231
+      ],
+      "location_after": [
+        -4559.496803490245,
+        -12191.748298681985,
+        -170.0
+      ]
+    },
+    "DistantPeak_01": {
+      "vertices_sampled": 4064,
+      "vertices_inside_before": 0,
+      "location_before": [
+        4000.0000000000005,
+        -13000.0,
+        -170.0
+      ],
+      "location_after": [
+        4000.0000000000005,
+        -13000.0,
+        -170.0
+      ]
+    },
+    "DistantPeak_02": {
+      "vertices_sampled": 4064,
+      "vertices_inside_before": 0,
+      "location_before": [
+        0.0,
+        -16000.0,
+        -170.0
+      ],
+      "location_after": [
+        0.0,
+        -16000.0,
+        -170.0
+      ]
+    }
+  },
+  "base10_sha256": "b01b48bf0b8c01c8d3bd5237410596b58de84a8e34a470f41330c24a3ead846c",
+  "checks": {
+    "actor_count_unchanged": true,
+    "base10_unchanged": true,
+    "ValleyRidge_00_clear_of_island": true,
+    "ValleyRidge_00_on_valley_ground": true,
+    "ValleyRidge_00_height_unchanged": true,
+    "ValleyRidge_01_clear_of_island": true,
+    "ValleyRidge_01_on_valley_ground": true,
+    "ValleyRidge_01_height_unchanged": true,
+    "ValleyRidge_02_clear_of_island": true,
+    "ValleyRidge_02_on_valley_ground": true,
+    "ValleyRidge_02_height_unchanged": true,
+    "ValleyRidge_03_clear_of_island": true,
+    "ValleyRidge_03_on_valley_ground": true,
+    "ValleyRidge_03_height_unchanged": true,
+    "DistantPeak_00_clear_of_island": true,
+    "DistantPeak_00_on_valley_ground": true,
+    "DistantPeak_00_height_unchanged": true,
+    "DistantPeak_01_clear_of_island": true,
+    "DistantPeak_01_on_valley_ground": true,
+    "DistantPeak_01_height_unchanged": true,
+    "DistantPeak_02_clear_of_island": true,
+    "DistantPeak_02_on_valley_ground": true,
+    "DistantPeak_02_height_unchanged": true
+  },
+  "map_sha256": "9bfb2c82c56aef24f8353ba80c84adc2172fd136fa47a1a970fb6c6ff8b753ee"
+}

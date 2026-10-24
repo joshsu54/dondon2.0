@@ -1,3 +1,91 @@
+## 2026-10-24 最新：TownLayout_13（Q 版玩家角色）＋Q 版人物 17 v006
+
+`/Game/Maps/TownLayout_13` 由 12 另存（12 未改動），只在這張地圖把遊戲模式換成 `BP_QPlayerGameMode`，預設玩家是 Q 版男玩家。**預設啟動與遊戲地圖、`開始遊玩.ps1` 已改為 13**（`DefaultEngine.ini`）；以遊戲模式不指定地圖啟動時，會載入 13 並產生 BP_QPlayerMale 與動作驅動元件（`Unreal/default13_game.log`）。
+
+- **角色：** `BP_QPlayerMale`／`BP_QPlayerFemale`（`/Game/Art/QCharacters17/Blueprints`）複製自範本角色，範本本身未改。膠囊體半徑 32、半高 73，最高步行速度 204 cm/s。這個速度讓走路動作以 3.4 倍速播放，腳步剛好跟上移動，不滑步；比範本的 500 慢。網格的 tick 設定改為 Always Tick Pose and Refresh Bones。
+- **動作：** C++ 新增 `UQCharacterAnimDriver`（`Source/XiuXianTown/QCharacterAnimDriver.*`），不用動畫藍圖，依地面速度切換 Idle／Walk，並依速度調整播放速率。
+- **建置／測試：** `Unreal/Tools/build_qplayer13.py` 建置，`test_qplayer13.py` 測試。實際 PIE、以 AddMovementInput 逐格移動，男女各一場，全部通過（`qplayer13_runtime.json`）：17 根骨頭名稱正確、骨架為公分、站在地面、待機會動、走 6 m、進入 Walk 狀態、播放速率與速度相符、腳步前後約 29 cm、停下回到 Idle。宗門經營回歸測試 `test_management13.py` 70 項全部通過（`management13_runtime.json`）。截圖在 `Unreal/Validation/qplayer13_*.png`。
+- **過程中修正的問題：**
+  - v005 FBX 匯入後骨架小 100 倍，改用 v006 的公分 FBX，12 位都已重出。
+  - 骨頭 head／neck 被改名，原因是和分件撞名。
+  - 匯入任務沒有存骨架、物理資產和材質，改為整個資料夾存檔。
+  - 範本網格 tick 設定在未渲染時不刷新骨頭。
+  - 失敗的中間報告保留為 `qplayer13_*_initial_*.json`、`*_v005_fbx_scale.json`、`*_v006_metres.json`。
+- **未做：**
+  - 跳躍和落下時只顯示 Idle 姿勢。
+  - 沒有跑步動作：若要恢復範本的 500 cm/s，需要另做跑步循環。
+  - 材質用的是 FBX 匯入的預設材質，顏色比 Blender 渲染暗。
+  - 沒有實際鍵盤遊玩、遊戲中選男女角色、打包與效能測試。
+  - 編輯器每次腳本結束後 QUIT 時回傳存取違規，日誌已正常寫完 Exiting，資產與地圖都有存檔。
+
+## 2026-10-24：Q 版人物 17 v005（骨架＋待機／走路）
+
+v004 外觀不變，12 位加上 17 骨骼骨架（Unreal 風格命名，物件名 `Armature`）、蒙皮與兩段原地循環動作 `Idle`（49 格）與 `Walk`（25 格，24 fps）。`rig_qchar17.py` 產生、`verify_rig17.py` 驗證 12 位通過：權重和為 1、可循環、動作中手／腳／頭不脫離、走路著地腳貼地、FBX 回匯保留骨架與兩段動作。主圖庫改指向 v005（標記已綁骨架）；v001–v004 保留。**尚未匯入 Unreal**，頭髮與袍子沒有物理擺動，手臂與袍子的穿插未逐格量測。
+
+## 2026-10-24：Q 版人物 17 v004（黑髮、嘴巴、女性側髮）
+
+使用者確認 v003 眼睛後指定三項：黑髮調黑（低鏡面、集中高光）、嘴巴放大約 25% 並改為貼臉圖層、四位女性角色（玩家女、丹修、老闆娘、藥師）側髮做出括號弧度與外翹髮尾。其餘同 v003。12 位重開、FBX 回匯、十視圖檢查通過，主圖庫改指向 v004；v001–v003 保留。設定圖 `QCharacters17/DesignSheets_v004/`。仍未綁骨架、未進 UE。
+
+## 2026-10-24：Q 版人物 17 v003（眼睛重做）
+
+使用者回饋 v002「眼睛怪怪的」：眼睛改為貼合臉部曲面的平面圖層（眼白、虹膜藏進睫毛、深色帶、亮部、瞳孔、高光、實心睫毛線），霧面略帶自發光；被瀏海遮住的眉毛移除。12 位通過驗證，主圖庫改指向 v003；v001、v002 保留。設定圖 `QCharacters17/DesignSheets_v003/`。
+
+## 2026-10-24：Q 版人物 17 v002（依使用者參考圖修改）
+
+12 位另存 v002：動漫大眼（眼白、雙色虹膜、粗睫毛線）、張口笑，頭髮加頭頂放射髮束與及肩側髮，2.5 頭身、細四肢、短袍加綁腿；拿道具改為握拳、握把穿過掌心。12 位重開、FBX 回匯、十視圖檢查通過，主圖庫索引改指向 v002（v001 檔案保留）。設定圖 `ArtLibrary/ExpansionBatches/QCharacters17/DesignSheets_v002/`。仍未綁骨架、未進 UE。
+
+## 2026-10-24：Q 版人物 17（Blender，Claude）
+
+使用者重新開啟人物製作，指定「更可愛的 2 頭身」、整套人物。新增 `ArtLibrary/ExpansionBatches/QCharacters17`：玩家男女、三位弟子、宗門長老、鐵匠、雜貨店主、客棧老闆娘、藥師、村中婆婆、樵夫，共 12 位／120 張十視圖＋三張全員設定圖。身高 1.25 m、A 字站姿、分件，全部由 `qchar17.py` 共用零件程序化組成；未使用 AI 生圖。12 位通過重開、FBX 回匯、十視圖檢查並裝入主圖庫，目錄 112 組／1,120 張。未綁骨架、未進 UE，人物與場景的實際比例仍待定。QPlayerStart16 的舊人物試作保留未動。
+
+秘境規則已由使用者確認並寫入 `Story/玩家成長與宗門秘境_需求紀錄.md`：年齡＝創角後實際日數；死亡踢出並失去當次收穫；時限到帶收穫安全傳出；不同宗門會在秘境相遇。
+
+**注意：** 這份 D:\dondon2.0-main 是 D:\DONDON2.0 複製過來的內容。Claude 先前在舊子資料夾做的 TownLayout_10／11（凌雲山谷地形版）已被同名的宗門經營版 10／11 覆蓋，地圖不存在；其 UE 素材 `/Game/Art/LingyunValley10`、報告 `Unreal/expansion10_*.json`、`expansion11_*.json` 與批次 `LingyunValley15` 仍在，可依 `Unreal/Tools/build_expansion10.py`、`build_expansion11.py` 重建到新編號。
+
+## 2026-10-24 最新：人物停工，非人物首批交付與選拔規則修訂
+
+使用者明確指示「人物你別做了」，隨後指定「其他繼續做」。不得繼續生成或修改人物、髮型與服裝；`QPlayerStart16` 中六項舊人物初模只保留參考，未加入主素材索引。
+
+已交付 10 組非人物外觀原型：山兔、山豬、靈石、丹瓶、煉氣訣、測靈晶石、洞府入口、地板、直牆、雙扇門。入口使用 v003，其餘 v002；另有洞府剖面配置 v002。主交付在 Models 與 ArtLibrary/Turnarounds，批次副本、圖庫與驗證在 `ArtLibrary/ExpansionBatches/QPlayerStart16/`。100 張單項十視圖、1 張開門預覽、10 張場景圖；主索引目前 100 組／1000 張（未含主索引外的 LingyunValley15 三組營地模型）。
+
+非人物 `.blend` 重開、FBX 尺寸回匯、圖片規格與門軸動畫 FBX 回匯已通過；來源檔與安裝副本雜湊已核對。洞府預覽為低側牆、無洞頂的剖面，不是可玩關卡。生物骨架、UV、LOD、碰撞、導航與 UE 驗證尚未完成。未改遊戲地圖。
+
+宗門選拔新規則：**角色創建完成後，現實經過整整 10 天即開放；離線照常計時，不要求累積在線時數**。離線期間達標，下次登入直接提供資格與廣場引導；不自動入宗。此規則已同步 Story 兩份需求／主線文件與美術規劃，目前仍為待實作設計。
+
+以下為歷史紀錄。
+
+2026-10-23 地形研究：新增 LingyunValleyTerrain v002 可編輯 Blender 初模與 FBX、10 張實際渲染、10 張內建 ImageGen 概念參考。入口 ArtLibrary/ExpansionBatches/LingyunValleyTerrain14/index.html。UE TownLayout_10 未改動；原版地形問題尚未在遊戲內修復。回匯與十視圖檢查見 Models/LingyunValleyTerrain/v002/validation.json。v001 為保留的試作。
+
+## 2026-10-23：宗門經營與招募原型 TownLayout_10
+
+使用者本輪指定方向為「經營宗門＋招募弟子」。從 09 另存 10，加入南側重建營地，採藥後可招募石砥、修復藥圃、建弟子舍與靜修臺、招募林溪與岳青、分工生產、以木石換靈石、晉升宗門。林溪與岳青為暫定測試角色，未改寫第一章劇情。
+
+新增 `SectAdventure` C++ 導演與 SaveGame，舊關卡仍使用原本導演。Windows UE 5.8 編譯已通過；建立、保存與重載 10 的檢查通過，09 雜湊不變。PIE 71 項檢查通過，含正常進度、缺糧恢復、局部連續行走與第二次 PIE 還原；預設啟動／遊戲地圖已切為 10。證據見 `Unreal/management10_runtime.json`，保留初次射線判定失敗及測試器唯讀屬性誤用報告。不得把反射互動與局部連續行走稱為全程實體鍵鼠驗收。
+
+說明：`Unreal/宗門經營試玩.md`。工具：`build_management10.py`（拒絕覆寫）、`test_management10.py`、`capture_management10.py`、`run_management10.ps1`。Windows 本機 `開始遊玩.ps1` 可啟動 10。玩家存檔槽為 `Dondon_SectManagement_v1`；測試另用 `Management10_Test_*`。
+
+NPC 與弟子舍為簡化雛形，沒有新增獨立 Blender 模型。建築外觀無碰撞，互動使用入口標記；弟子尚無尋路／工作動畫。重開從安全出生點出發，離線不生產。正式效能與打包待驗收。
+
+Windows 編譯需英文 junction 路徑與重建 Intermediate，以解決 MSVC 中文路徑的 PCH 錯誤；原快取移至忽略的 `work/management10-original-intermediate`。`Unreal/import_audit_20261023.json` 顯示部分 Blender／FBX／PNG 原本就是 LFS 指標，本輪只使用 UE 已匯入實體素材，圖庫盤點未通過。
+
+以下為歷史紀錄。
+
+## 2026-10-23：TownLayout_09 客棧室內補光
+
+09 = 08 ＋ 客棧一、二樓 8 盞暖色點光（開陰影、避免漏光），保存重載通過；08 前／09 後同機位室內截圖已檢視，室內由近乎全黑改為可辨識。之後在 09 重跑 PIE，38 項全過（11 段任務路線得 10 靈石、草地 9 段、松樹／苔石阻擋），**預設啟動與遊戲關卡已改為 TownLayout_09**（`Config/DefaultEngine.ini`，UE 讀回確認）。證據：`Unreal/expansion09_runtime.json`。細節與燈表見 `Unreal/README.md` 頂部。尚未提交。
+
+## 2026-10-22：TownLayout_08（07＋野外植被），PIE 38 項通過
+
+Windows 已裝 VS 2022 Build Tools 17.14，C++ 模組可編譯（`SectQuest.cpp` 一個變數改名以通過 MSVC）。`/Game/Maps/TownLayout_08` = 07 原樣＋串流子關卡 `Sublevels/TownWild08_Sublevel`（WildVegetation13 五件共 24 個 Actor）；07 未修改。PIE：07 任務路線全數通過，草地行走、灌木可穿越、松樹樹幹與苔石會阻擋；6 張 UE 畫面已檢視。**預設關卡仍為 06。** 細節見 `Unreal/README.md` 頂部。本機 `Unreal/` 已由 LFS 指標換成實體檔（雜湊全符）；其餘目錄仍是指標檔。尚未提交。
+
+待辦：07 本身的通行驗證仍是中斷狀態（08 已覆蓋同一路線）。客棧室內過暗已於 09 處理。
+
+## 2026-10-22 新批次：野外植被與岩石 13（Windows 本機）
+
+新增 `ArtLibrary/ExpansionBatches/WildVegetation13`：普通松 CommonPine、竹叢 BambooClump、野灌木 WildShrub、苔石組 MossBoulderSet、碎石堆 ScreePile，共 5 組／50 張十視圖，素材索引更新為 89 組／890 張。全部以 `build_wild13.py` 程序化建模（固定種子），在 Windows 的 Blender 5.2.2 LTS 建置；未使用 AI 生成模型或概念圖。驗證與安裝結果見該批次 `validation.json`、`inventory.json`。
+
+本機這份專案是 ZIP 解壓，不是 git 儲存庫，既有 .blend／FBX／PNG 全是 Git LFS 指標檔，因此本輪無法開啟既有模型比對畫風，只沿用腳本中的色票。植被為靜態網格，竹葉需雙面材質；UV 烘焙、碰撞、LOD、Unreal 匯入與場景配置未做。本批次尚未提交或推送。
+
 ## 2026-10-22 新儲存庫交接
 
 目的地：`https://github.com/joshsu54/dondon2.0`，分支 `main`。本儲存庫使用乾淨初始提交，保留 Blender／UE5 檔案與 Git LFS 資產；原始專案與舊儲存庫不變。下方舊分支下載說明屬歷史紀錄；新交接請取得 dondon2.0/main 並執行 `git lfs pull`。預設 06，07 待驗證。

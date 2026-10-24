@@ -1,0 +1,76 @@
+{
+  "status": "done",
+  "meshes": {
+    "CommonPine": {
+      "sections": 3,
+      "collision_before": [
+        true,
+        true,
+        true
+      ],
+      "collision_after": [
+        true,
+        true,
+        true
+      ]
+    },
+    "MossBoulderSet": {
+      "sections": 1,
+      "collision_before": [
+        true
+      ],
+      "collision_after": [
+        true
+      ]
+    },
+    "BambooClump": {
+      "sections": 6,
+      "collision_before": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "traces": {
+    "pine_trunk_y": {
+      "hit": true,
+      "actor": "Wild08_CommonPine_01",
+      "location": [
+        1900.0,
+        3072.9200303554535,
+        80.0
+      ]
+    },
+    "pine_trunk_x": {
+      "hit": true,
+      "actor": "Wild08_CommonPine_01",
+      "location": [
+        1874.37105178833,
+        3100.0,
+        80.0
+      ]
+    },
+    "boulder": {
+      "hit": true,
+      "actor": "Wild08_MossBoulderSet_17",
+      "location": [
+        2650.0,
+        4027.899122238159,
+        60.0
+      ]
+    },
+    "railing_reference": {
+      "hit": true,
+      "actor": "RestRailing06_00",
+      "location": [
+        -1200.0,
+        -4936.585818231106,
+        250.0
+      ]
+    }
+  }
+}

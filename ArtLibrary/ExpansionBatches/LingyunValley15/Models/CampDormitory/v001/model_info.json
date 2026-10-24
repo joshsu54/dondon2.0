@@ -1,0 +1,24 @@
+{
+  "asset": "CampDormitory",
+  "name_zh": "營地宿舍",
+  "units": "meters",
+  "front": "+X faces the path in the valley scene; turnaround 01_front looks from -Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    7.960000038146973,
+    11.699999809265137,
+    5.769999980926514
+  ],
+  "mesh_objects": 172,
+  "triangles": 4818,
+  "removable_roof_parts": 37,
+  "scene_placement_m": [
+    -13.0,
+    -47.0
+  ],
+  "stage": "editable procedural prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

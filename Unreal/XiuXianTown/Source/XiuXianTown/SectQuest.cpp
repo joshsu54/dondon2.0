@@ -19,8 +19,8 @@ void USectQuestWidget::NativeOnInitialized() {
  auto* Border=WidgetTree->ConstructWidget<UBorder>();
  Border->SetBrushColor(FLinearColor(.025f,.055f,.05f,.92f));
  Border->SetPadding(FMargin(18));
- auto* Slot=Canvas->AddChildToCanvas(Border);
- Slot->SetPosition(FVector2D(24,24)); Slot->SetSize(FVector2D(530,175));
+ auto* PanelSlot=Canvas->AddChildToCanvas(Border);
+ PanelSlot->SetPosition(FVector2D(24,24)); PanelSlot->SetSize(FVector2D(530,175));
  auto* Box=WidgetTree->ConstructWidget<UVerticalBox>(); Border->SetContent(Box);
  auto* Title=WidgetTree->ConstructWidget<UTextBlock>();
  Title->SetFont(FCoreStyle::GetDefaultFontStyle("Bold",24));
@@ -38,6 +38,16 @@ void USectQuestWidget::NativeOnInitialized() {
 void USectQuestWidget::SetQuestText(const FString& Objective,const FString& Prompt) {
  if (ObjectiveText) ObjectiveText->SetText(FText::FromString(Objective));
  if (PromptText) PromptText->SetText(FText::FromString(Prompt));
+}
+void USectQuestWidget::SetManagementMode(bool bExpanded) {
+ auto* Canvas=Cast<UCanvasPanel>(WidgetTree->RootWidget);
+ auto* Border=Canvas?Cast<UBorder>(Canvas->GetChildAt(0)):nullptr;
+ if (!Border) return;
+ if (auto* ManagementSlot=Cast<UCanvasPanelSlot>(Border->Slot)) ManagementSlot->SetSize(FVector2D(610,bExpanded?590:325));
+ auto* Box=Cast<UVerticalBox>(Border->GetContent());
+ if (auto* Title=Box?Cast<UTextBlock>(Box->GetChildAt(0)):nullptr)
+  Title->SetText(FText::FromString(TEXT("咚咚宗門 · 重建凌雲")));
+ if (ObjectiveText) ObjectiveText->SetFont(FCoreStyle::GetDefaultFontStyle("Regular",18));
 }
 ASectQuestDirector::ASectQuestDirector() { PrimaryActorTick.bCanEverTick=true; }
 void ASectQuestDirector::BeginPlay() {

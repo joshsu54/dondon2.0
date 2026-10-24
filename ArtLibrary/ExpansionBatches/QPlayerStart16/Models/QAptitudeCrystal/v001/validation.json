@@ -1,0 +1,20 @@
+{
+  "asset": "QAptitudeCrystal",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 8,
+  "dimensions_m": [
+    0.5699999928474426,
+    0.5699999928474426,
+    1.0199999809265137
+  ],
+  "fbx_dimension_error_m": 0.0,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "40a78929e7b1dc48e2ad46af20569163ba69894b360663ebe62cce7d6398e5f4",
+  "fbx_sha256": "d5ba3bf0d4350a6b71dff97a726299d081605443ac0913a3fc0f9f70f4418c1c",
+  "unreal_verified": false
+}

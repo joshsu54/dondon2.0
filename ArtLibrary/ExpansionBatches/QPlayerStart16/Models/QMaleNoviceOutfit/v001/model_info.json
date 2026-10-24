@@ -1,0 +1,42 @@
+{
+  "asset": "QMaleNoviceOutfit",
+  "plan_id": "CLOTH01",
+  "name_zh": "男新手服",
+  "stage": "editable_blockout",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom_center",
+  "assembly_offset_m": [
+    0.0,
+    -0.009999997913837433,
+    0.0
+  ],
+  "dimensions_m": [
+    0.5727517604827881,
+    0.24400001764297485,
+    0.8044252395629883
+  ],
+  "bounds_m": [
+    [
+      -0.28637588024139404,
+      -0.12200000882148743,
+      0.0
+    ],
+    [
+      0.28637588024139404,
+      0.12200000137090683,
+      0.8044252395629883
+    ]
+  ],
+  "mesh_objects": 32,
+  "triangles": 5314,
+  "modeling_method": "procedural editable geometry guided by approved Q-style concept; not image generation",
+  "render_engine": "Blender Workbench studio",
+  "uv_baked": false,
+  "rigged": false,
+  "animation_ready": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false,
+  "limits": "Separate overlapping construction meshes; retopology, unified skin, UV and rigging remain."
+}

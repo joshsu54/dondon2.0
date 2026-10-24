@@ -1,3 +1,59 @@
+## 2026-10-24 最新：TownLayout_13 Q 版玩家角色
+
+由 12 另存，只在這張地圖把遊戲模式換成 `/Game/Art/QCharacters17/Blueprints/BP_QPlayerGameMode`，預設玩家是 Q 版男玩家（Q 版人物 17 v006 的 FBX）；女玩家藍圖 `BP_QPlayerFemale` 也已建好。待機／走路由 C++ 元件 `UQCharacterAnimDriver` 依速度切換。建置 `Tools/build_qplayer13.py`，測試 `Tools/test_qplayer13.py`（報告 `qplayer13_runtime.json`，男女各一場 PIE 全部通過）與 `Tools/test_management13.py`（經營回歸 70 項通過）。預設啟動／遊戲地圖與 `開始遊玩.ps1` 已改為 13。限制與修正過程見專案根目錄 HANDOFF.md。
+
+## 2026-10-23 最新：TownLayout_10 宗門經營與招募
+
+預設啟動／遊戲地圖已切換到 10，原 01–09 保留。新南側營地提供三位弟子招募、工作分派、木石與糧食生產、藥圃／弟子舍／靜修臺建設、重複建材委託、宗門晉升及本機存檔。
+
+詳見 [試玩說明](宗門經營試玩.md)。Windows UE 5.8 編譯與 PIE 71 項檢查通過，包含缺糧恢復、營地中央道路連續行走、第二次 PIE 還原資源與設施；互動透過反射呼叫，並非實體鍵鼠全流程驗收。報告：`management10_build.json`、`management10_runtime.json`。NPC 目前為簡化人形，沒有弟子尋路、正式建築室內碰撞或打包驗收。
+
+以下為舊版紀錄。
+
+## 2026-10-23：TownLayout_09 客棧室內暖色補光
+
+`/Game/Maps/TownLayout_09` 由 `Tools/build_expansion09.py` 從 08 另存，只新增 8 盞客棧室內暖色點光（07 同色 (1, .86, .67)、燭光單位、Movable，資料夾 Expansion09）。與 07 戶外補光不同：室內燈**開啟陰影**，避免光穿透樓板與外牆。08、子關卡與所有模型未變（08 雜湊已核對）。
+
+**預設啟動與遊戲關卡已改為 TownLayout_09**（2026-10-23）。切換前在 09 重跑 PIE（`TOWN_PIE_MAP=TownLayout_09 TOWN_PIE_NO_CAPTURE=1`，執行 `Tools/review_expansion08.py`）：38 項全過，含 11 段任務路線與 10 靈石、草地 9 段、松樹最近 64 cm／苔石 102 cm 阻擋；09 檔雜湊與檢視時相同。證據 `expansion09_runtime.json`、`expansion09_pie_review.json`。
+
+| 燈 | 位置 (cm) | cd | 半徑 |
+| --- | --- | ---: | ---: |
+| InnHallFill09 一樓大廳 | -1390, -2220, 380 | 70 | 720 |
+| InnCounterFill09 櫃台 | -1640, -2650, 400 | 35 | 460 |
+| InnStairFootFill09 樓梯口 | -1700, -1830, 420 | 30 | 420 |
+| InnCorridorFill09 二樓走廊 | -1320, -2300, 640 | 40 | 620 |
+| InnUpperNorthFill09 二樓北端 | -1320, -1780, 650 | 30 | 420 |
+| InnRoomSouthFill09 / InnRoomMidFill09 客房 | -1770, -2560 / -2240, 730 | 28 | 360 |
+| InnStairTopFill09 樓梯頂 | -1760, -1820, 740 | 30 | 380 |
+
+調整經過：初版 7 盞（140–360 cd）在固定曝光 EV100 0／+1 下室內過曝；第一輪降到約 1/5、大廳燈下移；第二輪降低走廊燈並補北端一盞。每輪皆保存重載核對，紀錄在 `expansion09_tune.json`（初版設定 `expansion09_revision.json`）。
+
+外觀：同機位 08（前）／09（後）各 6 張已檢視（`Validation/inn08_*.png`、`inn09_*.png`）：大廳、櫃台與樓梯、上樓梯、二樓走廊、客房、正門外觀；一、二樓可辨識家具與動線，外觀只見門內暖光、門外地面無漏光。二樓走廊天花板仍有柔和亮區。PIE 見上方切換紀錄；未做夜間或實機效能檢查。重跑截圖：`Tools/capture_inn09.py`（`INN09_ONLY=1` 只拍 09）。
+
+## 2026-10-22：TownLayout_08（07＋野外植被子關卡），PIE 通過
+
+`/Game/Maps/TownLayout_08` 由 `Tools/assemble_town08.py` 從 07 另存：07 原樣（3,948 Actor，07 檔雜湊未變）＋常駐串流子關卡 `TownWild08_Sublevel`（24 個植被／岩石）。**預設關卡仍為 06**，是否切換由使用者決定。
+
+- 編譯：Windows 安裝 VS 2022 Build Tools 17.14 後，C++ 模組編譯成功。`SectQuest.cpp` 的區域變數 `Slot` 遮蔽 `UWidget::Slot`，MSVC 視為錯誤，已改名為 `PanelSlot`（行為不變）。
+- PIE（`Tools/test_expansion08.py`，38 項全過）：07 原有 11 段任務路線（接任務、三株採集、亭內、山門、交付得 10 靈石，含重複與越權阻擋）；草地 5 段行走、穿過灌木（無碰撞）；走向松樹時離樹幹中心最近 63.5 cm、走向苔石最近 102 cm（有碰撞阻擋）。移動仍由 CharacterMovement API 驅動，互動用反射呼叫，非實體鍵鼠；草地段由傳送起點開始。
+- 外觀：6 張 UE 畫面已檢視（`Validation/expansion08_*.png`）：南側總覽、草地平視、東側竹叢（前景松樹遮住部分竹叢）、西側、公告板（07 基座與補光保留）、頂視。
+- 碰撞修正經過：命令列匯入／生成的松樹與苔石在從磁碟載入後完全沒有碰撞。已在 GUI 編輯器重新匯入網格（`reimport_wild08_meshes.py`）、改用解析式簡單碰撞（松樹樹幹膠囊 r30 cm 高 260 cm、三顆大石各一個 Box；`simple_collision_wild08.py`），並在 GUI 重建 24 個 Actor（`rebuild_wild08_actors.py`），之後 08 從磁碟載入的掃掠與 PIE 皆會阻擋。舊的「是否停在樹前」測法本身有誤（角色會沿圓柱滑過），已改為量測最近距離；修正前究竟是無碰撞或繞過，無法事後區分。
+- 未做：實體鍵鼠、全程手動行走、效能、LOD、打包、室內照明。子關卡單獨開啟時命令列掃掠仍不命中（只影響單獨檢視，08 正常）。
+
+證據：`town08_assembly.json`、`expansion08_runtime.json`、`expansion08_capture.json`、`wild08_simple_collision.json`、`wild08_actor_rebuild.json`、`wild08_reimport.json`。重跑：開啟 08 後執行 `Tools/review_expansion08.py`（`-ExecutePythonScript … -unattended`）。
+
+## 2026-10-22 新增：野外植被子關卡 TownWild08_Sublevel（Windows，已併入 08，見上方）
+
+`/Game/Maps/Sublevels/TownWild08_Sublevel` 只含 WildVegetation13 的 24 個 Actor：普通松 5、竹叢 4、野灌木 8、苔石組 4、碎石堆 3，座標對齊 TownLayout_07 小鎮周邊（南側草地保留入口走廊 X ±500 cm、城鎮與東西山腳之間的空地）。資產在 `/Game/Art/WildVegetation08`：5 個 Static Mesh、17 個常數色材質（苔石用世界法線朝上混苔色，竹葉雙面）。松樹、苔石為 Complex As Simple 碰撞；竹叢、灌木、碎石堆關閉碰撞。
+
+**沒有另存 TownLayout_08，也沒有修改 07。** 原因：Windows 本機只有 VS 2019 Build Tools，UE 5.8 要求 VS 17.8 以上（MSVC v14.50），C++ 任務模組無法編譯；在缺模組狀態下保存 07 衍生關卡會遺失任務 Actor。作法是在移除模組宣告的暫存專案副本中唯讀載入 07 收集 3,940 個障礙物包圍盒、匯入 FBX、建立子關卡，再只把 23 個新檔複製回本專案（已逐檔比對）。
+
+已通過：FBX 雜湊與尺寸、24 個放置與 07 物件及彼此不重疊（2D 包圍盒，間距 40／20 cm）、全部貼齊 ValleyGround 頂面 -15 cm、保存後重載位置與網格一致。4 張 UE 畫面已檢視（07 於記憶體中串流此子關卡，未保存）；south_meadow 截圖未產生。未做 PIE 通行、鍵鼠或效能測試。
+
+裝好 VS 2022 並編譯模組後，執行 `Tools/assemble_town08.py`（**尚未執行過**）把子關卡串流進 07 並另存 TownLayout_08，再補 PIE 路線與外觀檢查。本機 `Unreal/` 的 LFS 指標檔已從 GitHub `main`（8128925）換成實體檔，4,962 個 SHA-256 全數相符。
+
+證據：`wild08_sublevel.json`、`wild08_capture.json`、`wild08_palette.json`、`Validation/wild08_*.png`。工具：`Tools/extract_wild08_palette.py`（Blender）、`Tools/build_wild08_sublevel.py`、`Tools/capture_wild08.py`、`Tools/assemble_town08.py`。
+
 ## 2026-10-22 最新：TownLayout_06 按鍵驗證完成
 
 最新與預設啟動／遊戲關卡為 `/Game/Maps/TownLayout_06`，舊關卡保留。七種既有模型（休憩亭、石欄杆、松樹、草叢、石燈、路標、公告板）已整合；本輪沒有新增 Blender 幾何，沿用已核對的七件來源及 70 張角度圖。

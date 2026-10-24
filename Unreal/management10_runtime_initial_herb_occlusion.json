@@ -1,0 +1,28 @@
+{
+  "status": "error",
+  "checks": {
+    "one_director": true,
+    "isolated_test_slot": true,
+    "fresh_progress": true,
+    "far_interaction_denied": true,
+    "recruit_before_quest_denied": true,
+    "locked_job_denied": true,
+    "accept_herb_quest": true,
+    "early_reward_denied": true,
+    "collect_0": true,
+    "duplicate_herb_0": true,
+    "partial_save": true,
+    "partial_load": true,
+    "partial_herb_restored": true,
+    "collect_1": true,
+    "duplicate_herb_1": true,
+    "collect_2": false
+  },
+  "method": "Real PIE; reflected interaction; teleports between functional checks; continuous walking checked separately",
+  "limitations": [
+    "Not a physical keyboard playthrough",
+    "NPCs are static blockout figures",
+    "No performance or packaged build acceptance"
+  ],
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/joshs/Documents/ChatGPT/咚咚宗門2.0/Unreal/Tools/test_management10.py\", line 166, in tick\n    state['ready']=now+next(runner)\n                       ^^^^^^^^^^^^\n  File \"C:/Users/joshs/Documents/ChatGPT/咚咚宗門2.0/Unreal/Tools/test_management10.py\", line 75, in scenario\n    check('collect_%d'%i,q.try_interact());check('duplicate_herb_%d'%i,not q.try_interact())\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:/Users/joshs/Documents/ChatGPT/咚咚宗門2.0/Unreal/Tools/test_management10.py\", line 25, in check\n    if not value:raise AssertionError(name)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: collect_2\n"
+}

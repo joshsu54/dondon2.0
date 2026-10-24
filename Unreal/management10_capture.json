@@ -1,0 +1,15 @@
+{
+  "status": "visually_reviewed_blockout",
+  "files": [
+    "C:\\Users\\joshs\\Documents\\ChatGPT\\咚咚宗門2.0\\Unreal\\Validation\\management10_world.png",
+    "C:\\Users\\joshs\\Documents\\ChatGPT\\咚咚宗門2.0\\Unreal\\Validation\\management10_camp.png",
+    "C:\\Users\\joshs\\Documents\\ChatGPT\\咚咚宗門2.0\\Unreal\\Validation\\management10_hud.png"
+  ],
+  "note": "Editor images show completed layout; HUD image loads the earned isolated test checkpoint.",
+  "automatic_load_in_new_editor_process": true,
+  "visual_review": [
+    "World overview, camp layout and Chinese HUD inspected; text is readable and unclipped in the captured viewport.",
+    "NPCs and dormitory remain blockout art; editor overview shows the completed layout.",
+    "Automatic checkpoint load in a new editor process passed; physical keyboard playthrough and journal-expanded screenshot were not performed."
+  ]
+}

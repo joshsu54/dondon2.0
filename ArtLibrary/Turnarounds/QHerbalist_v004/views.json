@@ -1,0 +1,167 @@
+{
+  "asset": "QHerbalist",
+  "source": "Models/QHerbalist/v004/QHerbalist_v004.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        -29.786304473876953,
+        4.250415802001953
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        29.786304473876953,
+        0.0,
+        4.250415802001953
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        29.786304473876953,
+        4.250415802001953
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        -29.786304473876953,
+        0.0,
+        4.250415802001953
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        -20.214513778686523,
+        9.772588729858398
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        20.214513778686523,
+        9.772588729858398
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        20.214513778686523,
+        9.772588729858398
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        -20.214513778686523,
+        9.772588729858398
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        30.67605972290039
+      ],
+      "ortho_scale": 0.779008686542511,
+      "projection": "orthographic",
+      "framing_checked": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -21.21320343017578,
+        21.889263153076172
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true
+    }
+  ]
+}

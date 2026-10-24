@@ -1,0 +1,272 @@
+{
+  "batch": "WildVegetation13",
+  "sources": {
+    "CommonPine": {
+      "version": "v001",
+      "blend": "Models/CommonPine/v001/CommonPine_v001.blend",
+      "sha256": "cc59f05b1da1049f746606ae20afab75f9764e74f5123f8fa2a98f51f960a579",
+      "fbx_sha256": "98d4ed27e55cb2345e5909dd5a780d26c1dcd37663e155a94226835209345dd8",
+      "bounds_m": [
+        [
+          -2.907376289367676,
+          -2.7722787857055664,
+          0.0
+        ],
+        [
+          2.907376289367676,
+          2.7722787857055664,
+          7.289297103881836
+        ]
+      ],
+      "objects": 14
+    },
+    "BambooClump": {
+      "version": "v001",
+      "blend": "Models/BambooClump/v001/BambooClump_v001.blend",
+      "sha256": "3f90a3a7e4ef34ad27383088e9c294efa8fe61c3220776769cda0690216ad9cf",
+      "fbx_sha256": "4636a5424580afd35f52a0635ad6815f2b334f3e8ff637e69b740e5cf10f770f",
+      "bounds_m": [
+        [
+          -1.9378347396850586,
+          -1.9073381423950195,
+          0.0
+        ],
+        [
+          1.9378347396850586,
+          1.9073381423950195,
+          5.98007345199585
+        ]
+      ],
+      "objects": 37
+    },
+    "WildShrub": {
+      "version": "v001",
+      "blend": "Models/WildShrub/v001/WildShrub_v001.blend",
+      "sha256": "85e9820e8f3585c47eaa11a71cfb1744eacb5ecd32bc77d4b40d1bd2987673b0",
+      "fbx_sha256": "80ee9f6a60dea43ec3899f019a69ca36cd50c0ac6b87ef8c02dada1ee9eeb513",
+      "bounds_m": [
+        [
+          -0.9276671409606934,
+          -0.8421331644058228,
+          0.0
+        ],
+        [
+          0.9276671409606934,
+          0.8421331644058228,
+          1.3099113702774048
+        ]
+      ],
+      "objects": 11
+    },
+    "MossBoulderSet": {
+      "version": "v001",
+      "blend": "Models/MossBoulderSet/v001/MossBoulderSet_v001.blend",
+      "sha256": "29c9c1e5069dffaff5c4a7fcd889d0d3af452b2c4d80c331036fbfee79e31e1d",
+      "fbx_sha256": "75c34da041d3a1215d8e189cee668d2f716ecd119ba9d785b1cb20a6f45bdd69",
+      "bounds_m": [
+        [
+          -1.6500829458236694,
+          -1.0777888298034668,
+          0.0
+        ],
+        [
+          1.6500829458236694,
+          1.0777888298034668,
+          1.5164966583251953
+        ]
+      ],
+      "objects": 7
+    },
+    "ScreePile": {
+      "version": "v001",
+      "blend": "Models/ScreePile/v001/ScreePile_v001.blend",
+      "sha256": "8a267136e434bf14ca4f3f2c0d5e8528e5ff14ad7c8f1bffb26b2230d502e9a5",
+      "fbx_sha256": "9cdbec41930000fbe5b6a5c413aee7e3063285de36064e6443f9f1e3ab52ffe4",
+      "bounds_m": [
+        [
+          -1.1011757850646973,
+          -0.8994807004928589,
+          0.0
+        ],
+        [
+          1.1011757850646973,
+          0.8994807004928589,
+          0.4962415099143982
+        ]
+      ],
+      "objects": 77
+    }
+  },
+  "materials": {
+    "Pine_Bark": {
+      "color": [
+        0.10000000149011612,
+        0.05900000035762787,
+        0.032999999821186066
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Pine_Needle_Pads": {
+      "color": [
+        0.03099999949336052,
+        0.08250000327825546,
+        0.032499998807907104
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Pine_Pad_Underside": {
+      "color": [
+        0.00800000037997961,
+        0.02500000037252903,
+        0.01600000075995922
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Bamboo_Shoot_Sheath": {
+      "color": [
+        0.28999999165534973,
+        0.1599999964237213,
+        0.07000000029802322
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Bamboo_Culm_Aged": {
+      "color": [
+        0.36000001430511475,
+        0.3449999988079071,
+        0.1599999964237213
+      ],
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Forest_Soil": {
+      "color": [
+        0.06499999761581421,
+        0.042500000447034836,
+        0.020999999716877937
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Bamboo_Node_Ring": {
+      "color": [
+        0.30000001192092896,
+        0.3100000023841858,
+        0.15000000596046448
+      ],
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Bamboo_Leaf": {
+      "color": [
+        0.04500000178813934,
+        0.11500000208616257,
+        0.03500000014901161
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "two_sided": true
+    },
+    "Bamboo_Culm": {
+      "color": [
+        0.14499999582767487,
+        0.23999999463558197,
+        0.07500000298023224
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Shrub_Leaf_Underside": {
+      "color": [
+        0.012000000104308128,
+        0.03999999910593033,
+        0.019999999552965164
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Shrub_Twig": {
+      "color": [
+        0.10000000149011612,
+        0.05999999865889549,
+        0.03500000014901161
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Pale_Rose_Blossom": {
+      "color": [
+        0.5,
+        0.23999999463558197,
+        0.27000001072883606
+      ],
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Shrub_Leaves": {
+      "color": [
+        0.05249999836087227,
+        0.13500000536441803,
+        0.04749999940395355
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Jade_Gray_Rock_Moss_Cap": {
+      "color": [
+        0.04600000008940697,
+        0.06199999898672104,
+        0.060499999672174454
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Jade_Gray_Weathered_Rock": {
+      "color": [
+        0.04600000008940697,
+        0.06199999898672104,
+        0.060499999672174454
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Gravel_And_Soil": {
+      "color": [
+        0.0625,
+        0.05900000035762787,
+        0.04899999871850014
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    },
+    "Pale_Scree_Stone": {
+      "color": [
+        0.07000000029802322,
+        0.07999999821186066,
+        0.07349999994039536
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "two_sided": false
+    }
+  }
+}

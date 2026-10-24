@@ -10,6 +10,7 @@ class XIUXIANTOWN_API USectQuestWidget : public UUserWidget {
  public:
  virtual void NativeOnInitialized() override;
  void SetQuestText(const FString& Objective, const FString& Prompt);
+ void SetManagementMode(bool bExpanded);
  private:
  UPROPERTY() TObjectPtr<UTextBlock> ObjectiveText;
  UPROPERTY() TObjectPtr<UTextBlock> PromptText;
@@ -21,12 +22,12 @@ class XIUXIANTOWN_API ASectQuestDirector : public AActor {
  ASectQuestDirector();
  virtual void BeginPlay() override;
  virtual void Tick(float DeltaSeconds) override;
- UFUNCTION(BlueprintCallable, Category="Sect Quest") bool TryInteract();
- UFUNCTION(BlueprintPure, Category="Sect Quest") FString GetObjectiveText() const;
+ UFUNCTION(BlueprintCallable, Category="Sect Quest") virtual bool TryInteract();
+ UFUNCTION(BlueprintPure, Category="Sect Quest") virtual FString GetObjectiveText() const;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Sect Quest") int32 QuestStage=0;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Sect Quest") int32 HerbCount=0;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Sect Quest") int32 SpiritStones=0;
- private:
+ protected:
  AActor* GetNearbyTarget() const;
  TArray<TWeakObjectPtr<AActor>> HerbActors;
  TWeakObjectPtr<AActor> Board;

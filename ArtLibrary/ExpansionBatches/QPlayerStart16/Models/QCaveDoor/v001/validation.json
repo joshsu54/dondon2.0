@@ -1,0 +1,20 @@
+{
+  "asset": "QCaveDoor",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 22,
+  "dimensions_m": [
+    1.9240000247955322,
+    0.16699999570846558,
+    2.0999999046325684
+  ],
+  "fbx_dimension_error_m": 1.9371509552001953e-07,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "c4b471a295bdddaa44c7c3858d5845666f1d9ea239d0ecc052be0f7f5b0cea3e",
+  "fbx_sha256": "16bdc2d819b67687c097f27e856a95985d456c2ce414c059cef37a227200f92e",
+  "unreal_verified": false
+}

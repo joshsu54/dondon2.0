@@ -1,0 +1,93 @@
+{
+  "asset": "LingyunValley",
+  "name_zh": "凌雲山谷地形",
+  "version": "v001",
+  "units": "meters",
+  "north": "+Y (UE -Y)",
+  "frame": "TownLayout_09 world; not recentred",
+  "dimensions_m": [
+    95.64067077636719,
+    169.69430541992188,
+    69.08758544921875
+  ],
+  "bounds_m": [
+    [
+      -47.200096130371094,
+      -76.30680084228516,
+      -11.0
+    ],
+    [
+      48.44057846069336,
+      93.38749694824219,
+      58.08758544921875
+    ]
+  ],
+  "export_mesh_objects": 773,
+  "export_triangles": 306004,
+  "terrain_vertices": 72561,
+  "context_ground_objects": 1191,
+  "rim_boulders": 154,
+  "peaks": [
+    {
+      "name": "Peak_NorthEast",
+      "x": 27.0,
+      "y": 79.0,
+      "radius_m": 16.0,
+      "height_m": 48.0
+    },
+    {
+      "name": "Peak_NorthWest",
+      "x": -26.0,
+      "y": 76.0,
+      "radius_m": 14.0,
+      "height_m": 40.0
+    },
+    {
+      "name": "Peak_EastMid",
+      "x": 38.5,
+      "y": 34.0,
+      "radius_m": 10.0,
+      "height_m": 31.0
+    },
+    {
+      "name": "Peak_WestMid",
+      "x": -38.5,
+      "y": 21.0,
+      "radius_m": 10.0,
+      "height_m": 28.0
+    },
+    {
+      "name": "Peak_WestSouth",
+      "x": -38.0,
+      "y": -14.0,
+      "radius_m": 7.5,
+      "height_m": 19.0
+    }
+  ],
+  "camp": {
+    "dormitory": [
+      -13.0,
+      -47.0
+    ],
+    "herb_garden": [
+      11.0,
+      -47.5
+    ],
+    "hex_pavilion": [
+      0.0,
+      -66.6
+    ],
+    "path_slabs": 128,
+    "lantern_posts": 8
+  },
+  "vegetation_instances": 383,
+  "replaced_ue_ground_plates": [
+    "TownLayout_v004_Terrain_Display_Island",
+    "TownLayout_v004_North_Terrace_Ground"
+  ],
+  "concept_references": "References/*.webp (13 images, art direction only)",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

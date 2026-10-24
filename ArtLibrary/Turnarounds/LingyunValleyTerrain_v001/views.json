@@ -1,0 +1,92 @@
+{
+  "asset": "LingyunValleyTerrain_v001",
+  "units": "metres",
+  "north": "+Y",
+  "front": "-Y",
+  "seed": 231026,
+  "bounds_m": [
+    [
+      -70.0,
+      -85.0,
+      -8.0
+    ],
+    [
+      70.0,
+      118.82452392578125,
+      71.46642303466797
+    ]
+  ],
+  "terrain_vertices": 67390,
+  "terrain_faces": 67924,
+  "source_context": "Source/Settlement10.fbx",
+  "source_context_is_exported_from_UE": true,
+  "not_imported_into_live_game": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "azimuth_deg": 0,
+      "elevation_deg": 25,
+      "projection": "orthographic",
+      "camera_m": [
+        0.0,
+        -346.4200134277344,
+        199.04531860351562
+      ]
+    },
+    {
+      "file": "02_right.png",
+      "azimuth_deg": 90,
+      "elevation_deg": 25,
+      "projection": "orthographic",
+      "camera_m": [
+        367.8746643066406,
+        16.912273406982422,
+        189.3041229248047
+      ]
+    },
+    {
+      "file": "03_rear.png",
+      "azimuth_deg": 180,
+      "elevation_deg": 25,
+      "projection": "orthographic",
+      "camera_m": [
+        -4.180640826234594e-05,
+        390.8387145996094,
+        176.32601928710938
+      ]
+    },
+    {
+      "file": "04_left.png",
+      "azimuth_deg": 270,
+      "elevation_deg": 25,
+      "projection": "orthographic",
+      "camera_m": [
+        -365.1545715332031,
+        16.912273406982422,
+        195.13735961914062
+      ]
+    },
+    {
+      "file": "05_front_right.png",
+      "azimuth_deg": 45,
+      "elevation_deg": 35,
+      "projection": "orthographic",
+      "camera_m": [
+        236.01443481445312,
+        -221.014404296875,
+        250.5010223388672
+      ]
+    },
+    {
+      "file": "06_rear_right.png",
+      "azimuth_deg": 135,
+      "elevation_deg": 35,
+      "projection": "orthographic",
+      "camera_m": [
+        242.52023315429688,
+        257.5202331542969,
+        241.22340393066406
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "asset": "QFemaleBase",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 39,
+  "dimensions_m": [
+    0.6282369494438171,
+    0.3449997901916504,
+    1.1800000667572021
+  ],
+  "fbx_dimension_error_m": 0.0,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "705b22283cd604811941176f65cd84e459c8bb6a0ce2a5a109591bb91e6e2954",
+  "fbx_sha256": "ae5ef5ed0902b2a509670f0a4cd0b00b0a84affad46470064331f3f879c040ee",
+  "unreal_verified": false
+}

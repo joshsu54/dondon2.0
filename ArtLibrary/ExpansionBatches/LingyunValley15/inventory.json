@@ -1,0 +1,33 @@
+{
+  "batch": "LingyunValley15",
+  "date": "2026-10-23",
+  "scene": "LingyunValley v001 (10 scene views)",
+  "new_asset_sets": 3,
+  "new_views": 30,
+  "assets": [
+    {
+      "asset": "LingyunValley",
+      "name_zh": "凌雲山谷地形",
+      "blend_sha256": "d8e6db522b07586ab50fc2a2195c50dd76f62e0c969fe95de3f0cfc2f001808c",
+      "fbx_sha256": "d2ffbf37bd2ed90114fe3e820bee242b314635874e708a514abf3ea319907e1f"
+    },
+    {
+      "asset": "CampDormitory",
+      "name_zh": "營地宿舍",
+      "blend_sha256": "f48e8b9ea1d1ea28fb90a2f52f486cfc37440f284b40a2d55a0e76fed6f1c9c0",
+      "fbx_sha256": "762ed5662df4b1be708a557b4e98c6afcc911c58b39bf324611590d0ffa00ad7"
+    },
+    {
+      "asset": "CampHerbGarden",
+      "name_zh": "營地藥圃",
+      "blend_sha256": "80f04aeeeaf041a319920ae30843e290dde92856bd4921705016fca0d9276474",
+      "fbx_sha256": "87c73f5825d93f8bb1382f2851ddc00cb29ecd98b3383e5a70a2ac8fc8e5ec51"
+    },
+    {
+      "asset": "CampHexPavilion",
+      "name_zh": "營地六角亭",
+      "blend_sha256": "0caa03a425c6c2f69a0c8406a4d5251690e43c28a5aecb0eef4e7c76ee51aac3",
+      "fbx_sha256": "119191b4e24f05d20ff73961bcc5443e29789bf10ac518639d2e91fb023773fd"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "status": "saved_reloaded_pending_visual",
+  "map": "/Game/Maps/TownLayout_09",
+  "base": "/Game/Maps/TownLayout_08",
+  "scope": "UE lighting only; Blender/FBX, 08 and the vegetation sublevel unchanged",
+  "source08_sha256": "5b0c9963b9f63d2b6b4d9b77959243e2e67c9df0c53957e4894306870d43e98b",
+  "base_actor_count": 3972,
+  "checks": {
+    "actor_count": true,
+    "wild_actors": true,
+    "quest_herbs": true,
+    "quest_board": true,
+    "source08_unchanged": true,
+    "InnHallFill09_saved": true,
+    "InnCounterFill09_saved": true,
+    "InnStairFootFill09_saved": true,
+    "InnCorridorFill09_saved": true,
+    "InnRoomSouthFill09_saved": true,
+    "InnRoomMidFill09_saved": true,
+    "InnStairTopFill09_saved": true
+  },
+  "lights": [
+    {
+      "name": "InnHallFill09",
+      "location_cm": [
+        -1390,
+        -2220,
+        420
+      ],
+      "candela": 360.0,
+      "radius_cm": 720.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnCounterFill09",
+      "location_cm": [
+        -1640,
+        -2650,
+        400
+      ],
+      "candela": 180.0,
+      "radius_cm": 460.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnStairFootFill09",
+      "location_cm": [
+        -1700,
+        -1830,
+        420
+      ],
+      "candela": 160.0,
+      "radius_cm": 420.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnCorridorFill09",
+      "location_cm": [
+        -1320,
+        -2220,
+        730
+      ],
+      "candela": 220.0,
+      "radius_cm": 620.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnRoomSouthFill09",
+      "location_cm": [
+        -1770,
+        -2560,
+        730
+      ],
+      "candela": 140.0,
+      "radius_cm": 360.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnRoomMidFill09",
+      "location_cm": [
+        -1770,
+        -2240,
+        730
+      ],
+      "candela": 140.0,
+      "radius_cm": 360.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    },
+    {
+      "name": "InnStairTopFill09",
+      "location_cm": [
+        -1760,
+        -1820,
+        740
+      ],
+      "candela": 140.0,
+      "radius_cm": 380.0,
+      "color": [
+        1.0,
+        0.86,
+        0.67
+      ],
+      "cast_shadows": true
+    }
+  ],
+  "map_sha256": "d3efa443e85634db841e10ad2ec90bc21cc3ce3f3556234579ce2e8cba6299ea"
+}

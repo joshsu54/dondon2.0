@@ -1,0 +1,452 @@
+{
+  "batch": "QCharacters17",
+  "version": "v005",
+  "blender": "5.2.2 LTS",
+  "assets": [
+    {
+      "asset": "QPlayerMale",
+      "name_zh": "玩家（男）",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.447022557258606,
+      "mesh_objects": 88,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1466443538665771e-05,
+          "hand-sleeve_l": 1.932494342327118e-08,
+          "shoe-leg_l": 6.51925802230835e-09,
+          "hand-sleeve_r": 1.885928213596344e-08,
+          "shoe-leg_r": 5.587935447692871e-09
+        },
+        "walk_planted_foot_max_height_m": 0.00365127669647336,
+        "walk_sole_min_z_m": -0.007197665981948376,
+        "walk_foot_travel_m": 0.29955388417929635
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "87e081cd00014154a7d6c68575d3d8b4ec0c063964324252e58c5566c3a0747c",
+      "fbx_sha256": "76bba760ca6cb558a5ef0a12238b2ccb3e0398f55c17b2c54ac5bc7c5bc2167a"
+    },
+    {
+      "asset": "QPlayerFemale",
+      "name_zh": "玩家（女）",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 93,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 2.8638169169425964e-08,
+          "shoe-leg_l": 7.450580596923828e-09,
+          "hand-sleeve_r": 2.8638169169425964e-08,
+          "shoe-leg_r": 4.6566128730773926e-09
+        },
+        "walk_planted_foot_max_height_m": 0.0036512715741991997,
+        "walk_sole_min_z_m": -0.007197670638561249,
+        "walk_foot_travel_m": 0.2995538902013822
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "fe6d3b82ed0246dfe744dfb51187043f74561e4d82d40fefe772e6068a619ba9",
+      "fbx_sha256": "5e4be0062127548dd1dbeae660d33f21cba368e5e14f511dd91c0e3bc827ecc5"
+    },
+    {
+      "asset": "QDiscipleSword",
+      "name_zh": "劍修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 93,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1436641216278076e-05,
+          "hand-sleeve_l": 6.915070116519928e-08,
+          "shoe-leg_l": 4.6566128730773926e-09,
+          "hand-sleeve_r": 6.961636245250702e-08,
+          "shoe-leg_r": 4.6566128730773926e-09
+        },
+        "walk_planted_foot_max_height_m": 0.003651265986263752,
+        "walk_sole_min_z_m": -0.007197671569883823,
+        "walk_foot_travel_m": 0.29955389944458366
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "90b8315aed42754b0da1c13928ca36f9cca19125ddcb55d1a283a3d7329efa52",
+      "fbx_sha256": "953ce404bd2e2e094244daf3b6775949800e8238c0e7cf8de2395dcd36eee6b6"
+    },
+    {
+      "asset": "QDiscipleAlchemy",
+      "name_zh": "丹修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521088361740112,
+      "mesh_objects": 103,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 3.818422555923462e-08,
+          "shoe-leg_l": 4.6566128730773926e-09,
+          "hand-sleeve_r": 3.003515303134918e-08,
+          "shoe-leg_r": 4.6566128730773926e-09
+        },
+        "walk_planted_foot_max_height_m": 0.0036512790247797966,
+        "walk_sole_min_z_m": -0.007197663187980652,
+        "walk_foot_travel_m": 0.29955390720327096
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "3d0f47c0851f32cedba6377bb5aac56b1622a5c3b27ef76d3cab7294019cb0ed",
+      "fbx_sha256": "5490787ff9971a3ddcbcdff3bae8d31a576c77cc3f3b2768fc171053c69cf8c9"
+    },
+    {
+      "asset": "QDiscipleFarmer",
+      "name_zh": "體修弟子",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4444729089736938,
+      "mesh_objects": 84,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1466443538665771e-05,
+          "hand-sleeve_l": 4.551839083433151e-08,
+          "shoe-leg_l": 1.0244548320770264e-08,
+          "hand-sleeve_r": 4.551839083433151e-08,
+          "shoe-leg_r": 9.313225746154785e-09
+        },
+        "walk_planted_foot_max_height_m": 0.0036512790247797966,
+        "walk_sole_min_z_m": -0.007197663187980652,
+        "walk_foot_travel_m": 0.3003086296183274
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "14df367feabdf7707119382106341903777864a453e5b55d626f8f80d4fa319c",
+      "fbx_sha256": "4d564e26dc4cb90cae9aab38134788e10dd450219ae9d5a6e7435409a6e7f3f5"
+    },
+    {
+      "asset": "QSectElder",
+      "name_zh": "宗門長老",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4992458820343018,
+      "mesh_objects": 69,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1980533599853516e-05,
+          "hand-sleeve_l": 1.8742866814136505e-08,
+          "shoe-leg_l": 1.210719347000122e-08,
+          "hand-sleeve_r": 5.657784640789032e-08,
+          "shoe-leg_r": 1.210719347000122e-08
+        },
+        "walk_planted_foot_max_height_m": 0.003797326935455203,
+        "walk_sole_min_z_m": -0.007485591806471348,
+        "walk_foot_travel_m": 0.3115361207970103
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 1.1920928955078125e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "daaa9d8545b57431cf6c67892d2bbdad998f6a53ef3920fbcdd06bd5cbdb0df0",
+      "fbx_sha256": "1b096f55ba47ce485233ac39d15fc939631cb03e9965dec775bb3a1623d81c86"
+    },
+    {
+      "asset": "QBlacksmith",
+      "name_zh": "鐵匠",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4036140441894531,
+      "mesh_objects": 97,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 2.9802322387695312e-08,
+          "shoe-leg_l": 1.1175870895385742e-08,
+          "hand-sleeve_r": 4.0512531995773315e-08,
+          "shoe-leg_r": 1.3969838619232178e-08
+        },
+        "walk_planted_foot_max_height_m": 0.003651273902505636,
+        "walk_sole_min_z_m": -0.007197665981948376,
+        "walk_foot_travel_m": 0.3012520628876256
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 3.5762786865234375e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "1cdd935bec1598e966cc61a1ccc5cf0fb8846fac75613ecea18ed13b69150791",
+      "fbx_sha256": "3a047e08da27922db03dfa812ad31e03f99800d7bb9ad07035944bfc4f9f3b2e"
+    },
+    {
+      "asset": "QShopkeeper",
+      "name_zh": "雜貨店主",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3544998168945312,
+      "mesh_objects": 80,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 1.0477378964424133e-07,
+          "shoe-leg_l": 1.210719347000122e-08,
+          "hand-sleeve_r": 4.6100467443466187e-08,
+          "shoe-leg_r": 1.0244548320770264e-08
+        },
+        "walk_planted_foot_max_height_m": 0.0036512771621346474,
+        "walk_sole_min_z_m": -0.007197665981948376,
+        "walk_foot_travel_m": 0.30087468904772197
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "5b0f14062025cdcb9dba02a03a03f757fad1ae5484a484dc76de57e8c46d58da",
+      "fbx_sha256": "00a018594f9e7e4156a0e97b472b0c6d8de50b79394918f65655b3a56bebe7c5"
+    },
+    {
+      "asset": "QInnkeeper",
+      "name_zh": "客棧老闆娘",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521637916564941,
+      "mesh_objects": 91,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 1.2991949915885925e-07,
+          "shoe-leg_l": 6.51925802230835e-09,
+          "hand-sleeve_r": 8.987262845039368e-08,
+          "shoe-leg_r": 5.587935447692871e-09
+        },
+        "walk_planted_foot_max_height_m": 0.003651270642876625,
+        "walk_sole_min_z_m": -0.0071976687759160995,
+        "walk_foot_travel_m": 0.2995538873443926
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "83aefd90ce9be98f7ba97e73d38067c071ce54d74cf9fda86a3830c99b3001d8",
+      "fbx_sha256": "ae86fc6faa8c8142d5596405a5b8a94c3ff3382bfa0a2aa8e14dadb47096e619"
+    },
+    {
+      "asset": "QHerbalist",
+      "name_zh": "藥師",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.3521184921264648,
+      "mesh_objects": 99,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1466443538665771e-05,
+          "hand-sleeve_l": 1.979060471057892e-08,
+          "shoe-leg_l": 5.587935447692871e-09,
+          "hand-sleeve_r": 1.909211277961731e-08,
+          "shoe-leg_r": 4.6566128730773926e-09
+        },
+        "walk_planted_foot_max_height_m": 0.0036512790247797966,
+        "walk_sole_min_z_m": -0.007197665050625801,
+        "walk_foot_travel_m": 0.2995538936745852
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "456f707d3f902ec73fa6a50de24a04992356bbfd6cb2b2c58041b16e18c701f2",
+      "fbx_sha256": "67b976acaa4fcb2161e037b7eba0c580a829b950bcf31ebe4ee585bb157bdc96"
+    },
+    {
+      "asset": "QGranny",
+      "name_zh": "村中婆婆",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.2526298761367798,
+      "mesh_objects": 52,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.0602176189422607e-05,
+          "hand-sleeve_l": 1.0826624929904938e-07,
+          "shoe-leg_l": 5.587935447692871e-09,
+          "hand-sleeve_r": 5.75091689825058e-08,
+          "shoe-leg_r": 6.51925802230835e-09
+        },
+        "walk_planted_foot_max_height_m": 0.0033591785468161106,
+        "walk_sole_min_z_m": -0.006621870677918196,
+        "walk_foot_travel_m": 0.275589637682402
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 1.1920928955078125e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "6c4f9b4e11e1c55e4451fa074ed940005d7ad6459178d548243e0f21cf849fb7",
+      "fbx_sha256": "e5767aae3352f51912d601e69dca41f053258ae3fd515912ec08d2dd49084267"
+    },
+    {
+      "asset": "QWoodcutter",
+      "name_zh": "樵夫",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "height_m": 1.4173998832702637,
+      "mesh_objects": 91,
+      "checks": {
+        "bones": 17,
+        "weights_sum_to_one": true,
+        "loop_error": {
+          "Idle": 0.0,
+          "Walk": 0.0
+        },
+        "attachment_growth_m": {
+          "head-neck": 1.1496245861053467e-05,
+          "hand-sleeve_l": 0.0,
+          "shoe-leg_l": 1.1175870895385742e-08,
+          "hand-sleeve_r": 6.728805601596832e-08,
+          "shoe-leg_r": 1.0244548320770264e-08
+        },
+        "walk_planted_foot_max_height_m": 0.003651275299489498,
+        "walk_sole_min_z_m": -0.0071976641193032265,
+        "walk_foot_travel_m": 0.3001199399114103
+      },
+      "fbx_reimported": true,
+      "fbx_actions": [
+        "Armature|Armature|Idle",
+        "Armature|Armature|Walk"
+      ],
+      "fbx_dimension_error_m": 2.384185791015625e-07,
+      "distinct_1024_views": 10,
+      "animation_frames": 12,
+      "blend_sha256": "3b4993b1869d934b8bd56cdbfba3c2d965c2b0f0d309e5917dc283155b8f6435",
+      "fbx_sha256": "c6344c64c48954fc1c8113f9e2f89e3f3c4e4bab7103197c459f617400dde8a4"
+    }
+  ],
+  "design_sheets": [
+    "lineup_back.png",
+    "lineup_front.png",
+    "lineup_three_quarter.png"
+  ],
+  "not_verified": [
+    "Unreal import, retargeting and in-game playback",
+    "cloth / hair secondary motion (robe and hair are skinned, not simulated)",
+    "arm-robe and hair-shoulder intersections in every frame (only hand, foot and head attachment is measured)",
+    "UV and texture bake",
+    "LOD",
+    "in-game scale against doors and furniture"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "asset": "QDiscipleAlchemy",
+  "source": "Models/QDiscipleAlchemy/v005/QDiscipleAlchemy_v005.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        -29.786304473876953,
+        4.250411033630371
+      ],
+      "ortho_scale": 1.6800036430358887,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        29.786304473876953,
+        0.0,
+        4.250411033630371
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        29.786304473876953,
+        4.250411033630371
+      ],
+      "ortho_scale": 1.6800036430358887,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        -29.786304473876953,
+        0.0,
+        4.250411033630371
+      ],
+      "ortho_scale": 1.6310714483261108,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        -20.214513778686523,
+        9.772583961486816
+      ],
+      "ortho_scale": 1.890858769416809,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        20.214513778686523,
+        9.772583961486816
+      ],
+      "ortho_scale": 1.890858769416809,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        20.214513778686523,
+        9.772583961486816
+      ],
+      "ortho_scale": 1.890858769416809,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        -20.214513778686523,
+        9.772583961486816
+      ],
+      "ortho_scale": 1.890858769416809,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        30.676054000854492
+      ],
+      "ortho_scale": 1.0469225645065308,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -21.21320343017578,
+        21.889257431030273
+      ],
+      "ortho_scale": 1.8357852697372437,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    }
+  ],
+  "animation_frames": {
+    "walk_side": {
+      "action": "Walk",
+      "frames": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "files": [
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_01.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_02.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_03.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_04.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_05.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_06.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_07.png",
+        "Models/QDiscipleAlchemy/v005/anim/walk_side_08.png"
+      ]
+    },
+    "idle_front": {
+      "action": "Idle",
+      "frames": [
+        1,
+        13,
+        25,
+        37
+      ],
+      "files": [
+        "Models/QDiscipleAlchemy/v005/anim/idle_front_01.png",
+        "Models/QDiscipleAlchemy/v005/anim/idle_front_02.png",
+        "Models/QDiscipleAlchemy/v005/anim/idle_front_03.png",
+        "Models/QDiscipleAlchemy/v005/anim/idle_front_04.png"
+      ]
+    }
+  }
+}

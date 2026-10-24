@@ -1,0 +1,28 @@
+{
+  "asset": "QHerbalist",
+  "name_zh": "藥師",
+  "style": "Q-version chibi, ~2 heads tall",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6779999732971191,
+    0.6893348693847656,
+    1.2849500179290771
+  ],
+  "height_m": 1.2849500179290771,
+  "mesh_objects": 67,
+  "triangles": 23292,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "braid",
+  "props": [
+    "basket"
+  ],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

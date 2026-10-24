@@ -1,0 +1,54 @@
+{
+  "asset": "QCaveDoor",
+  "plan_id": "HOME06",
+  "name_zh": "洞府門",
+  "stage": "editable_blockout",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom_center",
+  "assembly_offset_m": [
+    0.0,
+    -0.028499998152256012,
+    0.0
+  ],
+  "dimensions_m": [
+    1.9240000247955322,
+    0.16699999570846558,
+    2.0999999046325684
+  ],
+  "bounds_m": [
+    [
+      -0.9620000123977661,
+      -0.08349999785423279,
+      0.0
+    ],
+    [
+      0.9620000123977661,
+      0.08349999785423279,
+      2.0999999046325684
+    ]
+  ],
+  "mesh_objects": 22,
+  "triangles": 6032,
+  "modeling_method": "procedural editable geometry guided by approved Q-style concept; not image generation",
+  "render_engine": "Blender Workbench studio",
+  "uv_baked": false,
+  "rigged": false,
+  "animation_ready": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "unreal_import_verified": false,
+  "limits": "Separate overlapping construction meshes; retopology, unified skin, UV and rigging remain.",
+  "hinge_axes_before_centering": [
+    [
+      -0.93,
+      0,
+      0
+    ],
+    [
+      0.93,
+      0,
+      0
+    ]
+  ]
+}

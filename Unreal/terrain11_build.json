@@ -1,0 +1,49 @@
+{
+  "status": "saved_pending_runtime_validation",
+  "map": "/Game/Maps/TownLayout_11",
+  "base": "/Game/Maps/TownLayout_10",
+  "meshes": {
+    "ValleyTerrain11": {
+      "dimensions_cm": [
+        13875.0009765625,
+        19875.0,
+        1813.8960571289062
+      ],
+      "triangles": 134768
+    },
+    "ValleyPeaks11": {
+      "dimensions_cm": [
+        12464.04833984375,
+        12010.555297851562,
+        5444.46484375
+      ],
+      "triangles": 511515
+    },
+    "ValleyDressing11": {
+      "dimensions_cm": [
+        12909.51416015625,
+        19631.71240234375,
+        1723.1950378417969
+      ],
+      "triangles": 1918924
+    }
+  },
+  "removed": [
+    "TownLayout_v004_North_Terrace_Ground",
+    "TownLayout_v004_Terrain_Display_Island",
+    "ValleyGround",
+    "NorthTrailBase",
+    "MiddleTrailRock",
+    "UpperTrailRock",
+    "SectGateTerrace",
+    "SectGateTerraceTop",
+    "ValleyRidge_00",
+    "ValleyRidge_01",
+    "ValleyRidge_02",
+    "ValleyRidge_03",
+    "DistantPeak_00",
+    "DistantPeak_01",
+    "DistantPeak_02"
+  ],
+  "base_unchanged": true
+}

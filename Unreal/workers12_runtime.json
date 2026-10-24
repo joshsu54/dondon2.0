@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "checks": {
+    "fresh_workers_wait": true,
+    "load_earned_test_progress": true,
+    "earned_food_available": true,
+    "assign_0": true,
+    "assign_1": true,
+    "assign_2": true,
+    "all_workers_move": true,
+    "all_arrived_at_work": true,
+    "procedural_work_motion": true,
+    "depletion_gather_job_0": true,
+    "depletion_gather_job_1": true,
+    "depletion_gather_job_2": true,
+    "no_food_pauses": true,
+    "gather_food_to_resume": true,
+    "reassign_first_worker": true,
+    "reassignment_travels": true,
+    "reassignment_arrived": true,
+    "reassignment_changed_position": true,
+    "hud_capture_exists": true
+  },
+  "sampled_states": [
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Traveling",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Working",
+      "Traveling"
+    ],
+    [
+      "Traveling",
+      "Working",
+      "Traveling"
+    ],
+    [
+      "Working",
+      "Working",
+      "Traveling"
+    ]
+  ],
+  "scope": "Local camp visibility-graph pathfinding and procedural blockout work motion, not skeletal character animation",
+  "work_positions": [
+    [
+      -1552.4112644246406,
+      3310.246474553756,
+      70.0
+    ],
+    [
+      923.1600486263073,
+      3848.0423750553005,
+      70.0
+    ],
+    [
+      974.6973965268893,
+      4986.836516604816,
+      70.0
+    ]
+  ]
+}

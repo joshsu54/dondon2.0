@@ -1,0 +1,20 @@
+{
+  "asset": "QMaleBase",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 39,
+  "dimensions_m": [
+    0.6504991054534912,
+    0.3449997901916504,
+    1.1800000667572021
+  ],
+  "fbx_dimension_error_m": 0.0,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "11f85ca782f036dd97a35797b17906fdac4dfb9b8b487a68821ee9a7d63dcc2d",
+  "fbx_sha256": "25c6bed88b34736df66c57cc90fddf3053cb7631523df487c748d2253f37aef9",
+  "unreal_verified": false
+}

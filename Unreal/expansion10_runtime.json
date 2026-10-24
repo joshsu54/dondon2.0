@@ -1,0 +1,489 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_10.TownLayout_10",
+  "method": "Real PIE, CharacterMovement route; reflected interaction, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "valley_vegetation_in_pie": true,
+    "wild08_absent": true,
+    "spawned_standing": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": true,
+    "early_reward_denied": true,
+    "herb1_route": true,
+    "herb1_collect": true,
+    "herb1_duplicate_denied": true,
+    "pavilion_approach_route": true,
+    "pavilion_inside_route": true,
+    "pavilion_return_route": true,
+    "herb2_route": true,
+    "herb2_collect": true,
+    "herb2_duplicate_denied": true,
+    "herb3_route": true,
+    "herb3_collect": true,
+    "herb3_duplicate_denied": true,
+    "ready_to_deliver": true,
+    "gate_route": true,
+    "return_upper_route": true,
+    "return_middle_route": true,
+    "return_lower_route": true,
+    "board_route": true,
+    "reward_once": true,
+    "duplicate_reward_denied": true,
+    "clouds_move": true,
+    "camp_path_start_ground_found": true,
+    "camp_path_start": true,
+    "camp_path_south": true,
+    "dorm_front": true,
+    "dorm_inside": true,
+    "dorm_out": true,
+    "branch_east": true,
+    "garden_gate": true,
+    "back_to_path": true,
+    "pavilion_steps": true,
+    "pavilion_centre": true,
+    "north_slope_start_ground_found": true,
+    "north_slope_start": true,
+    "north_slope_climb": true,
+    "pine_test_start_ground_found": true,
+    "pine_test_start": true,
+    "pine_trunk_blocks": true
+  },
+  "route": [
+    {
+      "id": "herb1",
+      "position_cm": [
+        1.428717361054694,
+        -4432.14103298683,
+        224.00942516326904
+      ],
+      "distance_cm": 17.916024561136858,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_approach",
+      "position_cm": [
+        -682.0840037264838,
+        -4449.543843617264,
+        224.15000088931083
+      ],
+      "distance_cm": 17.921802395913062,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_inside",
+      "position_cm": [
+        -1182.2228944442497,
+        -4449.98434275014,
+        278.14995024207906
+      ],
+      "distance_cm": 17.777112450838583,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_return",
+      "position_cm": [
+        -17.90888938048486,
+        -4449.999762816336,
+        224.13848193477952
+      ],
+      "distance_cm": 17.90888938205548,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb2",
+      "position_cm": [
+        -0.28331146968642823,
+        -5562.123848043227,
+        464.0436700286182
+      ],
+      "distance_cm": 17.878396856835565,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb3",
+      "position_cm": [
+        -0.004272555469408436,
+        -6732.085911468228,
+        704.0500434223911
+      ],
+      "distance_cm": 17.914089041279635,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "gate",
+      "position_cm": [
+        -0.0002861753265400367,
+        -6982.055141865517,
+        704.0500434223911
+      ],
+      "distance_cm": 17.94485813676507,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_upper",
+      "position_cm": [
+        -2.2128466553568446e-05,
+        -6767.943630946245,
+        704.0500434223911
+      ],
+      "distance_cm": 17.943630946258967,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_middle",
+      "position_cm": [
+        -3.3414152207578453e-07,
+        -5597.938038861567,
+        464.1499551121494
+      ],
+      "distance_cm": 17.938038861567296,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_lower",
+      "position_cm": [
+        -5.184105037689355e-09,
+        -4467.809912797556,
+        224.1499565426609
+      ],
+      "distance_cm": 17.809912797555626,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "board",
+      "position_cm": [
+        78.59733268536736,
+        -3467.845608713725,
+        227.65780003707619
+      ],
+      "distance_cm": 17.900648758045655,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    }
+  ],
+  "valley": [
+    {
+      "id": "camp_path_start",
+      "kind": "teleport",
+      "position_cm": [
+        0.0,
+        2000.0000000000005,
+        83.64961194992065
+      ],
+      "ground_cm": -18.46321493575347,
+      "ground_actor": "LY10_Terrain",
+      "checks": {
+        "standing": true,
+        "height_above_ground": true
+      }
+    },
+    {
+      "id": "camp_path_south",
+      "kind": "walk",
+      "position_cm": [
+        0.0,
+        4382.053265522044,
+        86.86587810516357
+      ],
+      "ground_cm": -14.997084486278567,
+      "ground_actor": "LY10_Terrain",
+      "distance_to_target_cm": 17.946734477955943,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "dorm_front",
+      "kind": "walk",
+      "position_cm": [
+        -823.3072894552434,
+        4693.681675229419,
+        87.1619056710025
+      ],
+      "ground_cm": -4.98794670847451,
+      "ground_actor": "LY10_Camp_Paths",
+      "distance_to_target_cm": 17.84846809217992,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "dorm_inside",
+      "kind": "walk",
+      "position_cm": [
+        -1132.0860387663186,
+        4699.653539178109,
+        123.62520425444788
+      ],
+      "ground_cm": 31.04715442791253,
+      "ground_actor": "LY10_Camp_Dormitory",
+      "distance_to_target_cm": 17.917311243123148,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "dorm_out",
+      "kind": "walk",
+      "position_cm": [
+        -857.7485027786138,
+        4699.978947433154,
+        87.00983130888224
+      ],
+      "ground_cm": -14.985336156048433,
+      "ground_actor": "LY10_Terrain",
+      "distance_to_target_cm": 17.748515264467393,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "branch_east",
+      "kind": "walk",
+      "position_cm": [
+        42.02825870616901,
+        4699.999587739677,
+        87.03510224775553
+      ],
+      "ground_cm": -4.995573106192609,
+      "ground_actor": "LY10_Camp_Paths",
+      "distance_to_target_cm": 17.971741298559483,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "garden_gate",
+      "kind": "walk",
+      "position_cm": [
+        682.2257199010257,
+        4719.459713985728,
+        86.90435779051066
+      ],
+      "ground_cm": -5.000144405550586,
+      "ground_actor": "LY10_Camp_Paths",
+      "distance_to_target_cm": 17.782489758580223,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "back_to_path",
+      "kind": "walk",
+      "position_cm": [
+        77.72796763400544,
+        4700.55443092221,
+        87.08326518491984
+      ],
+      "ground_cm": -4.995571645352911,
+      "ground_actor": "LY10_Camp_Paths",
+      "distance_to_target_cm": 17.73663525248931,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "pavilion_steps",
+      "kind": "walk",
+      "position_cm": [
+        0.9212869780921487,
+        6182.227508074652,
+        87.08326518491984
+      ],
+      "ground_cm": -14.998982114833083,
+      "ground_actor": "LY10_Terrain",
+      "distance_to_target_cm": 17.79635465292136,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "pavilion_centre",
+      "kind": "walk",
+      "position_cm": [
+        0.03457132473919776,
+        6642.071571223108,
+        125.11545507936441
+      ],
+      "ground_cm": 33.00016896174016,
+      "ground_actor": "LY10_Camp_HexPavilion",
+      "distance_to_target_cm": 17.928462108741964,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "north_slope_start",
+      "kind": "teleport",
+      "position_cm": [
+        1100.0,
+        -4299.999999999999,
+        194.7291135787964
+      ],
+      "ground_cm": 102.51662503682408,
+      "ground_actor": "LY10_Terrain",
+      "checks": {
+        "standing": true,
+        "height_above_ground": true
+      }
+    },
+    {
+      "id": "north_slope_climb",
+      "kind": "walk",
+      "position_cm": [
+        1100.0,
+        -5982.155580480147,
+        847.3272678887894
+      ],
+      "ground_cm": 752.4548697338128,
+      "ground_actor": "LY10_Terrain",
+      "distance_to_target_cm": 17.844419519852636,
+      "closest_to_trunk_cm": null,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "pine_test_start",
+      "kind": "teleport",
+      "position_cm": [
+        -3047.0,
+        5457.999999999999,
+        64.5452070236206
+      ],
+      "ground_cm": -27.627830289355956,
+      "ground_actor": "LY10_Terrain",
+      "checks": {
+        "standing": true,
+        "height_above_ground": true
+      }
+    },
+    {
+      "id": "pine_trunk_blocks",
+      "kind": "blocked",
+      "position_cm": [
+        -3041.304099944179,
+        4674.936451080098,
+        83.03316199669987
+      ],
+      "ground_cm": -9.38810418595645,
+      "ground_actor": "LY10_Terrain",
+      "distance_to_target_cm": 17.86859403071345,
+      "closest_to_trunk_cm": 51.74652108780076,
+      "checks": {
+        "walking": true,
+        "height_above_ground": true,
+        "never_sank": true,
+        "kept_clear_of_trunk": true
+      }
+    }
+  ],
+  "limitations": [
+    "Valley segments start from isolated teleports",
+    "Physical keyboard and HUD checks separate",
+    "Quest progress resets on new play session"
+  ],
+  "spawn_ground": [
+    24.150757394303028,
+    "TownLayout_v004_South_Approach_Slab_01_01"
+  ],
+  "objective": "委託完成！獲得 10 靈石。持有靈石：10",
+  "herbs": 3,
+  "spirit_stones": 10
+}

@@ -1,0 +1,47 @@
+{
+  "status": "saved_verified_in_editor_session",
+  "shapes": {
+    "CommonPine": {
+      "capsule_center_cm": [
+        0,
+        0,
+        130
+      ],
+      "radius_cm": 30,
+      "cylinder_length_cm": 200
+    },
+    "MossBoulderSet": {
+      "boxes": [
+        "Boulder_00",
+        "Boulder_01",
+        "Boulder_02"
+      ],
+      "blender_to_ue_y_sign": -1,
+      "scale_xy": 0.85,
+      "scale_z": 0.95
+    }
+  },
+  "traces": {
+    "ysign_-1": true,
+    "pine_sweep": {
+      "hit": "Wild08_CommonPine_01",
+      "at": [
+        1900.0,
+        3029.500013589859,
+        90.0
+      ]
+    },
+    "under_canopy_sweep": {
+      "hit": null,
+      "at": null
+    },
+    "boulder_sweep": {
+      "hit": "Wild08_MossBoulderSet_17",
+      "at": [
+        2650.0,
+        3979.557991027832,
+        90.0
+      ]
+    }
+  }
+}

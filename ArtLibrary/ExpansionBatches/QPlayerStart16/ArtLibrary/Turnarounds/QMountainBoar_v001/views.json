@@ -1,0 +1,152 @@
+{
+  "asset": "QMountainBoar",
+  "same_geometry": true,
+  "projection": "orthographic",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "source": "Models\\QMountainBoar\\v001\\QMountainBoar_v001.blend",
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "camera_location": [
+        -1.4901161193847656e-08,
+        -4.097845554351807,
+        0.32033005356788635
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "camera_location": [
+        4.097845554351807,
+        0.0,
+        0.32033005356788635
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "camera_location": [
+        -1.4901161193847656e-08,
+        4.097845554351807,
+        0.32033005356788635
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "camera_location": [
+        -4.097845554351807,
+        0.0,
+        0.32033005356788635
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        2.7611982822418213,
+        -2.7611982822418213,
+        1.5628691911697388
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        2.7611982822418213,
+        2.7611982822418213,
+        1.5628691911697388
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -2.7611982822418213,
+        2.7611982822418213,
+        1.5628691911697388
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -2.7611982822418213,
+        -2.7611982822418213,
+        1.5628691911697388
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        -1.4901161193847656e-08,
+        0.0,
+        4.41817569732666
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        -1.4901161193847656e-08,
+        -2.8976142406463623,
+        3.217944383621216
+      ],
+      "framing_pass": true
+    }
+  ]
+}

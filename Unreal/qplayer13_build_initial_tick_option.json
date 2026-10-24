@@ -1,0 +1,157 @@
+{
+  "status": "saved",
+  "map": "/Game/Maps/TownLayout_13",
+  "base": "/Game/Maps/TownLayout_12",
+  "imports": {
+    "QPlayerMale": {
+      "fbx": "Models\\QPlayerMale\\v005\\QPlayerMale_v005.fbx",
+      "fbx_sha256": "76bba760ca6cb558a5ef0a12238b2ccb3e0398f55c17b2c54ac5bc7c5bc2167a",
+      "skeletal_mesh": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale.SK_QPlayerMale",
+      "skeleton": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Skeleton.SK_QPlayerMale_Skeleton",
+      "bounds_extent_cm": [
+        33.08659362792969,
+        30.43336772918701,
+        72.35112749417517
+      ],
+      "materials": 21,
+      "anims": {
+        "Idle": {
+          "asset": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Idle.SK_QPlayerMale_Anim_Armature_Idle",
+          "length_s": 2.0
+        },
+        "Walk": {
+          "asset": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Walk.SK_QPlayerMale_Anim_Armature_Walk",
+          "length_s": 1.0
+        }
+      }
+    },
+    "QPlayerFemale": {
+      "fbx": "Models\\QPlayerFemale\\v005\\QPlayerFemale_v005.fbx",
+      "fbx_sha256": "5e4be0062127548dd1dbeae660d33f21cba368e5e14f511dd91c0e3bc827ecc5",
+      "skeletal_mesh": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale.SK_QPlayerFemale",
+      "skeleton": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Skeleton.SK_QPlayerFemale_Skeleton",
+      "bounds_extent_cm": [
+        33.650665283203125,
+        31.114585876464844,
+        72.22364794095252
+      ],
+      "materials": 19,
+      "anims": {
+        "Idle": {
+          "asset": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Idle.SK_QPlayerFemale_Anim_Armature_Idle",
+          "length_s": 2.0
+        },
+        "Walk": {
+          "asset": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Walk.SK_QPlayerFemale_Anim_Armature_Walk",
+          "length_s": 1.0
+        }
+      }
+    }
+  },
+  "template_components": [
+    "ArrowComponent",
+    "CameraBoom",
+    "CapsuleComponent",
+    "CharacterMovement",
+    "FollowCamera",
+    "Mesh",
+    "None"
+  ],
+  "characters": {
+    "QPlayerMale": {
+      "blueprint": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerMale",
+      "capsule": [
+        32.0,
+        73.0
+      ],
+      "max_walk_speed": 204.0,
+      "mesh_offset_z": -73.0,
+      "mesh_yaw": -90,
+      "camera_boom": true,
+      "anim_driver": {
+        "idle": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Idle.SK_QPlayerMale_Anim_Armature_Idle",
+        "walk": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Walk.SK_QPlayerMale_Anim_Armature_Walk",
+        "walk_cycle_speed": 60.0,
+        "max_walk_play_rate": 3.4000000953674316
+      }
+    },
+    "QPlayerFemale": {
+      "blueprint": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerFemale",
+      "capsule": [
+        32.0,
+        73.0
+      ],
+      "max_walk_speed": 204.0,
+      "mesh_offset_z": -73.0,
+      "mesh_yaw": -90,
+      "camera_boom": true,
+      "anim_driver": {
+        "idle": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Idle.SK_QPlayerFemale_Anim_Armature_Idle",
+        "walk": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Walk.SK_QPlayerFemale_Anim_Armature_Walk",
+        "walk_cycle_speed": 60.0,
+        "max_walk_play_rate": 3.4000000953674316
+      }
+    }
+  },
+  "saved_assets": [
+    "/Game/Art/QCharacters17/Blueprints/BP_QPlayerFemale.BP_QPlayerFemale",
+    "/Game/Art/QCharacters17/Blueprints/BP_QPlayerGameMode.BP_QPlayerGameMode",
+    "/Game/Art/QCharacters17/Blueprints/BP_QPlayerMale.BP_QPlayerMale",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_blush.Q17v4_blush",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_eye_hi.Q17v4_eye_hi",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_hair_black.Q17v4_hair_black",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_iris_blue.Q17v4_iris_blue",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_iris_blue_d.Q17v4_iris_blue_d",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_iris_blue_l.Q17v4_iris_blue_l",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_jade.Q17v4_jade",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_lash.Q17v4_lash",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_leather.Q17v4_leather",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_mouth_in.Q17v4_mouth_in",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_pants_dark.Q17v4_pants_dark",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_pupil.Q17v4_pupil",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_sclera.Q17v4_sclera",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_shoe.Q17v4_shoe",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_skin.Q17v4_skin",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_teal.Q17v4_teal",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_tongue.Q17v4_tongue",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_white_robe.Q17v4_white_robe",
+    "/Game/Art/QCharacters17/QPlayerFemale/Q17v4_wrap.Q17v4_wrap",
+    "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale.SK_QPlayerFemale",
+    "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Idle.SK_QPlayerFemale_Anim_Armature_Idle",
+    "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Walk.SK_QPlayerFemale_Anim_Armature_Walk",
+    "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_PhysicsAsset.SK_QPlayerFemale_PhysicsAsset",
+    "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Skeleton.SK_QPlayerFemale_Skeleton",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_blush.Q17v4_blush",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_eye_hi.Q17v4_eye_hi",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_hair_black.Q17v4_hair_black",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_iris_amber.Q17v4_iris_amber",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_iris_amber_d.Q17v4_iris_amber_d",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_iris_amber_l.Q17v4_iris_amber_l",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_jade.Q17v4_jade",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_lash.Q17v4_lash",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_leather.Q17v4_leather",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_mouth_in.Q17v4_mouth_in",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_pants_dark.Q17v4_pants_dark",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_pupil.Q17v4_pupil",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_sclera.Q17v4_sclera",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_shoe.Q17v4_shoe",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_skin.Q17v4_skin",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_teal.Q17v4_teal",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_timber.Q17v4_timber",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_tongue.Q17v4_tongue",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_white_robe.Q17v4_white_robe",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_wood.Q17v4_wood",
+    "/Game/Art/QCharacters17/QPlayerMale/Q17v4_wrap.Q17v4_wrap",
+    "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale.SK_QPlayerMale",
+    "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Idle.SK_QPlayerMale_Anim_Armature_Idle",
+    "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Walk.SK_QPlayerMale_Anim_Armature_Walk",
+    "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_PhysicsAsset.SK_QPlayerMale_PhysicsAsset",
+    "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Skeleton.SK_QPlayerMale_Skeleton"
+  ],
+  "base_game_mode_override": "<Object '/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C' (0x0000029D90C5AF00) Class 'BlueprintGeneratedClass'>",
+  "game_mode": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerGameMode.BP_QPlayerGameMode",
+  "default_pawn": "BP_QPlayerMale",
+  "base_12_unchanged": true,
+  "template_blueprints_unchanged": true,
+  "map_sha256": "c12088d8372bed0f14567cf9405b030f22446c1fe72a652f5d72f12f344ce056"
+}

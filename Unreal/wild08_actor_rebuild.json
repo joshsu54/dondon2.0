@@ -1,0 +1,10 @@
+{
+  "status": "rebuilt_saved_reloaded",
+  "sublevel": "/Game/Maps/Sublevels/TownWild08_Sublevel",
+  "before_sha256": "7e5d4161568c090c4f5f526ce3b4b6d5e8a2b4ec8cdcd3f1390afe06ae2f0faa",
+  "checks": {
+    "count": true,
+    "same_transforms": true
+  },
+  "after_sha256": "867d520d1dda5d89a939f4e03f6912a2d64f79f26f3ee78f0608cd9e79772c6f"
+}

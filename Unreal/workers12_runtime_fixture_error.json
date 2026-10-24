@@ -1,0 +1,10 @@
+{
+  "status": "error",
+  "checks": {
+    "fresh_workers_wait": true,
+    "load_earned_test_progress": true
+  },
+  "sampled_states": [],
+  "scope": "Local camp visibility-graph pathfinding and procedural blockout work motion, not skeletal character animation",
+  "error": "Traceback (most recent call last):\n  File \"D:/DONDON2.0/Unreal/Tools/test_workers12.py\", line 57, in tick\n    state['ready']=now+next(runner)\n                       ^^^^^^^^^^^^\n  File \"D:/DONDON2.0/Unreal/Tools/test_workers12.py\", line 23, in scenario\n    q.set_editor_property('food',30)\nException: SectAdventureDirector: Property 'Food' for attribute 'food' on 'SectAdventureDirector' is read-only and cannot be set\n"
+}

@@ -1,0 +1,152 @@
+{
+  "asset": "QPillBottle",
+  "same_geometry": true,
+  "projection": "orthographic",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "source": "Models\\QPillBottle\\v001\\QPillBottle_v001.blend",
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "camera_location": [
+        0.0,
+        -0.7867717146873474,
+        0.10100000351667404
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "camera_location": [
+        0.7867717146873474,
+        0.0,
+        0.10100000351667404
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "camera_location": [
+        0.0,
+        0.7867717146873474,
+        0.10100000351667404
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "camera_location": [
+        -0.7867717146873474,
+        0.0,
+        0.10100000351667404
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        0.530140221118927,
+        -0.530140221118927,
+        0.3395631015300751
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        0.530140221118927,
+        0.530140221118927,
+        0.3395631015300751
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -0.530140221118927,
+        0.530140221118927,
+        0.3395631015300751
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -0.530140221118927,
+        -0.530140221118927,
+        0.3395631015300751
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        0.887771725654602
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -0.5563316345214844,
+        0.657331645488739
+      ],
+      "framing_pass": true
+    }
+  ]
+}

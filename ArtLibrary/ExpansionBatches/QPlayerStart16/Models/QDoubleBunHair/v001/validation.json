@@ -1,0 +1,20 @@
+{
+  "asset": "QDoubleBunHair",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 16,
+  "dimensions_m": [
+    0.5419999361038208,
+    0.3495877981185913,
+    0.3469327688217163
+  ],
+  "fbx_dimension_error_m": 0.0,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "c7c0c87da7e6e1287fe9b6b239610ea9937579d0ca6437b36d76fe7ae18ed4a1",
+  "fbx_sha256": "c6f3d76eec51837d8052f5c9e813f2ab4ddfd6c540e6ac858d94c2aa9a81d5c7",
+  "unreal_verified": false
+}

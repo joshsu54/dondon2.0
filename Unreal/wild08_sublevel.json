@@ -1,0 +1,573 @@
+{
+  "status": "saved_reloaded",
+  "sublevel": "/Game/Maps/Sublevels/TownWild08_Sublevel",
+  "base_map_read_only": "/Game/Maps/TownLayout_07",
+  "placements": [
+    {
+      "label": "Wild08_CommonPine_00",
+      "asset": "CommonPine",
+      "location_cm": [
+        -1800,
+        2700,
+        -15.0
+      ],
+      "yaw": 20,
+      "scale": 1.0,
+      "box": [
+        -2168.0215118332176,
+        2340.0527963511017,
+        -15.000004789170816,
+        -1431.9784359786504,
+        3059.947060263183,
+        713.9296875
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_CommonPine_01",
+      "asset": "CommonPine",
+      "location_cm": [
+        1900,
+        3100,
+        -15.0
+      ],
+      "yaw": -35,
+      "scale": 0.95,
+      "box": [
+        1522.6887266302238,
+        2725.840490732397,
+        -15.000004549712287,
+        2277.3111902249984,
+        3474.159390524555,
+        677.483203125
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_CommonPine_02",
+      "asset": "CommonPine",
+      "location_cm": [
+        -2500,
+        4600,
+        -15.0
+      ],
+      "yaw": 70,
+      "scale": 1.1,
+      "box": [
+        -2895.9417662895016,
+        4195.176279576515,
+        -15.000005268087932,
+        -2104.058075986212,
+        5004.823663016539,
+        786.8226562500001
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_CommonPine_03",
+      "asset": "CommonPine",
+      "location_cm": [
+        2900,
+        1900,
+        -15.0
+      ],
+      "yaw": 140,
+      "scale": 0.9,
+      "box": [
+        2539.1750982145068,
+        1540.6737588234237,
+        -15.0000043102537,
+        3260.824990058938,
+        2259.3263463767717,
+        641.0367187500001
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_CommonPine_04",
+      "asset": "CommonPine",
+      "location_cm": [
+        -900,
+        5600,
+        -15.0
+      ],
+      "yaw": 0,
+      "scale": 1.05,
+      "box": [
+        -1205.2745223999023,
+        5308.910635375976,
+        -15.000005028629346,
+        -594.7254776000977,
+        5891.089204406739,
+        750.376171875
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_BambooClump_05",
+      "asset": "BambooClump",
+      "location_cm": [
+        3100,
+        -700,
+        -15.0
+      ],
+      "yaw": 0,
+      "scale": 1.0,
+      "box": [
+        2906.216522216797,
+        -890.7339019775391,
+        -14.999997951733349,
+        3293.783477783203,
+        -509.2662658691406,
+        583.00732421875
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_BambooClump_06",
+      "asset": "BambooClump",
+      "location_cm": [
+        3200,
+        -1950,
+        -15.0
+      ],
+      "yaw": 60,
+      "scale": 0.9,
+      "box": [
+        2964.1352017931663,
+        -2186.8695290244486,
+        -14.999998156560025,
+        3435.8649290303733,
+        -1713.130546506557,
+        523.206591796875
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_BambooClump_07",
+      "asset": "BambooClump",
+      "location_cm": [
+        3000,
+        700,
+        -15.0
+      ],
+      "yaw": 110,
+      "scale": 0.85,
+      "box": [
+        2791.3174049582226,
+        489.7680692905549,
+        -14.999998258973363,
+        3208.682729107421,
+        910.2319795053488,
+        493.30622558593745
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_BambooClump_08",
+      "asset": "BambooClump",
+      "location_cm": [
+        -2900,
+        -1500,
+        -15.0
+      ],
+      "yaw": 30,
+      "scale": 0.7,
+      "box": [
+        -3084.2317971615666,
+        -1683.450500356957,
+        -14.99999856621335,
+        -2715.768144092095,
+        -1316.549601394685,
+        403.605126953125
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_09",
+      "asset": "WildShrub",
+      "location_cm": [
+        -1200,
+        1900,
+        -15.0
+      ],
+      "yaw": 0,
+      "scale": 1.0,
+      "box": [
+        -1292.766716003418,
+        1815.7866744995117,
+        -15.000000205873349,
+        -1107.233283996582,
+        1984.2133102416992,
+        115.99113464355467
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_10",
+      "asset": "WildShrub",
+      "location_cm": [
+        1300,
+        1800,
+        -15.0
+      ],
+      "yaw": 40,
+      "scale": 1.0,
+      "box": [
+        1174.8053003051325,
+        1675.8595543254742,
+        -15.000000205873349,
+        1425.194709503028,
+        1924.1404339856153,
+        115.99113464355467
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_11",
+      "asset": "WildShrub",
+      "location_cm": [
+        -2300,
+        2300,
+        -15.0
+      ],
+      "yaw": 80,
+      "scale": 0.9,
+      "box": [
+        -2389.1384228134884,
+        2204.6172155149284,
+        -15.000000185286012,
+        -2210.8615636622353,
+        2395.3827821003765,
+        102.8920211791992
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_12",
+      "asset": "WildShrub",
+      "location_cm": [
+        2500,
+        2700,
+        -15.0
+      ],
+      "yaw": 120,
+      "scale": 1.1,
+      "box": [
+        2368.754353591419,
+        2565.3105134139873,
+        -15.000000226460685,
+        2631.24566094453,
+        2834.689494978347,
+        129.09024810791016
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_13",
+      "asset": "WildShrub",
+      "location_cm": [
+        800,
+        3700,
+        -15.0
+      ],
+      "yaw": 200,
+      "scale": 0.9,
+      "box": [
+        695.6226330734942,
+        3600.223559461522,
+        -15.000000185286012,
+        904.3773622295739,
+        3799.7764534431917,
+        102.8920211791992
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_14",
+      "asset": "WildShrub",
+      "location_cm": [
+        -900,
+        4100,
+        -15.0
+      ],
+      "yaw": 250,
+      "scale": 1.0,
+      "box": [
+        -1010.8627260479913,
+        3984.0251530782507,
+        -15.000000205873349,
+        -789.1372882905802,
+        4215.974852140563,
+        115.99113464355467
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_15",
+      "asset": "WildShrub",
+      "location_cm": [
+        3350,
+        -1500,
+        -15.0
+      ],
+      "yaw": 10,
+      "scale": 0.9,
+      "box": [
+        3254.6172178996235,
+        -1589.1384363377647,
+        -15.000000185286012,
+        3445.3827844850716,
+        -1410.8615771865116,
+        102.8920211791992
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_WildShrub_16",
+      "asset": "WildShrub",
+      "location_cm": [
+        -2900,
+        400,
+        -15.0
+      ],
+      "yaw": 300,
+      "scale": 0.8,
+      "box": [
+        -2995.4513897778397,
+        302.0440036521116,
+        -15.000000164698683,
+        -2804.5486207937593,
+        497.9559902443728,
+        89.79290771484375
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_MossBoulderSet_17",
+      "asset": "MossBoulderSet",
+      "location_cm": [
+        2650,
+        4100,
+        -15.0
+      ],
+      "yaw": 25,
+      "scale": 1.0,
+      "box": [
+        2454.9023670926786,
+        3932.583636099196,
+        -15.00001617775888,
+        2845.0976329073214,
+        4267.416363900804,
+        136.64967346191406
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_MossBoulderSet_18",
+      "asset": "MossBoulderSet",
+      "location_cm": [
+        -2450,
+        3500,
+        -15.0
+      ],
+      "yaw": -40,
+      "scale": 0.9,
+      "box": [
+        -2626.1143613062613,
+        3330.2341636177434,
+        -15.000014559983,
+        -2273.8856386937387,
+        3669.7658363822566,
+        121.48470611572266
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_MossBoulderSet_19",
+      "asset": "MossBoulderSet",
+      "location_cm": [
+        -2950,
+        -2200,
+        -15.0
+      ],
+      "yaw": 80,
+      "scale": 0.8,
+      "box": [
+        -3057.835897743195,
+        -2344.973648697974,
+        -15.000012942207107,
+        -2842.164102256805,
+        -2055.026351302026,
+        106.31973876953126
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_MossBoulderSet_20",
+      "asset": "MossBoulderSet",
+      "location_cm": [
+        -1600,
+        5200,
+        -15.0
+      ],
+      "yaw": 150,
+      "scale": 0.7,
+      "box": [
+        -1737.7535759289997,
+        5076.90961811355,
+        -15.000011324431213,
+        -1462.2464240710003,
+        5323.09038188645,
+        91.15477142333984
+      ],
+      "collision": true
+    },
+    {
+      "label": "Wild08_ScreePile_21",
+      "asset": "ScreePile",
+      "location_cm": [
+        3450,
+        1300,
+        -15.0
+      ],
+      "yaw": 0,
+      "scale": 0.9,
+      "box": [
+        3350.894174194336,
+        1219.046739959717,
+        -15.000011112118226,
+        3549.105825805664,
+        1380.953260040283,
+        29.66173782348633
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_ScreePile_22",
+      "asset": "ScreePile",
+      "location_cm": [
+        -2950,
+        -2700,
+        -15.0
+      ],
+      "yaw": 30,
+      "scale": 0.8,
+      "box": [
+        -3062.270926960784,
+        -2806.36488232612,
+        -15.000009877438423,
+        -2837.729073039216,
+        -2593.63511767388,
+        24.69932250976563
+      ],
+      "collision": false
+    },
+    {
+      "label": "Wild08_ScreePile_23",
+      "asset": "ScreePile",
+      "location_cm": [
+        400,
+        4700,
+        -15.0
+      ],
+      "yaw": 90,
+      "scale": 1.0,
+      "box": [
+        310.05193328857416,
+        4589.882415771484,
+        -15.00001234679803,
+        489.94806671142584,
+        4810.117584228516,
+        34.62415313720703
+      ],
+      "collision": false
+    }
+  ],
+  "obstacles_from_07": 3940,
+  "entrance": [
+    0.0,
+    850.0
+  ],
+  "current": "ScreePile",
+  "meshes": {
+    "CommonPine": {
+      "asset": "/Game/Art/WildVegetation08/Meshes/CommonPine",
+      "dimensions_cm": [
+        581.4752807617188,
+        554.4557800292969,
+        728.9296922891708
+      ],
+      "material_slots": 3,
+      "collision": true
+    },
+    "BambooClump": {
+      "asset": "/Game/Art/WildVegetation08/Meshes/BambooClump",
+      "dimensions_cm": [
+        387.56695556640625,
+        381.46763610839844,
+        598.0073221704833
+      ],
+      "material_slots": 6,
+      "collision": false
+    },
+    "WildShrub": {
+      "asset": "/Game/Art/WildVegetation08/Meshes/WildShrub",
+      "dimensions_cm": [
+        185.53343200683594,
+        168.4266357421875,
+        130.99113484942802
+      ],
+      "material_slots": 4,
+      "collision": false
+    },
+    "MossBoulderSet": {
+      "asset": "/Game/Art/WildVegetation08/Meshes/MossBoulderSet",
+      "dimensions_cm": [
+        330.0166015625,
+        215.55776977539062,
+        151.64968963967294
+      ],
+      "material_slots": 1,
+      "collision": true
+    },
+    "ScreePile": {
+      "asset": "/Game/Art/WildVegetation08/Meshes/ScreePile",
+      "dimensions_cm": [
+        220.23516845703125,
+        179.89613342285156,
+        49.62416548400506
+      ],
+      "material_slots": 3,
+      "collision": false
+    }
+  },
+  "checks": {
+    "actor_count": true,
+    "per_asset_counts": {
+      "CommonPine": 5,
+      "BambooClump": 4,
+      "WildShrub": 8,
+      "MossBoulderSet": 4,
+      "ScreePile": 3
+    },
+    "positions_meshes_after_reload": true,
+    "no_overlap_with_07_or_each_other": true,
+    "grounded_at_valley_floor_cm": -15.0
+  },
+  "sublevel_sha256": "7e5d4161568c090c4f5f526ce3b4b6d5e8a2b4ec8cdcd3f1390afe06ae2f0faa",
+  "limits": [
+    "07 was opened read-only and never saved",
+    "Constant-colour materials; foliage is static, no wind; no LOD",
+    "Merged into TownLayout_08 by assemble_town08.py; see expansion08_runtime.json for PIE"
+  ],
+  "superseded": {
+    "sublevel_sha256_now": "867d520d1dda5d89a939f4e03f6912a2d64f79f26f3ee78f0608cd9e79772c6f",
+    "why": "Actors respawned in the GUI editor (rebuild_wild08_actors.py) because the commandlet-spawned actors had no collision when loaded; meshes reimported in GUI and given analytic simple collision (simple_collision_wild08.py). See wild08_actor_rebuild.json, wild08_simple_collision.json.",
+    "collision_now": {
+      "CommonPine": "trunk capsule r30 cm, 0-260 cm",
+      "MossBoulderSet": "3 boxes for the large boulders",
+      "BambooClump/WildShrub/ScreePile": "actor collision off (walk-through)"
+    }
+  }
+}

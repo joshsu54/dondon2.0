@@ -1,0 +1,20 @@
+{
+  "asset": "QQiManual",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 12,
+  "dimensions_m": [
+    0.20264822244644165,
+    0.26499998569488525,
+    0.05278944596648216
+  ],
+  "fbx_dimension_error_m": 2.2351741790771484e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "32ad8781c03b45977b5c9ea26238c29500b1fae6a1e8c3e7e24a84765ebc723f",
+  "fbx_sha256": "62c006fd7bf211e3e198f9ae7636c10d27a5a9eb524860a6065cc7e4ee83d66d",
+  "unreal_verified": false
+}

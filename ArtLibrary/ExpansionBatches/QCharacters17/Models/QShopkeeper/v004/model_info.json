@@ -1,0 +1,30 @@
+{
+  "asset": "QShopkeeper",
+  "version": "v004",
+  "name_zh": "雜貨店主",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": "{1: ([0, 0, 1], 0.011)}",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6405152678489685,
+    0.5913240909576416,
+    1.3544998168945312
+  ],
+  "height_m": 1.3544998168945312,
+  "mesh_objects": 80,
+  "triangles": 24648,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "cap",
+  "props": [
+    "abacus"
+  ],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

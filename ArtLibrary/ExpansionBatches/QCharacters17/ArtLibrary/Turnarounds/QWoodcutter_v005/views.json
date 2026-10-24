@@ -1,0 +1,217 @@
+{
+  "asset": "QWoodcutter",
+  "source": "Models/QWoodcutter/v005/QWoodcutter_v005.blend",
+  "same_geometry": true,
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        -29.786304473876953,
+        4.283056259155273
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        29.786304473876953,
+        0.0,
+        4.283056259155273
+      ],
+      "ortho_scale": 1.7304037809371948,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0.12
+      ],
+      "camera_location": [
+        0.0,
+        29.786304473876953,
+        4.283056259155273
+      ],
+      "ortho_scale": 1.7823158502578735,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0.12
+      ],
+      "camera_location": [
+        -29.786304473876953,
+        0.0,
+        4.283056259155273
+      ],
+      "ortho_scale": 1.7304037809371948,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        -20.214513778686523,
+        9.805230140686035
+      ],
+      "ortho_scale": 2.006011962890625,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        20.214513778686523,
+        20.214513778686523,
+        9.805230140686035
+      ],
+      "ortho_scale": 2.006011962890625,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        20.214513778686523,
+        9.805230140686035
+      ],
+      "ortho_scale": 2.006011962890625,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -20.214513778686523,
+        -20.214513778686523,
+        9.805230140686035
+      ],
+      "ortho_scale": 2.006011962890625,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        30.70870018005371
+      ],
+      "ortho_scale": 1.1440006494522095,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -21.21320343017578,
+        21.921903610229492
+      ],
+      "ortho_scale": 1.9475845098495483,
+      "projection": "orthographic",
+      "framing_checked": true,
+      "pose": "rest"
+    }
+  ],
+  "animation_frames": {
+    "walk_side": {
+      "action": "Walk",
+      "frames": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "files": [
+        "Models/QWoodcutter/v005/anim/walk_side_01.png",
+        "Models/QWoodcutter/v005/anim/walk_side_02.png",
+        "Models/QWoodcutter/v005/anim/walk_side_03.png",
+        "Models/QWoodcutter/v005/anim/walk_side_04.png",
+        "Models/QWoodcutter/v005/anim/walk_side_05.png",
+        "Models/QWoodcutter/v005/anim/walk_side_06.png",
+        "Models/QWoodcutter/v005/anim/walk_side_07.png",
+        "Models/QWoodcutter/v005/anim/walk_side_08.png"
+      ]
+    },
+    "idle_front": {
+      "action": "Idle",
+      "frames": [
+        1,
+        13,
+        25,
+        37
+      ],
+      "files": [
+        "Models/QWoodcutter/v005/anim/idle_front_01.png",
+        "Models/QWoodcutter/v005/anim/idle_front_02.png",
+        "Models/QWoodcutter/v005/anim/idle_front_03.png",
+        "Models/QWoodcutter/v005/anim/idle_front_04.png"
+      ]
+    }
+  }
+}

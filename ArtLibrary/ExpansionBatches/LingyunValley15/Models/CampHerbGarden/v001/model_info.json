@@ -1,0 +1,24 @@
+{
+  "asset": "CampHerbGarden",
+  "name_zh": "營地藥圃",
+  "units": "meters",
+  "front": "+X faces the path in the valley scene; turnaround 01_front looks from -Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    7.475000381469727,
+    8.899999618530273,
+    1.4600000381469727
+  ],
+  "mesh_objects": 90,
+  "triangles": 2888,
+  "removable_roof_parts": 0,
+  "scene_placement_m": [
+    11.0,
+    -47.5
+  ],
+  "stage": "editable procedural prototype",
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

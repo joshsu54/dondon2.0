@@ -1,0 +1,152 @@
+{
+  "asset": "QCaveEntrance",
+  "same_geometry": true,
+  "projection": "orthographic",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "source": "Models\\QCaveEntrance\\v001\\QCaveEntrance_v001.blend",
+  "views": [
+    {
+      "file": "01_front.png",
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "camera_location": [
+        0.0,
+        -12.722078323364258,
+        1.6349999904632568
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "02_right.png",
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "camera_location": [
+        12.722078323364258,
+        0.0,
+        1.6349999904632568
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "03_rear.png",
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "camera_location": [
+        0.0,
+        12.722078323364258,
+        1.6349999904632568
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "04_left.png",
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "camera_location": [
+        -12.722078323364258,
+        0.0,
+        1.6349999904632568
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "05_front_right.png",
+      "direction": [
+        1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        8.572354316711426,
+        -8.572354316711426,
+        5.492559432983398
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "06_rear_right.png",
+      "direction": [
+        1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        8.572354316711426,
+        8.572354316711426,
+        5.492559432983398
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "07_rear_left.png",
+      "direction": [
+        -1,
+        1,
+        0.45
+      ],
+      "camera_location": [
+        -8.572354316711426,
+        8.572354316711426,
+        5.492559432983398
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "08_front_left.png",
+      "direction": [
+        -1,
+        -1,
+        0.45
+      ],
+      "camera_location": [
+        -8.572354316711426,
+        -8.572354316711426,
+        5.492559432983398
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "09_top.png",
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        0.0,
+        14.357078552246094
+      ],
+      "framing_pass": true
+    },
+    {
+      "file": "10_high_front.png",
+      "direction": [
+        0,
+        -1,
+        1
+      ],
+      "camera_location": [
+        0.0,
+        -8.995867729187012,
+        10.630867958068848
+      ],
+      "framing_pass": true
+    }
+  ]
+}

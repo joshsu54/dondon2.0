@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_13",
+  "checks": {
+    "male_pawn_class": true,
+    "male_mesh_is_v006": true,
+    "male_seventeen_bones_named": true,
+    "male_capsule_73cm": true,
+    "male_skeleton_in_cm": true,
+    "male_stands_on_ground": true,
+    "male_anim_driver_present": true,
+    "male_idle_state": true,
+    "male_idle_animates": true,
+    "male_clear_walk_direction": true,
+    "male_walk_moves": true,
+    "male_walk_state": true,
+    "male_play_rate_matches_speed": true,
+    "male_feet_step": true,
+    "male_back_to_idle": true,
+    "female_pawn_class": true,
+    "female_mesh_is_v006": true,
+    "female_seventeen_bones_named": true,
+    "female_capsule_73cm": true,
+    "female_skeleton_in_cm": true,
+    "female_stands_on_ground": true,
+    "female_anim_driver_present": true,
+    "female_idle_state": true,
+    "female_idle_animates": true,
+    "female_clear_walk_direction": true,
+    "female_walk_moves": true,
+    "female_walk_state": true,
+    "female_play_rate_matches_speed": true,
+    "female_feet_step": true,
+    "female_back_to_idle": true
+  },
+  "measures": {
+    "imported_anim_rotation_deg": {
+      "QPlayerMale_Idle_thigh_l_deg": 0.0,
+      "QPlayerMale_Idle_upperarm_l_deg": 1.931842388054649,
+      "QPlayerMale_Idle_spine_deg": 1.1999957561483594,
+      "QPlayerMale_Walk_thigh_l_deg": 21.99998474121092,
+      "QPlayerMale_Walk_upperarm_l_deg": 25.999990833899663,
+      "QPlayerMale_Walk_spine_deg": 7.000000953674323,
+      "QPlayerFemale_Idle_thigh_l_deg": 0.0,
+      "QPlayerFemale_Idle_upperarm_l_deg": 1.931842388054649,
+      "QPlayerFemale_Idle_spine_deg": 1.1999957561483594,
+      "QPlayerFemale_Walk_thigh_l_deg": 21.99998474121092,
+      "QPlayerFemale_Walk_upperarm_l_deg": 25.999990833899663,
+      "QPlayerFemale_Walk_spine_deg": 7.000000953674323
+    },
+    "male_bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r"
+    ],
+    "male_head_joint_height_cm": 77.69696086834502,
+    "male_foot_floor_gap_cm": 2.1500027049252424,
+    "male_mesh": [
+      true,
+      "ANIMATION_SINGLE_NODE",
+      "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>"
+    ],
+    "male_idle_bone_motion_cm": {
+      "head": 0.9300537618869137,
+      "hand_l": 1.6042755374311493,
+      "hand_r": 1.6042755374311493
+    },
+    "male_walk": {
+      "yaw": 0,
+      "moved_cm": 598.79,
+      "max_speed_cm_s": 204.0,
+      "max_play_rate": 3.4000000953674316,
+      "foot_travel_cm": 29.003826110968873,
+      "states": [
+        "Walk"
+      ]
+    },
+    "female_bone_names": [
+      "root",
+      "pelvis",
+      "spine",
+      "neck",
+      "head",
+      "upperarm_l",
+      "lowerarm_l",
+      "hand_l",
+      "upperarm_r",
+      "lowerarm_r",
+      "hand_r",
+      "thigh_l",
+      "calf_l",
+      "foot_l",
+      "thigh_r",
+      "calf_r",
+      "foot_r"
+    ],
+    "female_head_joint_height_cm": 77.69997420257329,
+    "female_foot_floor_gap_cm": 2.1500027049252424,
+    "female_mesh": [
+      true,
+      "ANIMATION_SINGLE_NODE",
+      "<VisibilityBasedAnimTickOption.ALWAYS_TICK_POSE_AND_REFRESH_BONES: 0>"
+    ],
+    "female_idle_bone_motion_cm": {
+      "head": 0.8400595217006948,
+      "hand_l": 1.4418391033676412,
+      "hand_r": 1.4418391033676412
+    },
+    "female_walk": {
+      "yaw": 0,
+      "moved_cm": 597.85,
+      "max_speed_cm_s": 204.0,
+      "max_play_rate": 3.4000000953674316,
+      "foot_travel_cm": 29.08321722666699,
+      "states": [
+        "Walk"
+      ]
+    }
+  },
+  "screenshots": [
+    "Validation\\qplayer13_male_idle_front.png",
+    "Validation\\qplayer13_male_walking.png",
+    "Validation\\qplayer13_male_after_walk_front.png",
+    "Validation\\qplayer13_female_idle_front.png",
+    "Validation\\qplayer13_female_walking.png",
+    "Validation\\qplayer13_female_after_walk_front.png"
+  ],
+  "method": "Real PIE; movement through AddMovementInput each frame (not teleports)"
+}

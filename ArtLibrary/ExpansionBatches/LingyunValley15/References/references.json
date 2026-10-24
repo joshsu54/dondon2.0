@@ -1,0 +1,72 @@
+{
+  "source": "User-provided in chat on 2026-10-23 (13 images); the Lingyun valley set Codex generated with image_gen for the C: copy (Documents/ChatGPT/咚咚宗門2.0, batch 14).",
+  "role": "Art direction only. Concept images drift between views; the Blender renders are authoritative for geometry and layout.",
+  "view_mapping_note": "01 has three front variants (a-c) and 03 two rear variants; mapped by camera direction (north = karst peaks and sect gate, south = camp).",
+  "images": [
+    {
+      "file": "01_front_a.webp",
+      "view": "01_front",
+      "sha256": "56473c49dc759a29f26b05dfd4d2c1761dba703a17672f11f71367a395373c37"
+    },
+    {
+      "file": "01_front_b.webp",
+      "view": "01_front",
+      "sha256": "ea0e1171b7974312c0b5614b9e6f06ea6256f3f8a3ece1909f632b4946bc0671"
+    },
+    {
+      "file": "01_front_c.webp",
+      "view": "01_front",
+      "sha256": "4edd42d080a136e2bde65bc02736871ea01d7cf8fca7236b50ea6bf07268cff4"
+    },
+    {
+      "file": "02_right.webp",
+      "view": "02_right",
+      "sha256": "1a6e13b90bde67eec90217858959caaf91775e81f85e7da1f7601b957dcd057d"
+    },
+    {
+      "file": "03_rear_a.webp",
+      "view": "03_rear",
+      "sha256": "5b56fbf45ce1b75bf5fdf92bcefc6ed66084d9e615f7d70990b30d9b7c093f19"
+    },
+    {
+      "file": "03_rear_b.webp",
+      "view": "03_rear",
+      "sha256": "3ab7b0409b6c82ab7f61097ca53f009a13641def3f0272fa1c2f52d22a209833"
+    },
+    {
+      "file": "04_left.webp",
+      "view": "04_left",
+      "sha256": "f3ba83891819da4d09ffc04cbc0f7b896dfa0953c2c1281171f18b4f11e4eb63"
+    },
+    {
+      "file": "05_front_right.webp",
+      "view": "05_front_right",
+      "sha256": "071d8cca920e5c055840bdf4a1a012a22a14be80608adb353cbee4f4afe39b23"
+    },
+    {
+      "file": "06_rear_right.webp",
+      "view": "06_rear_right",
+      "sha256": "ff30f9c13d12546889f10421521def661cd301aaf5062ac66b9b1cd0a3111cdc"
+    },
+    {
+      "file": "07_rear_left.webp",
+      "view": "07_rear_left",
+      "sha256": "30e865b85acca48014824d5abf5dbc18db886dfa8f559213dfa028cc88d4bafb"
+    },
+    {
+      "file": "08_front_left.webp",
+      "view": "08_front_left",
+      "sha256": "a731659c973d7940cd485968ca171114589cb07320914b3095e7ba65c89a6d83"
+    },
+    {
+      "file": "09_top.webp",
+      "view": "09_top",
+      "sha256": "ee94e41c4c841e8f4d91e723a2208aa07e4adfc06ca0b346bdeb1bbe5e302af7"
+    },
+    {
+      "file": "10_high_front.webp",
+      "view": "10_high_front",
+      "sha256": "dc76999af4c8881be2cffe0be1414ca6bf5aaadd3e08a1f907530686eb62a2d2"
+    }
+  ]
+}

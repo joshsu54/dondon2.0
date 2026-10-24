@@ -1,0 +1,521 @@
+{
+  "materials": {
+    "LY15_Meadow": {
+      "color": [
+        0.14750000089406967,
+        0.20999999344348907,
+        0.03849999979138374
+      ],
+      "second": [
+        0.27000000327825546,
+        0.19500000029802322,
+        0.09749999642372131
+      ],
+      "roughness": 0.949999988079071,
+      "metallic": 0.0
+    },
+    "LY15_Cliff_Limestone": {
+      "color": [
+        0.2749999985098839,
+        0.27000000327825546,
+        0.24000000953674316
+      ],
+      "second": [
+        0.12000000104308128,
+        0.1899999976158142,
+        0.037500000558793545
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Rim_Boulder": {
+      "color": [
+        0.2749999985098839,
+        0.27000000327825546,
+        0.24000000953674316
+      ],
+      "second": [
+        0.12000000104308128,
+        0.1899999976158142,
+        0.037500000558793545
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Plaster": {
+      "color": [
+        0.6200000047683716,
+        0.5799999833106995,
+        0.47999998927116394
+      ],
+      "second": null,
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Warm_Timber": {
+      "color": [
+        0.1599999964237213,
+        0.06499999761581421,
+        0.02800000086426735
+      ],
+      "second": null,
+      "roughness": 0.75,
+      "metallic": 0.0
+    },
+    "LY15_Straw_Mat": {
+      "color": [
+        0.41999998688697815,
+        0.3199999928474426,
+        0.15000000596046448
+      ],
+      "second": null,
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Bedding_Cloth": {
+      "color": [
+        0.1599999964237213,
+        0.27000001072883606,
+        0.20000000298023224
+      ],
+      "second": null,
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Cedar_Board": {
+      "color": [
+        0.28999999165534973,
+        0.14000000059604645,
+        0.054999999701976776
+      ],
+      "second": null,
+      "roughness": 0.75,
+      "metallic": 0.0
+    },
+    "LY15_Pale_Stone_Base": {
+      "color": [
+        0.36000001430511475,
+        0.3700000047683716,
+        0.33000001311302185
+      ],
+      "second": null,
+      "roughness": 0.8500000238418579,
+      "metallic": 0.0
+    },
+    "LY15_Lantern_Paper": {
+      "color": [
+        0.6100000143051147,
+        0.49000000953674316,
+        0.28999999165534973
+      ],
+      "second": null,
+      "roughness": 0.699999988079071,
+      "metallic": 0.0
+    },
+    "LY15_Mossy_Thatch": {
+      "color": [
+        0.16999999806284904,
+        0.2150000035762787,
+        0.04750000033527613
+      ],
+      "second": null,
+      "roughness": 0.949999988079071,
+      "metallic": 0.0
+    },
+    "LY15_Thatch_Ridge": {
+      "color": [
+        0.10000000149011612,
+        0.10999999940395355,
+        0.029999999329447746
+      ],
+      "second": null,
+      "roughness": 0.949999988079071,
+      "metallic": 0.0
+    },
+    "LY15_Bed_Soil": {
+      "color": [
+        0.07999999821186066,
+        0.05000000074505806,
+        0.02500000037252903
+      ],
+      "second": null,
+      "roughness": 0.949999988079071,
+      "metallic": 0.0
+    },
+    "LY15_Aged_Bronze": {
+      "color": [
+        0.25,
+        0.17000000178813934,
+        0.06499999761581421
+      ],
+      "second": null,
+      "roughness": 0.44999998807907104,
+      "metallic": 0.6000000238418579
+    },
+    "LY15_Bamboo_Pole": {
+      "color": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.12999999523162842
+      ],
+      "second": null,
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    "LY15_Paving_Joint": {
+      "color": [
+        0.12999999523162842,
+        0.12999999523162842,
+        0.11999999731779099
+      ],
+      "second": null,
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "LY15_Herb_Leaf": {
+      "color": [
+        0.05000000074505806,
+        0.1599999964237213,
+        0.03999999910593033
+      ],
+      "second": null,
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "LY15_Herb_Leaf_Light": {
+      "color": [
+        0.12999999523162842,
+        0.23999999463558197,
+        0.05999999865889549
+      ],
+      "second": null,
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "LY15_Herb_Bloom": {
+      "color": [
+        0.5,
+        0.30000001192092896,
+        0.41999998688697815
+      ],
+      "second": null,
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    "LY15_Trough_Water": {
+      "color": [
+        0.029999999329447746,
+        0.11999999731779099,
+        0.12999999523162842
+      ],
+      "second": null,
+      "roughness": 0.15000000596046448,
+      "metallic": 0.0
+    },
+    "LY15_Jade_Trim": {
+      "color": [
+        0.07999999821186066,
+        0.28999999165534973,
+        0.23999999463558197
+      ],
+      "second": null,
+      "roughness": 0.4000000059604645,
+      "metallic": 0.0
+    },
+    "LY15_Paving_Stone": {
+      "color": [
+        0.30000001192092896,
+        0.3100000023841858,
+        0.28999999165534973
+      ],
+      "second": null,
+      "roughness": 0.800000011920929,
+      "metallic": 0.0
+    },
+    "LY15_BlueGreen_Tile": {
+      "color": [
+        0.06499999761581421,
+        0.15000000596046448,
+        0.1550000011920929
+      ],
+      "second": null,
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    "LY15_Tile_Ridge": {
+      "color": [
+        0.03999999910593033,
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "second": null,
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    "LY15_Karst_Peak": {
+      "color": [
+        0.2749999985098839,
+        0.27000000327825546,
+        0.24000000953674316
+      ],
+      "second": [
+        0.12000000104308128,
+        0.1899999976158142,
+        0.037500000558793545
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    }
+  },
+  "parts": {
+    "LY10_Terrain": {
+      "fbx": "LY10_Terrain.fbx",
+      "sha256": "ca9c83e5ad3d220cda60bc51bc2bc0eccc040c8e6831bdeeea41382006fb4578",
+      "bounds_m": [
+        [
+          -46.67714309692383,
+          -76.1409912109375,
+          -0.7112069129943848
+        ],
+        [
+          46.77149963378906,
+          93.04505157470703,
+          12.237375259399414
+        ]
+      ],
+      "triangles": 144000,
+      "materials": [
+        "LY15_Meadow"
+      ]
+    },
+    "LY10_CliffRim": {
+      "fbx": "LY10_CliffRim.fbx",
+      "sha256": "9fc8026a41b1177dc70159c6ebf86229a42d017ae66b85b1a821ecc9b97c9eee",
+      "bounds_m": [
+        [
+          -47.200096130371094,
+          -76.30680084228516,
+          -11.0
+        ],
+        [
+          47.26118087768555,
+          93.38749694824219,
+          13.730576515197754
+        ]
+      ],
+      "triangles": 65590,
+      "materials": [
+        "LY15_Cliff_Limestone",
+        "LY15_Rim_Boulder"
+      ]
+    },
+    "LY10_Camp_Dormitory": {
+      "fbx": "LY10_Camp_Dormitory.fbx",
+      "sha256": "d4c2ab0ee2ef26e24aebf28f39cf25caaed859b2dcad06cedd6b9c0021605b32",
+      "bounds_m": [
+        [
+          -16.979999542236328,
+          -52.849998474121094,
+          -0.24953612685203552
+        ],
+        [
+          -9.020000457763672,
+          -41.150001525878906,
+          5.520463943481445
+        ]
+      ],
+      "triangles": 4818,
+      "materials": [
+        "LY15_Plaster",
+        "LY15_Warm_Timber",
+        "LY15_Straw_Mat",
+        "LY15_Bedding_Cloth",
+        "LY15_Cedar_Board",
+        "LY15_Pale_Stone_Base",
+        "LY15_Lantern_Paper",
+        "LY15_Mossy_Thatch",
+        "LY15_Thatch_Ridge"
+      ]
+    },
+    "LY10_Camp_HerbGarden": {
+      "fbx": "LY10_Camp_HerbGarden.fbx",
+      "sha256": "3c7e3c17ed6534b6fc0f2b54e1a53cf9213881e2a07aa521bb078c0f909a76b9",
+      "bounds_m": [
+        [
+          6.724999904632568,
+          -51.95000076293945,
+          -0.1500091552734375
+        ],
+        [
+          14.199999809265137,
+          -43.04999923706055,
+          1.3099908828735352
+        ]
+      ],
+      "triangles": 2888,
+      "materials": [
+        "LY15_Warm_Timber",
+        "LY15_Cedar_Board",
+        "LY15_Bed_Soil",
+        "LY15_Aged_Bronze",
+        "LY15_Bamboo_Pole",
+        "LY15_Paving_Joint",
+        "LY15_Herb_Leaf",
+        "LY15_Herb_Leaf_Light",
+        "LY15_Herb_Bloom",
+        "LY15_Trough_Water"
+      ]
+    },
+    "LY10_Camp_HexPavilion": {
+      "fbx": "LY10_Camp_HexPavilion.fbx",
+      "sha256": "dd557c566648eac1774d0c110a17855228dff01f40565ef550176e638ae99794",
+      "bounds_m": [
+        [
+          -3.101961374282837,
+          -69.30137634277344,
+          -0.1500091552734375
+        ],
+        [
+          3.101961374282837,
+          -63.89862060546875,
+          4.809990882873535
+        ]
+      ],
+      "triangles": 12384,
+      "materials": [
+        "LY15_Warm_Timber",
+        "LY15_Cedar_Board",
+        "LY15_Aged_Bronze",
+        "LY15_Pale_Stone_Base",
+        "LY15_Jade_Trim",
+        "LY15_Paving_Stone",
+        "LY15_BlueGreen_Tile",
+        "LY15_Tile_Ridge"
+      ]
+    },
+    "LY10_Camp_Paths": {
+      "fbx": "LY10_Camp_Paths.fbx",
+      "sha256": "3a35668a4d1aba36311ac1fa1592e81f83291a9c3ca150dc53e2aefcd20a863b",
+      "bounds_m": [
+        [
+          -8.570000648498535,
+          -62.46999740600586,
+          -0.20774413645267487
+        ],
+        [
+          6.970000267028809,
+          -13.529999732971191,
+          1.3384166955947876
+        ]
+      ],
+      "triangles": 17280,
+      "materials": [
+        "LY15_Pale_Stone_Base",
+        "LY15_BlueGreen_Tile",
+        "LY15_Lantern_Paper",
+        "LY15_Paving_Stone"
+      ]
+    },
+    "LY10_Peak_NorthEast": {
+      "fbx": "LY10_Peak_NorthEast.fbx",
+      "sha256": "27da07f67109affbefe3ef844ca511a715dc524a4a4b1d6c69e516e787c856c6",
+      "bounds_m": [
+        [
+          9.784563064575195,
+          68.2297134399414,
+          8.644073486328125
+        ],
+        [
+          42.102813720703125,
+          89.34015655517578,
+          58.08758544921875
+        ]
+      ],
+      "triangles": 20520,
+      "materials": [
+        "LY15_Karst_Peak"
+      ]
+    },
+    "LY10_Peak_NorthWest": {
+      "fbx": "LY10_Peak_NorthWest.fbx",
+      "sha256": "2ef99d45ffa8a739f4b00ca30f3b6c3c8ac4dafaac19b9022226fc45f9b64e22",
+      "bounds_m": [
+        [
+          -39.07155990600586,
+          62.27072525024414,
+          8.90167236328125
+        ],
+        [
+          -15.890653610229492,
+          83.57684326171875,
+          50.463687896728516
+        ]
+      ],
+      "triangles": 12830,
+      "materials": [
+        "LY15_Karst_Peak"
+      ]
+    },
+    "LY10_Peak_EastMid": {
+      "fbx": "LY10_Peak_EastMid.fbx",
+      "sha256": "963cb1a4a0c7515143b31d36a496566adc6d90a2b23a522db77806f346a04255",
+      "bounds_m": [
+        [
+          29.769454956054688,
+          27.071149826049805,
+          2.255767822265625
+        ],
+        [
+          48.44057846069336,
+          42.55927276611328,
+          34.77724075317383
+        ]
+      ],
+      "triangles": 17960,
+      "materials": [
+        "LY15_Karst_Peak"
+      ]
+    },
+    "LY10_Peak_WestMid": {
+      "fbx": "LY10_Peak_WestMid.fbx",
+      "sha256": "17bcbcecb5e58a7f8cb380ca1f6a5839bc1641e694eab8d963a72c1f427dd0aa",
+      "bounds_m": [
+        [
+          -45.93983459472656,
+          11.61677360534668,
+          1.27215576171875
+        ],
+        [
+          -28.889957427978516,
+          27.92418098449707,
+          30.267623901367188
+        ]
+      ],
+      "triangles": 16680,
+      "materials": [
+        "LY15_Karst_Peak"
+      ]
+    },
+    "LY10_Peak_WestSouth": {
+      "fbx": "LY10_Peak_WestSouth.fbx",
+      "sha256": "3633fe615548d7df2746713883c79cde64bad96b42e77658d61bc296b779e18b",
+      "bounds_m": [
+        [
+          -43.131019592285156,
+          -18.311203002929688,
+          0.5966796875
+        ],
+        [
+          -30.38252067565918,
+          -7.576333045959473,
+          21.72120475769043
+        ]
+      ],
+      "triangles": 11550,
+      "materials": [
+        "LY15_Karst_Peak"
+      ]
+    }
+  },
+  "note": "World-space vertices in metres (north +Y); import into UE with transform_vertex_to_absolute and place actors at 0. Terrain vertex colour R = dirt."
+}

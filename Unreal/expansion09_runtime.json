@@ -1,0 +1,387 @@
+{
+  "status": "passed",
+  "map": "/Game/Maps/TownLayout_09.TownLayout_09",
+  "method": "Real PIE, continuous CharacterMovement route after isolated precondition setup; reflected interaction function, not physical E-key input",
+  "checks": {
+    "one_director": true,
+    "initial_state": true,
+    "far_interaction_denied": true,
+    "wild_actors_in_pie": true,
+    "collect_before_accept_denied": true,
+    "accept_quest": true,
+    "early_reward_denied": true,
+    "herb1_route": true,
+    "herb1_collect": true,
+    "herb1_duplicate_denied": true,
+    "pavilion_approach_route": true,
+    "pavilion_inside_route": true,
+    "pavilion_return_route": true,
+    "herb2_route": true,
+    "herb2_collect": true,
+    "herb2_duplicate_denied": true,
+    "herb3_route": true,
+    "herb3_collect": true,
+    "herb3_duplicate_denied": true,
+    "ready_to_deliver": true,
+    "gate_route": true,
+    "return_upper_route": true,
+    "return_middle_route": true,
+    "return_lower_route": true,
+    "board_route": true,
+    "reward_once": true,
+    "duplicate_reward_denied": true,
+    "clouds_move": true,
+    "meadow_start_grounded": true,
+    "meadow_walk_west": true,
+    "meadow_walk_far": true,
+    "meadow_walk_east": true,
+    "shrub_pass_start": true,
+    "shrub_walk_through": true,
+    "pine_block_start": true,
+    "pine_trunk_blocks": true,
+    "boulder_block_start": true,
+    "boulder_blocks": true
+  },
+  "route": [
+    {
+      "id": "herb1",
+      "position_cm": [
+        1.4266685029427306,
+        -4432.166643713217,
+        224.15004968643188
+      ],
+      "distance_cm": 17.890332011134593,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_approach",
+      "position_cm": [
+        -682.1645326244462,
+        -4449.546543839106,
+        224.2484708983568
+      ],
+      "distance_cm": 17.841230871055284,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_inside",
+      "position_cm": [
+        -1182.0558938036768,
+        -4449.984286774427,
+        278.00862607690283
+      ],
+      "distance_cm": 17.944113076170225,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "pavilion_return",
+      "position_cm": [
+        -17.848174121923048,
+        -4449.999762741853,
+        224.1384756246705
+      ],
+      "distance_cm": 17.8481741235,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb2",
+      "position_cm": [
+        -0.2829351631960118,
+        -5562.086862255152,
+        464.05300468194946
+      ],
+      "distance_cm": 17.915372063467903,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "herb3",
+      "position_cm": [
+        -0.004253490787038283,
+        -6732.141570775014,
+        704.0133768304809
+      ],
+      "distance_cm": 17.85842973153079,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "gate",
+      "position_cm": [
+        -0.0002824186345275261,
+        -6982.215028639789,
+        704.0133768304809
+      ],
+      "distance_cm": 17.784971362453227,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_upper",
+      "position_cm": [
+        -2.172489950279723e-05,
+        -6767.863014487974,
+        704.0133768304809
+      ],
+      "distance_cm": 17.86301448798761,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_middle",
+      "position_cm": [
+        -3.275184591726342e-07,
+        -5597.907887866788,
+        464.1499568208678
+      ],
+      "distance_cm": 17.907887866787863,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "return_lower",
+      "position_cm": [
+        -5.131165386735999e-09,
+        -4467.984040460685,
+        224.14995109882193
+      ],
+      "distance_cm": 17.98404046068481,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    },
+    {
+      "id": "board",
+      "position_cm": [
+        78.60390372391008,
+        -3467.765046598927,
+        227.72578394260245
+      ],
+      "distance_cm": 17.819819456833812,
+      "checks": {
+        "arrived": true,
+        "height": true,
+        "walking": true,
+        "no_fall": true
+      }
+    }
+  ],
+  "meadow": [
+    {
+      "id": "meadow_walk_west",
+      "kind": "walk",
+      "position_cm": [
+        -982.8085746846311,
+        3294.842572405389,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.948374961749582,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "meadow_walk_far",
+      "kind": "walk",
+      "position_cm": [
+        -1491.8333897872988,
+        4284.128257910388,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.849529946902056,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "meadow_walk_east",
+      "kind": "walk",
+      "position_cm": [
+        382.24625455687453,
+        4200.789494298788,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.771290850895348,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "shrub_pass_start",
+      "kind": "walk",
+      "position_cm": [
+        -1190.912951087974,
+        1515.5109902552122,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.97679828631445,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "shrub_walk_through",
+      "kind": "walk",
+      "position_cm": [
+        -1199.793710867834,
+        2282.190966662473,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.810228062077204,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "pine_block_start",
+      "kind": "walk",
+      "position_cm": [
+        1882.2704319796799,
+        2598.1822606922956,
+        77.1500015258789
+      ],
+      "distance_to_target_cm": 17.8225070733029,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "pine_trunk_blocks",
+      "kind": "blocked",
+      "position_cm": [
+        1893.214303110228,
+        3283.489458231951,
+        77.1500037112869
+      ],
+      "distance_to_target_cm": 17.850593036488906,
+      "closest_to_obstacle_cm": 63.51744688731607,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "kept_clear_of_obstacle": true
+      }
+    },
+    {
+      "id": "boulder_block_start",
+      "kind": "walk",
+      "position_cm": [
+        2632.363610745568,
+        3397.284799018651,
+        77.1500037112869
+      ],
+      "distance_to_target_cm": 17.84417390362908,
+      "closest_to_obstacle_cm": null,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "arrived": true
+      }
+    },
+    {
+      "id": "boulder_blocks",
+      "kind": "blocked",
+      "position_cm": [
+        2725.7346757983,
+        4022.5445145727654,
+        77.15000336116145
+      ],
+      "distance_to_target_cm": 384.9784209502955,
+      "closest_to_obstacle_cm": 102.17379695017075,
+      "checks": {
+        "height": true,
+        "walking": true,
+        "no_fall": true,
+        "kept_clear_of_obstacle": true
+      }
+    }
+  ],
+  "limitations": [
+    "Physical keyboard and HUD visual checks separate",
+    "Quest progress resets on new play session",
+    "Meadow segment starts from a teleport, not a walk from the town gate"
+  ],
+  "pie_collision_diagnostic": {
+    "CommonPine_trace": "Wild08_CommonPine_01",
+    "CommonPine_pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "CommonPine_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "CommonPine_actor_collision": true,
+    "CommonPine_level": "/Game/Maps/Sublevels/UEDPIE_0_TownWild08_Sublevel.TownWild08_Sublevel:PersistentLevel",
+    "MossBoulderSet_trace": "Wild08_MossBoulderSet_17",
+    "MossBoulderSet_pawn_response": "<CollisionResponseType.ECR_BLOCK: 2>",
+    "MossBoulderSet_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+    "MossBoulderSet_actor_collision": true,
+    "MossBoulderSet_level": "/Game/Maps/Sublevels/UEDPIE_0_TownWild08_Sublevel.TownWild08_Sublevel:PersistentLevel"
+  },
+  "objective": "委託完成！獲得 10 靈石。持有靈石：10",
+  "herbs": 3,
+  "spirit_stones": 10
+}

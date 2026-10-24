@@ -1,0 +1,30 @@
+{
+  "asset": "QWoodcutter",
+  "version": "v003",
+  "name_zh": "樵夫",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": "{1: ([0.09950371831655502, 0.0, -0.9950371384620667], 0.017)}",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.8120594024658203,
+    0.7599999904632568,
+    1.4173998832702637
+  ],
+  "height_m": 1.4173998832702637,
+  "mesh_objects": 91,
+  "triangles": 30396,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "straw_hat",
+  "props": [
+    "axe"
+  ],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

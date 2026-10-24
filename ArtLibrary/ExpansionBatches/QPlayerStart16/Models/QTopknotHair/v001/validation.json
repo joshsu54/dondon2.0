@@ -1,0 +1,20 @@
+{
+  "asset": "QTopknotHair",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 15,
+  "dimensions_m": [
+    0.4100264012813568,
+    0.3495877981185913,
+    0.41880860924720764
+  ],
+  "fbx_dimension_error_m": 2.9802322387695312e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "87e68a02645dfe39816ea1b67a85dc12db0d61a39c4abfc31bd534125c353a79",
+  "fbx_sha256": "a1b0a4fc348b4a4c73cb9bcebe62cb04e2031b8900d15ed4e0deec60cdfb5926",
+  "unreal_verified": false
+}

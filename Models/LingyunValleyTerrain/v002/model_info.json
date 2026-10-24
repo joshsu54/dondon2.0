@@ -1,0 +1,138 @@
+{
+  "asset": "LingyunValleyTerrain_v002",
+  "units": "metres",
+  "front": "-Y",
+  "north": "+Y",
+  "bounds_m": [
+    [
+      -70.0,
+      -85.0,
+      -8.0
+    ],
+    [
+      70.0,
+      118.82452392578125,
+      56.44464874267578
+    ]
+  ],
+  "same_geometry_all_views": true,
+  "source_context": "../v001/Source/Settlement10.fbx",
+  "views": [
+    {
+      "file": "01_front.png",
+      "azimuth_deg": 0,
+      "elevation_deg": 25,
+      "camera_m": [
+        0.0,
+        -346.92291259765625,
+        190.45591735839844
+      ],
+      "sha256": "127e8ab8eb7033e4416c12be15601199e2ab31a89aafd44a18b0907ac36da267"
+    },
+    {
+      "file": "02_right.png",
+      "azimuth_deg": 90,
+      "elevation_deg": 25,
+      "camera_m": [
+        367.60369873046875,
+        16.912273406982422,
+        182.37429809570312
+      ],
+      "sha256": "7876990b5f6b9bc04042ebe93c7b0de76bd042e62665b0c4e439b1d617c9ced0"
+    },
+    {
+      "file": "03_rear.png",
+      "azimuth_deg": 180,
+      "elevation_deg": 25,
+      "camera_m": [
+        -4.088320565642789e-05,
+        387.9618835449219,
+        174.98451232910156
+      ],
+      "sha256": "c761779b334277df12c64d92ab5f83ad3e26fa08cc9734abef868278b32e048a"
+    },
+    {
+      "file": "04_left.png",
+      "azimuth_deg": 270,
+      "elevation_deg": 25,
+      "camera_m": [
+        -365.61474609375,
+        16.912273406982422,
+        186.6396026611328
+      ],
+      "sha256": "5f1dc94a79b2d8c8784f7348f9f26edb608adfe95bced36468dc266164fdbc05"
+    },
+    {
+      "file": "05_front_right.png",
+      "azimuth_deg": 45,
+      "elevation_deg": 35,
+      "camera_m": [
+        235.91026306152344,
+        -220.9102325439453,
+        243.2005157470703
+      ],
+      "sha256": "d7132b6810d774699d1c3649794ad3479e10c825169b674bbb1cc6a405b0183c"
+    },
+    {
+      "file": "06_rear_right.png",
+      "azimuth_deg": 135,
+      "elevation_deg": 35,
+      "camera_m": [
+        240.02487182617188,
+        255.02487182617188,
+        238.75241088867188
+      ],
+      "sha256": "11fbf7977f538049366980a445fa8e609ca568e175d2777fc6d4516afd01b7a6"
+    },
+    {
+      "file": "07_rear_left.png",
+      "azimuth_deg": 225,
+      "elevation_deg": 35,
+      "camera_m": [
+        -240.02487182617188,
+        255.02487182617188,
+        238.75241088867188
+      ],
+      "sha256": "b499509029162c2ea78eb90b581dc29cb143af3be0731ba7203f555945c1e062"
+    },
+    {
+      "file": "08_front_left.png",
+      "azimuth_deg": 315,
+      "elevation_deg": 35,
+      "camera_m": [
+        -234.20391845703125,
+        -219.20388793945312,
+        246.64683532714844
+      ],
+      "sha256": "6e2355ba2ca57b8ce7aca981a0de6c1a3993b71c0d3493c3831b3c46cda9470b"
+    },
+    {
+      "file": "09_top.png",
+      "azimuth_deg": 0,
+      "elevation_deg": 90,
+      "camera_m": [
+        0.0,
+        16.912261962890625,
+        424.2223205566406
+      ],
+      "sha256": "deab03c36f97eb4b58c8d4f4d40c0f19f50641daf814eb9db60fefedba1ac933"
+    },
+    {
+      "file": "10_high_front.png",
+      "azimuth_deg": 0,
+      "elevation_deg": 65,
+      "camera_m": [
+        0.0,
+        -156.0016632080078,
+        384.9424133300781
+      ],
+      "sha256": "b0374fa42735d6a984a509359d09340ce56afceb0c7cec497b460c185df3c663"
+    }
+  ],
+  "unreal_import_verified": false,
+  "uv_baked": false,
+  "collision_ready": false,
+  "lod_ready": false,
+  "fbx_sha256": "b43b78c74240efd746ce7c2db4b402ec473457c28f0f7c311f7fdfb888b432f8",
+  "blend_sha256": "c103111ef6bf6af0aa1afd2d944df2fae2725384ec0f10800e1a07076419c2f9"
+}

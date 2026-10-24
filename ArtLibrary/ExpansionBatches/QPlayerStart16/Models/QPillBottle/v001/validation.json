@@ -1,0 +1,20 @@
+{
+  "asset": "QPillBottle",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 6,
+  "dimensions_m": [
+    0.12399999797344208,
+    0.13199999928474426,
+    0.20200000703334808
+  ],
+  "fbx_dimension_error_m": 1.4901161193847656e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "08d73d97af5f9642483fef47ef332cd11c2dd01180a413d7ec53157a2529443b",
+  "fbx_sha256": "b86f55ec38fcddadc16d43bc1cf6e3764d98c96c84e62d289dccf12054ffe339",
+  "unreal_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "reimported",
+  "meshes": {
+    "CommonPine": {
+      "sections": 3,
+      "triangles": 17864,
+      "materials": [
+        "M_Pine_Needle_Pads",
+        "M_Pine_Pad_Underside",
+        "M_Pine_Bark"
+      ]
+    },
+    "BambooClump": {
+      "sections": 6,
+      "triangles": 22109,
+      "materials": [
+        "M_Bamboo_Culm",
+        "M_Bamboo_Culm_Aged",
+        "M_Bamboo_Leaf",
+        "M_Bamboo_Node_Ring",
+        "M_Bamboo_Shoot_Sheath",
+        "M_Forest_Soil"
+      ]
+    },
+    "WildShrub": {
+      "sections": 4,
+      "triangles": 6124,
+      "materials": [
+        "M_Pale_Rose_Blossom",
+        "M_Shrub_Leaves",
+        "M_Shrub_Leaf_Underside",
+        "M_Shrub_Twig"
+      ]
+    },
+    "MossBoulderSet": {
+      "sections": 1,
+      "triangles": 2654,
+      "materials": [
+        "M_Jade_Gray_Rock_Moss_Cap"
+      ]
+    },
+    "ScreePile": {
+      "sections": 3,
+      "triangles": 1738,
+      "materials": [
+        "M_Gravel_And_Soil",
+        "M_Jade_Gray_Weathered_Rock",
+        "M_Pale_Scree_Stone"
+      ]
+    }
+  }
+}

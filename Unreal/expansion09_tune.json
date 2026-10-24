@@ -1,0 +1,165 @@
+{
+  "passes": [
+    {
+      "status": "retuned_saved_reloaded",
+      "map": "/Game/Maps/TownLayout_09",
+      "changes": [
+        {
+          "light": "InnHallFill09",
+          "candela_before": 360.0,
+          "candela_after": 70.0,
+          "location_before": [
+            -1390.0,
+            -2220.0,
+            420.0
+          ],
+          "location_after": [
+            -1390,
+            -2220,
+            380
+          ]
+        },
+        {
+          "light": "InnCounterFill09",
+          "candela_before": 180.0,
+          "candela_after": 35.0,
+          "location_before": [
+            -1640.0,
+            -2650.0,
+            400.0
+          ],
+          "location_after": [
+            -1640.0,
+            -2650.0,
+            400.0
+          ]
+        },
+        {
+          "light": "InnStairFootFill09",
+          "candela_before": 160.0,
+          "candela_after": 30.0,
+          "location_before": [
+            -1700.0,
+            -1830.0,
+            420.0
+          ],
+          "location_after": [
+            -1700.0,
+            -1830.0,
+            420.0
+          ]
+        },
+        {
+          "light": "InnCorridorFill09",
+          "candela_before": 220.0,
+          "candela_after": 45.0,
+          "location_before": [
+            -1320.0,
+            -2220.0,
+            730.0
+          ],
+          "location_after": [
+            -1320,
+            -2220,
+            700
+          ]
+        },
+        {
+          "light": "InnRoomSouthFill09",
+          "candela_before": 140.0,
+          "candela_after": 28.0,
+          "location_before": [
+            -1770.0,
+            -2560.0,
+            730.0
+          ],
+          "location_after": [
+            -1770.0,
+            -2560.0,
+            730.0
+          ]
+        },
+        {
+          "light": "InnRoomMidFill09",
+          "candela_before": 140.0,
+          "candela_after": 28.0,
+          "location_before": [
+            -1770.0,
+            -2240.0,
+            730.0
+          ],
+          "location_after": [
+            -1770.0,
+            -2240.0,
+            730.0
+          ]
+        },
+        {
+          "light": "InnStairTopFill09",
+          "candela_before": 140.0,
+          "candela_after": 30.0,
+          "location_before": [
+            -1760.0,
+            -1820.0,
+            740.0
+          ],
+          "location_after": [
+            -1760.0,
+            -1820.0,
+            740.0
+          ]
+        }
+      ],
+      "checks": {
+        "InnHallFill09": true,
+        "InnCounterFill09": true,
+        "InnStairFootFill09": true,
+        "InnCorridorFill09": true,
+        "InnRoomSouthFill09": true,
+        "InnRoomMidFill09": true,
+        "InnStairTopFill09": true
+      },
+      "map_sha256": "678a0a9becb420963253e38bbaf661b77476a42286e1a4e09df80c2b3980a09e"
+    },
+    {
+      "status": "retuned_saved_reloaded",
+      "pass": 2,
+      "map": "/Game/Maps/TownLayout_09",
+      "changes": [
+        {
+          "light": "InnCorridorFill09",
+          "candela_before": 45.0,
+          "candela_after": 40.0,
+          "location_before": [
+            -1320.0,
+            -2220.0,
+            700.0
+          ],
+          "location_after": [
+            -1320,
+            -2300,
+            640
+          ]
+        }
+      ],
+      "added": [
+        {
+          "light": "InnUpperNorthFill09",
+          "candela": 30.0,
+          "location": [
+            -1320,
+            -1780,
+            650
+          ],
+          "radius_cm": 420.0,
+          "cast_shadows": true
+        }
+      ],
+      "checks": {
+        "InnCorridorFill09": true,
+        "InnUpperNorthFill09": true
+      },
+      "map_sha256": "bdd01dd2b65d356cfc623964ed3aa6ad009ce7c2936377360698dcb2d15428b1"
+    }
+  ]
+}

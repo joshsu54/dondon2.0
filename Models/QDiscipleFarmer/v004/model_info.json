@@ -1,0 +1,28 @@
+{
+  "asset": "QDiscipleFarmer",
+  "version": "v004",
+  "name_zh": "體修弟子",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": [],
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6631403565406799,
+    0.6097198128700256,
+    1.4444729089736938
+  ],
+  "height_m": 1.4444729089736938,
+  "mesh_objects": 84,
+  "triangles": 29548,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "short_band",
+  "props": [],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

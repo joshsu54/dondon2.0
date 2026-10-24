@@ -1,0 +1,31 @@
+{
+  "asset": "QDiscipleAlchemy",
+  "version": "v003",
+  "name_zh": "丹修弟子",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": "{-1: ([0, 0, 1], 0.028)}",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6711027026176453,
+    0.655024528503418,
+    1.3521088361740112
+  ],
+  "height_m": 1.3521088361740112,
+  "mesh_objects": 103,
+  "triangles": 32272,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "long_pin",
+  "props": [
+    "pill",
+    "gourd"
+  ],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

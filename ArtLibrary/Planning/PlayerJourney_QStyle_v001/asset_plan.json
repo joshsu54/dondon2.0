@@ -1,0 +1,2421 @@
+{
+  "date": "2026-10-24",
+  "scope": "首期規劃假設：1 新手區、3 宗門、3 秘境主題；不是完整正式服內容量",
+  "summary": {
+    "new_model_sets": 104,
+    "selected_reuse_sets": 66,
+    "planned_model_sets": 170,
+    "first_batch_new": 16,
+    "first_batch_reuse": 14,
+    "concept_sheets": 154,
+    "new_model_render_views": 1040,
+    "icons": 80,
+    "interface_design_sheets": 10,
+    "effect_design_sheets": 12,
+    "image_deliverables_total": 1296,
+    "concept_sheets_created": 2,
+    "new_models_created": 0,
+    "first_batch_concept_sheets": 30,
+    "human_animation_clips": 24,
+    "creature_animation_clips": 64
+  },
+  "new_assets": [
+    {
+      "id": "BODY01",
+      "name": "男修基底",
+      "category": "角色基底",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "BODY02",
+      "name": "女修基底",
+      "category": "角色基底",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR01",
+      "name": "束髮髻",
+      "category": "可替換髮型",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR02",
+      "name": "雙低髻",
+      "category": "可替換髮型",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR03",
+      "name": "高馬尾",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR04",
+      "name": "短髮",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR05",
+      "name": "半束長髮",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR06",
+      "name": "雙辮",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR07",
+      "name": "道冠束髮",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HAIR08",
+      "name": "長老髮鬚組",
+      "category": "可替換髮型",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH01",
+      "name": "男新手服",
+      "category": "服裝套件",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH02",
+      "name": "女新手服",
+      "category": "服裝套件",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH03",
+      "name": "男雜役服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH04",
+      "name": "女雜役服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH05",
+      "name": "男劍修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH06",
+      "name": "女劍修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH07",
+      "name": "男丹修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH08",
+      "name": "女丹修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH09",
+      "name": "男器修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH10",
+      "name": "女器修服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH11",
+      "name": "長老袍",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH12",
+      "name": "商販服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH13",
+      "name": "鐵匠圍裙服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CLOTH14",
+      "name": "採藥師服",
+      "category": "服裝套件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC01",
+      "name": "採集背簍",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC02",
+      "name": "斗笠",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC03",
+      "name": "髮簪",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC04",
+      "name": "面具",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC05",
+      "name": "護腕手套組",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ACC06",
+      "name": "儲物袋",
+      "category": "角色配件",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE01",
+      "name": "山兔",
+      "category": "獵物與敵人",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE02",
+      "name": "山豬",
+      "category": "獵物與敵人",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE03",
+      "name": "野狼",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE04",
+      "name": "靈鹿",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE05",
+      "name": "草木妖",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE06",
+      "name": "石傀儡",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE07",
+      "name": "劍靈首領",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "CREATURE08",
+      "name": "古樹首領",
+      "category": "獵物與敵人",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 1,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR01",
+      "name": "進階法劍",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR02",
+      "name": "刀",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR03",
+      "name": "長槍",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR04",
+      "name": "法杖",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR05",
+      "name": "弓",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR06",
+      "name": "箭筒與箭組",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR07",
+      "name": "盾",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR08",
+      "name": "劍鞘",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR09",
+      "name": "法戒",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "GEAR10",
+      "name": "護身佩",
+      "category": "武器法器",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM01",
+      "name": "靈石",
+      "category": "修煉與掉落物",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM02",
+      "name": "丹瓶",
+      "category": "修煉與掉落物",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM03",
+      "name": "丹藥",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM04",
+      "name": "煉氣訣書冊",
+      "category": "修煉與掉落物",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM05",
+      "name": "功法玉簡",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM06",
+      "name": "符籙",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM07",
+      "name": "種子袋",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM08",
+      "name": "獸肉",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM09",
+      "name": "獸皮",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM10",
+      "name": "獸骨",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM11",
+      "name": "妖丹",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ITEM12",
+      "name": "貢獻令牌",
+      "category": "修煉與掉落物",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE01",
+      "name": "靈蓮幼苗",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE02",
+      "name": "靈蓮成長株",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE03",
+      "name": "靈蓮成熟株",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE04",
+      "name": "靈參幼苗",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE05",
+      "name": "靈參成長株",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE06",
+      "name": "靈參成熟株",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE07",
+      "name": "採收後殘株",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE08",
+      "name": "可採靈礦脈",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE09",
+      "name": "採空礦脈",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "RESOURCE10",
+      "name": "可採枯木",
+      "category": "採集與種植",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME01",
+      "name": "洞府入口",
+      "category": "洞府拼裝模組",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME02",
+      "name": "室內地板",
+      "category": "洞府拼裝模組",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME03",
+      "name": "室內直牆",
+      "category": "洞府拼裝模組",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME04",
+      "name": "室內轉角",
+      "category": "洞府拼裝模組",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME05",
+      "name": "洞頂",
+      "category": "洞府拼裝模組",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "HOME06",
+      "name": "可開合洞府門",
+      "category": "洞府拼裝模組",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ASSESS01",
+      "name": "測靈晶石",
+      "category": "選拔測資質",
+      "first_batch": true,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ASSESS02",
+      "name": "測靈台基座",
+      "category": "選拔測資質",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ASSESS03",
+      "name": "資質榜框",
+      "category": "選拔測資質",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "ASSESS04",
+      "name": "選宗登記台",
+      "category": "選拔測資質",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT01",
+      "name": "劍宗徽記旗",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT02",
+      "name": "丹宗徽記旗",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT03",
+      "name": "器宗徽記旗",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT04",
+      "name": "劍修試劍台",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT05",
+      "name": "丹修育藥池",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "SECT06",
+      "name": "器修鍛造爐",
+      "category": "宗門識別與特色",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM01",
+      "name": "秘境入口框",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM02",
+      "name": "秘境石門",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM03",
+      "name": "秘境地板",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM04",
+      "name": "秘境直牆",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM05",
+      "name": "秘境轉角",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM06",
+      "name": "遺跡石柱",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM07",
+      "name": "遺跡階梯",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM08",
+      "name": "斷橋模組",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM09",
+      "name": "機緣祭壇",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM10",
+      "name": "普通寶箱",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM11",
+      "name": "首領寶箱",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM12",
+      "name": "地刺陷阱",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM13",
+      "name": "倒塌柱",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM14",
+      "name": "發光菌簇",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM15",
+      "name": "晶簇",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM16",
+      "name": "巨樹根",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM17",
+      "name": "傳承石碑",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    },
+    {
+      "id": "REALM18",
+      "name": "遺寶座",
+      "category": "秘境拼裝與機緣",
+      "first_batch": false,
+      "concept_sheets": 1,
+      "extra_orthographic_sheets": 0,
+      "model_sets": 1,
+      "model_render_views": 10,
+      "status": "planned_not_modeled"
+    }
+  ],
+  "reuse_assets": [
+    {
+      "id": "StarterHouse",
+      "name": "新手民宅",
+      "first_batch": true,
+      "blend": {
+        "path": "ArtLibrary\\Current\\StarterHouse\\StarterHouse_v004.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "ArtLibrary\\Current\\StarterHouse\\StarterHouse_v004.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "Blacksmith",
+      "name": "鐵匠鋪與工作道具",
+      "first_batch": false,
+      "blend": {
+        "path": "ArtLibrary\\Current\\Blacksmith\\Blacksmith_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "ArtLibrary\\Current\\Blacksmith\\Blacksmith_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MaterialShop",
+      "name": "雜貨／材料鋪",
+      "first_batch": true,
+      "blend": {
+        "path": "ArtLibrary\\Current\\MaterialShop\\MaterialShop_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "ArtLibrary\\Current\\MaterialShop\\MaterialShop_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "HerbalStall",
+      "name": "藥草攤",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\HerbalStall\\v001\\HerbalStall_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\HerbalStall\\v001\\HerbalStall_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "DryingRack",
+      "name": "晾藥架",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\DryingRack\\v001\\DryingRack_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\DryingRack\\v001\\DryingRack_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MortarPestle",
+      "name": "研缽與杵",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MortarPestle\\v001\\MortarPestle_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MortarPestle\\v001\\MortarPestle_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "HerbPlanter",
+      "name": "靈草盆",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\HerbPlanter\\v001\\HerbPlanter_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\HerbPlanter\\v001\\HerbPlanter_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "AlchemyFurnace",
+      "name": "丹爐",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\AlchemyFurnace\\v001\\AlchemyFurnace_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\AlchemyFurnace\\v001\\AlchemyFurnace_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MeditationCushion",
+      "name": "打坐蒲團",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\MeditationCushion\\v001\\MeditationCushion_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MeditationCushion\\v001\\MeditationCushion_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "StoneLantern",
+      "name": "石燈",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\StoneLantern\\v001\\StoneLantern_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\StoneLantern\\v001\\StoneLantern_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TownWaymarker",
+      "name": "指路碑",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TownWaymarker\\v001\\TownWaymarker_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TownWaymarker\\v001\\TownWaymarker_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TownBench",
+      "name": "長凳",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TownBench\\v001\\TownBench_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TownBench\\v001\\TownBench_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SmithAnvil",
+      "name": "鐵砧與底座",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SmithAnvil\\v001\\SmithAnvil_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SmithAnvil\\v001\\SmithAnvil_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SmithWorkbench",
+      "name": "工作台",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SmithWorkbench\\v001\\SmithWorkbench_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SmithWorkbench\\v001\\SmithWorkbench_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "QuenchBarrel",
+      "name": "淬火桶",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\QuenchBarrel\\v001\\QuenchBarrel_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\QuenchBarrel\\v001\\QuenchBarrel_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "WeaponDisplayRack",
+      "name": "武器架",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\WeaponDisplayRack\\v001\\WeaponDisplayRack_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\WeaponDisplayRack\\v001\\WeaponDisplayRack_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SmithHammer",
+      "name": "鐵鎚",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SmithHammer\\v001\\SmithHammer_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SmithHammer\\v001\\SmithHammer_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "BasicSword01",
+      "name": "基礎法劍",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\BasicSword01\\v001\\BasicSword01_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\BasicSword01\\v001\\BasicSword01_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SmithTongs",
+      "name": "火鉗",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SmithTongs\\v001\\SmithTongs_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SmithTongs\\v001\\SmithTongs_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MedicineJar01",
+      "name": "藥罐",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MedicineJar01\\v001\\MedicineJar01_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MedicineJar01\\v001\\MedicineJar01_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MaterialSack01",
+      "name": "材料袋",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MaterialSack01\\v001\\MaterialSack01_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MaterialSack01\\v001\\MaterialSack01_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "GoodsShelf",
+      "name": "貨架",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\GoodsShelf\\v001\\GoodsShelf_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\GoodsShelf\\v001\\GoodsShelf_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SalesCounter",
+      "name": "售貨櫃台",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SalesCounter\\v001\\SalesCounter_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SalesCounter\\v001\\SalesCounter_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "JadeOre01",
+      "name": "靈礦原石",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\JadeOre01\\v001\\JadeOre01_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\JadeOre01\\v001\\JadeOre01_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "IronIngot01",
+      "name": "鐵錠",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\IronIngot01\\v001\\IronIngot01_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\IronIngot01\\v001\\IronIngot01_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SectGate",
+      "name": "宗門山門",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SectGate\\v001\\SectGate_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SectGate\\v001\\SectGate_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SectGrandHall",
+      "name": "宗門大殿",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SectGrandHall\\v001\\SectGrandHall_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SectGrandHall\\v001\\SectGrandHall_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "DiscipleResidence",
+      "name": "弟子居所",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\DiscipleResidence\\v001\\DiscipleResidence_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\DiscipleResidence\\v001\\DiscipleResidence_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TrainingGround",
+      "name": "演武場",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TrainingGround\\v001\\TrainingGround_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TrainingGround\\v001\\TrainingGround_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpiritHerbGarden",
+      "name": "靈藥圃",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SpiritHerbGarden\\v001\\SpiritHerbGarden_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpiritHerbGarden\\v001\\SpiritHerbGarden_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "CultivationPlatform",
+      "name": "修煉台／聚靈陣",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\CultivationPlatform\\v001\\CultivationPlatform_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CultivationPlatform\\v001\\CultivationPlatform_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "AlchemyHall",
+      "name": "煉丹房",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\AlchemyHall\\v001\\AlchemyHall_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\AlchemyHall\\v001\\AlchemyHall_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "ScriptureLibrary",
+      "name": "藏經閣",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\ScriptureLibrary\\v001\\ScriptureLibrary_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\ScriptureLibrary\\v001\\ScriptureLibrary_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SectStorehouse",
+      "name": "宗門倉庫",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SectStorehouse\\v001\\SectStorehouse_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SectStorehouse\\v001\\SectStorehouse_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MedicineCabinet",
+      "name": "百子藥櫃",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MedicineCabinet\\v001\\MedicineCabinet_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MedicineCabinet\\v001\\MedicineCabinet_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "ScrollShelf",
+      "name": "經卷玉簡架",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\ScrollShelf\\v001\\ScrollShelf_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\ScrollShelf\\v001\\ScrollShelf_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "ReadingDesk",
+      "name": "閱讀書案",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\ReadingDesk\\v001\\ReadingDesk_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\ReadingDesk\\v001\\ReadingDesk_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "StorageChest",
+      "name": "宗門儲物箱",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\StorageChest\\v001\\StorageChest_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\StorageChest\\v001\\StorageChest_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "DiscipleBed",
+      "name": "弟子床鋪",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\DiscipleBed\\v001\\DiscipleBed_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\DiscipleBed\\v001\\DiscipleBed_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SectWallStraight",
+      "name": "宗門直牆模組",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SectWallStraight\\v001\\SectWallStraight_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SectWallStraight\\v001\\SectWallStraight_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SectWallCorner",
+      "name": "宗門轉角柱",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SectWallCorner\\v001\\SectWallCorner_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SectWallCorner\\v001\\SectWallCorner_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "CourtyardGate",
+      "name": "宗門院門",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\CourtyardGate\\v001\\CourtyardGate_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CourtyardGate\\v001\\CourtyardGate_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TimberStairFlight",
+      "name": "木構樓梯",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TimberStairFlight\\v001\\TimberStairFlight_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TimberStairFlight\\v001\\TimberStairFlight_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TrainingDummy",
+      "name": "演武木樁",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TrainingDummy\\v001\\TrainingDummy_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TrainingDummy\\v001\\TrainingDummy_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpiritHerbSeedling",
+      "name": "靈草幼苗",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SpiritHerbSeedling\\v001\\SpiritHerbSeedling_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpiritHerbSeedling\\v001\\SpiritHerbSeedling_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpiritHerbYoung",
+      "name": "靈草成長株",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SpiritHerbYoung\\v001\\SpiritHerbYoung_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpiritHerbYoung\\v001\\SpiritHerbYoung_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpiritHerbMature",
+      "name": "靈草成熟株",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SpiritHerbMature\\v001\\SpiritHerbMature_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpiritHerbMature\\v001\\SpiritHerbMature_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MountainStoneStairs",
+      "name": "青石登山階梯",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MountainStoneStairs\\v001\\MountainStoneStairs_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MountainStoneStairs\\v001\\MountainStoneStairs_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MountainTurnLanding",
+      "name": "山路轉折平台",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MountainTurnLanding\\v001\\MountainTurnLanding_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MountainTurnLanding\\v001\\MountainTurnLanding_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "CliffBoardwalk",
+      "name": "峭壁木棧道",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\CliffBoardwalk\\v001\\CliffBoardwalk_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CliffBoardwalk\\v001\\CliffBoardwalk_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TimberSpanBridge",
+      "name": "山谷木橋",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TimberSpanBridge\\v001\\TimberSpanBridge_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TimberSpanBridge\\v001\\TimberSpanBridge_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MountainStonePath",
+      "name": "青石古道路段",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MountainStonePath\\v001\\MountainStonePath_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MountainStonePath\\v001\\MountainStonePath_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpiritSpringPool",
+      "name": "靈泉水潭",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\SpiritSpringPool\\v001\\SpiritSpringPool_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpiritSpringPool\\v001\\SpiritSpringPool_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "BambooBasket",
+      "name": "竹簍",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\BambooBasket\\v002\\BambooBasket_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\BambooBasket\\v002\\BambooBasket_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "BambooFence",
+      "name": "竹籬笆段",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\BambooFence\\v002\\BambooFence_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\BambooFence\\v002\\BambooFence_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "FenceGate",
+      "name": "籬笆院門",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\FenceGate\\v002\\FenceGate_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\FenceGate\\v002\\FenceGate_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "NoticeBoard",
+      "name": "小鎮公告板",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\NoticeBoard\\v002\\NoticeBoard_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\NoticeBoard\\v002\\NoticeBoard_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "SpawnAltar",
+      "name": "出生石台",
+      "first_batch": true,
+      "blend": {
+        "path": "Models\\SpawnAltar\\v002\\SpawnAltar_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\SpawnAltar\\v002\\SpawnAltar_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TownPaifang",
+      "name": "小鎮牌樓",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TownPaifang\\v002\\TownPaifang_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TownPaifang\\v002\\TownPaifang_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TownRoadCrossroad",
+      "name": "青石路十字路口",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TownRoadCrossroad\\v002\\TownRoadCrossroad_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TownRoadCrossroad\\v002\\TownRoadCrossroad_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "TownRoadTJunction",
+      "name": "青石路 T 字路口",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\TownRoadTJunction\\v002\\TownRoadTJunction_v002.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\TownRoadTJunction\\v002\\TownRoadTJunction_v002.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "CommonPine",
+      "name": "普通松",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\CommonPine\\v001\\CommonPine_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CommonPine\\v001\\CommonPine_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "BambooClump",
+      "name": "竹叢",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\BambooClump\\v001\\BambooClump_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\BambooClump\\v001\\BambooClump_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "WildShrub",
+      "name": "野灌木",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\WildShrub\\v001\\WildShrub_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\WildShrub\\v001\\WildShrub_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "MossBoulderSet",
+      "name": "苔石組",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\MossBoulderSet\\v001\\MossBoulderSet_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\MossBoulderSet\\v001\\MossBoulderSet_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    },
+    {
+      "id": "ScreePile",
+      "name": "碎石堆",
+      "first_batch": false,
+      "blend": {
+        "path": "Models\\ScreePile\\v001\\ScreePile_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\ScreePile\\v001\\ScreePile_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "views_existing": 10,
+      "status": "reuse_candidate_requires_scale_material_interaction_review"
+    }
+  ],
+  "extra_existing_assets": [
+    {
+      "id": "CampDormitory",
+      "blend": {
+        "path": "Models\\CampDormitory\\v001\\CampDormitory_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CampDormitory\\v001\\CampDormitory_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "status": "extra_existing_candidate_not_in_main_catalog",
+      "source": "ArtLibrary/ExpansionBatches/LingyunValley15/inventory.json"
+    },
+    {
+      "id": "CampHerbGarden",
+      "blend": {
+        "path": "Models\\CampHerbGarden\\v001\\CampHerbGarden_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CampHerbGarden\\v001\\CampHerbGarden_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "status": "extra_existing_candidate_not_in_main_catalog",
+      "source": "ArtLibrary/ExpansionBatches/LingyunValley15/inventory.json"
+    },
+    {
+      "id": "CampHexPavilion",
+      "blend": {
+        "path": "Models\\CampHexPavilion\\v001\\CampHexPavilion_v001.blend",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "fbx": {
+        "path": "Models\\CampHexPavilion\\v001\\CampHexPavilion_v001.fbx",
+        "exists": true,
+        "lfs_pointer": false
+      },
+      "status": "extra_existing_candidate_not_in_main_catalog",
+      "source": "ArtLibrary/ExpansionBatches/LingyunValley15/inventory.json"
+    }
+  ],
+  "scene_boards": [
+    "新手聚落",
+    "低級狩獵採集區",
+    "選拔廣場",
+    "私人洞府與靈田",
+    "劍宗公共區",
+    "丹宗公共區",
+    "器宗公共區",
+    "竹林秘境",
+    "古代遺跡秘境",
+    "靈礦洞秘境"
+  ],
+  "icon_groups": {
+    "五行靈根": 5,
+    "天賦": 12,
+    "境界": 8,
+    "功法技能": 12,
+    "物品": 40,
+    "宗門徽記": 3
+  },
+  "interface_panels": [
+    "創角",
+    "角色資質",
+    "背包裝備",
+    "修煉",
+    "商店",
+    "宗門選拔",
+    "洞府靈田",
+    "煉丹煉器",
+    "任務貢獻",
+    "秘境入口與倒數"
+  ],
+  "effects": [
+    "打坐聚氣",
+    "突破",
+    "採集提示",
+    "採礦碎屑",
+    "普通命中",
+    "劍氣",
+    "受擊",
+    "丹爐火煙",
+    "煉器火花",
+    "測靈五行變色",
+    "秘境傳送",
+    "機緣發光"
+  ],
+  "human_animations": [
+    "待機",
+    "走路",
+    "跑步",
+    "左轉",
+    "右轉",
+    "起跳",
+    "空中",
+    "落地",
+    "拾取",
+    "採藥",
+    "挖礦",
+    "伐木",
+    "播種",
+    "澆灌",
+    "打坐入座",
+    "打坐循環",
+    "打坐起身",
+    "普攻",
+    "施法",
+    "受擊",
+    "倒地",
+    "打鐵",
+    "煉丹",
+    "睡眠"
+  ],
+  "creature_animation_template": [
+    "待機",
+    "行走",
+    "奔跑",
+    "警戒",
+    "攻擊",
+    "受擊",
+    "死亡",
+    "特殊動作"
+  ]
+}

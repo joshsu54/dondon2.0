@@ -1,0 +1,110 @@
+{
+  "status": "saved_reloaded",
+  "map": "/Game/Maps/TownLayout_10",
+  "base": "/Game/Maps/TownLayout_09",
+  "scope": "Walkable sect management blockout using existing assets and engine primitives",
+  "interactions": [
+    {
+      "tag": "SectShiDi",
+      "location_cm": [
+        350,
+        2500,
+        90
+      ],
+      "label": "SHI DI"
+    },
+    {
+      "tag": "SectApplicantLin",
+      "location_cm": [
+        -500,
+        2800,
+        90
+      ],
+      "label": "LIN XI"
+    },
+    {
+      "tag": "SectApplicantYue",
+      "location_cm": [
+        750,
+        2900,
+        90
+      ],
+      "label": "YUE QING"
+    },
+    {
+      "tag": "SectMaster",
+      "location_cm": [
+        0,
+        6000,
+        90
+      ],
+      "label": "YUN BU HE"
+    },
+    {
+      "tag": "SectGarden",
+      "location_cm": [
+        950,
+        4050,
+        90
+      ],
+      "label": "HERB GARDEN"
+    },
+    {
+      "tag": "SectDorm",
+      "location_cm": [
+        -1000,
+        3600,
+        90
+      ],
+      "label": "DISCIPLE HOUSE"
+    },
+    {
+      "tag": "SectHall",
+      "location_cm": [
+        900,
+        5200,
+        90
+      ],
+      "label": "CULTIVATION"
+    },
+    {
+      "tag": "SectWood",
+      "location_cm": [
+        -1500,
+        3500,
+        90
+      ],
+      "label": "BAMBOO / WOOD"
+    },
+    {
+      "tag": "SectStone",
+      "location_cm": [
+        1650,
+        4750,
+        90
+      ],
+      "label": "QUARRY / STONE"
+    },
+    {
+      "tag": "SectFood",
+      "location_cm": [
+        1250,
+        3400,
+        90
+      ],
+      "label": "WILD FRUIT / FOOD"
+    }
+  ],
+  "checks": {
+    "one_management_director": true,
+    "three_quest_herbs": true,
+    "ten_interactions": true,
+    "base_09_unchanged": true
+  },
+  "added_meshes": 113,
+  "base_sha256": "bdd01dd2b65d356cfc623964ed3aa6ad009ce7c2936377360698dcb2d15428b1",
+  "limitations": [
+    "Blockout NPCs and dormitory; no character animation or pathfinding",
+    "Buildings are visual dressing; management interactions are at marked entrances"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "asset": "QMountainBoar",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 36,
+  "dimensions_m": [
+    0.568529486656189,
+    1.1238504648208618,
+    0.6406601071357727
+  ],
+  "fbx_dimension_error_m": 5.960464477539063e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "18d6692a3b6efbb1be49f65076975702986e776fb75694cd5188f46a94c0fa3a",
+  "fbx_sha256": "0ef67cd670421957912b91ef01b472aa2ef2289849690c8af37ccbeb5b9fafc4",
+  "unreal_verified": false
+}

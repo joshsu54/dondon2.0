@@ -1,0 +1,102 @@
+{
+  "status": "saved",
+  "map": "/Game/Maps/TownLayout_13",
+  "base": "/Game/Maps/TownLayout_12",
+  "imports": {
+    "QPlayerMale": {
+      "fbx": "Models\\QPlayerMale\\v005\\QPlayerMale_v005.fbx",
+      "fbx_sha256": "76bba760ca6cb558a5ef0a12238b2ccb3e0398f55c17b2c54ac5bc7c5bc2167a",
+      "skeletal_mesh": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale.SK_QPlayerMale",
+      "skeleton": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Skeleton.SK_QPlayerMale_Skeleton",
+      "bounds_extent_cm": [
+        33.08659362792969,
+        30.43336772918701,
+        72.35112749417517
+      ],
+      "materials": 21,
+      "anims": {
+        "Idle": {
+          "asset": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Idle.SK_QPlayerMale_Anim_Armature_Idle",
+          "length_s": 2.0
+        },
+        "Walk": {
+          "asset": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Walk.SK_QPlayerMale_Anim_Armature_Walk",
+          "length_s": 1.0
+        }
+      }
+    },
+    "QPlayerFemale": {
+      "fbx": "Models\\QPlayerFemale\\v005\\QPlayerFemale_v005.fbx",
+      "fbx_sha256": "5e4be0062127548dd1dbeae660d33f21cba368e5e14f511dd91c0e3bc827ecc5",
+      "skeletal_mesh": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale.SK_QPlayerFemale",
+      "skeleton": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Skeleton.SK_QPlayerFemale_Skeleton",
+      "bounds_extent_cm": [
+        33.650665283203125,
+        31.114585876464844,
+        72.22364794095252
+      ],
+      "materials": 19,
+      "anims": {
+        "Idle": {
+          "asset": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Idle.SK_QPlayerFemale_Anim_Armature_Idle",
+          "length_s": 2.0
+        },
+        "Walk": {
+          "asset": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Walk.SK_QPlayerFemale_Anim_Armature_Walk",
+          "length_s": 1.0
+        }
+      }
+    }
+  },
+  "template_components": [
+    "ArrowComponent",
+    "CameraBoom",
+    "CapsuleComponent",
+    "CharacterMovement",
+    "FollowCamera",
+    "Mesh",
+    "None"
+  ],
+  "characters": {
+    "QPlayerMale": {
+      "blueprint": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerMale",
+      "capsule": [
+        32.0,
+        73.0
+      ],
+      "max_walk_speed": 204.0,
+      "mesh_offset_z": -73.0,
+      "mesh_yaw": -90,
+      "camera_boom": true,
+      "anim_driver": {
+        "idle": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Idle.SK_QPlayerMale_Anim_Armature_Idle",
+        "walk": "/Game/Art/QCharacters17/QPlayerMale/SK_QPlayerMale_Anim_Armature_Walk.SK_QPlayerMale_Anim_Armature_Walk",
+        "walk_cycle_speed": 60.0,
+        "max_walk_play_rate": 3.4000000953674316
+      }
+    },
+    "QPlayerFemale": {
+      "blueprint": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerFemale",
+      "capsule": [
+        32.0,
+        73.0
+      ],
+      "max_walk_speed": 204.0,
+      "mesh_offset_z": -73.0,
+      "mesh_yaw": -90,
+      "camera_boom": true,
+      "anim_driver": {
+        "idle": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Idle.SK_QPlayerFemale_Anim_Armature_Idle",
+        "walk": "/Game/Art/QCharacters17/QPlayerFemale/SK_QPlayerFemale_Anim_Armature_Walk.SK_QPlayerFemale_Anim_Armature_Walk",
+        "walk_cycle_speed": 60.0,
+        "max_walk_play_rate": 3.4000000953674316
+      }
+    }
+  },
+  "base_game_mode_override": "<Object '/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C' (0x000001B9EE5AA100) Class 'BlueprintGeneratedClass'>",
+  "game_mode": "/Game/Art/QCharacters17/Blueprints/BP_QPlayerGameMode.BP_QPlayerGameMode",
+  "default_pawn": "BP_QPlayerMale",
+  "base_12_unchanged": true,
+  "template_blueprints_unchanged": true,
+  "map_sha256": "12691c73f2a758070983314be9d62571375c3ec379514c76d2376f5540d53999"
+}

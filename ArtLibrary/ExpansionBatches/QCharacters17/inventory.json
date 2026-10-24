@@ -1,0 +1,93 @@
+{
+  "batch": "QCharacters17",
+  "date": "2026-10-24",
+  "new_asset_sets": 12,
+  "new_views": 120,
+  "design_sheets": 3,
+  "assets": [
+    {
+      "asset": "QPlayerMale",
+      "name_zh": "玩家（男）",
+      "height_m": 1.4004422426223755,
+      "blend_sha256": "c7f1428178840734049053b2c9785d6f3ff816fd3104b44d59f62e377a28b95f",
+      "fbx_sha256": "4a550f814710a23851d7b0bed0bbb0ab63e1731756dc04047fb47e2424b5334c"
+    },
+    {
+      "asset": "QPlayerFemale",
+      "name_zh": "玩家（女）",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "860d6e623eefb91e641699f62157926e0f438d47338fa469e355d1ac8c1675e6",
+      "fbx_sha256": "9c8bb6d183aa80a745c72e5a419c4a4e5c7658b51eeb4511bb1f9b6514b83b33"
+    },
+    {
+      "asset": "QDiscipleSword",
+      "name_zh": "劍修弟子",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "db44aea40bff77dae66edfa0f257abb9fa2c0fec3de9462c5c365bb97ca6a001",
+      "fbx_sha256": "a8312df4a86be8fda87630f5894dc0abb5713b8ef87a385f1a226565973ce665"
+    },
+    {
+      "asset": "QDiscipleAlchemy",
+      "name_zh": "丹修弟子",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "55d5588a9a1a847978f17f402d5f980013a28bed202370fbcac237f66bceb7b2",
+      "fbx_sha256": "207e407e093402812a0c1d4de39951d406f7f5c004e7b3f00d0df7af2cabb827"
+    },
+    {
+      "asset": "QDiscipleFarmer",
+      "name_zh": "體修弟子",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "1dd9baff49c094c5ac1f8ca0d3b0647dcac6f73e7d51f1eb5fb1fe79c55be2b5",
+      "fbx_sha256": "2478188bc1e75dbcb000d5925e8aadf4f6ac8d84da94d1584e118c4d640fc392"
+    },
+    {
+      "asset": "QSectElder",
+      "name_zh": "宗門長老",
+      "height_m": 1.4509568214416504,
+      "blend_sha256": "6699b44e1d6cc6755491f96915128ae8170a89d05d79ccf0e951e3120bf77617",
+      "fbx_sha256": "7e339179b300d4ec3dd7c07640d129bf1f81296aae4550f920d49e705d4d949c"
+    },
+    {
+      "asset": "QBlacksmith",
+      "name_zh": "鐵匠",
+      "height_m": 1.344551920890808,
+      "blend_sha256": "862021ea881fd31bf70d581a25f3e7c87a73f053308c2aef0a441c474e8cabe1",
+      "fbx_sha256": "40aeee764fc8557d050c90dc874af772d7fecf20097498daaa9e417020f7787b"
+    },
+    {
+      "asset": "QShopkeeper",
+      "name_zh": "雜貨店主",
+      "height_m": 1.2912498712539673,
+      "blend_sha256": "166ec879462e30609172c969a0ee26fa302714695c18411556532fce1a7e93f2",
+      "fbx_sha256": "33c29ba70ce5a76214f0431276a7faeadd078a8caeaef8ab405581477004c581"
+    },
+    {
+      "asset": "QInnkeeper",
+      "name_zh": "客棧老闆娘",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "42235bcffac51cc9c43a1b30f1acf61bb4fb1c1b053f96f4f1a807baa5d455e4",
+      "fbx_sha256": "813e822b9b2ba80efb845aba4c8104734e8a5a29188e4e26c5cab035f8d39eb9"
+    },
+    {
+      "asset": "QHerbalist",
+      "name_zh": "藥師",
+      "height_m": 1.2849500179290771,
+      "blend_sha256": "1cdfb0f5adfc0830502653d8f1cade27c5a1e1b5d9d81896d4c61ab4b92e7821",
+      "fbx_sha256": "f11de00d877c26eb75724d3e36c2d7d6ebd21ac5c53d06a553151210057e8f94"
+    },
+    {
+      "asset": "QGranny",
+      "name_zh": "村中婆婆",
+      "height_m": 1.1958199739456177,
+      "blend_sha256": "0af706af9747aa88ed5f902ca42680c2c77965fe445682e1c6b5a64b1fc2cfab",
+      "fbx_sha256": "a5e19223df738eb835641947496ef42243d74e77d547b857bc0d9e234c1196f3"
+    },
+    {
+      "asset": "QWoodcutter",
+      "name_zh": "樵夫",
+      "height_m": 1.3507000207901,
+      "blend_sha256": "6b00612389567c5f4a9530f7ec2cf15ca1d9d74e447092e8bdeb3a50e557d355",
+      "fbx_sha256": "f9a004b9679ba228b21c9c84a653d706275026b6021f39804b8a9cbe8ee26563"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "captured_reviewed",
+  "base_map_read_only": "/Game/Maps/TownLayout_07",
+  "screenshots": [
+    "Validation/wild08_south_overview.png",
+    "Validation/wild08_east_bamboo.png",
+    "Validation/wild08_west_strip.png",
+    "Validation/wild08_top.png"
+  ],
+  "streamed_wild_actors": 24,
+  "missing": [
+    "Validation/wild08_south_meadow.png"
+  ],
+  "review": "Four UE views inspected: all 24 actors grounded on ValleyGround, materials resolved (moss mask, two-sided bamboo leaves), no overlap with town, entrance corridor clear. south_meadow screenshot request produced no file.",
+  "run_in": "temporary module-free project copy; 07 streamed in memory only, never saved"
+}

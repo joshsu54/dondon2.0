@@ -1,0 +1,12 @@
+{
+  "status": "captured_pending_visual_review",
+  "files": [
+    "Validation/expansion08_south_overview.png",
+    "Validation/expansion08_south_meadow.png",
+    "Validation/expansion08_east_bamboo.png",
+    "Validation/expansion08_west_strip.png",
+    "Validation/expansion08_board.png",
+    "Validation/expansion08_top.png"
+  ],
+  "missing": []
+}

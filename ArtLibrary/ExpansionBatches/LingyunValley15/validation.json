@@ -1,0 +1,111 @@
+{
+  "batch": "LingyunValley15",
+  "blender": "5.2.2 LTS",
+  "assets": [
+    {
+      "asset": "LingyunValley",
+      "blend_reopened": true,
+      "terrain_fit": {
+        "surface_samples": 2636,
+        "visible_pokes_above_top_surface_gt_2cm": 0,
+        "visible_poke_ratio": 0.0,
+        "max_visible_poke_m": 0.016757965087890625,
+        "between_stacked_slabs_not_visible": 71,
+        "more_than_25cm_below_lowest_slab": 449,
+        "note": "Samples on near-ground settlement surfaces; plates replaced by the terrain excluded. Only visible pokes are defects."
+      },
+      "camp_grounding": {
+        "Camp_Dormitory": {
+          "root_z": -0.1495361328125,
+          "terrain_z": -0.1495361328125,
+          "grounded": true
+        },
+        "Camp_HerbGarden": {
+          "root_z": -0.1500091552734375,
+          "terrain_z": -0.1500091552734375,
+          "grounded": true
+        },
+        "Camp_HexPavilion": {
+          "root_z": -0.1500091552734375,
+          "terrain_z": -0.1500091552734375,
+          "grounded": true
+        }
+      },
+      "peaks": {
+        "Peak_NorthEast": {
+          "height_m": 49.443511962890625,
+          "clearance_to_town_box_m": 18.629714965820312,
+          "clearance_to_gate_terrace_x_m": 2.2845630645751953
+        },
+        "Peak_NorthWest": {
+          "height_m": 41.562015533447266,
+          "clearance_to_town_box_m": 12.670726776123047,
+          "clearance_to_gate_terrace_x_m": 8.390653610229492
+        },
+        "Peak_EastMid": {
+          "height_m": 32.5214729309082,
+          "clearance_to_town_box_m": 7.469455718994141,
+          "clearance_to_gate_terrace_x_m": null
+        },
+        "Peak_WestMid": {
+          "height_m": 28.995468139648438,
+          "clearance_to_town_box_m": 2.6899566650390625,
+          "clearance_to_gate_terrace_x_m": null
+        },
+        "Peak_WestSouth": {
+          "height_m": 21.12452507019043,
+          "clearance_to_town_box_m": 4.182519912719727,
+          "clearance_to_gate_terrace_x_m": null
+        }
+      },
+      "vegetation_instances": 383,
+      "scatter_in_keep_out": 0,
+      "fbx_mesh_objects": 773,
+      "fbx_dimension_error_m": 0.0,
+      "distinct_1024_views": 10,
+      "blend_sha256": "d8e6db522b07586ab50fc2a2195c50dd76f62e0c969fe95de3f0cfc2f001808c",
+      "fbx_sha256": "d2ffbf37bd2ed90114fe3e820bee242b314635874e708a514abf3ea319907e1f",
+      "scatter_json_sha256": "f82ee8a2b2bb1ccd9baa8fd2ab154364037aa0fd5f288f7a8969d05be652f0fa"
+    },
+    {
+      "asset": "CampDormitory",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "mesh_objects": 172,
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 1.9073486328125e-06,
+      "distinct_1024_views": 10,
+      "blend_sha256": "f48e8b9ea1d1ea28fb90a2f52f486cfc37440f284b40a2d55a0e76fed6f1c9c0",
+      "fbx_sha256": "762ed5662df4b1be708a557b4e98c6afcc911c58b39bf324611590d0ffa00ad7"
+    },
+    {
+      "asset": "CampHerbGarden",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "mesh_objects": 90,
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 7.152557373046875e-07,
+      "distinct_1024_views": 10,
+      "blend_sha256": "80f04aeeeaf041a319920ae30843e290dde92856bd4921705016fca0d9276474",
+      "fbx_sha256": "87c73f5825d93f8bb1382f2851ddc00cb29ecd98b3383e5a70a2ac8fc8e5ec51"
+    },
+    {
+      "asset": "CampHexPavilion",
+      "blend_reopened": true,
+      "bottom_center_pivot": true,
+      "mesh_objects": 190,
+      "fbx_reimported": true,
+      "fbx_dimension_error_m": 4.76837158203125e-07,
+      "distinct_1024_views": 10,
+      "blend_sha256": "0caa03a425c6c2f69a0c8406a4d5251690e43c28a5aecb0eef4e7c76ee51aac3",
+      "fbx_sha256": "119191b4e24f05d20ff73961bcc5443e29789bf10ac518639d2e91fb023773fd"
+    }
+  ],
+  "not_verified": [
+    "Unreal import of the terrain FBX",
+    "collision / navigation on the new terrain",
+    "UV and texture bake (procedural materials)",
+    "LOD",
+    "PIE traversal of camp and meadow"
+  ]
+}

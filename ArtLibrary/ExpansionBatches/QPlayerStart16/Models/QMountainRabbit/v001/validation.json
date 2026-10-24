@@ -1,0 +1,20 @@
+{
+  "asset": "QMountainRabbit",
+  "blend_reopened": true,
+  "finite_vertices": true,
+  "bottom_center_root": true,
+  "mesh_count": 19,
+  "dimensions_m": [
+    0.46999987959861755,
+    0.6889998912811279,
+    0.7575731873512268
+  ],
+  "fbx_dimension_error_m": 5.960464477539063e-08,
+  "ten_camera_angles": true,
+  "ten_png_1024": true,
+  "framing_checked": true,
+  "unique_png_hashes": 10,
+  "blend_sha256": "669facc2b81eb2dd30de0ad53c65dc37633db2d01637f58f8f6d44fdbf66fad4",
+  "fbx_sha256": "6301489a22744085f8a661f99f181bc561c3fdb1a9b284244dbfdf41a9acc74a",
+  "unreal_verified": false
+}

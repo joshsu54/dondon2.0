@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "files": [],
+  "note": "Editor images show completed layout; HUD image loads the earned isolated test checkpoint.",
+  "error": "Traceback (most recent call last):\n  File \"C:/Users/joshs/Documents/ChatGPT/咚咚宗門2.0/Unreal/Tools/capture_management10.py\", line 58, in tick\n    state['ready']=now+next(runner)\n                       ^^^^^^^^^^^^\nValueError: generator already executing\n"
+}

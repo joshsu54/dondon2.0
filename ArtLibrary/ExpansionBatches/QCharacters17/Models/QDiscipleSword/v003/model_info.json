@@ -1,0 +1,30 @@
+{
+  "asset": "QDiscipleSword",
+  "version": "v003",
+  "name_zh": "劍修弟子",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": "{}",
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6605010628700256,
+    0.7158340215682983,
+    1.4444729089736938
+  ],
+  "height_m": 1.4444729089736938,
+  "mesh_objects": 93,
+  "triangles": 29680,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "ponytail",
+  "props": [
+    "sword"
+  ],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}

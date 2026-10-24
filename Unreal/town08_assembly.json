@@ -1,0 +1,15 @@
+{
+  "status": "saved_reloaded_pending_pie_and_visual",
+  "map": "/Game/Maps/TownLayout_08",
+  "base": "/Game/Maps/TownLayout_07",
+  "sublevel": "/Game/Maps/Sublevels/TownWild08_Sublevel",
+  "base_sha256": "72fb9d1ef0ad029e36babe7169db4177935e83d44240df7df85d5abc79c4ef32",
+  "base_actor_count": 3948,
+  "checks": {
+    "wild_actors": true,
+    "quest_herbs": true,
+    "quest_board": true,
+    "base_actor_count_kept": true,
+    "base_07_unchanged": true
+  }
+}

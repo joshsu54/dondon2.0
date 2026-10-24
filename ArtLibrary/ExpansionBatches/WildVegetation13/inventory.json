@@ -1,0 +1,80 @@
+{
+  "batch": "WildVegetation13",
+  "date": "2026-10-22",
+  "asset_type": "wild vegetation and rocks",
+  "new_asset_sets": 5,
+  "new_views": 50,
+  "modeling_method": "procedural Python, seeded",
+  "assets": [
+    {
+      "asset": "CommonPine",
+      "name_zh": "普通松",
+      "version": "v001",
+      "views": 10,
+      "dimensions_m": [
+        5.814752578735352,
+        5.544557571411133,
+        7.289297103881836
+      ],
+      "triangles": 17864,
+      "blend_sha256": "cc59f05b1da1049f746606ae20afab75f9764e74f5123f8fa2a98f51f960a579",
+      "fbx_sha256": "98d4ed27e55cb2345e5909dd5a780d26c1dcd37663e155a94226835209345dd8"
+    },
+    {
+      "asset": "BambooClump",
+      "name_zh": "竹叢",
+      "version": "v001",
+      "views": 10,
+      "dimensions_m": [
+        3.875669479370117,
+        3.814676284790039,
+        5.98007345199585
+      ],
+      "triangles": 22166,
+      "blend_sha256": "3f90a3a7e4ef34ad27383088e9c294efa8fe61c3220776769cda0690216ad9cf",
+      "fbx_sha256": "4636a5424580afd35f52a0635ad6815f2b334f3e8ff637e69b740e5cf10f770f"
+    },
+    {
+      "asset": "WildShrub",
+      "name_zh": "野灌木",
+      "version": "v001",
+      "views": 10,
+      "dimensions_m": [
+        1.8553342819213867,
+        1.6842663288116455,
+        1.3099113702774048
+      ],
+      "triangles": 6124,
+      "blend_sha256": "85e9820e8f3585c47eaa11a71cfb1744eacb5ecd32bc77d4b40d1bd2987673b0",
+      "fbx_sha256": "80ee9f6a60dea43ec3899f019a69ca36cd50c0ac6b87ef8c02dada1ee9eeb513"
+    },
+    {
+      "asset": "MossBoulderSet",
+      "name_zh": "苔石組",
+      "version": "v001",
+      "views": 10,
+      "dimensions_m": [
+        3.300165891647339,
+        2.1555776596069336,
+        1.5164966583251953
+      ],
+      "triangles": 2656,
+      "blend_sha256": "29c9c1e5069dffaff5c4a7fcd889d0d3af452b2c4d80c331036fbfee79e31e1d",
+      "fbx_sha256": "75c34da041d3a1215d8e189cee668d2f716ecd119ba9d785b1cb20a6f45bdd69"
+    },
+    {
+      "asset": "ScreePile",
+      "name_zh": "碎石堆",
+      "version": "v001",
+      "views": 10,
+      "dimensions_m": [
+        2.2023515701293945,
+        1.7989614009857178,
+        0.4962415099143982
+      ],
+      "triangles": 1738,
+      "blend_sha256": "8a267136e434bf14ca4f3f2c0d5e8528e5ff14ad7c8f1bffb26b2230d502e9a5",
+      "fbx_sha256": "9cdbec41930000fbe5b6a5c413aee7e3063285de36064e6443f9f1e3ab52ffe4"
+    }
+  ]
+}

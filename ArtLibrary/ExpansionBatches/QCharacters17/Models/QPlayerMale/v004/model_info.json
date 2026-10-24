@@ -1,0 +1,28 @@
+{
+  "asset": "QPlayerMale",
+  "version": "v004",
+  "name_zh": "玩家（男）",
+  "style": "Q-version chibi, ~2.5 heads, anime eyes, gripping hands",
+  "grips": [],
+  "units": "meters",
+  "front": "-Y",
+  "pivot": "bottom centre",
+  "dimensions_m": [
+    0.6617318391799927,
+    0.6086673736572266,
+    1.447022557258606
+  ],
+  "height_m": 1.447022557258606,
+  "mesh_objects": 88,
+  "triangles": 30588,
+  "pose": "A-pose (arms ~35 deg), static",
+  "hair": "topknot",
+  "props": [],
+  "kit": "qchar17.py shared body/face/hair/outfit/prop parts",
+  "modeling_method": "procedural Python, editable separate parts; no generative AI",
+  "rigged": false,
+  "uv_baked": false,
+  "collision": false,
+  "lod": false,
+  "unreal_import_verified": false
+}
